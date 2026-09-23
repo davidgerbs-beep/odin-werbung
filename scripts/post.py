@@ -353,6 +353,45 @@ def instagram_post(user_id, token, image_url, caption, video_url=None):
     return f"instagram:{r.json().get('id', '')}"
 
 
+def compose_tumblr(post, lang, cfg):
+    """Tumblr: Bildunterschrift als HTML, Tags getrennt (Tumblr erlaubt viele)."""
+    import html as _h
+    p = post[lang]
+    paras = [fill(p["text"], cfg)]
+    if p.get("mehr"):
+        paras.append(fill(p["mehr"], cfg))
+    blocks = [b.strip() for x in paras for b in x.split("\n\n") if b.strip()]
+    body = "".join(f"<p>{_h.escape(x).replace(chr(10), '<br>')}</p>" for x in blocks)
+    link = p.get("link", "")
+    if link:
+        body += f'<p><a href="{_h.escape(link)}">{_h.escape(show_link(link))}</a></p>'
+    if is_ki(post):
+        body += "<p><small>" + ("Die Illustrationen sind KI-generiert." if lang == "de" else "The illustrations are AI-generated.") + "</small></p>"
+    tags = list(cfg.get("tags", {}).get("tumblr", [])) + list(p.get("tags", []) or [])
+    seen, out = set(), []
+    for t in tags:
+        t = t.lstrip("#")
+        if t.lower() not in seen:
+            seen.add(t.lower()); out.append(t)
+    return body, out[:30], link
+
+
+def tumblr_post(blog, cred, caption, tags, link="", image_url=None):
+    from requests_oauthlib import OAuth1
+    auth = OAuth1(cred[0], cred[1], cred[2], cred[3])
+    data = {"caption": caption, "tags": ",".join(tags)}
+    if image_url:
+        data.update({"type": "photo", "source": image_url})
+        if link:
+            data["link"] = link
+    else:
+        data.update({"type": "text", "body": caption})
+    r = requests.post(f"https://api.tumblr.com/v2/blog/{blog}/post", data=data, auth=auth, timeout=90)
+    if r.status_code >= 400:
+        raise RuntimeError(f"Tumblr: {r.status_code} {r.text[:300]}")
+    return f"tumblr:{r.json().get('response', {}).get('id_string') or r.json().get('response', {}).get('id', '')}"
+
+
 def threads_post(user_id, token, text, image_url=None, alt=""):
     if user_id in ("", "0", "me"):
         r = requests.get(f"{TH_API}/me", params={"fields": "id", "access_token": token}, timeout=30)
@@ -450,6 +489,8 @@ def channels(cfg):
         "discord_en": ("en", (env("DISCORD_EN_WEBHOOK"),)),
         "instagram": ("ig", (env("INSTAGRAM_USER_ID"), env("INSTAGRAM_TOKEN"))),
         "threads": (cfg.get("threads_sprache", "en"), (env("THREADS_USER_ID") or "me", env("THREADS_TOKEN"))),
+        "tumblr": (cfg.get("tumblr_sprache", "en"), (env("TUMBLR_CONSUMER_KEY"), env("TUMBLR_CONSUMER_SECRET"),
+                                                    env("TUMBLR_TOKEN"), env("TUMBLR_TOKEN_SECRET"))),
     }
     out = {}
     for k, (lang, cred) in c.items():
@@ -515,6 +556,14 @@ class Poster:
                 except Exception as e:
                     print(f"[instagram] {post['id']}: Reel fehlgeschlagen, poste Bild. {str(e)[:200]}")
             return instagram_post(cred[0], cred[1], instagram_image_url(cfg, img.name), caption)
+        if channel == "tumblr":
+            tl = lang if lang in post else ("de" if "de" in post else "en")
+            caption, tags, link = compose_tumblr(post, tl, cfg)
+            img, _ = image_for(post, tl)
+            if self.dry:
+                return "(trocken)"
+            url = instagram_image_url(cfg, img.name) if img else None
+            return tumblr_post(cfg.get("tumblr_blog", "odin-rpg"), cred, caption, tags, link, url)
         if channel == "threads":
             tl = lang if lang in post else ("de" if "de" in post else "en")
             text = compose_threads(post, tl, cfg)
@@ -655,7 +704,7 @@ def probe(cfg, plan):
         print(f"  {due:%a %d.%m.%Y %H:%M}  {lang}  {pid}" + (f"   [{bl}]" if bl else ""))
     chans = channels(cfg)
     print("\nKanäle:")
-    for k in ("bluesky_de", "bluesky_en", "mastodon_de", "mastodon_en", "discord_de", "discord_en", "instagram", "threads"):
+    for k in ("bluesky_de", "bluesky_en", "mastodon_de", "mastodon_en", "discord_de", "discord_en", "instagram", "threads", "tumblr"):
         if k not in chans:
             print(f"  {k:12s} aus (config.yaml)")
         else:
@@ -721,6 +770,12 @@ def check_connections(cfg):
                 r = requests.get(f"{IG_API}/me", params={"fields": "username,account_type", "access_token": cred[1]}, timeout=30)
                 r.raise_for_status()
                 print(f"[{channel}] OK, angemeldet als @{r.json().get('username')} ({r.json().get('account_type')})")
+            elif channel == "tumblr":
+                from requests_oauthlib import OAuth1
+                r = requests.get("https://api.tumblr.com/v2/user/info", auth=OAuth1(*cred), timeout=30)
+                r.raise_for_status()
+                blogs = [b.get("name") for b in r.json()["response"]["user"].get("blogs", [])]
+                print(f"[{channel}] OK, Blogs: {', '.join(blogs)}")
             elif channel == "threads":
                 r = requests.get(f"{TH_API}/me", params={"fields": "id,username", "access_token": cred[1]}, timeout=30)
                 r.raise_for_status()
