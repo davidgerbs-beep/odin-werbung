@@ -11,6 +11,7 @@ Discord und Instagram und merkt sich in state/gepostet.json, was schon draußen 
   python scripts/post.py --sofort ID   postet diesen Beitrag sofort (ohne auf die Uhrzeit zu warten)
   python scripts/post.py --jetzt 2026-10-12T19:00   tut so, als wäre es diese Uhrzeit
   python scripts/post.py --ig-token-auffrischen     verlängert das Instagram-Token (wöchentlich)
+  python scripts/post.py --verbindung  meldet sich bei allen Kanälen an, postet nichts
 """
 import argparse
 import base64
@@ -583,6 +584,42 @@ def preview(cfg, plan, pid):
     return 0
 
 
+def check_connections(cfg):
+    """Meldet sich bei jedem Kanal an, ohne etwas zu posten."""
+    ok = True
+    for channel, (lang, cred) in channels(cfg).items():
+        if cred is None:
+            print(f"[{channel}] keine Zugangsdaten hinterlegt")
+            continue
+        try:
+            if channel.startswith("bluesky"):
+                b = Bluesky(*cred, service=env("BSKY_SERVICE") or "https://bsky.social")
+                r = requests.get(f"{b.service}/xrpc/app.bsky.actor.getProfile", params={"actor": b.did},
+                                 headers=b._h(), timeout=30)
+                r.raise_for_status()
+                print(f"[{channel}] OK, angemeldet als @{r.json().get('handle')}")
+            elif channel.startswith("mastodon"):
+                base = cred[0] if cred[0].startswith("http") else "https://" + cred[0]
+                r = requests.get(f"{base.rstrip('/')}/api/v1/accounts/verify_credentials",
+                                 headers={"Authorization": f"Bearer {cred[1]}", "User-Agent": UA}, timeout=30)
+                r.raise_for_status()
+                j = r.json()
+                print(f"[{channel}] OK, angemeldet als @{j.get('acct')}" + ("" if j.get("bot") else "  (Hinweis: Bot-Haken im Profil fehlt)"))
+            elif channel.startswith("discord"):
+                r = requests.get(cred[0], timeout=30)
+                r.raise_for_status()
+                print(f"[{channel}] OK, Webhook \"{r.json().get('name')}\" im Kanal {r.json().get('channel_id')}")
+            elif channel == "instagram":
+                r = requests.get(f"{IG_API}/me", params={"fields": "username,account_type", "access_token": cred[1]}, timeout=30)
+                r.raise_for_status()
+                print(f"[{channel}] OK, angemeldet als @{r.json().get('username')} ({r.json().get('account_type')})")
+        except Exception as e:
+            ok = False
+            msg = getattr(getattr(e, "response", None), "text", "") or str(e)
+            print(f"[{channel}] FEHLER: {msg[:300]}")
+    return 0 if ok else 1
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--probe", action="store_true")
@@ -591,12 +628,15 @@ def main():
     ap.add_argument("--sofort")
     ap.add_argument("--jetzt")
     ap.add_argument("--ig-token-auffrischen", action="store_true")
+    ap.add_argument("--verbindung", action="store_true")
     a = ap.parse_args()
     cfg, plan = load_yaml(CONFIG), load_yaml(PLAN)
     tz = ZoneInfo(cfg.get("zeitzone", "Europe/Berlin"))
     now = datetime.fromisoformat(a.jetzt).replace(tzinfo=tz) if a.jetzt else datetime.now(tz)
     if a.ig_token_auffrischen:
         return instagram_refresh()
+    if a.verbindung:
+        return check_connections(cfg)
     if a.probe:
         return probe(cfg, plan)
     if a.vorschau:
