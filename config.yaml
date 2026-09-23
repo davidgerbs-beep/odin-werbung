@@ -33,6 +33,7 @@ kanaele:
   discord_de: true
   discord_en: true
   instagram: true
+  threads: true
 
 # Hashtags, die jeder Kanal anhängt (ohne #). Beitrags-Tags aus dem Plan kommen dazu.
 tags:
@@ -49,3 +50,11 @@ ki_hinweis:
 
 # Instagram bekommt ein Bild pro Beitrag in dieser Sprache, die Bildunterschrift enthält DE und EN
 instagram_bildsprache: en
+
+# Instagram als Reel posten, wenn neben dem Bild ein Video liegt (bilder/<id>_en.mp4, gebaut mit
+# python werkzeug/reels.py). Fehlt das Video oder klappt das Reel nicht, wird das Bild gepostet.
+instagram_reels: true
+
+# Threads: Sprache der Beiträge und das eine Thema-Tag, das Threads pro Beitrag erlaubt
+threads_sprache: en
+threads_thema: TTRPG

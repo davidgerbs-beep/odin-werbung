@@ -62,6 +62,14 @@ Server nach `handarbeit/verzeichnisse_und_discord.md` anlegen, Webhooks in #neui
 4. Secrets `INSTAGRAM_USER_ID` und `INSTAGRAM_TOKEN`.
 5. Das Token läuft nach 60 Tagen ab. Der Workflow „Instagram-Token verlängern" frischt es jede Woche auf. Damit er ein neues Token selbst eintragen kann, ein Fine-grained Personal Access Token mit dem Recht „Secrets: Read and write" nur für dieses Repo anlegen und als `GH_PAT` speichern.
 
+**Instagram Reels:** Liegt neben der Bildkarte ein Video (`bilder/<id>_en.mp4`), postet Instagram ein Reel statt des Bildes (`instagram_reels: true` in `config.yaml`). Videos bauen: `python werkzeug/reels.py` (10 Sekunden, Hochformat, langsamer Zoom, selbst erzeugter Klangteppich). Klappt ein Reel nicht, wird automatisch das Bild gepostet.
+
+**Threads**
+1. In der Instagram-App (Konto odin.rpg) ein Threads-Profil anlegen, öffentlich lassen.
+2. In der Meta-App „ODIN Werbung" ist der Anwendungsfall „Auf Threads API zugreifen" mit `threads_basic` und `threads_content_publish` eingerichtet. Unter Anwendungsfälle > Threads > Einstellungen > Nutzertoken-Generator das Profil als Threads-Tester hinzufügen, die Einladung in Threads (Einstellungen > Konto > Website-Berechtigungen > Einladungen) annehmen und ein Token generieren.
+3. Secrets `THREADS_USER_ID` und `THREADS_TOKEN`. Die ID zeigt der Lauf mit Modus „verbindung" an, wenn sie fehlt oder falsch ist.
+4. Sprache und Thema-Tag in `config.yaml` (`threads_sprache`, `threads_thema`). Das Token wird zusammen mit dem Instagram-Token wöchentlich verlängert.
+
 X ist nicht dabei: Die X-API kostet seit Februar 2026 pro Beitrag Geld.
 
 ### 3. Startdatum setzen
