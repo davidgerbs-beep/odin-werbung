@@ -6,10 +6,10 @@ on:
   workflow_dispatch:
     inputs:
       modus:
-        description: "normal, probe, trocken oder sofort"
+        description: "normal, verbindung, probe, trocken oder sofort"
         default: "normal"
         type: choice
-        options: [normal, probe, trocken, sofort]
+        options: [normal, verbindung, probe, trocken, sofort]
       id:
         description: "Beitrags-ID für den Modus sofort (z. B. roll20)"
         required: false
@@ -52,6 +52,7 @@ jobs:
           POST_ID: ${{ github.event.inputs.id }}
         run: |
           case "$MODUS" in
+            verbindung) python scripts/post.py --verbindung ;;
             probe)   python scripts/post.py --probe ;;
             trocken) python scripts/post.py --trocken ;;
             sofort)  python scripts/post.py --sofort "$POST_ID" ;;
