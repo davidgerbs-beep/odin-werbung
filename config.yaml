@@ -34,6 +34,7 @@ kanaele:
   discord_en: true
   instagram: true
   threads: true
+  tumblr: true
 
 # Hashtags, die jeder Kanal anhängt (ohne #). Beitrags-Tags aus dem Plan kommen dazu.
 tags:
@@ -41,6 +42,7 @@ tags:
   bluesky_en: ["TTRPG", "IndieTTRPG"]
   mastodon_de: ["pnpde", "Rollenspiel", "PenAndPaper"]
   mastodon_en: ["TTRPG", "IndieTTRPG", "FreeRPG"]
+  tumblr: ["ttrpg", "indie ttrpg", "tabletop rpg", "free rpg", "rpg", "horror rpg", "occult", "tabletop games"]
   instagram: ["ttrpg", "indiettrpg", "pnpde", "rollenspiel", "penandpaper", "freerpg", "tabletoprpg", "occult", "ttrpgcommunity"]
 
 # Hinweis auf KI-erzeugte Bilder. pnpde.social verlangt die Kennzeichnung.
@@ -58,3 +60,7 @@ instagram_reels: true
 # Threads: Sprache der Beiträge und das eine Thema-Tag, das Threads pro Beitrag erlaubt
 threads_sprache: en
 threads_thema: TTRPG
+
+# Tumblr: Blogname und Sprache der Beiträge
+tumblr_blog: odin-rpg
+tumblr_sprache: en

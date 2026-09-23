@@ -64,10 +64,12 @@ Server nach `handarbeit/verzeichnisse_und_discord.md` anlegen, Webhooks in #neui
 
 **Instagram Reels:** Liegt neben der Bildkarte ein Video (`bilder/<id>_en.mp4`), postet Instagram ein Reel statt des Bildes (`instagram_reels: true` in `config.yaml`). Videos bauen: `python werkzeug/reels.py` (10 Sekunden, Hochformat, langsamer Zoom, selbst erzeugter Klangteppich). Klappt ein Reel nicht, wird automatisch das Bild gepostet.
 
+**Tumblr** (Blog odin-rpg): App auf tumblr.com/oauth/apps registrieren, im API-Konsole (api.tumblr.com/console) mit Consumer Key und Secret anmelden und die Token holen. Secrets `TUMBLR_CONSUMER_KEY`, `TUMBLR_CONSUMER_SECRET`, `TUMBLR_TOKEN`, `TUMBLR_TOKEN_SECRET`. Blogname, Sprache und Tags in `config.yaml`.
+
 **Threads**
 1. In der Instagram-App (Konto odin.rpg) ein Threads-Profil anlegen, öffentlich lassen.
 2. In der Meta-App „ODIN Werbung" ist der Anwendungsfall „Auf Threads API zugreifen" mit `threads_basic` und `threads_content_publish` eingerichtet. Unter Anwendungsfälle > Threads > Einstellungen > Nutzertoken-Generator das Profil als Threads-Tester hinzufügen, die Einladung in Threads (Einstellungen > Konto > Website-Berechtigungen > Einladungen) annehmen und ein Token generieren.
-3. Secrets `THREADS_USER_ID` und `THREADS_TOKEN`. Die ID zeigt der Lauf mit Modus „verbindung" an, wenn sie fehlt oder falsch ist.
+3. Secret `THREADS_TOKEN`. Die Nutzer-ID holt sich das Skript selbst (optional als Secret `THREADS_USER_ID`).
 4. Sprache und Thema-Tag in `config.yaml` (`threads_sprache`, `threads_thema`). Das Token wird zusammen mit dem Instagram-Token wöchentlich verlängert.
 
 X ist nicht dabei: Die X-API kostet seit Februar 2026 pro Beitrag Geld.
