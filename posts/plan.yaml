@@ -864,7 +864,7 @@ posts:
     tags: ["Campaign"]
 
 - id: w12-discord
-  tag: 82
+  tag: 4
   zeit: "10:30"
   zeit_en: "17:00"
   braucht: [discord_einladung]
@@ -877,16 +877,12 @@ posts:
     alt_en: "Stone house on an island in a reservoir at dusk, light in the windows, a jetty leading across."
   de:
     text: |
-      Fragen zu den Regeln, Berichte aus euren Runden, Mitspieler für Foundry oder Roll20: Dafür gibt es jetzt einen O.D.I.N.-Discord.
-
-      {discord_einladung}
-    link: https://odin-rpg.pages.dev/
+      Fragen zu den Regeln, Berichte aus euren Runden, Mitspieler für Foundry oder Roll20: Dafür gibt es jetzt einen O.D.I.N.-Discord, den Funkraum.
+    link: https://discord.gg/hCw4C4Kh6
   en:
     text: |
       Rules questions, reports from your table, players for Foundry or Roll20: there is now an O.D.I.N. Discord for all of that.
-
-      {discord_einladung}
-    link: https://odin-rpg.pages.dev/en/
+    link: https://discord.gg/hCw4C4Kh6
 
 # ---------------- Warten auf Anlass ----------------
 - id: roll20
