@@ -354,6 +354,10 @@ def instagram_post(user_id, token, image_url, caption, video_url=None):
 
 
 def threads_post(user_id, token, text, image_url=None, alt=""):
+    if user_id in ("", "0", "me"):
+        r = requests.get(f"{TH_API}/me", params={"fields": "id", "access_token": token}, timeout=30)
+        r.raise_for_status()
+        user_id = r.json()["id"]
     data = {"text": text[:500], "access_token": token}
     if image_url:
         data.update({"media_type": "IMAGE", "image_url": image_url})
@@ -445,7 +449,7 @@ def channels(cfg):
         "discord_de": ("de", (env("DISCORD_DE_WEBHOOK"),)),
         "discord_en": ("en", (env("DISCORD_EN_WEBHOOK"),)),
         "instagram": ("ig", (env("INSTAGRAM_USER_ID"), env("INSTAGRAM_TOKEN"))),
-        "threads": (cfg.get("threads_sprache", "en"), (env("THREADS_USER_ID"), env("THREADS_TOKEN"))),
+        "threads": (cfg.get("threads_sprache", "en"), (env("THREADS_USER_ID") or "me", env("THREADS_TOKEN"))),
     }
     out = {}
     for k, (lang, cred) in c.items():
@@ -721,8 +725,7 @@ def check_connections(cfg):
                 r = requests.get(f"{TH_API}/me", params={"fields": "id,username", "access_token": cred[1]}, timeout=30)
                 r.raise_for_status()
                 j = r.json()
-                print(f"[{channel}] OK, angemeldet als @{j.get('username')} (ID {j.get('id')}"
-                      + (")" if j.get("id") == cred[0] else f", Secret THREADS_USER_ID ist {cred[0]}: bitte auf {j.get('id')} setzen)"))
+                print(f"[{channel}] OK, angemeldet als @{j.get('username')} (ID {j.get('id')})")
         except Exception as e:
             ok = False
             msg = getattr(getattr(e, "response", None), "text", "") or str(e)
