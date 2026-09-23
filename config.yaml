@@ -21,7 +21,7 @@ max_pro_lauf: 1
 bild_url: ""
 
 # Einladungslink zum eigenen Discord-Server, sobald es ihn gibt (sonst leer lassen)
-discord_einladung: ""
+discord_einladung: "https://discord.gg/hCw4C4Kh6"
 
 # Welche Kanäle aktiv sind. Ein Kanal postet nur, wenn er hier true ist UND seine Zugangsdaten
 # als GitHub-Secret hinterlegt sind.
