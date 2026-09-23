@@ -1,0 +1,31 @@
+name: Plan prüfen
+
+# Läuft bei jeder Änderung an Plan, Konfiguration oder Bildern und baut fehlende Karten nach.
+on:
+  push:
+    paths: ["posts/**", "config.yaml", "werkzeug/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pruefen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Bildkarten bauen
+        run: python werkzeug/karten.py
+      - name: Karten einchecken, falls neu
+        run: |
+          git config user.name "odin-werbung"
+          git config user.email "actions@users.noreply.github.com"
+          git add bilder
+          git diff --cached --quiet || (git commit -m "Bildkarten aktualisiert" && git push)
+      - name: Plan prüfen
+        run: python scripts/post.py --probe
