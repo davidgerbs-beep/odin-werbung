@@ -28,12 +28,30 @@ def main():
     if "oauth_verifier=" in v:  # ganze Adresse eingefügt
         v = v.split("oauth_verifier=", 1)[1].split("&")[0].split("#")[0]
     if not v:
-        s = OAuth1Session(ck, client_secret=cs, callback_uri=CALLBACK)
-        r = s.fetch_request_token("https://www.tumblr.com/oauth/request_token")
+        print(f"Consumer Key: {len(ck)} Zeichen, Secret: {len(cs)} Zeichen "
+              f"(erwartet je 50; Sonderzeichen im Key: {sorted(set(c for c in ck if not c.isalnum()))}, "
+              f"im Secret: {sorted(set(c for c in cs if not c.isalnum()))})")
+        r = None
+        for cb, meth in ((None, "POST"), (CALLBACK, "POST"), (None, "GET"), (CALLBACK, "GET")):
+            s = OAuth1Session(ck, client_secret=cs, callback_uri=cb)
+            try:
+                if meth == "POST":
+                    r = s.fetch_request_token("https://www.tumblr.com/oauth/request_token")
+                else:
+                    g = s.get("https://www.tumblr.com/oauth/request_token", timeout=30)
+                    if g.status_code >= 400:
+                        raise RuntimeError(f"{g.status_code} {g.text}")
+                    r = dict(x.split("=", 1) for x in g.text.strip().split("&"))
+                print(f"Request-Token erhalten (Callback {'ja' if cb else 'nein'}, {meth}).")
+                break
+            except Exception as e:
+                print(f"Versuch Callback {'ja' if cb else 'nein'} {meth}: {str(e)[:160]}")
+        if r is None:
+            return 1
         secret_setzen("TUMBLR_REQ_TOKEN", r["oauth_token"])
         secret_setzen("TUMBLR_REQ_SECRET", r["oauth_token_secret"])
         print("Freigabe-Link (öffnen, „Allow“ klicken):")
-        print(s.authorization_url("https://www.tumblr.com/oauth/authorize"))
+        print("https://www.tumblr.com/oauth/authorize?oauth_token=" + r["oauth_token"])
         return 0
     rt, rs = env("TUMBLR_REQ_TOKEN"), env("TUMBLR_REQ_SECRET")
     if not (rt and rs):
