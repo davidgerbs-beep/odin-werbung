@@ -1,0 +1,51 @@
+# Grundeinstellungen für die O.D.I.N.-Werbung
+# Nach jeder Änderung: Datei speichern, committen, fertig.
+
+# Erster Posting-Tag (am besten ein Montag). Alle "tag:"-Angaben im Plan zählen ab hier.
+start: "2026-10-05"
+
+zeitzone: "Europe/Berlin"
+
+# Standardzeit für englische Beiträge, wenn im Plan keine "zeit_en" steht
+# (21:00 in Berlin = 15:00 New York = 12:00 Kalifornien)
+zeit_en: "21:00"
+
+# Beiträge, die mehr als so viele Stunden überfällig sind, werden übersprungen statt nachgeholt
+max_verspaetung_stunden: 36
+
+# Höchstens so viele Beiträge pro Kanal und Lauf (der Lauf ist stündlich)
+max_pro_lauf: 1
+
+# Öffentliche Adresse der Bilder (für Instagram, wird automatisch gesetzt, wenn leer)
+# Beispiel: https://raw.githubusercontent.com/davidgerbs-beep/odin-werbung/main/bilder
+bild_url: ""
+
+# Einladungslink zum eigenen Discord-Server, sobald es ihn gibt (sonst leer lassen)
+discord_einladung: ""
+
+# Welche Kanäle aktiv sind. Ein Kanal postet nur, wenn er hier true ist UND seine Zugangsdaten
+# als GitHub-Secret hinterlegt sind.
+kanaele:
+  bluesky_de: true
+  bluesky_en: true
+  mastodon_de: true
+  mastodon_en: true
+  discord_de: true
+  discord_en: true
+  instagram: true
+
+# Hashtags, die jeder Kanal anhängt (ohne #). Beitrags-Tags aus dem Plan kommen dazu.
+tags:
+  bluesky_de: ["pnpde", "Rollenspiel"]
+  bluesky_en: ["TTRPG", "IndieTTRPG"]
+  mastodon_de: ["pnpde", "Rollenspiel", "PenAndPaper"]
+  mastodon_en: ["TTRPG", "IndieTTRPG", "FreeRPG"]
+  instagram: ["ttrpg", "indiettrpg", "pnpde", "rollenspiel", "penandpaper", "freerpg", "tabletoprpg", "occult", "ttrpgcommunity"]
+
+# Hinweis auf KI-erzeugte Bilder. pnpde.social verlangt die Kennzeichnung.
+# Pro Kanal: der Tag wird angehängt, sobald der Beitrag ein Bild hat.
+ki_hinweis:
+  mastodon_de: "KIgeneriert"
+
+# Instagram bekommt ein Bild pro Beitrag in dieser Sprache, die Bildunterschrift enthält DE und EN
+instagram_bildsprache: en
