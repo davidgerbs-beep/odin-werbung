@@ -1,0 +1,913 @@
+# O.D.I.N. Redaktionsplan
+#
+# tag:    Tage nach "start" aus config.yaml (0 = Starttag, ein Montag)
+# datum:  alternativ festes Datum (JJJJ-MM-TT), z. B. für Halloween
+# zeit:   Uhrzeit für DE (Europe/Berlin); EN geht zur Uhrzeit "zeit_en"
+#         oder zur Standard-EN-Zeit aus config.yaml
+# bild:   typ cover | foto | zitat | raster, wird von werkzeug/karten.py gebaut
+# de/en:  text (kurz, passt auf Bluesky), mehr (nur Mastodon, Discord, Instagram),
+#         link, tags (zusätzlich zu den Kanal-Tags)
+# wartet_auf: Beitrag bleibt liegen, bis die Zeile gelöscht wird
+# braucht:    Beitrag geht nur raus, wenn der Wert in config.yaml gesetzt ist
+
+posts:
+
+# ---------------- Woche 1 ----------------
+- id: w01-willkommen
+  tag: 0
+  zeit: "18:00"
+  bild:
+    typ: cover
+    de: cover_ODIN_01_Grundregelwerk.jpg
+    en: cover_ODIN_EN_01_Core_Rulebook.jpg
+    alt_de: "Cover des O.D.I.N.-Grundregelwerks, zweite Edition: Bleistiftzeichnung einer Kompassrose auf altem Papier."
+    alt_en: "Cover of the O.D.I.N. Core Rulebook, second edition: pencil drawing of a compass rose on aged paper."
+  de:
+    text: |
+      Seit 1977 hält eine Organisation ohne Namen die Risse geschlossen. Keine Flagge, kein Hauptquartier auf einer Karte.
+
+      O.D.I.N. ist mein Pen-&-Paper-Rollenspiel über genau diese Leute. 15 Bücher, alle kostenlos.
+    mehr: |
+      Grundregelwerk, sechs Klassenbücher, Spielleiterbuch, Kampagne, Szenarioband, Ausrüstungsbuch, Schnellstart. Dazu ein Charaktergenerator im Browser und ein System für Foundry VTT. Ohne Anmeldung.
+    link: https://odin-rpg.pages.dev/
+  en:
+    text: |
+      Since 1977, an organisation without a name has kept the rifts closed. No flag, no headquarters on any map.
+
+      O.D.I.N. is my tabletop RPG about the people who do that work. The whole line is free.
+    mehr: |
+      Core Rulebook, six class books, Game Master's Book, a campaign, a mission collection, an equipment book and a Quickstart. Plus a character generator in the browser and a full Foundry VTT system. No sign-up, just download.
+    link: https://odin-rpg.pages.dev/en/
+
+- id: w01-wuerfel
+  tag: 2
+  zeit: "18:00"
+  bild:
+    typ: zitat
+    de: "Weiße Würfel für das Attribut: Erfolg bei 5 und 6.\nBunte Würfel für die Fertigkeit: Erfolg bei 4, 5 und 6."
+    en: "White dice for the attribute: success on 5 or 6.\nColoured dice for the skill: success on 4, 5 or 6."
+    quelle_de: "O.D.I.N. Grundregelwerk"
+    quelle_en: "O.D.I.N. Core Rulebook"
+    alt_de: "Texttafel im Schreibmaschinenstil: Weiße Würfel für das Attribut, Erfolg bei 5 und 6. Bunte Würfel für die Fertigkeit, Erfolg bei 4, 5 und 6."
+    alt_en: "Typewriter-style text card: White dice for the attribute, success on 5 or 6. Coloured dice for the skill, success on 4, 5 or 6."
+  de:
+    text: |
+      Das Würfelsystem von O.D.I.N. passt in zwei Zeilen: weiße W6 fürs Attribut treffen ab 5, bunte W6 für die Fertigkeit ab 4.
+
+      Heißt am Tisch: Training ist verlässlicher als Talent. Das Naturtalent glänzt, der Ausgebildete liefert.
+    mehr: |
+      Wer eine Fertigkeit gar nicht beherrscht, würfelt nur weiß. Das spürt man sofort.
+    link: https://odin-rpg.pages.dev/buecher.html
+    tags: ["Spieldesign"]
+  en:
+    text: |
+      The O.D.I.N. dice system fits in two lines: white d6 for the attribute hit on 5+, coloured d6 for the skill hit on 4+.
+
+      At the table that means training beats talent. The natural shines, the trained agent delivers.
+    mehr: |
+      No skill at all? You roll white dice only, and you feel it immediately.
+    link: https://odin-rpg.pages.dev/en/books.html
+    tags: ["TTRPGDesign"]
+
+- id: w01-schnellstart
+  tag: 5
+  zeit: "10:30"
+  zeit_en: "17:00"
+  bild:
+    typ: foto
+    datei: stausee_1.jpg
+    zeile_de: "SCHNELLSTART · Das Haus am Stausee"
+    zeile_en: "QUICKSTART · The House by the Reservoir"
+    alt_de: "Ein altes Steinhaus auf einer kleinen Insel in einem nebligen Stausee, davor ein Holzsteg, auf dem vier Gestalten mit Laternen gehen."
+    alt_en: "An old stone house on a small island in a misty reservoir, with a wooden jetty where four figures walk with lanterns."
+  de:
+    text: |
+      Ein Abend, vier fertige Agenten, ein Einsatz: Das Haus am Stausee.
+
+      Der Schnellstart von O.D.I.N. hat Welt und Kurzregeln auf wenigen Seiten. Drei bis vier Spieler, eine Spielleitung, acht weiße und acht bunte W6. Kostenlos.
+    mehr: |
+      Wer danach mehr will: Die Agenten lassen sich im Charaktergenerator nachbauen und in die Kampagne mitnehmen.
+    link: https://odin-rpg.pages.dev/buecher.html
+    tags: ["OneShot"]
+  en:
+    text: |
+      One evening, four ready agents, one mission: The House by the Reservoir.
+
+      The O.D.I.N. Quickstart gives you the world and the short rules in a few pages. Three to four players, one GM, eight white and eight coloured d6. Free.
+    mehr: |
+      If you want more afterwards, rebuild the agents in the character generator and take them into the campaign.
+    link: https://odin-rpg.pages.dev/en/books.html
+    tags: ["OneShot"]
+
+# ---------------- Woche 2 ----------------
+- id: w02-psion
+  tag: 7
+  zeit: "18:00"
+  bild:
+    typ: foto
+    datei: klasse-psion.webp
+    zeile_de: "PSION · Preis: Resonanz"
+    zeile_en: "PSION · Price: Resonance"
+    alt_de: "Sepia-Porträt eines jungen Mannes mit geschlossenen Augen, der einen alten Metallhelm trägt."
+    alt_en: "Sepia portrait of a young man with closed eyes wearing an old metal helmet."
+  de:
+    text: |
+      Der Chor hört, was andere nicht hören. Jeder Psion trägt einen Helm aus Legierung S, und keiner redet gern darüber, wie er zu O.D.I.N. kam.
+
+      Klassenbuch Psion: Subklassen, Kräfte, und der Preis, den jede Gabe kostet.
+    link: https://odin-rpg.pages.dev/buecher.html
+  en:
+    text: |
+      The Choir hears what others cannot. Every Psion wears a helmet of Alloy S, and none of them likes to talk about how they came to O.D.I.N.
+
+      Class Book Psion: subclasses, powers, and the price every gift demands.
+    link: https://odin-rpg.pages.dev/en/books.html
+
+- id: w02-generator
+  tag: 9
+  zeit: "18:00"
+  bild:
+    typ: foto
+    datei: klasse-agent.webp
+    zeile_de: "CHARAKTERGENERATOR · im Browser"
+    zeile_en: "CHARACTER GENERATOR · in your browser"
+    alt_de: "Sepia-Foto einer Frau im Mantel auf einer nassen Kopfsteinpflasterstraße bei Nacht, im Hintergrund Straßenlaternen."
+    alt_en: "Sepia photo of a woman in a coat on a wet cobblestone street at night, street lamps behind her."
+  de:
+    text: |
+      Charakterbau ohne Würfelorgie: Der O.D.I.N.-Generator fragt dich Schritt für Schritt nach Zweig, Subklasse, Hintergrund und Signatur.
+
+      Am Ende steht ein fertiger Klassenbogen als PDF. Läuft im Browser, auch auf dem Handy.
+    mehr: |
+      Die Datei lässt sich in Foundry VTT und in den Roll20-Bogen einlesen.
+    link: https://odin-rpg.pages.dev/generator/
+  en:
+    text: |
+      Character creation without a dice marathon: the O.D.I.N. generator walks you through branch, subclass, background and signature, one question at a time.
+
+      You end up with a finished class sheet as a PDF. Runs in the browser, on phones too.
+    mehr: |
+      The export file imports into Foundry VTT and into the Roll20 sheet.
+    link: https://odin-rpg.pages.dev/generator/en/
+
+- id: w02-akten
+  tag: 12
+  zeit: "10:30"
+  zeit_en: "17:00"
+  bild:
+    typ: zitat
+    de: "WEISS: Beobachtung.\nGRAU: Ermittlung.\nROT: Sofortiges Eingreifen.\nSCHWARZ: Offiziell nicht existent."
+    en: "WHITE: Observation.\nGREY: Investigation.\nRED: Immediate action.\nBLACK: Officially does not exist."
+    quelle_de: "Die Farben der Akten"
+    quelle_en: "The colours of the files"
+    alt_de: "Texttafel: Die vier Aktenfarben von O.D.I.N. Weiß für Beobachtung, Grau für Ermittlung, Rot für sofortiges Eingreifen, Schwarz für offiziell nicht existent."
+    alt_en: "Text card: the four file colours of O.D.I.N. White for observation, grey for investigation, red for immediate action, black for officially does not exist."
+  de:
+    text: |
+      Jeder Einsatz bei O.D.I.N. beginnt mit einer Akte, und das Erste, worauf ein Agent schaut, ist die Farbe.
+
+      Die meisten Einsätze beginnen grau. Umgestuft wird öfter, als den Agenten lieb ist.
+    mehr: |
+      Wer eine Schwarze Akte in der Hand hält, erfährt meistens nicht, warum.
+    link: https://odin-rpg.pages.dev/buecher.html
+  en:
+    text: |
+      Every O.D.I.N. mission starts with a file, and the first thing an agent checks is its colour.
+
+      Most missions start grey. Files get upgraded more often than the agents would like.
+    mehr: |
+      Whoever holds a Black File usually never learns why.
+    link: https://odin-rpg.pages.dev/en/books.html
+
+# ---------------- Woche 3 ----------------
+- id: w03-thaumaturg
+  tag: 14
+  zeit: "18:00"
+  bild:
+    typ: foto
+    datei: klasse-thaumaturg.webp
+    zeile_de: "THAUMATURG · Preis: Flüstern"
+    zeile_en: "THAUMATURGE · Price: Whisper"
+    alt_de: "Sepia-Foto einer älteren Frau in dunkler Kleidung in einem gewölbten Kellergang voller Regale, sie hält eine Hand ans Ohr, als lausche sie."
+    alt_en: "Sepia photo of an older woman in dark clothes in a vaulted cellar full of shelves, one hand at her ear as if listening."
+  de:
+    text: |
+      Ohne Kristalle keine Magie. Das Kollegium verwahrt jeden einzelnen, jeder Stein hat eine Nummer, und jeder flüstert.
+
+      Klassenbuch Thaumaturg: für alle, die Magie lieber gefährlich als bequem mögen.
+    link: https://odin-rpg.pages.dev/buecher.html
+  en:
+    text: |
+      No crystals, no magic. The Collegium keeps every one of them. Each stone has a number, and each one whispers.
+
+      Class Book Thaumaturge: for players who like their magic dangerous rather than convenient.
+    link: https://odin-rpg.pages.dev/en/books.html
+
+- id: w03-ausbildung
+  tag: 16
+  zeit: "18:00"
+  bild:
+    typ: zitat
+    de: "Regel 1: Wenn du nicht weißt, was es ist, fass es nicht an.\nRegel 2: Wenn du weißt, was es ist, fass es trotzdem nicht an.\nRegel 3: Wenn es dich angefasst hat, melde dich sofort auf der Krankenstation."
+    en: "Rule 1: If you don't know what it is, don't touch it.\nRule 2: If you know what it is, don't touch it anyway.\nRule 3: If it touched you, report to the infirmary at once."
+    quelle_de: "Ausbildungshandbuch, Seite 1"
+    quelle_en: "Training manual, page 1"
+    alt_de: "Texttafel im Schreibmaschinenstil mit drei Regeln aus dem Ausbildungshandbuch von O.D.I.N."
+    alt_en: "Typewriter-style text card with three rules from the O.D.I.N. training manual."
+  de:
+    text: |
+      Seite 1 des Ausbildungshandbuchs, das jeder Kadett bei O.D.I.N. bekommt.
+
+      Gelesen haben es alle. Befolgt hat es nach dem ersten Einsatz keiner mehr.
+    link: https://odin-rpg.pages.dev/buecher.html
+  en:
+    text: |
+      Page 1 of the training manual every O.D.I.N. cadet receives.
+
+      Everyone has read it. Nobody still follows it after their first mission.
+    link: https://odin-rpg.pages.dev/en/books.html
+
+- id: w03-die-tuer
+  tag: 19
+  zeit: "10:30"
+  zeit_en: "17:00"
+  bild:
+    typ: cover
+    de: cover_ODIN_10_Kampagne_Die_Tuer.jpg
+    en: cover_ODIN_EN_10_The_Door_Campaign.jpg
+    alt_de: "Cover der Kampagne Die Tür: Eine einzelne Holztür steht nachts frei in einer verschneiten Ebene, vier Gestalten gehen darauf zu."
+    alt_en: "Cover of the campaign The Door: a single wooden door stands alone on a snowy plain at night, four figures walking towards it."
+  de:
+    text: |
+      Eine Tür steht mitten im Schnee. Kein Haus dahinter, kein Weg davor.
+
+      Die Tür ist die Kampagne für O.D.I.N.: vier Akten, eigene Handouts, gedacht für eine Zelle, die zusammenbleiben will. Kostenlos wie der Rest.
+    link: https://odin-rpg.pages.dev/buecher.html
+    tags: ["Kampagne"]
+  en:
+    text: |
+      A door stands in the middle of the snow. No house behind it, no path leading to it.
+
+      The Door is the O.D.I.N. campaign: four files, its own handouts, built for a cell that wants to stay together. Free like everything else.
+    link: https://odin-rpg.pages.dev/en/books.html
+    tags: ["Campaign"]
+
+# ---------------- Woche 4 ----------------
+- id: w04-soldier
+  tag: 21
+  zeit: "18:00"
+  bild:
+    typ: foto
+    datei: klasse-soldier.webp
+    zeile_de: "SOLDIER · Preis: Nachhall"
+    zeile_en: "SOLDIER · Price: Echo"
+    alt_de: "Sepia-Foto eines Soldaten in Kampfausrüstung, der mit einem Gewehr zwischen Nadelbäumen kniet."
+    alt_en: "Sepia photo of a soldier in combat gear kneeling with a rifle among pine trees."
+  de:
+    text: |
+      Der Hammer von O.D.I.N. Soldier tragen Silber, das andere vor ihnen getragen haben, mit den Namen der Vorbesitzer.
+
+      Klassenbuch Soldier: wer als Erster durch die Tür geht und was er danach nicht mehr los wird.
+    link: https://odin-rpg.pages.dev/buecher.html
+  en:
+    text: |
+      The Hammer of O.D.I.N. Soldiers carry silver that others carried before them, engraved with the names of the previous owners.
+
+      Class Book Soldier: the ones who go through the door first, and what they can't shake afterwards.
+    link: https://odin-rpg.pages.dev/en/books.html
+
+- id: w04-foundry
+  tag: 23
+  zeit: "18:00"
+  bild:
+    typ: zitat
+    de: "Foundry VTT\n\nPersonalakte in drei Bögen\nZwei-Farben-Würfelpool\nAlle Klassenbäume\nKompendien mit sechs fertigen Agenten"
+    en: "Foundry VTT\n\nPersonnel file in three sheets\nTwo-colour dice pool\nAll class trees\nCompendiums with six ready agents"
+    quelle_de: "Game System: odin-rpg"
+    quelle_en: "Game system: odin-rpg"
+    alt_de: "Texttafel: Das O.D.I.N.-System für Foundry VTT mit Personalakte, Zwei-Farben-Würfelpool, Klassenbäumen und Kompendien."
+    alt_en: "Text card: the O.D.I.N. system for Foundry VTT with personnel file, two-colour dice pool, class trees and compendiums."
+  de:
+    text: |
+      O.D.I.N. läuft online. Für Foundry VTT (ab Version 14) gibt es ein komplettes System: Bögen, Zwei-Farben-Würfel, Klassenbäume, Waffen, Kräfte, Zauber und den Einstiegseinsatz Nexus-Splitter.
+
+      In Foundry einfach nach O.D.I.N. suchen.
+    link: https://odin-rpg.pages.dev/spieltische.html
+    tags: ["FoundryVTT"]
+  en:
+    text: |
+      O.D.I.N. plays online. There is a full Foundry VTT system (v14+): sheets, two-colour dice, class trees, weapons, powers, spells and the intro mission Nexus-Splitter.
+
+      Just search for O.D.I.N. in Foundry.
+    link: https://odin-rpg.pages.dev/en/tables.html
+    tags: ["FoundryVTT"]
+
+- id: halloween
+  datum: "2026-10-31"
+  zeit: "10:30"
+  zeit_en: "16:00"
+  bild:
+    typ: foto
+    datei: stausee_3.jpg
+    zeile_de: "Für heute Abend: Das Haus am Stausee"
+    zeile_en: "For tonight: The House by the Reservoir"
+    alt_de: "Vier Gestalten mit Fackeln an einem Steg vor einem Steinhaus auf einer Insel, dunkler Nadelwald, tiefe Wolken."
+    alt_en: "Four figures with torches on a jetty before a stone house on an island, dark pine forest, low clouds."
+  de:
+    text: |
+      Halloween und noch keinen Plan für heute Abend?
+
+      Der O.D.I.N.-Schnellstart ist genau dafür gebaut: vier fertige Agenten, ein Einsatz, drei bis vier Stunden. Ausdrucken, Würfel suchen, los.
+    link: https://odin-rpg.pages.dev/buecher.html
+    tags: ["Halloween"]
+  en:
+    text: |
+      Halloween and no plan for tonight yet?
+
+      The O.D.I.N. Quickstart was built for exactly this: four ready agents, one mission, three to four hours. Print it, find some dice, go.
+    link: https://odin-rpg.pages.dev/en/books.html
+    tags: ["Halloween"]
+
+# ---------------- Woche 5 ----------------
+- id: w05-agent
+  tag: 28
+  zeit: "18:00"
+  bild:
+    typ: cover
+    de: cover_ODIN_02_Agent.jpg
+    en: cover_ODIN_EN_02_Agent.jpg
+    alt_de: "Cover des Klassenbuchs Agent: Bleistiftzeichnung einer Frau mit Hut und Trenchcoat, ein Buch in der Hand, vor einer Kompassrose."
+    alt_en: "Cover of the Class Book Agent: pencil drawing of a woman in hat and trench coat holding a book, in front of a compass rose."
+  de:
+    text: |
+      Legenden wie Mäntel. Je länger ein Agent eine trägt, desto tiefer wird sie, bis er nicht mehr sicher weiß, welche die eigene war.
+
+      Klassenbuch Agent. Preis: Schwund.
+    link: https://odin-rpg.pages.dev/buecher.html
+  en:
+    text: |
+      Legends like coats. The longer an agent wears one, the deeper it goes, until they are no longer sure which one was their own.
+
+      Class Book Agent. Price: Fade.
+    link: https://odin-rpg.pages.dev/en/books.html
+
+- id: w05-risse
+  tag: 30
+  zeit: "18:00"
+  bild:
+    typ: zitat
+    de: "Risse riechen nach Ozon und nassem Stein.\n\nWer diesen Geruch einmal wahrgenommen hat, vergisst ihn nicht."
+    en: "Rifts smell of ozone and wet stone.\n\nAnyone who has smelled it once never forgets it."
+    quelle_de: "O.D.I.N. Schnellstart"
+    quelle_en: "O.D.I.N. Quickstart"
+    alt_de: "Texttafel: Risse riechen nach Ozon und nassem Stein. Wer diesen Geruch einmal wahrgenommen hat, vergisst ihn nicht."
+    alt_en: "Text card: Rifts smell of ozone and wet stone. Anyone who has smelled it once never forgets it."
+  de:
+    text: |
+      Manche Risse schließen sich nach Sekunden. Andere bleiben jahrelang offen: Uhren gehen falsch, Pflanzen wachsen in falschen Farben, Menschen träumen dieselben Träume.
+
+      Darum geht es in O.D.I.N.
+    link: https://odin-rpg.pages.dev/
+  en:
+    text: |
+      Some rifts close after seconds. Others stay open for years: clocks run wrong, plants grow in the wrong colours, people dream the same dreams.
+
+      That is what O.D.I.N. is about.
+    link: https://odin-rpg.pages.dev/en/
+
+- id: w05-spielleiterbuch
+  tag: 33
+  zeit: "10:30"
+  zeit_en: "17:00"
+  bild:
+    typ: cover
+    de: cover_ODIN_08_Spielleiterbuch.jpg
+    en: cover_ODIN_EN_08_Game_Masters_Book.jpg
+    alt_de: "Cover des Spielleiterbuchs: Bleistiftzeichnung eines Mannes mit Hut, Mantel und Laterne vor einer Kompassrose."
+    alt_en: "Cover of the Game Master's Book: pencil drawing of a man with hat, coat and lantern in front of a compass rose."
+  de:
+    text: |
+      Im Spielleiterbuch von O.D.I.N. kommt nicht alles aus den Rissen. Acht Ursprünge: Stimme, Fremde, Verwandelte, Alte, Tote, Maschine, Menschen, Verschobene.
+
+      Die Spieler wissen am Anfang nie, womit sie es zu tun haben. Das ist der Sinn.
+    link: https://odin-rpg.pages.dev/buecher.html
+    tags: ["Spielleitung"]
+  en:
+    text: |
+      Not everything in the O.D.I.N. Game Master's Book comes through the rifts. Eight origins: voices, aliens, mutants, cryptids, hauntings, machines, humans and displaced things.
+
+      Players never know at the start what they are facing.
+    link: https://odin-rpg.pages.dev/en/books.html
+    tags: ["GameMaster"]
+
+# ---------------- Woche 6 ----------------
+- id: w06-scientist
+  tag: 35
+  zeit: "18:00"
+  bild:
+    typ: foto
+    datei: klasse-scientist.webp
+    zeile_de: "SCIENTIST · Preis: Kontamination"
+    zeile_en: "SCIENTIST · Price: Contamination"
+    alt_de: "Sepia-Foto einer Wissenschaftlerin im Laborkittel in einem Felsstollen, sie hält ein Reagenzglas gegen das Licht einer Neonröhre."
+    alt_en: "Sepia photo of a scientist in a lab coat inside a rock tunnel, holding a test tube up to a fluorescent light."
+  de:
+    text: |
+      Das Institut liegt in einem Stollen bei Bern. Dort bauen sie, was es noch nicht gibt, und manchmal etwas, das es besser nicht gäbe.
+
+      Klassenbuch Scientist: Technik, Naniten, Schilde. Preis: Kontamination.
+    link: https://odin-rpg.pages.dev/buecher.html
+  en:
+    text: |
+      The Institute sits in a tunnel near Bern. They build what does not exist yet, and sometimes something that shouldn't.
+
+      Class Book Scientist: tech, nanites, shields. Price: Contamination.
+    link: https://odin-rpg.pages.dev/en/books.html
+
+- id: w06-kodex
+  tag: 37
+  zeit: "18:00"
+  bild:
+    typ: zitat
+    de: "1. Die Wahrheit ist relativ, unsere Pflicht nicht.\n3. Kein Ruhm, keine Namen.\n6. Vertraue niemandem blind, nicht einmal dir selbst.\n7. Wenn du fällst, dann so, dass es zählt."
+    en: "1. Truth is relative. Our duty is not.\n3. No glory, no names.\n6. Trust no one blindly, not even yourself.\n7. If you fall, make it count."
+    quelle_de: "Aus den Sieben Geboten der O.D.I.N.-Agenten"
+    quelle_en: "From the Seven Commandments of O.D.I.N. agents"
+    alt_de: "Texttafel mit vier der Sieben Gebote der O.D.I.N.-Agenten."
+    alt_en: "Text card with four of the Seven Commandments of O.D.I.N. agents."
+  de:
+    text: |
+      Vier der Sieben Gebote, die jeder Agent bei O.D.I.N. kennt.
+
+      Das sechste ist das, über das am Tisch am meisten gestritten wird.
+    link: https://odin-rpg.pages.dev/
+  en:
+    text: |
+      Four of the Seven Commandments every O.D.I.N. agent knows by heart.
+
+      Number six is the one that causes the most arguments at the table.
+    link: https://odin-rpg.pages.dev/en/
+
+- id: w06-arsenal
+  tag: 40
+  zeit: "10:30"
+  zeit_en: "17:00"
+  bild:
+    typ: cover
+    de: cover_ODIN_12_Arsenal.jpg
+    en: cover_ODIN_EN_12_Arsenal.jpg
+    alt_de: "Cover des Ausrüstungsbuchs Arsenal: Bleistiftzeichnung einer Frau mit Gewehr über der Schulter und einem Buch im Arm."
+    alt_en: "Cover of the equipment book Arsenal: pencil drawing of a woman with a rifle over her shoulder and a book under her arm."
+  de:
+    text: |
+      201 Gegenstände, von der Dienstpistole bis zum Schneemobil.
+
+      Arsenal ist das Ausrüstungsbuch für O.D.I.N. Wer bei der Waffenkammer etwas anfordert, findet es hier, und wer es privat kauft, auch.
+    link: https://odin-rpg.pages.dev/buecher.html
+  en:
+    text: |
+      201 items, from the service pistol to the snowmobile.
+
+      Arsenal is the equipment book for O.D.I.N. Whatever you requisition from the armoury is in here, and whatever you buy on your own dime too.
+    link: https://odin-rpg.pages.dev/en/books.html
+
+# ---------------- Woche 7 ----------------
+- id: w07-investigator
+  tag: 42
+  zeit: "18:00"
+  bild:
+    typ: foto
+    datei: klasse-investigator.webp
+    zeile_de: "INVESTIGATOR · Preis: Verdacht"
+    zeile_en: "INVESTIGATOR · Price: Suspicion"
+    alt_de: "Sepia-Foto einer Frau im Trenchcoat, die vor einer Pinnwand voller Fotos in einer Akte liest."
+    alt_en: "Sepia photo of a woman in a trench coat reading a file in front of a pinboard covered in photos."
+  de:
+    text: |
+      Die Spurenleser. Jeder Hort von O.D.I.N. hat eine Wand voller Fotos und roter Fäden, und die Wand gehört ihnen.
+
+      Klassenbuch Investigator. Preis: Verdacht.
+    link: https://odin-rpg.pages.dev/buecher.html
+  en:
+    text: |
+      The trace readers. Every O.D.I.N. Hold has a Wall covered in photos and red string, and the Wall belongs to them.
+
+      Class Book Investigator. Price: Suspicion.
+    link: https://odin-rpg.pages.dev/en/books.html
+
+- id: w07-preis
+  tag: 44
+  zeit: "18:00"
+  bild:
+    typ: zitat
+    de: "Psion: Resonanz\nThaumaturg: Flüstern\nSoldier: Nachhall\nAgent: Schwund\nScientist: Kontamination\nInvestigator: Verdacht"
+    en: "Psion: Resonance\nThaumaturge: Whisper\nSoldier: Echo\nAgent: Fade\nScientist: Contamination\nInvestigator: Suspicion"
+    quelle_de: "Jeder Zweig zahlt"
+    quelle_en: "Every branch pays"
+    alt_de: "Texttafel mit den sechs Klassen von O.D.I.N. und ihrem jeweiligen Preis."
+    alt_en: "Text card listing the six O.D.I.N. classes and the price each one pays."
+  de:
+    text: |
+      In O.D.I.N. riskiert jeder Wurf mehr als Lebenspunkte. Jede Klasse hat einen eigenen Preis, der sich über die Kampagne aufbaut.
+
+      Der Psion hört irgendwann zu viel. Der Agent weiß irgendwann nicht mehr, wer er war.
+    link: https://odin-rpg.pages.dev/
+    tags: ["Spieldesign"]
+  en:
+    text: |
+      In O.D.I.N. every roll risks more than hit points. Each class has its own price, and it builds up over a campaign.
+
+      The Psion eventually hears too much. The Agent eventually forgets who they were.
+    link: https://odin-rpg.pages.dev/en/
+    tags: ["TTRPGDesign"]
+
+- id: w07-graue-akten
+  tag: 47
+  zeit: "10:30"
+  zeit_en: "17:00"
+  bild:
+    typ: cover
+    de: cover_ODIN_14_Graue_Akten.jpg
+    en: cover_ODIN_EN_14_Grey_Files.jpg
+    alt_de: "Cover von Graue Akten: Bleistiftzeichnung einer Frau, die im Gehen in einer Akte liest."
+    alt_en: "Cover of Grey Files: pencil drawing of a woman reading a file as she walks."
+  de:
+    text: |
+      Die meisten Einsätze beginnen grau. Graue Akten sind acht davon, fertig für die Spielleitung, mit eigenem Handout-Heft.
+
+      Für alle, die keine Zeit haben, jede Woche einen Einsatz zu schreiben.
+    link: https://odin-rpg.pages.dev/buecher.html
+    tags: ["Spielleitung"]
+  en:
+    text: |
+      Most missions start grey. Grey Files collects eight of them, ready to run, with their own handout booklet.
+
+      For every GM who doesn't have time to write a mission every week.
+    link: https://odin-rpg.pages.dev/en/books.html
+    tags: ["GameMaster"]
+
+# ---------------- Woche 8 ----------------
+- id: w08-gefunden
+  tag: 49
+  zeit: "18:00"
+  bild:
+    typ: zitat
+    de: "Man tritt O.D.I.N. nicht bei.\nMan wird gefunden."
+    en: "You don't join O.D.I.N.\nYou get found."
+    quelle_de: "Was es heißt, Agent zu sein"
+    quelle_en: "What it means to be an agent"
+    alt_de: "Texttafel: Man tritt O.D.I.N. nicht bei. Man wird gefunden."
+    alt_en: "Text card: You don't join O.D.I.N. You get found."
+  de:
+    text: |
+      Irgendwann klopft jemand an die Tür, oft dann, wenn das alte Leben ohnehin in Trümmern liegt. Das Angebot: Wissen gegen Freiheit.
+
+      Wer ablehnt, erinnert sich am nächsten Morgen an nichts. Behaupten jedenfalls die Anwerber.
+    link: https://odin-rpg.pages.dev/generator/
+  en:
+    text: |
+      One day someone knocks on the door, usually when the old life is already in ruins. The offer: knowledge for freedom.
+
+      Those who refuse remember nothing the next morning. Or so the recruiters claim.
+    link: https://odin-rpg.pages.dev/generator/en/
+
+- id: w08-zellen
+  tag: 51
+  zeit: "18:00"
+  bild:
+    typ: zitat
+    de: "Eine Zelle kennt ihre Mitglieder unter Codenamen, ihren Führungsoffizier und ihren Stützpunkt.\n\nMehr nicht."
+    en: "A cell knows its members by codename, its handler and its base.\n\nNothing more."
+    quelle_de: "Zellen und Horte"
+    quelle_en: "Cells and Holds"
+    alt_de: "Texttafel: Eine Zelle kennt ihre Mitglieder unter Codenamen, ihren Führungsoffizier und ihren Stützpunkt. Mehr nicht."
+    alt_en: "Text card: A cell knows its members by codename, its handler and its base. Nothing more."
+  de:
+    text: |
+      Seit dem Verrat von 1989 arbeitet O.D.I.N. in Zellen aus drei bis sechs Agenten verschiedener Zweige. Die Zelle ist eure Spielgruppe.
+
+      Ein guter Führungsoffizier schützt seine Zelle. Ein schlechter opfert sie.
+    link: https://odin-rpg.pages.dev/
+  en:
+    text: |
+      Since the betrayal of 1989, O.D.I.N. works in cells of three to six agents from different branches. The cell is your gaming group.
+
+      A good handler protects the cell. A bad one sacrifices it.
+    link: https://odin-rpg.pages.dev/en/
+
+- id: w08-andere-dienste
+  tag: 54
+  zeit: "10:30"
+  zeit_en: "17:00"
+  bild:
+    typ: cover
+    de: cover_ODIN_15_Die_anderen_Dienste.jpg
+    en: cover_ODIN_EN_15_The_Other_Services.jpg
+    alt_de: "Cover von Die anderen Dienste: Bleistiftzeichnung eines Mannes mit Schiebermütze und langem Mantel, der über die Schulter blickt."
+    alt_en: "Cover of The Other Services: pencil drawing of a man in a flat cap and long coat looking over his shoulder."
+  de:
+    text: |
+      O.D.I.N. ist nicht allein im Schatten. Die anderen Dienste stellt der Spielleitung Gegenspieler und Rivalen vor, die dieselben Risse wollen, nur aus anderen Gründen.
+
+      Manchmal ist der gefährlichste Gegner einer mit Dienstausweis.
+    link: https://odin-rpg.pages.dev/buecher.html
+    tags: ["Spielleitung"]
+  en:
+    text: |
+      O.D.I.N. isn't alone in the shadows. The Other Services gives the GM rivals and opponents who want the same rifts for different reasons.
+
+      Sometimes the most dangerous enemy carries a government ID.
+    link: https://odin-rpg.pages.dev/en/books.html
+    tags: ["GameMaster"]
+
+# ---------------- Woche 9 ----------------
+- id: w09-grauen
+  tag: 56
+  zeit: "18:00"
+  bild:
+    typ: zitat
+    de: "O.D.I.N. hat Psychologen, Medikamente und Rituale dagegen.\n\nKeines davon hilft immer."
+    en: "O.D.I.N. has psychologists, medication and rituals for it.\n\nNone of them always works."
+    quelle_de: "Über das Grauen"
+    quelle_en: "On horror"
+    alt_de: "Texttafel: O.D.I.N. hat Psychologen, Medikamente und Rituale dagegen. Keines davon hilft immer."
+    alt_en: "Text card: O.D.I.N. has psychologists, medication and rituals for it. None of them always works."
+  de:
+    text: |
+      Menschen sind nicht dafür gemacht, das Unmögliche zu sehen. In O.D.I.N. bleibt es nicht bei Wunden: Belastung und Trauma laufen mit, und sie gehen nach dem Einsatz nicht einfach weg.
+    link: https://odin-rpg.pages.dev/
+    tags: ["Horror"]
+  en:
+    text: |
+      People aren't made to see the impossible. In O.D.I.N. it doesn't stop at wounds: strain and trauma are tracked too, and they don't just go away after the mission.
+    link: https://odin-rpg.pages.dev/en/
+    tags: ["HorrorRPG"]
+
+- id: w09-horte
+  tag: 58
+  zeit: "18:00"
+  bild:
+    typ: cover
+    de: cover_ODIN_16_Horte_der_Welt.jpg
+    alt_de: "Cover von Horte der Welt: Bleistiftzeichnung eines Mannes im Mantel, der auf eine gewölbte Tür in einer Mauer zugeht."
+  de:
+    text: |
+      Kein Stützpunkt von O.D.I.N. beherbergt mehr als zwölf Agenten. Horte der Welt zeigt, wo sie liegen, unter welchen Städten und hinter welchen Türen.
+
+      Der Regionalband, neu und kostenlos.
+    link: https://odin-rpg.pages.dev/buecher.html
+
+- id: w09-kostenlos
+  tag: 61
+  zeit: "10:30"
+  zeit_en: "17:00"
+  bild:
+    typ: raster
+    dateien: [klasse-psion.webp, klasse-thaumaturg.webp, klasse-soldier.webp, klasse-agent.webp, klasse-scientist.webp, klasse-investigator.webp]
+    zeile_de: "Sechs Zweige. Kein Preisschild."
+    zeile_en: "Six branches. No price tag."
+    alt_de: "Raster aus sechs Sepia-Porträts, je eines für die sechs Klassen von O.D.I.N."
+    alt_en: "Grid of six sepia portraits, one for each of the six O.D.I.N. classes."
+  de:
+    text: |
+      Oft gefragt: warum ist O.D.I.N. kostenlos?
+
+      Weil ich will, dass es gespielt wird. Wer trotzdem etwas zurückgeben möchte, findet auf der Seite einen PayPal-Link. Noch lieber ist mir ein Bericht von eurer Runde.
+    link: https://odin-rpg.pages.dev/
+  en:
+    text: |
+      People ask why O.D.I.N. is free.
+
+      Because I want it played. If you'd like to give something back, there's a PayPal link on the site. A report from your table means even more to me.
+    link: https://odin-rpg.pages.dev/en/
+
+# ---------------- Woche 10 ----------------
+- id: w10-schirm
+  tag: 63
+  zeit: "18:00"
+  bild:
+    typ: cover
+    de: cover_ODIN_09_Spielleiterschirm.jpg
+    en: cover_ODIN_EN_09_Game_Masters_Screen.jpg
+    alt_de: "Innenseite des O.D.I.N.-Spielleiterschirms mit Tabellen zu Würfeln, Proben und Schwierigkeiten."
+    alt_en: "Inside of the O.D.I.N. Game Master's Screen with tables for dice, checks and difficulties."
+  de:
+    text: |
+      Alles, was man am Tisch nachschlagen muss, auf einem Schirm: Proben, Schwierigkeiten, Boni und Mali, Aktenfarben und Spesen, Aufbau einer Mission.
+
+      Der Spielleiterschirm für O.D.I.N., zum Ausdrucken.
+    link: https://odin-rpg.pages.dev/buecher.html
+    tags: ["Spielleitung"]
+  en:
+    text: |
+      Everything you need to look up at the table on one screen: checks, difficulties, bonuses and penalties, file colours and expenses, how a mission is built.
+
+      The O.D.I.N. Game Master's Screen, ready to print.
+    link: https://odin-rpg.pages.dev/en/books.html
+    tags: ["GameMaster"]
+
+- id: w10-familie
+  tag: 65
+  zeit: "18:00"
+  bild:
+    typ: zitat
+    de: "Viele Agenten haben Familie, die glaubt, sie arbeiteten für eine Versicherung, eine Reederei oder eine Behörde mit langweiligem Namen."
+    en: "Many agents have families who believe they work for an insurance company, a shipping firm or an agency with a boring name."
+    quelle_de: "Was es heißt, Agent zu sein"
+    quelle_en: "What it means to be an agent"
+    alt_de: "Texttafel über Agenten, deren Familien glauben, sie arbeiteten für eine Versicherung oder eine Reederei."
+    alt_en: "Text card about agents whose families believe they work for an insurance company or a shipping firm."
+  de:
+    text: |
+      Zwischen den Einsätzen leben O.D.I.N.-Agenten unter Tarnidentität in ganz normalen Wohnungen.
+
+      Diese Lüge aufrechtzuerhalten, ist oft schwerer als jeder Einsatz. Und sie gibt am Tisch mehr Szenen her als jedes Monster.
+    link: https://odin-rpg.pages.dev/
+  en:
+    text: |
+      Between missions, O.D.I.N. agents live under cover in perfectly normal flats.
+
+      Keeping that lie going is often harder than any mission. At the table it produces more scenes than any monster.
+    link: https://odin-rpg.pages.dev/en/
+
+- id: w10-frage
+  tag: 68
+  zeit: "10:30"
+  zeit_en: "17:00"
+  bild:
+    typ: raster
+    dateien: [klasse-psion.webp, klasse-thaumaturg.webp, klasse-soldier.webp, klasse-agent.webp, klasse-scientist.webp, klasse-investigator.webp]
+    zeile_de: "Welcher Zweig?"
+    zeile_en: "Which branch?"
+    alt_de: "Raster aus sechs Sepia-Porträts, je eines für Psion, Thaumaturg, Soldier, Agent, Scientist und Investigator."
+    alt_en: "Grid of six sepia portraits: Psion, Thaumaturge, Soldier, Agent, Scientist and Investigator."
+  de:
+    text: |
+      Sechs Zweige, 30 Subklassen. Welchen würdet ihr als Erstes spielen?
+
+      Psion, Thaumaturg, Soldier, Agent, Scientist oder Investigator. Ich tippe auf den Psion.
+    link: https://odin-rpg.pages.dev/generator/
+  en:
+    text: |
+      Six branches, 30 subclasses. Which would you play first?
+
+      Psion, Thaumaturge, Soldier, Agent, Scientist or Investigator. My bet is on the Psion.
+    link: https://odin-rpg.pages.dev/generator/en/
+
+# ---------------- Woche 11 ----------------
+- id: w11-tunguska
+  tag: 70
+  zeit: "18:00"
+  bild:
+    typ: zitat
+    de: "Der erste dokumentierte Riss trägt in den Akten die Bezeichnung T-08: das Ereignis an der Tunguska, 1908.\n\nSeit 2011 steigt die Zahl der gemeldeten Risse sprunghaft an."
+    en: "The first documented rift is filed as T-08: the Tunguska event, 1908.\n\nSince 2011 the number of reported rifts has risen sharply."
+    quelle_de: "Die Risse"
+    quelle_en: "The rifts"
+    alt_de: "Texttafel: Der erste dokumentierte Riss heißt T-08, das Tunguska-Ereignis 1908. Seit 2011 steigt die Zahl der Risse sprunghaft."
+    alt_en: "Text card: The first documented rift is T-08, the Tunguska event of 1908. Since 2011 the number of rifts has risen sharply."
+  de:
+    text: |
+      In O.D.I.N. hat die Geschichte ein Aktenzeichen. Tunguska ist T-08, und intern stuft der Rat die Lage als anhaltende Eskalation ein.
+
+      Deshalb erleben viele Kadetten ihren ersten Einsatz vor der Prüfung.
+    link: https://odin-rpg.pages.dev/
+  en:
+    text: |
+      In O.D.I.N., history has a file number. Tunguska is T-08, and internally the Council rates the situation as ongoing escalation.
+
+      That's why many cadets see their first mission before their final exam.
+    link: https://odin-rpg.pages.dev/en/
+
+- id: w11-handouts
+  tag: 72
+  zeit: "18:00"
+  bild:
+    typ: foto
+    datei: stausee_2.jpg
+    zeile_de: "Was geschah am Stausee?"
+    zeile_en: "What happened at the reservoir?"
+    alt_de: "Nebliger Stausee mit einem Steinhaus auf einer Insel, vier Gestalten mit Laternen auf einem langen Steg."
+    alt_en: "Misty reservoir with a stone house on an island, four figures with lanterns on a long jetty."
+  de:
+    text: |
+      Ein Makler aus Hannover fragt seine Versicherung, ob sie zahlt, wenn Feriengäste verschwinden. Die Versicherung gehört einer Stiftung. Die Stiftung gehört O.D.I.N.
+
+      Das Haus am Stausee steckt im kostenlosen Schnellstart von O.D.I.N. Ein Abend, vier fertige Agenten.
+    link: https://odin-rpg.pages.dev/buecher.html
+    tags: ["OneShot"]
+  en:
+    text: |
+      An estate agent asks his insurer whether his policy pays out when holiday guests disappear. The insurer belongs to a foundation. The foundation belongs to O.D.I.N.
+
+      The House by the Reservoir is in the free O.D.I.N. Quickstart.
+    link: https://odin-rpg.pages.dev/en/books.html
+    tags: ["OneShot"]
+
+- id: w11-charakterboegen
+  tag: 75
+  zeit: "10:30"
+  bild:
+    typ: cover
+    de: cover_ODIN_Charakterboegen_alle.jpg
+    alt_de: "Charakterbogen von O.D.I.N. mit Attributen, Fertigkeiten und Klassenfeldern."
+  de:
+    text: |
+      Für alle, die lieber mit Bleistift bauen: Die Charakterbögen aller sechs Klassen gibt es als ein PDF, jeder mit Feldern für Signatur und Preis der Klasse.
+    link: https://odin-rpg.pages.dev/buecher.html
+
+# ---------------- Woche 12 ----------------
+- id: w12-reihe
+  tag: 77
+  zeit: "18:00"
+  bild:
+    typ: cover
+    de: cover_ODIN_13_Schnellstart.jpg
+    en: cover_ODIN_EN_13_Quickstart.jpg
+    alt_de: "Cover des Schnellstarts: Ein Mädchen im weißen Kleid steht am Ende eines Holzstegs an einem nebligen See, Stempel QUICKSTART."
+    alt_en: "Cover of the Quickstart: a girl in a white dress stands at the end of a wooden jetty on a misty lake, QUICKSTART stamp."
+  de:
+    text: |
+      Wo anfangen bei 15 Büchern? Mit dem Schnellstart für einen Abend. Wer weiterspielen will, liest im Grundregelwerk Kapitel I bis III, das reicht.
+
+      Alles andere kommt, wenn ihr es braucht.
+    link: https://odin-rpg.pages.dev/
+  en:
+    text: |
+      Where to start with a whole book line? The Quickstart, for one evening. If you want to keep going, chapters I to III of the Core Rulebook are enough.
+
+      Everything else can wait until you need it.
+    link: https://odin-rpg.pages.dev/en/
+
+- id: w12-handouts-tuer
+  tag: 79
+  zeit: "18:00"
+  bild:
+    typ: cover
+    de: cover_ODIN_11_Die_Tuer_Handouts.jpg
+    en: cover_ODIN_EN_11_The_Door_Handouts.jpg
+    alt_de: "Handout-Heft zur Kampagne Die Tür: eine Wand mit angehefteten Fotos und eine Liste der Handouts."
+    alt_en: "Handout booklet for the campaign The Door: a wall of pinned photos and a list of handouts."
+  de:
+    text: |
+      Ein Zeitungsartikel von 1960. Ein Brief des Roten Kreuzes. Das Notizbuch eines Hausmeisters. Eine Fahrkarte von 1962.
+
+      Zur Kampagne Die Tür gibt es ein eigenes Handout-Heft, damit die Spieler etwas in die Hand bekommen, über das sie streiten können.
+    link: https://odin-rpg.pages.dev/buecher.html
+    tags: ["Kampagne"]
+  en:
+    text: |
+      A newspaper article from 1960. A letter from the Red Cross. A caretaker's notebook. A train ticket from 1962.
+
+      The Door campaign comes with its own handout booklet, so players get something in their hands to argue about.
+    link: https://odin-rpg.pages.dev/en/books.html
+    tags: ["Campaign"]
+
+- id: w12-discord
+  tag: 82
+  zeit: "10:30"
+  zeit_en: "17:00"
+  braucht: [discord_einladung]
+  bild:
+    typ: foto
+    datei: stausee_4.jpg
+    zeile_de: "Der Funkraum ist offen"
+    zeile_en: "The radio room is open"
+    alt_de: "Steinhaus auf einer Insel im Stausee bei Dämmerung, Licht in den Fenstern, ein Steg führt hinüber."
+    alt_en: "Stone house on an island in a reservoir at dusk, light in the windows, a jetty leading across."
+  de:
+    text: |
+      Fragen zu den Regeln, Berichte aus euren Runden, Mitspieler für Foundry oder Roll20: Dafür gibt es jetzt einen O.D.I.N.-Discord.
+
+      {discord_einladung}
+    link: https://odin-rpg.pages.dev/
+  en:
+    text: |
+      Rules questions, reports from your table, players for Foundry or Roll20: there is now an O.D.I.N. Discord for all of that.
+
+      {discord_einladung}
+    link: https://odin-rpg.pages.dev/en/
+
+# ---------------- Warten auf Anlass ----------------
+- id: roll20
+  tag: 84
+  zeit: "18:00"
+  wartet_auf: "Roll20-Bogen gemergt (PR 15483). Zeile löschen und tag auf den gewünschten Tag setzen."
+  bild:
+    typ: zitat
+    de: "Roll20\n\nDer O.D.I.N.-Bogen ist da.\nCharaktere aus dem Generator einlesen, losspielen."
+    en: "Roll20\n\nThe O.D.I.N. sheet is live.\nImport characters from the generator and play."
+    quelle_de: "Virtuelle Spieltische"
+    quelle_en: "Virtual tabletops"
+    alt_de: "Texttafel: Der O.D.I.N.-Bogen für Roll20 ist verfügbar."
+    alt_en: "Text card: The O.D.I.N. sheet for Roll20 is available."
+  de:
+    text: |
+      O.D.I.N. gibt es jetzt auch auf Roll20. Beim Anlegen eines Spiels den Bogen O.D.I.N. wählen, Charakter aus dem Generator im Reiter Dossier einfügen, fertig.
+    link: https://odin-rpg.pages.dev/spieltische.html
+    tags: ["Roll20"]
+  en:
+    text: |
+      O.D.I.N. is now on Roll20. Pick the O.D.I.N. sheet when you create a game, paste your generator export on the Dossier tab, done.
+    link: https://odin-rpg.pages.dev/en/tables.html
+    tags: ["Roll20"]
