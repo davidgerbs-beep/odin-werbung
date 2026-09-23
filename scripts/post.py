@@ -40,6 +40,7 @@ BILDER = ROOT / "bilder"
 
 UA = "odin-werbung/1.0 (+https://odin-rpg.pages.dev)"
 IG_API = "https://graph.instagram.com/v23.0"
+TH_API = "https://graph.threads.net/v1.0"
 KI_TYPEN = {"cover", "foto", "raster"}
 
 
@@ -189,6 +190,22 @@ def compose_instagram(post, cfg):
     return "\n\n· · ·\n\n".join(blocks) + "\n\n" + hashtags(tags[:30])
 
 
+def compose_threads(post, lang, cfg):
+    """Threads: 500 Zeichen, genau ein Thema-Tag pro Beitrag."""
+    p = post[lang]
+    body = fill(p["text"], cfg)
+    link = p.get("link", "")
+    tag = cfg.get("threads_thema") or "TTRPG"
+    parts = [body]
+    if p.get("mehr") and len(body) + len(fill(p["mehr"], cfg)) < 380:
+        parts.append(fill(p["mehr"], cfg))
+    if link:
+        parts.append(link)
+    parts.append("#" + tag.lstrip("#"))
+    text = "\n\n".join(parts)
+    return text if len(text) <= 500 else "\n\n".join([body, link, "#" + tag.lstrip("#")]).strip()
+
+
 # ----------------------------------------------------------------- Bluesky
 
 class Bluesky:
@@ -311,13 +328,17 @@ def instagram_image_url(cfg, fname):
     return f"{base}/{fname}"
 
 
-def instagram_post(user_id, token, image_url, caption):
-    r = requests.post(f"{IG_API}/{user_id}/media",
-                      data={"image_url": image_url, "caption": caption[:2200], "access_token": token}, timeout=60)
+def instagram_post(user_id, token, image_url, caption, video_url=None):
+    data = {"caption": caption[:2200], "access_token": token}
+    if video_url:
+        data.update({"media_type": "REELS", "video_url": video_url, "share_to_feed": "true", "thumb_offset": "4000"})
+    else:
+        data["image_url"] = image_url
+    r = requests.post(f"{IG_API}/{user_id}/media", data=data, timeout=60)
     if r.status_code >= 400:
         raise RuntimeError(f"Instagram media: {r.status_code} {r.text[:300]}")
     cid = r.json()["id"]
-    for _ in range(30):
+    for _ in range(100 if video_url else 30):
         s = requests.get(f"{IG_API}/{cid}", params={"fields": "status_code", "access_token": token},
                          timeout=30).json()
         if s.get("status_code") == "FINISHED":
@@ -330,6 +351,67 @@ def instagram_post(user_id, token, image_url, caption):
     if r.status_code >= 400:
         raise RuntimeError(f"Instagram publish: {r.status_code} {r.text[:300]}")
     return f"instagram:{r.json().get('id', '')}"
+
+
+def threads_post(user_id, token, text, image_url=None, alt=""):
+    data = {"text": text[:500], "access_token": token}
+    if image_url:
+        data.update({"media_type": "IMAGE", "image_url": image_url})
+        if alt:
+            data["alt_text"] = alt[:1000]
+    else:
+        data["media_type"] = "TEXT"
+    r = requests.post(f"{TH_API}/{user_id}/threads", data=data, timeout=60)
+    if r.status_code >= 400:
+        raise RuntimeError(f"Threads container: {r.status_code} {r.text[:300]}")
+    cid = r.json()["id"]
+    for _ in range(30):
+        s = requests.get(f"{TH_API}/{cid}", params={"fields": "status,error_message", "access_token": token},
+                         timeout=30).json()
+        if s.get("status") == "FINISHED":
+            break
+        if s.get("status") in ("ERROR", "EXPIRED"):
+            raise RuntimeError(f"Threads-Container fehlerhaft: {s}")
+        time.sleep(3)
+    r = requests.post(f"{TH_API}/{user_id}/threads_publish",
+                      data={"creation_id": cid, "access_token": token}, timeout=60)
+    if r.status_code >= 400:
+        raise RuntimeError(f"Threads publish: {r.status_code} {r.text[:300]}")
+    return f"threads:{r.json().get('id', '')}"
+
+
+def secret_setzen(name, wert):
+    pat, repo = env("GH_PAT"), env("GITHUB_REPOSITORY")
+    if not (pat and repo):
+        print(f"Neues Token erhalten, aber GH_PAT fehlt: Secret {name} bitte von Hand ersetzen.")
+        return False
+    from nacl import encoding, public
+    h = {"Authorization": f"Bearer {pat}", "Accept": "application/vnd.github+json"}
+    k = requests.get(f"https://api.github.com/repos/{repo}/actions/secrets/public-key", headers=h, timeout=30).json()
+    box = public.SealedBox(public.PublicKey(k["key"].encode(), encoding.Base64Encoder()))
+    enc = base64.b64encode(box.encrypt(wert.encode())).decode()
+    r = requests.put(f"https://api.github.com/repos/{repo}/actions/secrets/{name}", headers=h,
+                     json={"encrypted_value": enc, "key_id": k["key_id"]}, timeout=30)
+    r.raise_for_status()
+    print(f"Secret {name} aktualisiert.")
+    return True
+
+
+def threads_refresh():
+    token = env("THREADS_TOKEN")
+    if not token:
+        print("Kein THREADS_TOKEN gesetzt, nichts zu tun.")
+        return 0
+    r = requests.get("https://graph.threads.net/refresh_access_token",
+                     params={"grant_type": "th_refresh_token", "access_token": token}, timeout=30)
+    if r.status_code >= 400:
+        print(f"Threads: Auffrischen fehlgeschlagen: {r.status_code} {r.text[:300]}")
+        return 1
+    new = r.json()["access_token"]
+    print(f"Threads-Token gültig für weitere {int(r.json().get('expires_in', 0)) // 86400} Tage.")
+    if new == token:
+        return 0
+    return 0 if secret_setzen("THREADS_TOKEN", new) else 1
 
 
 def instagram_refresh():
@@ -347,20 +429,7 @@ def instagram_refresh():
     print(f"Instagram-Token gültig für weitere {days} Tage.")
     if new == token:
         return 0
-    pat, repo = env("GH_PAT"), env("GITHUB_REPOSITORY")
-    if not (pat and repo):
-        print("Neues Token erhalten, aber GH_PAT fehlt: Secret INSTAGRAM_TOKEN bitte von Hand ersetzen.")
-        return 1
-    from nacl import encoding, public
-    h = {"Authorization": f"Bearer {pat}", "Accept": "application/vnd.github+json"}
-    k = requests.get(f"https://api.github.com/repos/{repo}/actions/secrets/public-key", headers=h, timeout=30).json()
-    box = public.SealedBox(public.PublicKey(k["key"].encode(), encoding.Base64Encoder()))
-    enc = base64.b64encode(box.encrypt(new.encode())).decode()
-    r = requests.put(f"https://api.github.com/repos/{repo}/actions/secrets/INSTAGRAM_TOKEN", headers=h,
-                     json={"encrypted_value": enc, "key_id": k["key_id"]}, timeout=30)
-    r.raise_for_status()
-    print("Secret INSTAGRAM_TOKEN aktualisiert.")
-    return 0
+    return 0 if secret_setzen("INSTAGRAM_TOKEN", new) else 1
 
 
 # ----------------------------------------------------------------- Kanäle
@@ -376,6 +445,7 @@ def channels(cfg):
         "discord_de": ("de", (env("DISCORD_DE_WEBHOOK"),)),
         "discord_en": ("en", (env("DISCORD_EN_WEBHOOK"),)),
         "instagram": ("ig", (env("INSTAGRAM_USER_ID"), env("INSTAGRAM_TOKEN"))),
+        "threads": (cfg.get("threads_sprache", "en"), (env("THREADS_USER_ID"), env("THREADS_TOKEN"))),
     }
     out = {}
     for k, (lang, cred) in c.items():
@@ -430,9 +500,25 @@ class Poster:
                 il = "de"
             img, _ = image_for(post, il)
             caption = compose_instagram(post, cfg)
+            video = img.with_suffix(".mp4")
+            reel = cfg.get("instagram_reels", False) and video.exists()
+            if self.dry:
+                return "(trocken, Reel)" if reel else "(trocken)"
+            if reel:
+                try:
+                    return instagram_post(cred[0], cred[1], None, caption,
+                                          video_url=instagram_image_url(cfg, video.name)) + " (Reel)"
+                except Exception as e:
+                    print(f"[instagram] {post['id']}: Reel fehlgeschlagen, poste Bild. {str(e)[:200]}")
+            return instagram_post(cred[0], cred[1], instagram_image_url(cfg, img.name), caption)
+        if channel == "threads":
+            tl = lang if lang in post else ("de" if "de" in post else "en")
+            text = compose_threads(post, tl, cfg)
+            img, alt = image_for(post, tl)
             if self.dry:
                 return "(trocken)"
-            return instagram_post(cred[0], cred[1], instagram_image_url(cfg, img.name), caption)
+            url = instagram_image_url(cfg, img.name) if img else None
+            return threads_post(cred[0], cred[1], text, url, alt)
         raise ValueError(channel)
 
 
@@ -541,6 +627,20 @@ def probe(cfg, plan):
                 if not alt:
                     probs.append(f"{pid}/{lang}: Alt-Text fehlt")
             rows.append((due_time(post, lang, cfg), pid, lang, blocked(post, cfg)))
+        if cfg.get("instagram_reels") and post.get("bild"):
+            il = cfg.get("instagram_bildsprache", "en")
+            il = il if il in post else "de"
+            img, _ = image_for(post, il)
+            if img and not img.with_suffix(".mp4").exists():
+                probs.append(f"{pid}: Reel-Video {img.with_suffix('.mp4').name} fehlt (python werkzeug/reels.py), es wird das Bild gepostet")
+        tl = cfg.get("threads_sprache", "en")
+        tl = tl if tl in post else ("de" if "de" in post else "en")
+        if tl in post:
+            try:
+                if len(compose_threads(post, tl, cfg)) > 500:
+                    probs.append(f"{pid}: Threads-Text über 500 Zeichen")
+            except KeyError:
+                pass
         if post.get("bild"):
             cap = compose_instagram(post, cfg)
             if len(cap) > 2200:
@@ -551,7 +651,7 @@ def probe(cfg, plan):
         print(f"  {due:%a %d.%m.%Y %H:%M}  {lang}  {pid}" + (f"   [{bl}]" if bl else ""))
     chans = channels(cfg)
     print("\nKanäle:")
-    for k in ("bluesky_de", "bluesky_en", "mastodon_de", "mastodon_en", "discord_de", "discord_en", "instagram"):
+    for k in ("bluesky_de", "bluesky_en", "mastodon_de", "mastodon_en", "discord_de", "discord_en", "instagram", "threads"):
         if k not in chans:
             print(f"  {k:12s} aus (config.yaml)")
         else:
@@ -581,6 +681,10 @@ def preview(cfg, plan, pid):
         print(f"===== Discord {lang}\n{d}\n")
     if post.get("bild"):
         print(f"===== Instagram\n{compose_instagram(post, cfg)}\n")
+    tl = cfg.get("threads_sprache", "en")
+    tl = tl if tl in post else ("de" if "de" in post else "en")
+    t = compose_threads(post, tl, cfg)
+    print(f"===== Threads {tl} ({len(t)}/500)\n{t}\n")
     return 0
 
 
@@ -613,6 +717,12 @@ def check_connections(cfg):
                 r = requests.get(f"{IG_API}/me", params={"fields": "username,account_type", "access_token": cred[1]}, timeout=30)
                 r.raise_for_status()
                 print(f"[{channel}] OK, angemeldet als @{r.json().get('username')} ({r.json().get('account_type')})")
+            elif channel == "threads":
+                r = requests.get(f"{TH_API}/me", params={"fields": "id,username", "access_token": cred[1]}, timeout=30)
+                r.raise_for_status()
+                j = r.json()
+                print(f"[{channel}] OK, angemeldet als @{j.get('username')} (ID {j.get('id')}"
+                      + (")" if j.get("id") == cred[0] else f", Secret THREADS_USER_ID ist {cred[0]}: bitte auf {j.get('id')} setzen)"))
         except Exception as e:
             ok = False
             msg = getattr(getattr(e, "response", None), "text", "") or str(e)
@@ -634,7 +744,7 @@ def main():
     tz = ZoneInfo(cfg.get("zeitzone", "Europe/Berlin"))
     now = datetime.fromisoformat(a.jetzt).replace(tzinfo=tz) if a.jetzt else datetime.now(tz)
     if a.ig_token_auffrischen:
-        return instagram_refresh()
+        return max(instagram_refresh(), threads_refresh())
     if a.verbindung:
         return check_connections(cfg)
     if a.probe:
