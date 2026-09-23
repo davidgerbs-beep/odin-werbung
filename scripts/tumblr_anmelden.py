@@ -28,6 +28,9 @@ def main():
     if "oauth_verifier=" in v:  # ganze Adresse eingefügt
         v = v.split("oauth_verifier=", 1)[1].split("&")[0].split("#")[0]
     if not v:
+        import hashlib
+        fp = lambda x: hashlib.sha256(x.encode()).hexdigest()[:6]
+        print(f"Fingerabdruck Key {fp(ck)}, Secret {fp(cs)}")
         print(f"Consumer Key: {len(ck)} Zeichen, Secret: {len(cs)} Zeichen "
               f"(erwartet je 50; Sonderzeichen im Key: {sorted(set(c for c in ck if not c.isalnum()))}, "
               f"im Secret: {sorted(set(c for c in cs if not c.isalnum()))})")
