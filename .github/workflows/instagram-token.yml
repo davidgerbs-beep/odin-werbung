@@ -1,6 +1,6 @@
-name: Instagram-Token verlängern
+name: Instagram- und Threads-Token verlängern
 
-# Instagram-Tokens laufen nach 60 Tagen ab. Einmal pro Woche verlängern.
+# Instagram- und Threads-Tokens laufen nach 60 Tagen ab. Einmal pro Woche verlängern.
 on:
   schedule:
     - cron: "30 4 * * 1"
@@ -17,5 +17,6 @@ jobs:
       - run: pip install -r requirements.txt
       - env:
           INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
           GH_PAT: ${{ secrets.GH_PAT }}
         run: python scripts/post.py --ig-token-auffrischen

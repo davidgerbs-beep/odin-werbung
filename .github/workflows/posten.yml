@@ -48,6 +48,8 @@ jobs:
           DISCORD_EN_WEBHOOK: ${{ secrets.DISCORD_EN_WEBHOOK }}
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
           INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_TOKEN }}
+          THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
           MODUS: ${{ github.event.inputs.modus || 'normal' }}
           POST_ID: ${{ github.event.inputs.id }}
         run: |
