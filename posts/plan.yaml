@@ -987,6 +987,70 @@ posts:
     link: https://odin-rpg.pages.dev/en/tables
     tags: ["FoundryVTT"]
 
+- id: f07-foundry-en-generator
+  datum: "2026-09-24"
+  zeit: "21:00"
+  bild:
+    typ: foto
+    datei: foundry_generator.jpg
+    zeile_en: "Creating an agent"
+    alt_en: "The O.D.I.N. character generator asks what the agent heard the first time, with six illustrated cards from a whisper to the voice of someone long dead."
+  en:
+    text: |
+      From question to personnel file: the free character generator builds an O.D.I.N. agent step by step, from the recruitment to the crystal. Export the file, import it into Foundry VTT, and the agent is ready for the first case.
+    mehr: |
+      Watch the whole process: https://youtu.be/uxUXHIswys0
+    link: https://odin-rpg.pages.dev/generator/en/
+    tags: ["FoundryVTT"]
+
+- id: f08-foundry-en-agent
+  datum: "2026-09-25"
+  zeit: "19:30"
+  bild:
+    typ: foto
+    datei: foundry_klasse_agent.jpg
+    zeile_en: "The Agent in Foundry VTT"
+    alt_en: "Foundry VTT: the Agent character sheet of the Infiltrator Moth, with legends, craft and the pillar of the False Bottom."
+  en:
+    text: |
+      The Agent lives behind legends. In Foundry VTT the Agent sheet keeps every cover identity, the craft and the False Bottom in one place, and the dice come straight from the sheet.
+    mehr: |
+      The Agent class in Foundry VTT: https://youtu.be/TN_jBYRH0Ek
+    link: https://odin-rpg.pages.dev/en/books
+    tags: ["FoundryVTT"]
+
+- id: f09-foundry-en-scientist
+  datum: "2026-09-27"
+  zeit: "19:30"
+  bild:
+    typ: foto
+    datei: foundry_klasse_scientist.jpg
+    zeile_en: "The Scientist in Foundry VTT"
+    alt_en: "Foundry VTT: the green Scientist character sheet of the Biochemist Viola, with prototypes, malfunctions and the pillar of the Experimental Setup."
+  en:
+    text: |
+      The Scientist builds what should not work. The sheet in Foundry VTT tracks the prototypes, their malfunctions and the samples, and every roll uses the same white and coloured dice.
+    mehr: |
+      The Scientist class in Foundry VTT: https://youtu.be/NZ7mAKWAV_E
+    link: https://odin-rpg.pages.dev/en/books
+    tags: ["FoundryVTT"]
+
+- id: f10-foundry-en-psion
+  datum: "2026-09-28"
+  zeit: "19:30"
+  bild:
+    typ: foto
+    datei: foundry_klasse_psion.jpg
+    zeile_en: "The Psion in Foundry VTT"
+    alt_en: "Foundry VTT: the blue Psion character sheet of the Telepath Echo, with the helmet, psi points and the Resonance track."
+  en:
+    text: |
+      The Psion hears the Choir. In Foundry VTT the sheet holds the helmet, the psi points and the Resonance, and a power is only one roll away.
+    mehr: |
+      The Psion class in Foundry VTT: https://youtu.be/m8ZdnabzN3E
+    link: https://odin-rpg.pages.dev/en/books
+    tags: ["FoundryVTT"]
+
 # ---------------- Warten auf Anlass ----------------
 - id: roll20
   tag: 84
