@@ -291,14 +291,14 @@ posts:
     text: |
       O.D.I.N. läuft online. Für Foundry VTT (ab Version 14) gibt es ein komplettes System: Bögen, Zwei-Farben-Würfel, Klassenbäume, Waffen, Kräfte, Zauber und den Einstiegseinsatz Nexus-Splitter.
 
-      In Foundry einfach nach O.D.I.N. suchen.
+      Installieren über die Manifest-URL auf der Website. Wie es am Tisch aussieht: https://youtu.be/ZAQX5wzS02I
     link: https://odin-rpg.pages.dev/spieltische.html
     tags: ["FoundryVTT"]
   en:
     text: |
       O.D.I.N. plays online. There is a full Foundry VTT system (v14+): sheets, two-colour dice, class trees, weapons, powers, spells and the intro mission Nexus-Splitter.
 
-      Just search for O.D.I.N. in Foundry.
+      Install it with the manifest URL from the website. See it in action: https://youtu.be/ZAQX5wzS02I
     link: https://odin-rpg.pages.dev/en/tables.html
     tags: ["FoundryVTT"]
 
@@ -883,6 +883,82 @@ posts:
     text: |
       Rules questions, reports from your table, players for Foundry or Roll20: there is now an O.D.I.N. Discord for all of that.
     link: https://discord.gg/HVZu67uAZa
+
+# ---------------- Foundry-Videos (Szenen aus dem Foundry-Canvas, Reels in bilder/<id>_de.mp4 und _en.mp4) ----------------
+- id: f01-foundry-einsatz
+  datum: "2026-09-26"
+  zeit: "18:00"
+  bild:
+    typ: foto
+    datei: foundry_1.jpg
+    zeile_de: "O.D.I.N. in Foundry VTT"
+    zeile_en: "O.D.I.N. in Foundry VTT"
+    alt_de: "Foundry-Karte des Pfandhauses Gwynne an der Clare Road, gezeichnet wie ein Bleistiftplan, mit runden Token der Agenten und Figuren im Laden."
+    alt_en: "Foundry map of Gwynne's pawn shop on Clare Road, drawn like a pencil floor plan, with round tokens of the agents and characters inside the shop."
+  de:
+    text: |
+      So sieht O.D.I.N. in Foundry VTT aus: Moth, Folio und Echo betreten das Pfandhaus Gwynne. Karte, Token und Kamera kommen direkt aus dem Spielsystem, und das ist kostenlos.
+    mehr: |
+      Das ganze Video mit drei Szenen: https://youtu.be/ZAQX5wzS02I
+    link: https://odin-rpg.pages.dev/spieltische
+    tags: ["FoundryVTT"]
+  en:
+    text: |
+      This is O.D.I.N. in Foundry VTT: Moth, Folio and Echo walk into Gwynne's pawn shop. Map, tokens and camera come straight from the free game system. Shown in German, it runs in English too.
+    mehr: |
+      The full video with all three scenes: https://youtu.be/ZAQX5wzS02I
+    link: https://odin-rpg.pages.dev/en/tables
+    tags: ["FoundryVTT"]
+
+- id: f02-foundry-probe
+  datum: "2026-09-29"
+  zeit: "18:00"
+  bild:
+    typ: foto
+    datei: foundry_2.jpg
+    zeile_de: "Eine Probe in Foundry VTT"
+    zeile_en: "A test in Foundry VTT"
+    alt_de: "Der Foundry-Bogen der Agentin Moth, Infiltratorin: Personalakte mit Foto, darunter die Fertigkeiten mit Punkten und Würfelwerten."
+    alt_en: "Moth's Foundry sheet, an infiltrator: personnel file with a photo, below it the skills with dots and dice values."
+  de:
+    text: |
+      Eine Probe in Foundry VTT: Doppelklick auf Moth, Fertigkeit wählen, würfeln. Weiße Würfel treffen ab 5, bunte ab 4. Diesmal: 4 Erfolge, 2 waren nötig.
+    mehr: |
+      Das ganze Video mit drei Szenen: https://youtu.be/ZAQX5wzS02I
+    link: https://odin-rpg.pages.dev/spieltische
+    tags: ["FoundryVTT"]
+  en:
+    text: |
+      A test in Foundry VTT: double-click Moth, pick a skill, roll. White dice hit on 5+, coloured dice on 4+. This time: 4 successes where 2 were needed.
+    mehr: |
+      The full video with all three scenes: https://youtu.be/ZAQX5wzS02I
+    link: https://odin-rpg.pages.dev/en/tables
+    tags: ["FoundryVTT"]
+
+- id: f03-foundry-handout
+  datum: "2026-10-01"
+  zeit: "18:00"
+  bild:
+    typ: foto
+    datei: foundry_3.jpg
+    zeile_de: "Handouts in Foundry VTT"
+    zeile_en: "Handouts in Foundry VTT"
+    alt_de: "Handschriftlicher Brief auf vergilbtem Papier, datiert 2. Dezember 1989, unterschrieben mit Dein Großvater Evan, geöffnet in Foundry VTT."
+    alt_en: "Handwritten letter on yellowed paper, dated 2 December 1989 and signed by grandfather Evan, opened in Foundry VTT."
+  de:
+    text: |
+      Handouts in Foundry VTT: Ein Klick auf die Notiz am Safe, dann „Show Players“, und die ganze Runde liest den Brief von Evan Pryce.
+    mehr: |
+      Das ganze Video mit drei Szenen: https://youtu.be/ZAQX5wzS02I
+    link: https://odin-rpg.pages.dev/spieltische
+    tags: ["FoundryVTT"]
+  en:
+    text: |
+      Handouts in Foundry VTT: click the note at the safe, hit Show Players, and the whole table reads Evan Pryce's letter. (Shown in German.)
+    mehr: |
+      The full video with all three scenes: https://youtu.be/ZAQX5wzS02I
+    link: https://odin-rpg.pages.dev/en/tables
+    tags: ["FoundryVTT"]
 
 # ---------------- Warten auf Anlass ----------------
 - id: roll20
