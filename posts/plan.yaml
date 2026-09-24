@@ -291,14 +291,14 @@ posts:
     text: |
       O.D.I.N. läuft online. Für Foundry VTT (ab Version 14) gibt es ein komplettes System: Bögen, Zwei-Farben-Würfel, Klassenbäume, Waffen, Kräfte, Zauber und den Einstiegseinsatz Nexus-Splitter.
 
-      Installieren über die Manifest-URL auf der Website. Wie es am Tisch aussieht: https://youtu.be/ZAQX5wzS02I
+      Installiert wird über die Manifest-URL auf der Website.
     link: https://odin-rpg.pages.dev/spieltische.html
     tags: ["FoundryVTT"]
   en:
     text: |
       O.D.I.N. plays online. There is a full Foundry VTT system (v14+): sheets, two-colour dice, class trees, weapons, powers, spells and the intro mission Nexus-Splitter.
 
-      Install it with the manifest URL from the website. See it in action: https://youtu.be/ZAQX5wzS02I
+      Install it with the manifest URL from the website.
     link: https://odin-rpg.pages.dev/en/tables.html
     tags: ["FoundryVTT"]
 
