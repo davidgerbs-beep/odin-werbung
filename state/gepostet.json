@@ -1,4 +1,14 @@
 {
+ "f07-foundry-en-generator": {
+  "discord_en": {
+   "ergebnis": "discord:1552758392664105001",
+   "zeit": "2026-09-24T21:07:27.621271+02:00"
+  },
+  "tumblr": {
+   "ergebnis": "tumblr:828665339462205440",
+   "zeit": "2026-09-24T21:07:27.621271+02:00"
+  }
+ },
  "w01-willkommen": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mw74qwwv232u",
