@@ -902,13 +902,6 @@ posts:
       Das ganze Video mit drei Szenen: https://youtu.be/ZAQX5wzS02I
     link: https://odin-rpg.pages.dev/spieltische
     tags: ["FoundryVTT"]
-  en:
-    text: |
-      This is O.D.I.N. in Foundry VTT: Moth, Folio and Echo walk into Gwynne's pawn shop. Map, tokens and camera come straight from the free game system. Shown in German, it runs in English too.
-    mehr: |
-      The full video with all three scenes: https://youtu.be/ZAQX5wzS02I
-    link: https://odin-rpg.pages.dev/en/tables
-    tags: ["FoundryVTT"]
 
 - id: f02-foundry-probe
   datum: "2026-09-29"
@@ -926,13 +919,6 @@ posts:
     mehr: |
       Das ganze Video mit drei Szenen: https://youtu.be/ZAQX5wzS02I
     link: https://odin-rpg.pages.dev/spieltische
-    tags: ["FoundryVTT"]
-  en:
-    text: |
-      A test in Foundry VTT: double-click Moth, pick a skill, roll. White dice hit on 5+, coloured dice on 4+. This time: 4 successes where 2 were needed.
-    mehr: |
-      The full video with all three scenes: https://youtu.be/ZAQX5wzS02I
-    link: https://odin-rpg.pages.dev/en/tables
     tags: ["FoundryVTT"]
 
 - id: f03-foundry-handout
@@ -952,11 +938,52 @@ posts:
       Das ganze Video mit drei Szenen: https://youtu.be/ZAQX5wzS02I
     link: https://odin-rpg.pages.dev/spieltische
     tags: ["FoundryVTT"]
+
+- id: f04-foundry-en-probe
+  datum: "2026-09-26"
+  zeit: "19:30"
+  bild:
+    typ: foto
+    datei: foundry_en_1.jpg
+    zeile_en: "Skill checks in Foundry VTT"
+    alt_en: "Foundry VTT screen: an Investigator's character sheet with red and white O.D.I.N. dice tumbling across it."
   en:
     text: |
-      Handouts in Foundry VTT: click the note at the safe, hit Show Players, and the whole table reads Evan Pryce's letter. (Shown in German.)
+      A skill check in Foundry VTT: Raven searches the miners' museum. Perception against Hard (3), white dice hit on 5+, coloured dice on 4+. It works, and then the ghost of Liese Hartmann steps out of the dark.
     mehr: |
-      The full video with all three scenes: https://youtu.be/ZAQX5wzS02I
+      The full video with all three scenes: https://youtu.be/FXwu2DbkXsc
+    link: https://odin-rpg.pages.dev/en/tables
+    tags: ["FoundryVTT"]
+
+- id: f05-foundry-en-kampf
+  datum: "2026-09-29"
+  zeit: "19:30"
+  bild:
+    typ: foto
+    datei: foundry_en_2.jpg
+    zeile_en: "Combat in Foundry VTT"
+    alt_en: "Foundry VTT screen: the attack dialog for a 9 mm pistol against Mercenary 2, next to a pencil-drawn tunnel map with agent tokens and a defeated mercenary marked with a skull."
+  en:
+    text: |
+      Combat in Foundry VTT, deep in the Old Elbe Tunnel: Brandt opens up with the assault rifle and the first mercenary goes down. Initiative, attack and damage come straight from the sheet.
+    mehr: |
+      The full video with all three scenes: https://youtu.be/FXwu2DbkXsc
+    link: https://odin-rpg.pages.dev/en/tables
+    tags: ["FoundryVTT"]
+
+- id: f06-foundry-en-psi
+  datum: "2026-10-01"
+  zeit: "19:30"
+  bild:
+    typ: foto
+    datei: foundry_en_3.jpg
+    zeile_en: "Psi powers in Foundry VTT"
+    alt_en: "Foundry VTT screen: a cellar map with a chalk circle and candles, a blue swirl of psychic light around two agent tokens and a violet glow inside the circle."
+  en:
+    text: |
+      Psi powers in Foundry VTT: in a cellar in Anderlecht, Echo reads Maarten's mind. Critical success, two Psi points gone, a blue glow around her. Then something answers from the chalk circle.
+    mehr: |
+      The full video with all three scenes: https://youtu.be/FXwu2DbkXsc
     link: https://odin-rpg.pages.dev/en/tables
     tags: ["FoundryVTT"]
 
