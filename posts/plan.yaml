@@ -1170,13 +1170,13 @@ posts:
     text: |
       Für Discord gibt es jetzt einen kostenlosen O.D.I.N.-Bot. Er würfelt Proben, ganze Akten für die Spielleitung und fertige Agenten, führt die Initiative im Kampf und kennt 281 Würfeltabellen, alle Gegner und die Regeln.
     mehr: |
-      Mit /akte bekommt die Spielleitung eine komplette Akte, die nur sie sieht, und schickt der Runde per Knopf das Briefing. Der Bot lässt sich zu einem Server hinzufügen oder nur für dich, dann funktioniert er überall in Discord. Ausprobieren kannst du ihn im Funkraum: https://discord.gg/HVZu67uAZa
+      Mit /akte bekommt die Spielleitung eine komplette Akte, die nur sie sieht. Ausprobieren kannst du den Bot im Funkraum: https://discord.gg/HVZu67uAZa
     link: https://odin-rpg.pages.dev/discord
     tags: ["Discord"]
   en:
     text: |
       There is now a free O.D.I.N. bot for Discord. It rolls checks, whole case files for the GM and ready agents, keeps the initiative in combat and knows 281 random tables, every enemy and the rules.
     mehr: |
-      With /file the GM gets a complete case file that only they see, and one button sends the table the briefing. Add the bot to a server or just for yourself, then it works everywhere on Discord. Try it in the radio room: https://discord.gg/HVZu67uAZa
+      With /file the GM gets a complete case file that only they see. Try the bot in the radio room: https://discord.gg/HVZu67uAZa
     link: https://odin-rpg.pages.dev/en/discord
     tags: ["Discord"]
