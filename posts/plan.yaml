@@ -1099,3 +1099,58 @@ posts:
     link: https://odin-rpg.pages.dev/en/books
     tags: ["FoundryVTT"]
 
+
+# ---------------- Weitere Spieltische (Owlbear Rodeo, Let's Role; Übergabe vom Foundry-Chat 25.09.) ----------------
+
+- id: owlbear
+  datum: "2026-10-03"
+  zeit: "10:30"
+  zeit_en: "17:00"
+  bild:
+    typ: zitat
+    de: "Owlbear Rodeo\n\nPersonalakte in vier Reitern\nWeiße und bunte Würfel\nJeder Wurf für alle am Tisch\nImport aus dem Generator"
+    en: "Owlbear Rodeo\n\nPersonnel file in four tabs\nWhite and coloured dice\nEvery roll shared with the table\nImport from the generator"
+    quelle_de: "Kostenlose Erweiterung"
+    quelle_en: "Free extension"
+    alt_de: "Texttafel: Die O.D.I.N.-Erweiterung für Owlbear Rodeo mit Personalakte in vier Reitern, weißen und bunten Würfeln, Würfen für alle am Tisch und Import aus dem Generator."
+    alt_en: "Text card: the O.D.I.N. extension for Owlbear Rodeo with a personnel file in four tabs, white and coloured dice, rolls shared with the table and import from the generator."
+  de:
+    text: |
+      O.D.I.N. läuft jetzt auch in Owlbear Rodeo. Die kostenlose Erweiterung bringt die Personalakte, weiße und bunte Würfel, Angriffe, Grauen-Proben, Kräfte und Zauber. Jeder Wurf erscheint bei allen am Tisch.
+    mehr: |
+      Agenten aus dem Charaktergenerator liest die Erweiterung per Datei ein. Installiert wird sie über den Link auf der Seite Virtuelle Spieltische.
+    link: https://odin-rpg.pages.dev/spieltische
+    tags: ["OwlbearRodeo"]
+  en:
+    text: |
+      O.D.I.N. now runs in Owlbear Rodeo. The free extension brings the personnel file, white and coloured dice, attacks, horror checks, powers and spells. Every roll shows up for everyone at the table.
+    mehr: |
+      Agents from the character generator are imported from their file. Install it with the link on the Virtual Tabletops page.
+    link: https://odin-rpg.pages.dev/en/tables
+    tags: ["OwlbearRodeo"]
+
+- id: letsrole
+  datum: "2026-10-06"
+  zeit: "18:00"
+  bild:
+    typ: zitat
+    de: "Let's Role\n\nPersonalakte mit Reitern\nZwei-Farben-Würfelpool\nAngriffe, Kräfte, Zauber\nAuf Deutsch und Englisch"
+    en: "Let's Role\n\nPersonnel file with tabs\nTwo-colour dice pool\nAttacks, powers, spells\nIn English and German"
+    quelle_de: "Kostenloses System"
+    quelle_en: "Free system"
+    alt_de: "Texttafel: Das O.D.I.N.-System auf Let's Role mit Personalakte, Zwei-Farben-Würfelpool, Angriffen, Kräften und Zaubern, auf Deutsch und Englisch."
+    alt_en: "Text card: the O.D.I.N. system on Let's Role with personnel file, two-colour dice pool, attacks, powers and spells, in English and German."
+  de:
+    text: |
+      O.D.I.N. gibt es jetzt auch auf Let's Role, im Browser und für alle kostenlos: Personalakte, weiße und bunte Würfel, Angriffe, Grauen-Proben, Kräfte und Zauber, auf Deutsch und Englisch.
+    mehr: |
+      Direkt zum System: https://lets-role.com/system/odin-occult-dynamics-intelligence-network-28559
+    link: https://odin-rpg.pages.dev/spieltische
+    tags: ["LetsRole"]
+  en:
+    text: |
+      O.D.I.N. is now on Let's Role, in the browser and free for everyone: personnel file, white and coloured dice, attacks, horror checks, powers and spells, in English and German.
+    mehr: |
+      Straight to the system: https://lets-role.com/system/odin-occult-dynamics-intelligence-network-28559
+    link: https://odin-rpg.pages.dev/en/tables
+    tags: ["LetsRole"]
