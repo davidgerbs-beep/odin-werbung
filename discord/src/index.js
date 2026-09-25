@@ -11,6 +11,7 @@ import { pool, werfen, auswerten, ergebnisArt, SCHWIERIGKEITEN } from './regeln.
 import { wurfSvg, zeileText, TEXTE } from './bild.js';
 import { EMOJIS } from './emojis.js';
 import { vorschlaege, tabelle, gegner, regel } from './nachschlagen.js';
+import { akte, briefing, agent, initiativeStart, initiativeKnopf, initiativeFormular } from './akte.js';
 
 const FARBEN = { grandios: 0xd9b36c, erfolg: 0x6fb37a, patzer: 0xd0574a, fehlschlag: 0xaa9e8c, offen: 0xebe2d3 };
 
@@ -155,15 +156,30 @@ async function interaktion(request, env, origin) {
         bonus: zahl(o.bonus, 0, 3), malus: zahl(o.penalty ?? o.malus, 0, 20), probe: kurz(o.check ?? o.probe, 40), wer: nutzer,
       }, await modus(env)));
     }
+    if (name === 'file') return json(akte(lang, optionen(i.data).show === true));
+    if (name === 'agent') { const o = optionen(i.data); return json(agent(lang, o.class, o.show !== false)); }
+    if (name === 'initiative') return json(initiativeStart(lang));
     if (name === 'odin') {
       const text = lang === 'de'
-        ? '**O.D.I.N.-Bot**\n`/wurf weiß bunt` würfelt eine Probe: weiße Würfel (Attribut) treffen ab 5, bunte (Fertigkeit) ab 4. Optional Schwierigkeit, Bonus (bis 3, zusätzliche weiße Würfel) und Malus (nimmt erst weiße, dann bunte weg) sowie der Name der Probe.\nOhne Würfel gibt es einen Verzweiflungswurf: ein weißer W6, trifft nur auf 6.\n`/tabelle` würfelt auf einer der 281 Würfeltabellen (Namen, Orte, Hinweise, Artefakte …).\n`/gegner` zeigt die Werte aus dem Bedrohungsatlas, nur für dich, mit Knöpfen für die Angriffe.\n`/regel` schlägt eine Regel nach.\nRegeln und alle Bücher kostenlos: https://odin-rpg.pages.dev'
-        : '**O.D.I.N. bot**\n`/roll white coloured` rolls a check: white dice (attribute) hit on 5+, coloured dice (skill) on 4+. Optional difficulty, bonus (up to 3 extra white dice), penalty (removes white dice first, then coloured) and the name of the check.\nWith no dice you make a desperation roll: one white d6, hits only on 6.\n`/table` rolls on one of the 281 random tables (names, places, clues, artefacts …).\n`/threat` shows stats from the Threat Atlas, only to you, with buttons for the attacks.\n`/rule` looks up a rule.\nRules and all books for free: https://odin-rpg.pages.dev/en/';
+        ? '**O.D.I.N.-Bot**\n`/wurf weiß bunt` würfelt eine Probe: weiße Würfel (Attribut) treffen ab 5, bunte (Fertigkeit) ab 4. Optional Schwierigkeit, Bonus (bis 3, zusätzliche weiße Würfel) und Malus (nimmt erst weiße, dann bunte weg) sowie der Name der Probe.\nOhne Würfel gibt es einen Verzweiflungswurf: ein weißer W6, trifft nur auf 6.\n`/tabelle` würfelt auf einer der 281 Würfeltabellen (Namen, Orte, Hinweise, Artefakte …).\n`/gegner` zeigt die Werte aus dem Bedrohungsatlas, nur für dich, mit Knöpfen für die Angriffe.\n`/regel` schlägt eine Regel nach.\n`/akte` würfelt eine komplette Akte für die Spielleitung, mit Knopf fürs Briefing an alle.\n`/agent` würfelt Name, Klasse und Hintergrund eines Agenten, die Werte kommen aus dem Charaktergenerator.\n`/initiative` legt die Zugreihenfolge für einen Kampf an: eintragen, weiterschalten, Runden zählen.\nRegeln und alle Bücher kostenlos: https://odin-rpg.pages.dev'
+        : '**O.D.I.N. bot**\n`/roll white coloured` rolls a check: white dice (attribute) hit on 5+, coloured dice (skill) on 4+. Optional difficulty, bonus (up to 3 extra white dice), penalty (removes white dice first, then coloured) and the name of the check.\nWith no dice you make a desperation roll: one white d6, hits only on 6.\n`/table` rolls on one of the 281 random tables (names, places, clues, artefacts …).\n`/threat` shows stats from the Threat Atlas, only to you, with buttons for the attacks.\n`/rule` looks up a rule.\n`/file` rolls a complete file for the GM, with a button to brief the table.\n`/agent` rolls name, class and background of an agent; stats come from the character generator.\n`/initiative` sets up turn order for a fight: join, advance, count rounds.\nRules and all books for free: https://odin-rpg.pages.dev/en/';
       return json({ type: 4, data: { content: text, flags: 64 } });
     }
   }
+  if (i.type === 5) { // Formular (Initiative)
+    const [art, l] = String(i.data.custom_id).split('|');
+    const werte = {};
+    for (const zeile of i.data.components || []) for (const f of zeile.components || []) werte[f.custom_id] = f.value;
+    const r = initiativeFormular(l === 'en' ? 'en' : 'de', art, i.message, werte);
+    if (r) return json(r);
+  }
   if (i.type === 3) { // Knopf
     const [art, weiss, bunt, schw, bonus, malus, ...rest] = String(i.data.custom_id).split('|');
+    const l2 = weiss === 'en' ? 'en' : 'de';
+    if (art === 'ab') return json(briefing(l2, bunt));
+    if (art === 'an') return json(akte(l2, bunt === '1'));
+    if (art === 'ag') return json(agent(l2, bunt, schw !== '0'));
+    if (art === 'ie' || art === 'iw' || art === 'ir' || art === 'ix') { const r = initiativeKnopf(l2, art, i.message); if (r) return json(r); }
     if (art === 'n' || art === 'v') {
       return json(wurfAntwort(origin, lang, {
         weiss: zahl(weiss, 0, 15), bunt: zahl(bunt, 0, 15), schw: zahl(schw, 0, 5), bonus: zahl(bonus, 0, 3), malus: zahl(malus, 0, 20),
