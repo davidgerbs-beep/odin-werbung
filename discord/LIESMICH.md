@@ -7,6 +7,9 @@ Slash-Befehle für O.D.I.N.:
 - `/tabelle` (englisch `/table`): würfelt auf einer der 281 Würfeltabellen aus den Büchern (Namen, Orte, Hinweise, Artefakte, Klassenfragen …). Suche per Autovervollständigung, Knopf „Nochmal“. Standard: für alle sichtbar.
 - `/gegner` (englisch `/threat`): Werte aus dem Bedrohungsatlas (242 Einträge). Standard: nur für den Aufrufer sichtbar (Spoiler), mit `zeigen: True` für alle. Knöpfe würfeln die Angriffe (verdeckt, wenn die Karte verdeckt ist).
 - `/regel` (englisch `/rule`): schlägt eine Regelseite nach (79 Seiten). Standard: nur für den Aufrufer.
+- `/akte` (englisch `/file`): würfelt eine komplette Akte aus den Zufallsakten (Kapitel I bis IV): Name, Farbe, Meldung, Anlass, Zeitdruck, Region und Schauplatz, Ursprung mit „Was die Zelle zuerst bemerkt“ und „Was dahintersteckt“, dazu Wahrheit, Komplikation, Wendung und mögliches Ende. Sonderfälle des Ursprungs (Mischform, Roter Hering, nichts Übernatürliches) werden aufgelöst. Standard: nur für den Aufrufer. Knopf „Briefing an alle“ zeigt öffentlich nur Name, Farbe, Meldung, Anlass und Zeitdruck (die Zeilen stehen in der custom_id). Das zweite Wort des Aktennamens kommt aus einem Block mit demselben Geschlecht wie das erste (die Listen sind in Sechserblöcken das/der/die geordnet).
+- `/agent`: würfelt Name (Region und Geschlecht zufällig), Klasse und Spezialisierung (Option `klasse`, sonst zufällig), Rekrutierungsweg, Antrieb, die „erste …“-Tabelle und den Preis der Spezialisierung, Eigenheit und Geheimnis. Werte gibt es nicht, dafür der Link zum Charaktergenerator. Knopf „Nochmal“.
+- `/initiative`: öffentliche Zugreihenfolge. „Eintragen“ öffnet ein Formular (Name, Initiative, WE), „Weiter“ schaltet zum Nächsten und zählt Runden, „Austragen“ entfernt jemanden, „Kampf beenden“ friert die Liste ein. Sortierung wie im Grundregelwerk (Initiative, dann WE, dann W6, der nur bei Gleichstand gezeigt wird). Der Stand steht in der Nachricht selbst, der Worker speichert nichts.
 - `/odin`: kurze Hilfe.
 Sprache richtet sich nach der Discord-Sprache des Nutzers (Deutsch oder Englisch).
 
@@ -26,7 +29,7 @@ oder lokal: `node scripts/befehle.mjs` und `node scripts/emojis.mjs` mit denselb
 ## Lokal testen
 `npx wrangler dev`, dann `node test/sig.mjs` und `node test/send.mjs` (signierte Test-Interaktionen).
 
-## Daten für /tabelle, /gegner, /regel
+## Daten für /tabelle, /gegner, /regel, /akte, /agent
 Kommen aus den Kompendien des Foundry-Systems (Repository odin-foundry, Ordner packs). Neu bauen, wenn sich dort etwas ändert:
-`npm i --no-save classic-level@1 && node scripts/daten.mjs ../odin-foundry`, danach `src/daten/de.json` und `en.json` einchecken.
+`npm i --no-save classic-level@1 && node scripts/daten.mjs ../odin-foundry`, danach `src/daten/de.json` und `en.json` einchecken. `/akte` und `/agent` suchen ihre Tabellen über den genauen Namen (Liste oben in `src/akte.js`); wird eine Tabelle in Foundry umbenannt, dort nachziehen.
 Befehle neu anmelden: Workflow „Discord einrichten“.
