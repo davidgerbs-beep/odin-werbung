@@ -999,7 +999,7 @@ posts:
     text: |
       From question to personnel file: the free character generator builds an O.D.I.N. agent step by step, from the recruitment to the crystal. Export the file, import it into Foundry VTT, and the agent is ready for the first case.
     mehr: |
-      Watch the whole process: https://youtu.be/uxUXHIswys0
+      Watch the whole process: https://youtu.be/3jPA2JQMJ8Q
     link: https://odin-rpg.pages.dev/generator/en/
     tags: ["FoundryVTT"]
 
@@ -1015,7 +1015,7 @@ posts:
     text: |
       The Agent lives behind legends. In Foundry VTT the Agent sheet keeps every cover identity, the craft and the False Bottom in one place, and the dice come straight from the sheet.
     mehr: |
-      The Agent class in Foundry VTT: https://youtu.be/TN_jBYRH0Ek
+      The Agent class in Foundry VTT: https://youtu.be/Qgh9mYze0Bw
     link: https://odin-rpg.pages.dev/en/books
     tags: ["FoundryVTT"]
 
@@ -1031,7 +1031,7 @@ posts:
     text: |
       The Scientist builds what should not work. The sheet in Foundry VTT tracks the prototypes, their malfunctions and the samples, and every roll uses the same white and coloured dice.
     mehr: |
-      The Scientist class in Foundry VTT: https://youtu.be/NZ7mAKWAV_E
+      The Scientist class in Foundry VTT: https://youtu.be/ory6lumi2TQ
     link: https://odin-rpg.pages.dev/en/books
     tags: ["FoundryVTT"]
 
@@ -1047,7 +1047,55 @@ posts:
     text: |
       The Psion hears the Choir. In Foundry VTT the sheet holds the helmet, the psi points and the Resonance, and a power is only one roll away.
     mehr: |
-      The Psion class in Foundry VTT: https://youtu.be/m8ZdnabzN3E
+      The Psion class in Foundry VTT: https://youtu.be/zpBlEI6Hokk
+    link: https://odin-rpg.pages.dev/en/books
+    tags: ["FoundryVTT"]
+
+- id: f11-foundry-en-thaumaturge
+  datum: "2026-09-30"
+  zeit: "19:30"
+  bild:
+    typ: foto
+    datei: foundry_klasse_thaumaturge.jpg
+    zeile_en: "The Thaumaturge in Foundry VTT"
+    alt_en: "Foundry VTT: the ochre Thaumaturge character sheet of the Thaumaturgist Folio, with the crystal, the magic energy and the Whisper."
+  en:
+    text: |
+      The Thaumaturge speaks to the crystal. In Foundry VTT the sheet keeps the crystal, the magic energy and the Whisper in view, and every spell is one roll with white and coloured dice.
+    mehr: |
+      The Thaumaturge class in Foundry VTT: https://youtu.be/dWvgIe0c4-E
+    link: https://odin-rpg.pages.dev/en/books
+    tags: ["FoundryVTT"]
+
+- id: f12-foundry-en-soldier
+  datum: "2026-10-02"
+  zeit: "19:30"
+  bild:
+    typ: foto
+    datei: foundry_klasse_soldier.jpg
+    zeile_en: "The Soldier in Foundry VTT"
+    alt_en: "Foundry VTT: the grey Soldier character sheet of the Stormbreaker Brandt, with the silver, the basic training and the modules of the arsenal."
+  en:
+    text: |
+      The Soldier carries ashsilver. In Foundry VTT the sheet tracks the silver, the basic training and the arsenal, and attack and damage come straight from the sheet.
+    mehr: |
+      The Soldier class in Foundry VTT: https://youtu.be/xjV46pvo40A
+    link: https://odin-rpg.pages.dev/en/books
+    tags: ["FoundryVTT"]
+
+- id: f13-foundry-en-investigator
+  datum: "2026-10-04"
+  zeit: "19:30"
+  bild:
+    typ: foto
+    datei: foundry_klasse_investigator.jpg
+    zeile_en: "The Investigator in Foundry VTT"
+    alt_en: "Foundry VTT: the red Investigator character sheet of the Paranormal Detective Raven, with the open cases and the pillar on the wall."
+  en:
+    text: |
+      The Investigator follows the threads. In Foundry VTT the sheet holds the open cases, the pieces of evidence and the Wall, and every clue starts with a roll.
+    mehr: |
+      The Investigator class in Foundry VTT: https://youtu.be/XkGSVYNn4-I
     link: https://odin-rpg.pages.dev/en/books
     tags: ["FoundryVTT"]
 
