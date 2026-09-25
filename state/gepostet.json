@@ -26,9 +26,29 @@
   }
  },
  "f08-foundry-en-agent": {
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwel4dbcuo2o",
+   "zeit": "2026-09-25T22:07:36.137286+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1553135931832279114",
+   "zeit": "2026-09-25T22:07:36.137286+02:00"
+  },
   "instagram": {
    "ergebnis": "instagram:18067485371773100 (Reel)",
    "zeit": "2026-09-25T21:07:25.440224+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117333482634783935",
+   "zeit": "2026-09-25T22:07:36.137286+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:17896647636394134",
+   "zeit": "2026-09-25T22:07:36.137286+02:00"
+  },
+  "tumblr": {
+   "ergebnis": "tumblr:828759738704609280",
+   "zeit": "2026-09-25T22:07:36.137286+02:00"
   }
  },
  "w01-willkommen": {
