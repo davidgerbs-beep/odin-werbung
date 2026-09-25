@@ -52,6 +52,27 @@ const befehle = [
     ],
   },
   {
+    name: 'file', name_localizations: { de: 'akte' },
+    description: 'Roll a complete O.D.I.N. file for the GM (only you see it)', description_localizations: { de: 'Eine komplette O.D.I.N.-Akte für die Spielleitung würfeln (nur du siehst sie)' },
+    integration_types: [0, 1], contexts: [0, 1, 2],
+    options: [
+      { type: 5, name: 'show', name_localizations: { de: 'zeigen' }, description: 'Show everything to everyone (default: no, contains spoilers)', description_localizations: { de: 'Alles für alle zeigen (Standard: nein, enthält Spoiler)' } },
+    ],
+  },
+  {
+    name: 'agent', description: 'Roll name, class and background of an O.D.I.N. agent', description_localizations: { de: 'Name, Klasse und Hintergrund eines O.D.I.N.-Agenten würfeln' },
+    integration_types: [0, 1], contexts: [0, 1, 2],
+    options: [
+      { type: 3, name: 'class', name_localizations: { de: 'klasse' }, description: 'Class (default: random)', description_localizations: { de: 'Klasse (Standard: zufällig)' },
+        choices: ['Agent', 'Investigator', 'Psion', 'Scientist', 'Soldier', 'Thaumaturge'].map((n, k) => ({ name: n, name_localizations: { de: n === 'Thaumaturge' ? 'Thaumaturg' : n }, value: String(k) })) },
+      { type: 5, name: 'show', name_localizations: { de: 'zeigen' }, description: 'Visible to everyone (default: yes)', description_localizations: { de: 'Für alle sichtbar (Standard: ja)' } },
+    ],
+  },
+  {
+    name: 'initiative', description: 'Turn order for a fight, with rounds', description_localizations: { de: 'Zugreihenfolge für einen Kampf, mit Runden' },
+    integration_types: [0, 1], contexts: [0, 1, 2],
+  },
+  {
     name: 'odin', description: 'How the O.D.I.N. bot works', description_localizations: { de: 'So funktioniert der O.D.I.N.-Bot' },
     integration_types: [0, 1], contexts: [0, 1, 2],
   },
