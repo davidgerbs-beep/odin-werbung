@@ -1154,3 +1154,29 @@ posts:
       Straight to the system: https://lets-role.com/system/odin-occult-dynamics-intelligence-network-28559
     link: https://odin-rpg.pages.dev/en/tables
     tags: ["LetsRole"]
+
+- id: discord-bot
+  datum: "2026-10-08"
+  zeit: "18:00"
+  bild:
+    typ: zitat
+    de: "Der O.D.I.N.-Bot\n\n/wurf  Proben\n/tabelle  281 Tabellen\n/gegner  Gegnerwerte\n/regel  Regeln"
+    en: "The O.D.I.N. bot\n\n/roll  checks\n/table  281 random tables\n/threat  Threat Atlas\n/rule  look up rules"
+    quelle_de: "Kostenlos für Discord"
+    quelle_en: "Free for Discord"
+    alt_de: "Texttafel: Der O.D.I.N.-Bot für Discord mit den Befehlen /wurf für Proben, /tabelle für 281 Tabellen, /gegner für Gegnerwerte und /regel für Regeln."
+    alt_en: "Text card: the O.D.I.N. bot for Discord with the commands /roll, /table, /threat and /rule."
+  de:
+    text: |
+      Für Discord gibt es jetzt einen kostenlosen O.D.I.N.-Bot: Proben mit weißen und bunten Würfeln, 281 Würfeltabellen aus den Büchern, Gegnerwerte für die Spielleitung und Regeln zum Nachschlagen.
+    mehr: |
+      Er lässt sich zu einem Server hinzufügen oder nur für dich, dann funktioniert er in jedem Server und in Direktnachrichten. Ausprobieren kannst du ihn im Funkraum: https://discord.gg/HVZu67uAZa
+    link: https://odin-rpg.pages.dev/discord
+    tags: ["Discord"]
+  en:
+    text: |
+      There is now a free O.D.I.N. bot for Discord: checks with white and coloured dice, 281 random tables from the books, threat stats for the GM and rules to look up.
+    mehr: |
+      Add it to a server or just for yourself, then it works in every server and in direct messages. Try it in the radio room: https://discord.gg/HVZu67uAZa
+    link: https://odin-rpg.pages.dev/en/discord
+    tags: ["Discord"]
