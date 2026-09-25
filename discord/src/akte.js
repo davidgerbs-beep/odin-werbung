@@ -52,7 +52,7 @@ const T = {
     nurDu: 'Only you can see this file. “Briefing” sends name, colour, report, incident and time pressure to everyone.',
     briefing: 'Briefing for everyone', neu: 'New file', quelle: 'Random Files, chapters I to IV',
     agent: 'Agent', klasse: 'Class', weg: 'How O.D.I.N. found you', antrieb: 'Drive', eigenheit: 'Quirk', geheimnis: 'Secret',
-    preis: 'The price', nochmal: 'Reroll', werte: `Stats in the character generator: ${GENERATOR}`,
+    preis: 'The Price', nochmal: 'Reroll', werte: `Stats in the character generator: ${GENERATOR}`,
     ini: 'Initiative', runde: 'Round', leer: 'Nobody here yet. Press “Join”, enter name and initiative.',
     eintragen: 'Join', weiter: 'Next', raus: 'Remove', ende2: 'End combat', beendet: 'Combat over.',
     name: 'Name', iniWert: 'Initiative (DEX plus bonuses)', we: 'Wisdom (WIS), breaks ties', anzahl: 'Who should leave? (name)',
@@ -78,7 +78,7 @@ function zeile(t) {
 const text = (t, i) => (t && t.z[i] ? t.z[i][2] : '?');
 const wurf = (lang, key) => { const t = tab(lang, N[lang][key]); const i = zeile(t); return { t, i, s: text(t, i) }; };
 const kopf = (s) => { const m = /^\*\*(.+?)\*\*/.exec(s); return m ? m[1] : null; };
-const titel = (lang, n) => (lang === 'de' ? `Akte „${n}“` : `File “${n}”`);
+const titel = (lang, n) => (lang === 'de' ? `Akte „${n}“` : `File “${n.replace(/\b[a-z]/g, (c) => c.toUpperCase())}”`);
 const feld = (name, value) => ({ name: String(name).slice(0, 256), value: String(value || '?').slice(0, 1024) });
 
 // ---------- /akte ----------
@@ -184,7 +184,7 @@ export function agent(lang, klasseWunsch, zeigen = true) {
   const nm = name(lang);
   const felder = [
     feld(L.klasse, `${klasse} · ${spez}`),
-    feld(L.weg, wurf(lang, 'weg').s), feld(L.antrieb, wurf(lang, 'antrieb').s),
+    feld(L.weg, wurf(lang, 'weg').s), feld(L.antrieb, lang === 'de' ? wurf(lang, 'antrieb').s.replace(/^(\*\*.+?\*\*: )er /, '$1weil er ') : wurf(lang, 'antrieb').s),
   ];
   if (erste) felder.push(feld(erste.n.slice(spez.length + 1).trim(), text(erste, zeile(erste))));
   felder.push(feld(L.preis, text(preis, zeile(preis))), feld(L.eigenheit, wurf(lang, 'eigenheit').s), feld(L.geheimnis, wurf(lang, 'geheimnis').s));
