@@ -9,6 +9,7 @@ import barlow700 from '../schriften/Barlow-700.ttf';
 import specialElite from '../schriften/SpecialElite-400.ttf';
 import { pool, werfen, auswerten, ergebnisArt, SCHWIERIGKEITEN } from './regeln.js';
 import { wurfSvg, zeileText, TEXTE } from './bild.js';
+import { EMOJIS } from './emojis.js';
 
 const FARBEN = { grandios: 0xd9b36c, erfolg: 0x6fb37a, patzer: 0xd0574a, fehlschlag: 0xaa9e8c, offen: 0xebe2d3 };
 
@@ -52,6 +53,7 @@ const kurz = (s, n) => String(s || '').replace(/\s+/g, ' ').trim().slice(0, n);
 let emojiCache = null;
 async function emojis(env) {
   if (emojiCache) return emojiCache;
+  if (!env.DISCORD_BOT_TOKEN) return EMOJIS; // feste IDs aus src/emojis.js
   if (!env.DISCORD_BOT_TOKEN || !env.DISCORD_APPLICATION_ID) return null;
   const r = await fetch(`https://discord.com/api/v10/applications/${env.DISCORD_APPLICATION_ID}/emojis`, { headers: { Authorization: `Bot ${env.DISCORD_BOT_TOKEN}` } });
   if (!r.ok) return null;
