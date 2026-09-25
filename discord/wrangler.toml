@@ -6,3 +6,8 @@ compatibility_date = "2026-09-01"
 type = "Data"
 globs = ["**/*.ttf"]
 fallthrough = true
+
+# Öffentliche Werte (nicht geheim). Der Bot-Token wird im Worker nicht gebraucht.
+[vars]
+DISCORD_APPLICATION_ID = "1553052376947237076"
+DISCORD_PUBLIC_KEY = "4ea9fc99a806b0d2185aa51407ec53f8c5c92b4d180c1017de1a274659add7c6"
