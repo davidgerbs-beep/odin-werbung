@@ -139,7 +139,7 @@ posts:
 
       Am Ende steht ein fertiger Klassenbogen als PDF. Läuft im Browser, auch auf dem Handy.
     mehr: |
-      Die Datei lässt sich in Foundry VTT und in den Roll20-Bogen einlesen.
+      Die Datei lässt sich in Foundry VTT einlesen.
     link: https://odin-rpg.pages.dev/generator/
   en:
     text: |
@@ -147,7 +147,7 @@ posts:
 
       You end up with a finished class sheet as a PDF. Runs in the browser, on phones too.
     mehr: |
-      The export file imports into Foundry VTT and into the Roll20 sheet.
+      The export file imports into Foundry VTT.
     link: https://odin-rpg.pages.dev/generator/en/
 
 - id: w02-akten
@@ -877,11 +877,11 @@ posts:
     alt_en: "Stone house on an island in a reservoir at dusk, light in the windows, a jetty leading across."
   de:
     text: |
-      Fragen zu den Regeln, Berichte aus euren Runden, Mitspieler für Foundry oder Roll20: Dafür gibt es jetzt einen O.D.I.N.-Discord, den Funkraum.
+      Fragen zu den Regeln, Berichte aus euren Runden, Mitspieler für Foundry: Dafür gibt es jetzt einen O.D.I.N.-Discord, den Funkraum.
     link: https://discord.gg/HVZu67uAZa
   en:
     text: |
-      Rules questions, reports from your table, players for Foundry or Roll20: there is now an O.D.I.N. Discord for all of that.
+      Rules questions, reports from your table, players for Foundry: there is now an O.D.I.N. Discord for all of that.
     link: https://discord.gg/HVZu67uAZa
 
 # ---------------- Foundry-Videos (Szenen aus dem Foundry-Canvas, Reels in bilder/<id>_de.mp4 und _en.mp4) ----------------
@@ -1099,26 +1099,3 @@ posts:
     link: https://odin-rpg.pages.dev/en/books
     tags: ["FoundryVTT"]
 
-# ---------------- Warten auf Anlass ----------------
-- id: roll20
-  tag: 84
-  zeit: "18:00"
-  wartet_auf: "Roll20-Bogen gemergt (PR 15483 am 25.09. abgelehnt: erst Test in der Roll20-Sandbox, dann neu einreichen). Zeile löschen und tag auf den gewünschten Tag setzen."
-  bild:
-    typ: zitat
-    de: "Roll20\n\nDer O.D.I.N.-Bogen ist da.\nCharaktere aus dem Generator einlesen, losspielen."
-    en: "Roll20\n\nThe O.D.I.N. sheet is live.\nImport characters from the generator and play."
-    quelle_de: "Virtuelle Spieltische"
-    quelle_en: "Virtual tabletops"
-    alt_de: "Texttafel: Der O.D.I.N.-Bogen für Roll20 ist verfügbar."
-    alt_en: "Text card: The O.D.I.N. sheet for Roll20 is available."
-  de:
-    text: |
-      O.D.I.N. gibt es jetzt auch auf Roll20. Beim Anlegen eines Spiels den Bogen O.D.I.N. wählen, Charakter aus dem Generator im Reiter Dossier einfügen, fertig.
-    link: https://odin-rpg.pages.dev/spieltische.html
-    tags: ["Roll20"]
-  en:
-    text: |
-      O.D.I.N. is now on Roll20. Pick the O.D.I.N. sheet when you create a game, paste your generator export on the Dossier tab, done.
-    link: https://odin-rpg.pages.dev/en/tables.html
-    tags: ["Roll20"]
