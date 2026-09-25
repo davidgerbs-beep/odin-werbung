@@ -1108,12 +1108,12 @@ posts:
   zeit_en: "17:00"
   bild:
     typ: zitat
-    de: "Owlbear Rodeo\n\nPersonalakte in vier Reitern\nWeiße und bunte Würfel\nJeder Wurf für alle am Tisch\nImport aus dem Generator"
-    en: "Owlbear Rodeo\n\nPersonnel file in four tabs\nWhite and coloured dice\nEvery roll shared with the table\nImport from the generator"
+    de: "Owlbear Rodeo\n\nPersonalakte mit Reitern\nWeiße und bunte Würfel\nWürfe für alle sichtbar\nImport aus dem Generator"
+    en: "Owlbear Rodeo\n\nPersonnel file with tabs\nWhite and coloured dice\nRolls shared with all\nGenerator import"
     quelle_de: "Kostenlose Erweiterung"
     quelle_en: "Free extension"
-    alt_de: "Texttafel: Die O.D.I.N.-Erweiterung für Owlbear Rodeo mit Personalakte in vier Reitern, weißen und bunten Würfeln, Würfen für alle am Tisch und Import aus dem Generator."
-    alt_en: "Text card: the O.D.I.N. extension for Owlbear Rodeo with a personnel file in four tabs, white and coloured dice, rolls shared with the table and import from the generator."
+    alt_de: "Texttafel: Die O.D.I.N.-Erweiterung für Owlbear Rodeo mit Personalakte mit Reitern, weißen und bunten Würfeln, Würfen für alle sichtbar und Import aus dem Generator."
+    alt_en: "Text card: the O.D.I.N. extension for Owlbear Rodeo with a personnel file with tabs, white and coloured dice, rolls shared with everyone and generator import."
   de:
     text: |
       O.D.I.N. läuft jetzt auch in Owlbear Rodeo. Die kostenlose Erweiterung bringt die Personalakte, weiße und bunte Würfel, Angriffe, Grauen-Proben, Kräfte und Zauber. Jeder Wurf erscheint bei allen am Tisch.
