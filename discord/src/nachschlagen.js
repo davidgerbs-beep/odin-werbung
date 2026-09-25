@@ -75,6 +75,8 @@ function wirf(art) {
   const a = w6(); return { wert: a, wuerfel: [a] };
 }
 
+const fett = (t) => (t.includes('**') ? t : `**${t}**`);
+
 export function tabelle(wert, lang, emo, verdeckt = false) {
   const liste = DATEN[lang].tabellen;
   const [i, t] = finde(liste, wert);
@@ -89,7 +91,7 @@ export function tabelle(wert, lang, emo, verdeckt = false) {
       flags: verdeckt ? 64 : 0,
       embeds: [{
         color: FARBE, title: t.n,
-        description: `${w}${wieviel}\n\n**${zeile ? zeile[2] : '?'}**`.slice(0, 4000),
+        description: `${w}${wieviel}\n\n${fett(zeile ? zeile[2] : '?')}`.slice(0, 4000),
         footer: { text: [t.k, t.q].filter(Boolean).join(' · ').slice(0, 200) },
       }],
       components: [{ type: 1, components: [{ type: 2, style: 2, label: T[lang].nochmal, custom_id: `t|${lang}|${i}|${verdeckt ? 1 : 0}` }] }],
@@ -104,8 +106,12 @@ export function gegner(wert, lang, zeigen) {
   if (!g) return nichts(lang);
   const L = T[lang];
   const kopf = [g.st && `**${L.stufe}:** ${g.st}`, g.u && `**${L.ursprung}:** ${g.u}`].filter(Boolean).join('  ·  ');
-  const werte = `**${L.vrl}:** ${g.v} / ${g.r} / ${g.lp}  ·  **${L.ini}:** ${g.i}  ·  **${L.aktionen}:** ${g.ak}  ·  **${L.grauen}:** ${g.g}`;
-  const beschreibung = [kopf, g.t && `*${g.t}*`, werte, g.b].filter(Boolean).join('\n\n');
+  // Die Beschreibung beginnt oft mit einer kursiven Zeile „Stufe · Ursprung“: die steht schon im Kopf
+  const text = String(g.t || '').replace(/^\*[^*\n]{1,80}\*\s*\n+/, '').trim();
+  const vrlDoppelt = /\*\*(Verteidigung|Defen[cs]e)/.test(g.b || '');
+  const werte = [!vrlDoppelt && `**${L.vrl}:** ${g.v} / ${g.r} / ${g.lp}`, `**${L.ini}:** ${g.i}`, `**${L.aktionen}:** ${g.ak}`, `**${L.grauen}:** ${g.g}`]
+    .filter(Boolean).join('  ·  ');
+  const beschreibung = [kopf, text, werte, g.b].filter(Boolean).join('\n\n');
   const knoepfe = g.p.slice(0, 5).map((p, k) => ({
     type: 2, style: 1, label: `${p.n} ${p.w}+${p.b}`.slice(0, 80),
     custom_id: `${zeigen ? 'n' : 'v'}|${p.w}|${p.b}|0|0|0|${p.n}${p.s ? ` (${L.schaden} ${p.s})` : ''}`.slice(0, 100),
