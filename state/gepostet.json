@@ -25,6 +25,12 @@
    "zeit": "2026-09-24T21:07:27.621271+02:00"
   }
  },
+ "f08-foundry-en-agent": {
+  "instagram": {
+   "ergebnis": "instagram:18067485371773100 (Reel)",
+   "zeit": "2026-09-25T21:07:25.440224+02:00"
+  }
+ },
  "w01-willkommen": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mw74qwwv232u",
@@ -68,9 +74,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwe5oupox325",
    "zeit": "2026-09-25T18:07:26.145712+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwehqpnm672o",
+   "zeit": "2026-09-25T21:07:25.440224+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1553075495799886047",
    "zeit": "2026-09-25T18:07:26.145712+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1553120782547157092",
+   "zeit": "2026-09-25T21:07:25.440224+02:00"
   },
   "instagram": {
    "ergebnis": "instagram:17968916193151561 (Reel)",
@@ -79,6 +93,18 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117332538174899216",
    "zeit": "2026-09-25T18:07:26.145712+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117333245932974059",
+   "zeit": "2026-09-25T21:07:25.440224+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:17988608892105628",
+   "zeit": "2026-09-25T21:07:25.440224+02:00"
+  },
+  "tumblr": {
+   "ergebnis": "tumblr:828755997786079232",
+   "zeit": "2026-09-25T21:07:25.440224+02:00"
   }
  }
 }
