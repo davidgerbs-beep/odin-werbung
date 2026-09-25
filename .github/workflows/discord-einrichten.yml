@@ -1,0 +1,28 @@
+name: Discord einrichten
+
+# Meldet die Slash-Befehle des O.D.I.N.-Bots an und lädt die Würfel-Emojis hoch.
+# Einmal nach dem Anlegen der Discord-Anwendung starten und nach Änderungen an discord/scripts oder discord/emojis.
+on:
+  workflow_dispatch:
+
+jobs:
+  einrichten:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: discord
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Befehle anmelden
+        env:
+          DISCORD_APPLICATION_ID: ${{ secrets.DISCORD_APPLICATION_ID }}
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: node scripts/befehle.mjs
+      - name: Würfel-Emojis hochladen
+        env:
+          DISCORD_APPLICATION_ID: ${{ secrets.DISCORD_APPLICATION_ID }}
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: node scripts/emojis.mjs
