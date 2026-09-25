@@ -1103,7 +1103,7 @@ posts:
 - id: roll20
   tag: 84
   zeit: "18:00"
-  wartet_auf: "Roll20-Bogen gemergt (PR 15483). Zeile löschen und tag auf den gewünschten Tag setzen."
+  wartet_auf: "Roll20-Bogen gemergt (PR 15483 am 25.09. abgelehnt: erst Test in der Roll20-Sandbox, dann neu einreichen). Zeile löschen und tag auf den gewünschten Tag setzen."
   bild:
     typ: zitat
     de: "Roll20\n\nDer O.D.I.N.-Bogen ist da.\nCharaktere aus dem Generator einlesen, losspielen."
