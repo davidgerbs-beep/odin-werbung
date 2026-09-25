@@ -10,6 +10,7 @@ import specialElite from '../schriften/SpecialElite-400.ttf';
 import { pool, werfen, auswerten, ergebnisArt, SCHWIERIGKEITEN } from './regeln.js';
 import { wurfSvg, zeileText, TEXTE } from './bild.js';
 import { EMOJIS } from './emojis.js';
+import { vorschlaege, tabelle, gegner, regel } from './nachschlagen.js';
 
 const FARBEN = { grandios: 0xd9b36c, erfolg: 0x6fb37a, patzer: 0xd0574a, fehlschlag: 0xaa9e8c, offen: 0xebe2d3 };
 
@@ -69,7 +70,7 @@ const emojiText = (m, farbe, werte, schwelle) => werte.map((v) => {
 }).join(' ');
 
 // Wurf ausführen und die Antwort für Discord bauen
-function wurfAntwort(origin, lang, { weiss, bunt, schw, bonus, malus, probe, wer }, emo = null) {
+function wurfAntwort(origin, lang, { weiss, bunt, schw, bonus, malus, probe, wer }, emo = null, verdeckt = false) {
   const [pw, pb] = pool(weiss, bunt, bonus, malus);
   const r = werfen(pw, pb);
   const e = auswerten(r, schw);
@@ -82,8 +83,9 @@ function wurfAntwort(origin, lang, { weiss, bunt, schw, bonus, malus, probe, wer
   const q = new URLSearchParams({ w: e.w.join(''), b: e.b.join(''), s: String(schw), v: e.verzweiflung ? '1' : '0', t: titel, z: zeile, l: lang });
   const art = ergebnisArt(e);
   const alt = `${TEXTE[lang].art[art]}: ${e.erfolge}${schw ? '/' + schw : ''}`;
-  const id = ['n', weiss, bunt, schw, bonus, malus].join('|') + '|' + kurz(probe, 40);
-  const idBonus = ['n', weiss, bunt, schw, Math.min(3, bonus + 1), malus].join('|') + '|' + kurz(probe, 40);
+  const vz = verdeckt ? 'v' : 'n';
+  const id = [vz, weiss, bunt, schw, bonus, malus].join('|') + '|' + kurz(probe, 40);
+  const idBonus = [vz, weiss, bunt, schw, Math.min(3, bonus + 1), malus].join('|') + '|' + kurz(probe, 40);
   let embed;
   if (emo) {
     const T2 = TEXTE[lang];
@@ -103,6 +105,7 @@ function wurfAntwort(origin, lang, { weiss, bunt, schw, bonus, malus, probe, wer
   return {
     type: 4,
     data: {
+      flags: verdeckt ? 64 : 0,
       embeds: [embed],
       components: [{ type: 1, components: [
         { type: 2, style: 2, label: lang === 'de' ? 'Nochmal' : 'Reroll', custom_id: id.slice(0, 100) },
@@ -130,8 +133,21 @@ async function interaktion(request, env, origin) {
   const lang = sprache(i);
   const nutzer = i.member?.nick || i.member?.user?.global_name || i.user?.global_name || i.member?.user?.username || i.user?.username || '';
 
+  if (i.type === 4) { // Autovervollständigung
+    const fokus = (i.data.options || []).find((o) => o.focused);
+    const was = { table: 'tabelle', threat: 'gegner', rule: 'regel' }[i.data.name];
+    return json({ type: 8, data: { choices: was && fokus ? vorschlaege(was, fokus.value, lang) : [] } });
+  }
+
   if (i.type === 2) { // Befehl
     const name = i.data.name;
+    if (name === 'table' || name === 'threat' || name === 'rule') {
+      const o = optionen(i.data);
+      const wert = String(o.name ?? o.topic ?? '');
+      if (name === 'table') return json(tabelle(wert, lang, await modus(env), o.show === false));
+      if (name === 'threat') return json(gegner(wert, lang, o.show === true));
+      return json(regel(wert, lang, o.show === true));
+    }
     if (name === 'roll' || name === 'wurf') {
       const o = optionen(i.data);
       return json(wurfAntwort(origin, lang, {
@@ -141,18 +157,21 @@ async function interaktion(request, env, origin) {
     }
     if (name === 'odin') {
       const text = lang === 'de'
-        ? '**O.D.I.N.-Bot**\n`/wurf weiß bunt` würfelt eine Probe: weiße Würfel (Attribut) treffen ab 5, bunte (Fertigkeit) ab 4. Optional Schwierigkeit, Bonus (bis 3, zusätzliche weiße Würfel) und Malus (nimmt erst weiße, dann bunte weg) sowie der Name der Probe.\nOhne Würfel gibt es einen Verzweiflungswurf: ein weißer W6, trifft nur auf 6.\nRegeln und alle Bücher kostenlos: https://odin-rpg.pages.dev'
-        : '**O.D.I.N. bot**\n`/roll white coloured` rolls a check: white dice (attribute) hit on 5+, coloured dice (skill) on 4+. Optional difficulty, bonus (up to 3 extra white dice), penalty (removes white dice first, then coloured) and the name of the check.\nWith no dice you make a desperation roll: one white d6, hits only on 6.\nRules and all books for free: https://odin-rpg.pages.dev/en/';
+        ? '**O.D.I.N.-Bot**\n`/wurf weiß bunt` würfelt eine Probe: weiße Würfel (Attribut) treffen ab 5, bunte (Fertigkeit) ab 4. Optional Schwierigkeit, Bonus (bis 3, zusätzliche weiße Würfel) und Malus (nimmt erst weiße, dann bunte weg) sowie der Name der Probe.\nOhne Würfel gibt es einen Verzweiflungswurf: ein weißer W6, trifft nur auf 6.\n`/tabelle` würfelt auf einer der 281 Würfeltabellen (Namen, Orte, Hinweise, Artefakte …).\n`/gegner` zeigt die Werte aus dem Bedrohungsatlas, nur für dich, mit Knöpfen für die Angriffe.\n`/regel` schlägt eine Regel nach.\nRegeln und alle Bücher kostenlos: https://odin-rpg.pages.dev'
+        : '**O.D.I.N. bot**\n`/roll white coloured` rolls a check: white dice (attribute) hit on 5+, coloured dice (skill) on 4+. Optional difficulty, bonus (up to 3 extra white dice), penalty (removes white dice first, then coloured) and the name of the check.\nWith no dice you make a desperation roll: one white d6, hits only on 6.\n`/table` rolls on one of the 281 random tables (names, places, clues, artefacts …).\n`/threat` shows stats from the Threat Atlas, only to you, with buttons for the attacks.\n`/rule` looks up a rule.\nRules and all books for free: https://odin-rpg.pages.dev/en/';
       return json({ type: 4, data: { content: text, flags: 64 } });
     }
   }
   if (i.type === 3) { // Knopf
     const [art, weiss, bunt, schw, bonus, malus, ...rest] = String(i.data.custom_id).split('|');
-    if (art === 'n') {
+    if (art === 'n' || art === 'v') {
       return json(wurfAntwort(origin, lang, {
         weiss: zahl(weiss, 0, 15), bunt: zahl(bunt, 0, 15), schw: zahl(schw, 0, 5), bonus: zahl(bonus, 0, 3), malus: zahl(malus, 0, 20),
         probe: kurz(rest.join('|'), 40), wer: nutzer,
-      }, await modus(env)));
+      }, await modus(env), art === 'v'));
+    }
+    if (art === 't') { // Tabelle nochmal: t|sprache|index|verdeckt
+      return json(tabelle(bunt, weiss === 'en' ? 'en' : 'de', await modus(env), schw === '1'));
     }
   }
   return json({ type: 4, data: { content: '?', flags: 64 } });
