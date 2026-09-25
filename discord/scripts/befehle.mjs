@@ -25,6 +25,33 @@ const befehle = [
     ],
   },
   {
+    name: 'table', name_localizations: { de: 'tabelle' },
+    description: 'Roll on an O.D.I.N. random table', description_localizations: { de: 'Auf einer O.D.I.N.-Würfeltabelle würfeln' },
+    integration_types: [0, 1], contexts: [0, 1, 2],
+    options: [
+      { type: 3, name: 'name', description: 'Table (type to search)', description_localizations: { de: 'Tabelle (tippen zum Suchen)' }, required: true, autocomplete: true, max_length: 100 },
+      { type: 5, name: 'show', name_localizations: { de: 'zeigen' }, description: 'Visible to everyone (default: yes)', description_localizations: { de: 'Für alle sichtbar (Standard: ja)' } },
+    ],
+  },
+  {
+    name: 'threat', name_localizations: { de: 'gegner' },
+    description: 'Stats from the Threat Atlas (only you see them)', description_localizations: { de: 'Werte aus dem Bedrohungsatlas (nur du siehst sie)' },
+    integration_types: [0, 1], contexts: [0, 1, 2],
+    options: [
+      { type: 3, name: 'name', description: 'Threat (type to search)', description_localizations: { de: 'Gegner (tippen zum Suchen)' }, required: true, autocomplete: true, max_length: 100 },
+      { type: 5, name: 'show', name_localizations: { de: 'zeigen' }, description: 'Show to everyone (default: no, contains spoilers)', description_localizations: { de: 'Für alle zeigen (Standard: nein, enthält Spoiler)' } },
+    ],
+  },
+  {
+    name: 'rule', name_localizations: { de: 'regel' },
+    description: 'Look up an O.D.I.N. rule', description_localizations: { de: 'Eine O.D.I.N.-Regel nachschlagen' },
+    integration_types: [0, 1], contexts: [0, 1, 2],
+    options: [
+      { type: 3, name: 'topic', name_localizations: { de: 'thema' }, description: 'Rule (type to search)', description_localizations: { de: 'Regel (tippen zum Suchen)' }, required: true, autocomplete: true, max_length: 100 },
+      { type: 5, name: 'show', name_localizations: { de: 'zeigen' }, description: 'Show to everyone (default: no)', description_localizations: { de: 'Für alle zeigen (Standard: nein)' } },
+    ],
+  },
+  {
     name: 'odin', description: 'How the O.D.I.N. bot works', description_localizations: { de: 'So funktioniert der O.D.I.N.-Bot' },
     integration_types: [0, 1], contexts: [0, 1, 2],
   },
