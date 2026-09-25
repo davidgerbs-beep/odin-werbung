@@ -1,0 +1,8 @@
+{
+  "name": "odin-discord",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "wrangler dev", "deploy": "wrangler deploy", "befehle": "node scripts/befehle.mjs" },
+  "dependencies": { "@resvg/resvg-wasm": "^2.6.2" },
+  "devDependencies": { "wrangler": "^3.114.0" }
+}

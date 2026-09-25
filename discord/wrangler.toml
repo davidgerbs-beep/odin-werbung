@@ -1,0 +1,8 @@
+name = "odin-discord"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+[[rules]]
+type = "Data"
+globs = ["**/*.ttf"]
+fallthrough = true
