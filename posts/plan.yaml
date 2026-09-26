@@ -1332,3 +1332,21 @@ posts:
     mehr: |
       Volume 22 keeps 105 beings on index cards, the way O.D.I.N. knows them. What is really true is written below. Free and ad-free.
     link: https://odin-rpg.pages.dev/en/book/the-registry
+
+- id: foundry-registry-en
+  datum: "2026-09-29"
+  zeit: "19:30"
+  zeit_en: "19:30"
+  bild:
+    typ: foto
+    datei: foundry_registry_sheet.jpg
+    zeile_en: The Registry in Foundry VTT
+    alt_en: "Foundry VTT screen: the adversary sheet of the Man in the Hat from The Registry, with stats, attacks and the buttons Request Knowledge Test and View Index Card."
+  en:
+    text: |
+      The Registry is at the table now. In Foundry VTT all 105 beings from volume 22 sit in the Threat Atlas, with photo and stats. One click asks the table for a knowledge test: every agent rolls and reads only the lines of the file they reached.
+    mehr: |
+      Also new: the Central, with a mood filter for every scene and a teletype for the GM. All of it in 73 seconds: https://youtu.be/Dgg1cQnJgnw
+    link: https://odin-rpg.pages.dev/en/tables
+    tags:
+      - FoundryVTT
