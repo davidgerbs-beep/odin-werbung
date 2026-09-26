@@ -1207,3 +1207,19 @@ posts:
     mehr: |
       With stats for the Core Rulebook, subtypes, cover-ups and hooks, plus registers and D66 encounter tables in the appendix. For the GM, 390 pages, free and ad-free.
     link: https://odin-rpg.pages.dev/en/book/the-registry
+
+- id: owlbear-video-en
+  datum: "2026-10-05"
+  zeit: "19:30"
+  bild:
+    typ: foto
+    datei: owlbear_en_vo.jpg
+    zeile_en: "Owlbear Rodeo in one minute"
+    alt_en: "Owlbear Rodeo screen: a telex from O.D.I.N. Central to all cells in the field, over a pencil-drawn tunnel map with a numbered key."
+  en:
+    text: |
+      One minute of O.D.I.N. in Owlbear Rodeo: Central sends a telex to every cell, the extension keeps the turn order, and every roll shows up for the whole table. It's free.
+    mehr: |
+      The full video with voiceover: https://youtu.be/7zfJCKo9y54
+    link: https://odin-rpg.pages.dev/en/tables
+    tags: ["OwlbearRodeo"]
