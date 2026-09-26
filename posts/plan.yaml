@@ -1223,3 +1223,112 @@ posts:
       The full video with voiceover: https://youtu.be/7zfJCKo9y54
     link: https://odin-rpg.pages.dev/en/tables
     tags: ["OwlbearRodeo"]
+
+# ---------------- Aus der Registratur (Band 22), sonntags ----------------
+- id: reg-schornsteinmann
+  datum: "2026-10-04"
+  zeit: "10:30"
+  zeit_en: "17:00"
+  bild:
+    typ: cover
+    de: reg_schornsteinmann_de.jpg
+    en: reg_schornsteinmann_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: der Schornsteinmann, REG-S-0239, mit Zitat, Registerfeldern und der Spalte „Was man bemerkt“."
+    alt_en: "Index card from Volume 22, The Registry: the Chimney Man, REG-S-0239, with a quote, registry fields and the column “What You Notice”."
+  de:
+    text: |
+      „Das Haus hat keinen Kamin. Die Kleine hat trotzdem einen gemalt, und oben schaut er heraus.“
+
+      Aus der Registratur: der Schornsteinmann. Bradford seit 1884, zuletzt gesehen im Januar 2026.
+    mehr: |
+      Band 22 führt 105 Wesen auf Karteikarten, so wie O.D.I.N. sie kennt. Was wirklich stimmt, steht darunter. Kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+  en:
+    text: |
+      “The house has no chimney. The little one drew one anyway, and he's looking out of the top.”
+
+      From the Registry: the Chimney Man. Bradford since 1884, last seen in January 2026.
+    mehr: |
+      Volume 22 keeps 105 beings on index cards, the way O.D.I.N. knows them. What is really true is written below. Free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+
+- id: reg-kugel
+  datum: "2026-10-11"
+  zeit: "10:30"
+  zeit_en: "17:00"
+  bild:
+    typ: cover
+    de: reg_kugel_de.jpg
+    en: reg_kugel_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: die Kugel über dem Moor, REG-F-0309, mit Zitat, Registerfeldern und der Spalte „Was man bemerkt“."
+    alt_en: "Index card from Volume 22, The Registry: the Sphere over the Moor, REG-F-0309, with a quote, registry fields and the column “What You Notice”."
+  de:
+    text: |
+      „Sieben Oktober lang Messkampagne im Moor. Sie stand jede Nacht über uns. Im Bericht steht: keine Annäherung. Das stimmte ja auch.“
+
+      Aus der Registratur: die Kugel über dem Moor. Das Gras darunter wirft keinen Schatten.
+    mehr: |
+      Band 22 führt 105 Wesen auf Karteikarten, so wie O.D.I.N. sie kennt. Was wirklich stimmt, steht darunter. Kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+  en:
+    text: |
+      “Seven Octobers of measurement campaigns on the moor. It stood over us every night. The report says: no approach. Which was true, too.”
+
+      From the Registry: the Sphere over the Moor. The grass beneath it casts no shadow.
+    mehr: |
+      Volume 22 keeps 105 beings on index cards, the way O.D.I.N. knows them. What is really true is written below. Free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+
+- id: reg-klabautermann
+  datum: "2026-10-18"
+  zeit: "10:30"
+  zeit_en: "17:00"
+  bild:
+    typ: cover
+    de: reg_klabautermann_de.jpg
+    en: reg_klabautermann_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: der Klabautermann, REG-A-0539, mit Zitat, Registerfeldern und der Spalte „Was man bemerkt“."
+    alt_en: "Index card from Volume 22, The Registry: the Klabautermann, REG-A-0539, with a quote, registry fields and the column “What You Notice”."
+  de:
+    text: |
+      „Er hat mir nachts die Mütze an die Koje genagelt, meinen Köm ausgetrunken und das Leck im Vorschiff zugemacht. In dieser Reihenfolge.“
+
+      Aus der Registratur: der Klabautermann. An Bord gibt es keine einzige Ratte.
+    mehr: |
+      Band 22 führt 105 Wesen auf Karteikarten, so wie O.D.I.N. sie kennt. Was wirklich stimmt, steht darunter. Kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+  en:
+    text: |
+      “At night he nailed my cap to the bunk, drank my schnapps and plugged the leak in the forepeak. In that order.”
+
+      From the Registry: the Klabautermann. There is not a single rat on board.
+    mehr: |
+      Volume 22 keeps 105 beings on index cards, the way O.D.I.N. knows them. What is really true is written below. Free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+
+- id: reg-letzter-zug
+  datum: "2026-10-25"
+  zeit: "10:30"
+  zeit_en: "17:00"
+  bild:
+    typ: cover
+    de: reg_letzterzug_de.jpg
+    en: reg_letzterzug_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: der letzte Zug, REG-T-0630, mit Zitat, Registerfeldern und der Spalte „Was man bemerkt“."
+    alt_en: "Index card from Volume 22, The Registry: the Last Train, REG-T-0630, with a quote, registry fields and the column “What You Notice”."
+  de:
+    text: |
+      „In der Einweisung stand: in die Nische, Rücken zur Wand, nicht hinlegen. Der alte Streckenwärter hat gesagt: ‚Legt euch hin.‘ Wir hatten eine Vorschrift.“
+
+      Aus der Registratur: der letzte Zug.
+    mehr: |
+      Band 22 führt 105 Wesen auf Karteikarten, so wie O.D.I.N. sie kennt. Was wirklich stimmt, steht darunter. Kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+  en:
+    text: |
+      “The briefing said: into the niche, back to the wall, don't lie down. The old lineman said: ‘Lie down.’ We had a regulation.”
+
+      From the Registry: the Last Train.
+    mehr: |
+      Volume 22 keeps 105 beings on index cards, the way O.D.I.N. knows them. What is really true is written below. Free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
