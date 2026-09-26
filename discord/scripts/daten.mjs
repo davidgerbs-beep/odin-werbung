@@ -62,12 +62,26 @@ async function baue(lang) {
   daten.tabellen.sort((a, b) => a.n.localeCompare(b.n, lang) || a.o.localeCompare(b.o, lang));
 
   // Gegner (Bedrohungsatlas)
+  // Stufe und Ursprung stehen in den Packs auf Deutsch; für EN über die Sprachdateien des Systems übersetzen
+  const uebersetze = (() => {
+    if (lang !== 'en') return (w) => w;
+    try {
+      const de = JSON.parse(fs.readFileSync(path.join(quelle, 'lang', 'de.json'), 'utf8'));
+      const en = JSON.parse(fs.readFileSync(path.join(quelle, 'lang', 'en.json'), 'utf8'));
+      const karte = {};
+      for (const gruppe of ['Stufen', 'Urspruenge']) {
+        const d = de?.ODIN?.Gegner?.[gruppe] || {}, e = en?.ODIN?.Gegner?.[gruppe] || {};
+        for (const k of Object.keys(d)) if (e[k]) karte[d[k]] = e[k];
+      }
+      return (w) => karte[w] || w;
+    } catch { return (w) => w; }
+  })();
   const g = await lies('odin-gegner' + x);
   const gOrdner = Object.fromEntries(g('folders').map((f) => [f._id, f.name]));
   for (const a of g('actors')) {
     const s = a.system || {};
     daten.gegner.push({
-      n: a.name, o: gOrdner[a.folder] || '', st: s.stufe || '', u: s.ursprung || '',
+      n: a.name, o: gOrdner[a.folder] || '', st: uebersetze(s.stufe || ''), u: uebersetze(s.ursprung || ''),
       g: s.grauen ?? 0, ak: s.aktionen ?? 1, i: s.initiative ?? 0, v: s.verteidigung ?? 0, r: s.ruestung ?? 0,
       lp: (s.lp && s.lp.max) || 0,
       p: (s.pools || []).map((p) => ({ n: p.name, w: p.weiss || 0, b: p.bunt || 0, s: p.schaden || 0, d: p.durchschlag || 0, x: p.notiz || '' })),
