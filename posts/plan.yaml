@@ -1180,3 +1180,30 @@ posts:
       With /file the GM gets a complete case file that only they see. Try the bot in the radio room: https://discord.gg/HVZu67uAZa
     link: https://odin-rpg.pages.dev/en/discord
     tags: ["Discord"]
+
+- id: registratur
+  datum: "2026-09-27"
+  zeit: "14:00"
+  zeit_en: "15:30"
+  bild:
+    typ: cover
+    de: cover_ODIN_22_Registratur.jpg
+    en: cover_ODIN_EN_22_The_Registry.jpg
+    alt_de: "Cover von Band 22, Die Registratur: Bleistiftzeichnung eines alten Mannes in Strickjacke, der vor einem hölzernen Karteischrank eine Karteikarte liest, dahinter eine Kompassrose."
+    alt_en: "Cover of Volume 22, The Registry: pencil drawing of an old man in a cardigan reading an index card at a wooden card cabinet, a compass rose behind him."
+  de:
+    text: |
+      Band 22 ist da: „Die Registratur“. 105 Wesen aus neun Ursprüngen, jedes auf drei Seiten: die Karteikarte, wie O.D.I.N. sie führt, und darunter, was wirklich stimmt.
+
+      Nicht alles auf den Karten ist wahr.
+    mehr: |
+      Dazu Werte nach dem Grundregelwerk, Unterarten, Vertuschungen und Aufhänger, im Anhang Register und W66-Begegnungstabellen. Für die Spielleitung, 390 Seiten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+  en:
+    text: |
+      Volume 22 is out: The Registry. 105 creatures from nine origins, three pages each: the index card as O.D.I.N. keeps it, and below that what is really true.
+
+      Not everything on the cards is.
+    mehr: |
+      With stats for the Core Rulebook, subtypes, cover-ups and hooks, plus registers and D66 encounter tables in the appendix. For the GM, 390 pages, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
