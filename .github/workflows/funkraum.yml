@@ -1,0 +1,26 @@
+name: Funkraum pflegen
+
+# Pflegt den eigenen Discord-Server über den Bot: angeheftete Nachrichten lesen, senden, anheften, lösen.
+# modus lesen: nur anzeigen. modus ausfuehren: handarbeit/funkraum_auftrag.json abarbeiten.
+on:
+  workflow_dispatch:
+    inputs:
+      modus:
+        description: "lesen oder ausfuehren"
+        default: "lesen"
+        type: choice
+        options: [lesen, ausfuehren]
+
+jobs:
+  funkraum:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Funkraum
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: node scripts/funkraum.mjs ${{ inputs.modus }}
