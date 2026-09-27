@@ -153,6 +153,24 @@
    "zeit": "2026-09-27T02:24:18.099850+02:00"
   }
  },
+ "registratur": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwir7syaht2f",
+   "zeit": "2026-09-27T14:07:35.090434+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1553739899583205449",
+   "zeit": "2026-09-27T14:07:35.090434+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18141737161589550 (Reel)",
+   "zeit": "2026-09-27T14:07:35.090434+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117342919627923354",
+   "zeit": "2026-09-27T14:07:35.090434+02:00"
+  }
+ },
  "w01-willkommen": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mw74qwwv232u",
@@ -249,6 +267,10 @@
   "instagram": {
    "ergebnis": "instagram:18116082943965784 (Reel)",
    "zeit": "2026-09-27T11:07:33.936848+02:00"
+  },
+  "instagram_story": {
+   "ergebnis": "story:18142375900567331 (Video)",
+   "zeit": "2026-09-27T14:07:35.090434+02:00"
   },
   "mastodon_de": {
    "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117342211810314894",
