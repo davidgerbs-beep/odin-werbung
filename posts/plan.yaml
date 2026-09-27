@@ -1375,3 +1375,31 @@ posts:
     mehr: |
       105 beings, each on an index card, the way O.D.I.N. knows them. Below that, what is really true. Free and ad-free as a PDF.
     link: https://odin-rpg.pages.dev/en/book/the-registry
+
+# ---------------- Band 23 (27.09., Website live seit 02:55) ----------------
+- id: kartenraum
+  datum: "2026-09-27"
+  zeit: "17:30"
+  zeit_en: "18:30"
+  bild:
+    typ: cover
+    de: cover_ODIN_23_Kartenraum.jpg
+    en: cover_ODIN_EN_23_The_Map_Room.jpg
+    alt_de: "Cover von Band 23, Der Kartenraum: Bleistiftzeichnung einer älteren Frau mit Brille, die an einem Holztisch unter einer Schreibtischlampe einen Grundriss zeichnet, dahinter eine Kompassrose."
+    alt_en: "Cover of Volume 23, The Map Room: pencil drawing of an older woman in glasses drawing a floor plan at a wooden table under a desk lamp, a compass rose behind her."
+  de:
+    text: |
+      Band 23 ist da: „Der Kartenraum“. 160 Karten auf 175 Blättern, mit Bleistift auf Karopapier. Zu fast jedem Einsatz der Reihe liegt hier der Grundriss, der Lageplan oder die Strecke.
+
+      Das Druckblatt zeigt auch den Raum, der auf keinem Plan steht.
+    mehr: |
+      Dazu 60 Musterkarten für eigene Akten und Spieltischdateien mit Raster für Foundry VTT und Owlbear Rodeo. 200 Seiten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/der-kartenraum
+  en:
+    text: |
+      Volume 23 is out: The Map Room. 160 maps on 175 sheets, drawn in pencil on squared paper. For almost every operation in the series, the floor plan, the site plan or the route is here.
+
+      The printed sheet also shows the room that is on no plan.
+    mehr: |
+      Plus 60 template maps for home-made files, and tabletop files with a grid for Foundry VTT and Owlbear Rodeo, one version for the GM and one for the players. 200 pages, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-map-room
