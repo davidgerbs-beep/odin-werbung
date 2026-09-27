@@ -1675,3 +1675,33 @@ posts:
       The full explainer: https://youtu.be/t3cLZ-wi-Lk
       For long campaigns, free.
     link: https://odin-rpg.pages.dev/en/book/shadow-officers
+
+- id: reel-kartenraum
+  datum: "2026-10-09"
+  zeit: "12:30"
+  zeit_en: "14:00"
+  bild:
+    typ: foto
+    datei: reel_kartenraum.jpg
+    zeile_de: "Der Kartenraum, kurz erklärt"
+    zeile_en: "The Map Room, explained"
+    alt_de: "Bleistiftkarte auf Karopapier: ein Stausee im Harz mit geflutetem Dorf, versunkener Kirche und nummerierter Legende."
+    alt_en: "Pencil map on squared paper: a reservoir in the Harz with a flooded village, a sunken church and a numbered key."
+  de:
+    text: |
+      Im Harz liegt ein Dorf, 1959 geflutet. Die Glocke der versunkenen Kirche schlägt jede Nacht um 22:10 Uhr.
+
+      „Der Kartenraum“: 160 Karten auf 175 Blättern, mit Bleistift auf Karopapier.
+    mehr: |
+      Das ganze Erklärvideo: https://youtu.be/WpbbRo2Xz8Q
+      Dazu Karten für Foundry VTT und Owlbear Rodeo, kostenlos.
+    link: https://odin-rpg.pages.dev/buch/der-kartenraum
+  en:
+    text: |
+      In the Harz lies a village, flooded in 1959. The bell of the sunken church strikes every night at 10 past 10.
+
+      The Map Room: 160 maps on 175 sheets, drawn in pencil on squared paper.
+    mehr: |
+      The full explainer: https://youtu.be/msd_hOLizjU
+      Plus maps for Foundry VTT and Owlbear Rodeo, free.
+    link: https://odin-rpg.pages.dev/en/book/the-map-room
