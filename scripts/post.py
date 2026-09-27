@@ -379,27 +379,50 @@ def instagram_story(user_id, token, image_url=None, video_url=None):
     return f"story:{r.json().get('id', '')}"
 
 
-def compose_tumblr(post, lang, cfg):
-    """Tumblr: Bildunterschrift als HTML, Tags getrennt (Tumblr erlaubt viele)."""
-    import html as _h
+def _tumblr_teile(post, lang, cfg):
+    """Gemeinsame Teile für Foto- und Video-Post: Absätze, Link, KI-Hinweis, Tags."""
     p = post[lang]
     paras = [fill(p["text"], cfg)]
     if p.get("mehr"):
         paras.append(fill(p["mehr"], cfg))
     blocks = [b.strip() for x in paras for b in x.split("\n\n") if b.strip()]
-    body = "".join(f"<p>{_h.escape(x).replace(chr(10), '<br>')}</p>" for x in blocks)
     link = p.get("link", "")
-    if link:
-        body += f'<p><a href="{_h.escape(link)}">{_h.escape(show_link(link))}</a></p>'
+    ki = ""
     if is_ki(post):
-        body += "<p><small>" + ("Die Illustrationen sind KI-generiert." if lang == "de" else "The illustrations are AI-generated.") + "</small></p>"
+        ki = "Die Illustrationen sind KI-generiert." if lang == "de" else "The illustrations are AI-generated."
     tags = list(cfg.get("tags", {}).get("tumblr", [])) + list(p.get("tags", []) or [])
     seen, out = set(), []
     for t in tags:
         t = t.lstrip("#")
         if t.lower() not in seen:
             seen.add(t.lower()); out.append(t)
-    return body, out[:30], link
+    return blocks, link, ki, out[:30]
+
+
+def compose_tumblr(post, lang, cfg):
+    """Tumblr: Bildunterschrift als HTML, Tags getrennt (Tumblr erlaubt viele)."""
+    import html as _h
+    blocks, link, ki, tags = _tumblr_teile(post, lang, cfg)
+    body = "".join(f"<p>{_h.escape(x).replace(chr(10), '<br>')}</p>" for x in blocks)
+    if link:
+        body += f'<p><a href="{_h.escape(link)}">{_h.escape(show_link(link))}</a></p>'
+    if ki:
+        body += "<p><small>" + ki + "</small></p>"
+    return body, tags, link
+
+
+def compose_tumblr_npf(post, lang, cfg):
+    """Dieselben Texte wie compose_tumblr, aber als NPF-Textblöcke (für den Video-Post)."""
+    blocks, link, ki, tags = _tumblr_teile(post, lang, cfg)
+    content = [{"type": "text", "text": x} for x in blocks]
+    if link:
+        shown = show_link(link)
+        content.append({"type": "text", "text": shown,
+                        "formatting": [{"start": 0, "end": len(shown), "type": "link", "url": link}]})
+    if ki:
+        content.append({"type": "text", "text": ki,
+                        "formatting": [{"start": 0, "end": len(ki), "type": "small"}]})
+    return content, tags
 
 
 def tumblr_post(blog, cred, caption, tags, link="", image_url=None):
@@ -416,6 +439,32 @@ def tumblr_post(blog, cred, caption, tags, link="", image_url=None):
     if r.status_code >= 400:
         raise RuntimeError(f"Tumblr: {r.status_code} {r.text[:300]}")
     return f"tumblr:{r.json().get('response', {}).get('id_string') or r.json().get('response', {}).get('id', '')}"
+
+
+def tumblr_video_post(blog, cred, content, tags, video_path):
+    """Video-Post über die NPF-API, damit das Reel in Tumblr TV auftaucht.
+
+    multipart/form-data: ein Teil "json" mit den Blöcken, ein Datei-Teil mit der MP4,
+    dessen Feldname der identifier im video-Block ist.
+    """
+    from requests_oauthlib import OAuth1
+    auth = OAuth1(cred[0], cred[1], cred[2], cred[3])
+    ident = "reel"
+    body = {
+        "content": [{"type": "video", "media": [{"type": "video/mp4", "identifier": ident}]}] + list(content),
+        "tags": ",".join(tags),
+    }
+    video_path = Path(video_path)
+    with open(video_path, "rb") as fh:
+        files = {
+            "json": (None, json.dumps(body, ensure_ascii=False), "application/json"),
+            ident: (video_path.name, fh, "video/mp4"),
+        }
+        r = requests.post(f"https://api.tumblr.com/v2/blog/{blog}/posts", files=files, auth=auth, timeout=300)
+    if r.status_code >= 400:
+        raise RuntimeError(f"Tumblr NPF: {r.status_code} {r.text[:300]}")
+    resp = r.json().get("response", {})
+    return f"tumblr:{resp.get('id_string') or resp.get('id', '')}"
 
 
 def threads_post(user_id, token, text, image_url=None, alt=""):
@@ -601,10 +650,19 @@ class Poster:
             tl = lang if lang in post else ("de" if "de" in post else "en")
             caption, tags, link = compose_tumblr(post, tl, cfg)
             img, _ = image_for(post, tl)
+            blog = cfg.get("tumblr_blog", "odin-rpg")
+            # Gleiche Regel wie beim Instagram-Reel: liegt neben dem Bild eine MP4, wird ein Video-Post daraus
+            video = img.with_suffix(".mp4") if img else None
             if self.dry:
-                return "(trocken)"
+                return "(trocken, Video)" if video and video.exists() else "(trocken)"
+            if video and video.exists():
+                try:
+                    content, _ = compose_tumblr_npf(post, tl, cfg)
+                    return tumblr_video_post(blog, cred, content, tags, video)
+                except Exception as e:
+                    print(f"[tumblr] {post['id']}: Video-Post fehlgeschlagen, poste Bild. {str(e)[:200]}")
             url = instagram_image_url(cfg, img.name) if img else None
-            return tumblr_post(cfg.get("tumblr_blog", "odin-rpg"), cred, caption, tags, link, url)
+            return tumblr_post(blog, cred, caption, tags, link, url)
         if channel == "threads":
             tl = lang if lang in post else ("de" if "de" in post else "en")
             text = compose_threads(post, tl, cfg)
