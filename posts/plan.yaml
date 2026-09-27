@@ -1405,3 +1405,273 @@ posts:
     mehr: |
       Plus 60 template maps for home-made files, and tabletop files with a grid for Foundry VTT and Owlbear Rodeo, one version for the GM and one for the players. 200 pages, free and ad-free.
     link: https://odin-rpg.pages.dev/en/book/the-map-room
+
+# ---------------- Reels zu den Erklärvideos (je am Tag nach dem langen Video, Instagram bekommt das EN-Reel) ----------------
+- id: reel-schnellstart
+  datum: "2026-09-29"
+  zeit: "12:30"
+  zeit_en: "14:00"
+  bild:
+    typ: foto
+    datei: reel_schnellstart.jpg
+    zeile_de: "Schnellstart, kurz erklärt"
+    zeile_en: "Quickstart, explained"
+    alt_de: "Standbild aus dem Erklärvideo: ein Mädchen im weißen Kleid steht mit dem Rücken zum Betrachter an einem nebligen See."
+    alt_en: "Still from the explainer: a girl in a white dress stands with her back to the viewer at a misty lake."
+  de:
+    text: |
+      „Nicht jede Lösung ist eine Kugel.“
+
+      Eine Villa am Stausee im Harz, das Tal darunter liegt seit 1959 unter Wasser. Eine Familie ist seit vier Tagen verschwunden. Der Schnellstart, ein Einsatz für einen Abend.
+    mehr: |
+      Das ganze Erklärvideo: https://youtu.be/R0KY-yMK2I4
+      Vier fertige Agenten, Kurzregeln, kostenlos als PDF.
+    link: https://odin-rpg.pages.dev/buch/schnellstart
+  en:
+    text: |
+      “Not every answer is a bullet.”
+
+      A villa by a reservoir in the Harz, the valley below under water since 1959. A family has been missing for four days. The Quickstart, one mission for one evening.
+    mehr: |
+      The full explainer: https://youtu.be/0Cr7hVBRLgc
+      Four ready agents, quick rules, free PDF.
+    link: https://odin-rpg.pages.dev/en/book/quickstart
+
+- id: reel-die-tuer
+  datum: "2026-09-30"
+  zeit: "12:30"
+  zeit_en: "14:00"
+  bild:
+    typ: foto
+    datei: reel_die-tuer.jpg
+    zeile_de: "Die Tür, kurz erklärt"
+    zeile_en: "The Door, explained"
+    alt_de: "Standbild aus dem Erklärvideo: eine alte Wanduhr und ein Röhrenradio auf einem Tisch."
+    alt_en: "Still from the explainer: an old wall clock and a valve radio on a table."
+  de:
+    text: |
+      Unter einem Institut bei Bern klopft etwas, alle vier Minuten. Die Abstände werden kürzer.
+
+      „Die Tür“: eine Kampagne in vier Akten mit 24 Missionen.
+    mehr: |
+      Das ganze Erklärvideo: https://youtu.be/yrjhnH4WIek
+      Kostenlos als PDF, mit Handouts.
+    link: https://odin-rpg.pages.dev/buch/die-tuer
+  en:
+    text: |
+      Under an institute near Bern something knocks every four minutes. The gaps are getting shorter.
+
+      The Door: a campaign in four acts, 24 missions.
+    mehr: |
+      The full explainer: https://youtu.be/5CwYJmkNLcE
+      Free PDF, handouts included.
+    link: https://odin-rpg.pages.dev/en/book/the-door
+
+- id: reel-graue-akten
+  datum: "2026-10-01"
+  zeit: "12:30"
+  zeit_en: "14:00"
+  bild:
+    typ: foto
+    datei: reel_graue-akten.jpg
+    zeile_de: "Graue Akten, kurz erklärt"
+    zeile_en: "Grey Files, explained"
+    alt_de: "Standbild aus dem Erklärvideo: eine Hand zieht eine Akte aus einer Karteischublade."
+    alt_en: "Still from the explainer: a hand pulls a folder from a filing drawer."
+  de:
+    text: |
+      Ein Pflegekind in Hamburg, das mehr kann, als es sollte. Ein Raum in einem Prager Hort, den es nicht geben dürfte. Ein Visier in einem Pfandhaus in Cardiff.
+
+      „Graue Akten“ beginnen mit etwas, das nicht sein darf.
+    mehr: |
+      Das ganze Erklärvideo: https://youtu.be/8Zr17S_u2kc
+      Mit Handouts und Karten, kostenlos.
+    link: https://odin-rpg.pages.dev/buch/graue-akten
+  en:
+    text: |
+      A foster child in Hamburg who can do more than he should. A room in a Prague hold that should not exist. A visor in a Cardiff pawn shop.
+
+      Grey Files start with something that must not be.
+    mehr: |
+      The full explainer: https://youtu.be/YmWhZ4B5acc
+      Handouts and maps included, free.
+    link: https://odin-rpg.pages.dev/en/book/grey-files
+
+- id: reel-nordlicht-1977
+  datum: "2026-10-02"
+  zeit: "12:30"
+  zeit_en: "14:00"
+  bild:
+    typ: foto
+    datei: reel_nordlicht-1977.jpg
+    zeile_de: "Nordlicht 1977, kurz erklärt"
+    zeile_en: "Nordlicht 1977, explained"
+    alt_de: "Standbild aus dem Erklärvideo: ein alter Stahlhelm in Nahaufnahme."
+    alt_en: "Still from the explainer: an old steel helmet in close-up."
+  de:
+    text: |
+      In der Nacht zum 14. Februar 1977 öffnet sich in Nordlicht eine Tür, und 41 Menschen gehen hindurch.
+
+      „Nordlicht 1977“: Ihr spielt nicht dieselben Agenten über dreißig Jahre, sondern eine Linie.
+    mehr: |
+      Das ganze Erklärvideo: https://youtu.be/IaZYLo3-MVo
+      Kampagne mit Handouts, kostenlos.
+    link: https://odin-rpg.pages.dev/buch/nordlicht-1977
+  en:
+    text: |
+      On the night of 14 February 1977 a door opens at Nordlicht, and 41 people walk through.
+
+      Nordlicht 1977: you don't play the same agents for thirty years. You play a lineage.
+    mehr: |
+      The full explainer: https://youtu.be/ExE6Lpwy3YA
+      Campaign with handouts, free.
+    link: https://odin-rpg.pages.dev/en/book/nordlicht-1977
+
+- id: reel-einzelgaenger
+  datum: "2026-10-03"
+  zeit: "12:30"
+  zeit_en: "14:00"
+  bild:
+    typ: foto
+    datei: reel_einzelgaenger.jpg
+    zeile_de: "Einzelgänger, kurz erklärt"
+    zeile_en: "Lone Operative, explained"
+    alt_de: "Standbild aus dem Erklärvideo: das Cover von Lone Operative, eine einzelne Gestalt auf einem nebligen Weg."
+    alt_en: "Still from the explainer: the Lone Operative cover, a single figure on a misty path."
+  de:
+    text: |
+      Für die Abende, an denen niemand da ist: ein Spieler, ein Agent, keine Spielleitung.
+
+      „Einzelgänger“ nutzt dieselben Würfel wie das Grundregelwerk. Was dein Agent nicht wissen kann, beantwortet das Orakel.
+    mehr: |
+      Das ganze Erklärvideo: https://youtu.be/SFx9srb5mg0
+      Kostenlos als PDF.
+    link: https://odin-rpg.pages.dev/buch/einzelgaenger
+  en:
+    text: |
+      For the evenings when nobody else is around: one player, one agent, no GM.
+
+      Lone Operative uses the same dice as the Core Rulebook. What your agent can't know, the oracle answers.
+    mehr: |
+      The full explainer: https://youtu.be/EXliF3NTUqA
+      Free PDF.
+    link: https://odin-rpg.pages.dev/en/book/lone-operative
+
+- id: reel-horte-der-welt
+  datum: "2026-10-04"
+  zeit: "12:30"
+  zeit_en: "14:00"
+  bild:
+    typ: foto
+    datei: reel_horte-der-welt.jpg
+    zeile_de: "Horte der Welt, kurz erklärt"
+    zeile_en: "Holds of the World, explained"
+    alt_de: "Standbild aus dem Erklärvideo: eine Tür am Ende einer Kellertreppe zwischen Mauer und Zaun."
+    alt_en: "Still from the explainer: a door at the bottom of cellar stairs between a wall and a fence."
+  de:
+    text: |
+      Ein Hort ist kein Hauptquartier, sondern Versteck, Werkstatt und Krankenstation, meist unter Häusern, auf die niemand zweimal schaut.
+
+      „Horte der Welt“: neun Stützpunkte von London bis Cusco.
+    mehr: |
+      Das ganze Erklärvideo: https://youtu.be/eHLqhuud6PU
+      Kostenlos als PDF, die Grundrisse auch für Foundry und Owlbear.
+    link: https://odin-rpg.pages.dev/buch/horte-der-welt
+  en:
+    text: |
+      A hold is no headquarters. It's a hideout, a workshop and an infirmary, mostly beneath houses nobody looks at twice.
+
+      Holds of the World: nine bases from London to Cusco.
+    mehr: |
+      The full explainer: https://youtu.be/fOli_PNaZ3E
+      Free PDF, floor plans also for Foundry and Owlbear.
+    link: https://odin-rpg.pages.dev/en/book/holds-of-the-world
+
+- id: reel-zufallsakten
+  datum: "2026-10-05"
+  zeit: "12:30"
+  zeit_en: "14:00"
+  bild:
+    typ: foto
+    datei: reel_zufallsakten.jpg
+    zeile_de: "Zufallsakten, kurz erklärt"
+    zeile_en: "Random Files, explained"
+    alt_de: "Standbild aus dem Erklärvideo: das Cover von Random Files, eine Frau an einem Tisch voller Akten."
+    alt_en: "Still from the explainer: the Random Files cover, a woman at a table full of files."
+  de:
+    text: |
+      Die Zelle biegt ab, eine Akte fehlt, und jemand braucht einen Namen, für den nichts vorbereitet ist.
+
+      „Zufallsakten“: Ein Wurf setzt eine Szene in Gang, zehn Würfe ergeben das Gerüst einer Akte.
+    mehr: |
+      Das ganze Erklärvideo: https://youtu.be/CBxTkDvJCRU
+      Für die Spielleitung, kostenlos.
+    link: https://odin-rpg.pages.dev/buch/zufallsakten
+  en:
+    text: |
+      The cell takes a turn, a file is missing, and someone needs a name nobody prepared.
+
+      Random Files: one roll gets a scene moving, ten rolls build the frame of a file.
+    mehr: |
+      The full explainer: https://youtu.be/EvilH3TFGok
+      For the GM, free.
+    link: https://odin-rpg.pages.dev/en/book/random-files
+
+- id: reel-die-anderen-dienste
+  datum: "2026-10-06"
+  zeit: "12:30"
+  zeit_en: "14:00"
+  bild:
+    typ: cover
+    de: cover_ODIN_15_Die_anderen_Dienste.jpg
+    en: cover_ODIN_EN_15_The_Other_Services.jpg
+    alt_de: "Cover von Die anderen Dienste: Bleistiftzeichnung eines Mannes mit Schiebermütze und langem Mantel, der über die Schulter blickt."
+    alt_en: "Cover of The Other Services: pencil drawing of a man in a flat cap and long coat looking over his shoulder."
+  de:
+    text: |
+      Morrow Biologics in Leiden züchtet Zellen aus Rissen. STILLWATER tarnt sich als Wetterbehörde. In China sagt das Siebte Büro Erdbeben voraus, danach öffnen sich Risse.
+
+      „Die anderen Dienste“: O.D.I.N. ist nicht allein.
+    mehr: |
+      Das ganze Erklärvideo: https://youtu.be/-Zg_ellflGQ
+      Kostenlos als PDF.
+    link: https://odin-rpg.pages.dev/buch/die-anderen-dienste
+  en:
+    text: |
+      Morrow Biologics in Leiden grows cells from rifts. STILLWATER hides behind a weather agency. In China the Seventh Bureau predicts earthquakes, and rifts open afterwards.
+
+      The Other Services: O.D.I.N. is not alone.
+    mehr: |
+      The full explainer: https://youtu.be/uz_RYbyFZjc
+      Free PDF.
+    link: https://odin-rpg.pages.dev/en/book/the-other-services
+
+- id: reel-schattenoffiziere
+  datum: "2026-10-07"
+  zeit: "12:30"
+  zeit_en: "14:00"
+  bild:
+    typ: foto
+    datei: reel_schattenoffiziere.jpg
+    zeile_de: "Schattenoffiziere, kurz erklärt"
+    zeile_en: "Shadow Officers, explained"
+    alt_de: "Standbild aus dem Erklärvideo: Personalakten mit Porträtfotos älterer Männer, daneben eine Lesebrille."
+    alt_en: "Still from the explainer: personnel files with portrait photos of older men, a pair of reading glasses beside them."
+  de:
+    text: |
+      „Befördert wird nicht, wer gut ist, sondern wer noch lebt.“
+
+      „Schattenoffiziere“: die hohen Ränge von O.D.I.N., jede Beförderung als Szene, dazu acht neue mächtige Kräfte für Psionen.
+    mehr: |
+      Das ganze Erklärvideo: https://youtu.be/5LmpgjWwwG8
+      Für lange Kampagnen, kostenlos.
+    link: https://odin-rpg.pages.dev/buch/schattenoffiziere
+  en:
+    text: |
+      “You don't get promoted because you're good, but because you're still alive.”
+
+      Shadow Officers: the high ranks of O.D.I.N., every promotion a scene, plus eight new major powers for psions.
+    mehr: |
+      The full explainer: https://youtu.be/t3cLZ-wi-Lk
+      For long campaigns, free.
+    link: https://odin-rpg.pages.dev/en/book/shadow-officers
