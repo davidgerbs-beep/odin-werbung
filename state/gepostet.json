@@ -236,5 +236,23 @@
    "ergebnis": "tumblr:828755997786079232",
    "zeit": "2026-09-25T21:07:25.440224+02:00"
   }
+ },
+ "w12-discord": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwih5wnf752n",
+   "zeit": "2026-09-27T11:07:33.936848+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1553694599065636956",
+   "zeit": "2026-09-27T11:07:33.936848+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18116082943965784 (Reel)",
+   "zeit": "2026-09-27T11:07:33.936848+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117342211810314894",
+   "zeit": "2026-09-27T11:07:33.936848+02:00"
+  }
  }
 }
