@@ -95,6 +95,44 @@
    "zeit": "2026-09-25T22:07:36.137286+02:00"
   }
  },
+ "reel-registratur": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwhjway4jz2o",
+   "zeit": "2026-09-27T02:24:18.099850+02:00"
+  },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwhjwcqkcv2q",
+   "zeit": "2026-09-27T02:24:18.099850+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1553562929587298316",
+   "zeit": "2026-09-27T02:24:18.099850+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1553562932846137406",
+   "zeit": "2026-09-27T02:24:18.099850+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18418132159152479 (Reel)",
+   "zeit": "2026-09-27T02:24:18.099850+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117340154326219175",
+   "zeit": "2026-09-27T02:24:18.099850+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117340154488193936",
+   "zeit": "2026-09-27T02:24:18.099850+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:17946340299316781",
+   "zeit": "2026-09-27T02:24:18.099850+02:00"
+  },
+  "tumblr": {
+   "ergebnis": "tumblr:828866524782673920",
+   "zeit": "2026-09-27T02:24:18.099850+02:00"
+  }
+ },
  "w01-willkommen": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mw74qwwv232u",
