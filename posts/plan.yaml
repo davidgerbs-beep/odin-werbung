@@ -1350,3 +1350,28 @@ posts:
     link: https://odin-rpg.pages.dev/en/tables
     tags:
       - FoundryVTT
+
+# ---------------- Reel-Test (27.09., Dave: „hau mal gleich ein Reel raus“, alle Kanäle) ----------------
+- id: reel-registratur
+  datum: "2026-09-27"
+  zeit: "02:30"
+  bild:
+    typ: cover
+    alt_de: "Standbild aus dem Reel zu Band 22, Die Registratur: nebliger Bahnsteig bei Nacht mit Bahnhofsuhr und Laternen, darüber der Schriftzug O.D.I.N. The Registry."
+    alt_en: "Still from the reel for Volume 22, The Registry: a foggy railway platform at night with a station clock and street lamps, below the O.D.I.N. The Registry lettering."
+  de:
+    text: |
+      „Die Akte hält das für wirkungslos. Die Gurken wirken.“
+
+      Drei Karteikarten aus Band 22, Die Registratur: der Klopfer in Graz, die Gurken von Numabe, 1300 sprechende Plüschbären in Zürich.
+    mehr: |
+      105 Wesen, jedes auf einer Karteikarte, so wie O.D.I.N. sie kennt. Darunter steht, was wirklich stimmt. Kostenlos und werbefrei als PDF.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+  en:
+    text: |
+      “The file calls that pointless. The cucumbers work.”
+
+      Three index cards from Volume 22, The Registry: the knocker in Graz, the cucumbers of Numabe, 1300 talking plush bears in Zurich.
+    mehr: |
+      105 beings, each on an index card, the way O.D.I.N. knows them. Below that, what is really true. Free and ad-free as a PDF.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
