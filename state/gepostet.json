@@ -111,6 +111,32 @@
    "zeit": "2026-09-25T22:07:36.137286+02:00"
   }
  },
+ "f09-foundry-en-scientist": {
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwjiokthqt2y",
+   "zeit": "2026-09-27T21:07:25.286311+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1553845561478750281",
+   "zeit": "2026-09-27T21:07:25.286311+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:17964122967198631 (Reel)",
+   "zeit": "2026-09-27T21:07:25.286311+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117344570598164232",
+   "zeit": "2026-09-27T21:07:25.286311+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18126177367633244",
+   "zeit": "2026-09-27T21:07:25.286311+02:00"
+  },
+  "tumblr": {
+   "ergebnis": "tumblr:828937244806168576",
+   "zeit": "2026-09-27T21:07:25.286311+02:00"
+  }
+ },
  "kartenraum": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwj6molxar26",
@@ -131,6 +157,10 @@
   "instagram": {
    "ergebnis": "instagram:18090930446484952 (Reel)",
    "zeit": "2026-09-27T18:07:24.906433+02:00"
+  },
+  "instagram_story": {
+   "ergebnis": "story:18125178367882782 (Video)",
+   "zeit": "2026-09-27T21:07:25.286311+02:00"
   },
   "mastodon_de": {
    "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117343862729117735",
