@@ -33,6 +33,7 @@ kanaele:
   discord_de: true
   discord_en: true
   instagram: true
+  instagram_story: true
   threads: true
   tumblr: true
 
@@ -56,6 +57,10 @@ instagram_bildsprache: en
 # Instagram als Reel posten, wenn neben dem Bild ein Video liegt (bilder/<id>_en.mp4, gebaut mit
 # python werkzeug/reels.py). Fehlt das Video oder klappt das Reel nicht, wird das Bild gepostet.
 instagram_reels: true
+
+# Instagram-Story: jeder Instagram-Beitrag geht zusätzlich als Story raus, einige Stunden später
+# (Video, wenn bilder/<id>_<sprache>.mp4 liegt, sonst die Bildkarte). Stories haben keinen Text und keinen Link.
+instagram_story_versatz_stunden: 3
 
 # Threads: Sprache der Beiträge und das eine Thema-Tag, das Threads pro Beitrag erlaubt
 threads_sprache: en
