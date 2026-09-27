@@ -353,6 +353,32 @@ def instagram_post(user_id, token, image_url, caption, video_url=None):
     return f"instagram:{r.json().get('id', '')}"
 
 
+def instagram_story(user_id, token, image_url=None, video_url=None):
+    """Story: dasselbe Motiv wie der Beitrag, ohne Text (die API kennt keine Bildunterschrift und keine Link-Sticker)."""
+    data = {"media_type": "STORIES", "access_token": token}
+    if video_url:
+        data["video_url"] = video_url
+    else:
+        data["image_url"] = image_url
+    r = requests.post(f"{IG_API}/{user_id}/media", data=data, timeout=60)
+    if r.status_code >= 400:
+        raise RuntimeError(f"Instagram story: {r.status_code} {r.text[:300]}")
+    cid = r.json()["id"]
+    for _ in range(100 if video_url else 30):
+        st = requests.get(f"{IG_API}/{cid}", params={"fields": "status_code", "access_token": token},
+                          timeout=30).json()
+        if st.get("status_code") == "FINISHED":
+            break
+        if st.get("status_code") == "ERROR":
+            raise RuntimeError(f"Instagram-Story-Container fehlerhaft: {st}")
+        time.sleep(3)
+    r = requests.post(f"{IG_API}/{user_id}/media_publish",
+                      data={"creation_id": cid, "access_token": token}, timeout=60)
+    if r.status_code >= 400:
+        raise RuntimeError(f"Instagram story publish: {r.status_code} {r.text[:300]}")
+    return f"story:{r.json().get('id', '')}"
+
+
 def compose_tumblr(post, lang, cfg):
     """Tumblr: Bildunterschrift als HTML, Tags getrennt (Tumblr erlaubt viele)."""
     import html as _h
@@ -488,6 +514,7 @@ def channels(cfg):
         "discord_de": ("de", (env("DISCORD_DE_WEBHOOK"),)),
         "discord_en": ("en", (env("DISCORD_EN_WEBHOOK"),)),
         "instagram": ("ig", (env("INSTAGRAM_USER_ID"), env("INSTAGRAM_TOKEN"))),
+        "instagram_story": ("ig", (env("INSTAGRAM_USER_ID"), env("INSTAGRAM_TOKEN"))),
         "threads": (cfg.get("threads_sprache", "en"), (env("THREADS_USER_ID") or "me", env("THREADS_TOKEN"))),
         "tumblr": (cfg.get("tumblr_sprache", "en"), (env("TUMBLR_CONSUMER_KEY"), env("TUMBLR_CONSUMER_SECRET"),
                                                     env("TUMBLR_TOKEN"), env("TUMBLR_TOKEN_SECRET"))),
@@ -556,6 +583,20 @@ class Poster:
                 except Exception as e:
                     print(f"[instagram] {post['id']}: Reel fehlgeschlagen, poste Bild. {str(e)[:200]}")
             return instagram_post(cred[0], cred[1], instagram_image_url(cfg, img.name), caption)
+        if channel == "instagram_story":
+            il = cfg.get("instagram_bildsprache", "en")
+            if il not in post:
+                il = "de"
+            img, _ = image_for(post, il)
+            video = img.with_suffix(".mp4")
+            if self.dry:
+                return "(trocken, Story Video)" if video.exists() else "(trocken, Story Bild)"
+            if video.exists():
+                try:
+                    return instagram_story(cred[0], cred[1], video_url=instagram_image_url(cfg, video.name)) + " (Video)"
+                except Exception as e:
+                    print(f"[instagram_story] {post['id']}: Video-Story fehlgeschlagen, poste Bild. {str(e)[:200]}")
+            return instagram_story(cred[0], cred[1], image_url=instagram_image_url(cfg, img.name))
         if channel == "tumblr":
             tl = lang if lang in post else ("de" if "de" in post else "en")
             caption, tags, link = compose_tumblr(post, tl, cfg)
@@ -600,6 +641,8 @@ def run(cfg, plan, now, dry, only_id=None):
             if blocked(post, cfg) and not only_id:
                 continue
             due = due_time(post, post_langs(post, lang, cfg), cfg)
+            if channel == "instagram_story":
+                due += timedelta(hours=float(cfg.get("instagram_story_versatz_stunden", 3)))
             if only_id or due <= now:
                 todo.append((due, post))
         todo.sort(key=lambda x: x[0])
@@ -704,7 +747,7 @@ def probe(cfg, plan):
         print(f"  {due:%a %d.%m.%Y %H:%M}  {lang}  {pid}" + (f"   [{bl}]" if bl else ""))
     chans = channels(cfg)
     print("\nKanäle:")
-    for k in ("bluesky_de", "bluesky_en", "mastodon_de", "mastodon_en", "discord_de", "discord_en", "instagram", "threads", "tumblr"):
+    for k in ("bluesky_de", "bluesky_en", "mastodon_de", "mastodon_en", "discord_de", "discord_en", "instagram", "instagram_story", "threads", "tumblr"):
         if k not in chans:
             print(f"  {k:12s} aus (config.yaml)")
         else:
@@ -766,7 +809,7 @@ def check_connections(cfg):
                 r = requests.get(cred[0], timeout=30)
                 r.raise_for_status()
                 print(f"[{channel}] OK, Webhook \"{r.json().get('name')}\" im Kanal {r.json().get('channel_id')}")
-            elif channel == "instagram":
+            elif channel.startswith("instagram"):
                 r = requests.get(f"{IG_API}/me", params={"fields": "username,account_type", "access_token": cred[1]}, timeout=30)
                 r.raise_for_status()
                 print(f"[{channel}] OK, angemeldet als @{r.json().get('username')} ({r.json().get('account_type')})")
