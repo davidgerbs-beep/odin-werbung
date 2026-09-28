@@ -267,6 +267,20 @@
    "zeit": "2026-09-27T15:49:36.168455+02:00"
   }
  },
+ "w01-schnellstart": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwkxmqlxng2o",
+   "zeit": "2026-09-28T11:07:30.368817+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1554056989372457022",
+   "zeit": "2026-09-28T11:07:30.368817+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18003792677793789 (Reel)",
+   "zeit": "2026-09-28T11:07:30.368817+02:00"
+  }
+ },
  "w01-willkommen": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mw74qwwv232u",
