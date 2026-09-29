@@ -189,6 +189,32 @@
    "zeit": "2026-09-28T21:07:32.865984+02:00"
   }
  },
+ "foundry-registry-en": {
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwogbcddnb2u",
+   "zeit": "2026-09-29T20:07:31.631575+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1554555263049269340",
+   "zeit": "2026-09-29T20:07:31.631575+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18115497817790310 (Reel)",
+   "zeit": "2026-09-29T20:07:31.631575+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117355659674534462",
+   "zeit": "2026-09-29T20:07:31.631575+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18126865604477682",
+   "zeit": "2026-09-29T20:07:31.631575+02:00"
+  },
+  "tumblr": {
+   "ergebnis": "tumblr:829114607308242945",
+   "zeit": "2026-09-29T20:07:31.631575+02:00"
+  }
+ },
  "kartenraum": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwj6molxar26",
