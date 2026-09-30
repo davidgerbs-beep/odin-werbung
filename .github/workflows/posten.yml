@@ -26,7 +26,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
+      # Neuesten Stand von main holen, nicht den vom Start des Laufs: Ein Lauf, der wegen
+      # concurrency wartet, sieht sonst state/gepostet.json von vorher und postet doppelt (30.09.2026).
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
