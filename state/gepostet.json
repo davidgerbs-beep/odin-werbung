@@ -224,9 +224,29 @@
   }
  },
  "f11-foundry-en-thaumaturge": {
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwr5gocfst2o",
+   "zeit": "2026-09-30T22:07:27.297375+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1554947835454296166",
+   "zeit": "2026-09-30T22:07:27.297375+02:00"
+  },
   "instagram": {
    "ergebnis": "instagram:18110828780585424 (Reel)",
    "zeit": "2026-09-30T21:04:33.973849+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117361793630409830",
+   "zeit": "2026-09-30T22:07:27.297375+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18162977209489857",
+   "zeit": "2026-09-30T22:07:27.297375+02:00"
+  },
+  "tumblr": {
+   "ergebnis": "tumblr:829212727985717248",
+   "zeit": "2026-09-30T22:07:27.297375+02:00"
   }
  },
  "foundry-registry-en": {
