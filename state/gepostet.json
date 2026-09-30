@@ -295,6 +295,24 @@
    "zeit": "2026-09-27T19:07:23.980428+02:00"
   }
  },
+ "reel-die-tuer": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwq7b3d7ix2y",
+   "zeit": "2026-09-30T13:07:27.487317+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1554811972909015151",
+   "zeit": "2026-09-30T13:07:27.487317+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18073034423738788 (Reel)",
+   "zeit": "2026-09-30T13:07:27.487317+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117359670760080199",
+   "zeit": "2026-09-30T13:07:27.487317+02:00"
+  }
+ },
  "reel-registratur": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwhjway4jz2o",
