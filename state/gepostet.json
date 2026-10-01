@@ -43,6 +43,24 @@
    "zeit": "2026-09-29T18:07:27.404880+02:00"
   }
  },
+ "f03-foundry-handout": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwtaimsire2e",
+   "zeit": "2026-10-01T18:07:33.955426+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1555249849518006403",
+   "zeit": "2026-10-01T18:07:33.955426+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:17941395537369598 (Reel)",
+   "zeit": "2026-10-01T18:07:33.955426+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117366512576713013",
+   "zeit": "2026-10-01T18:07:33.955426+02:00"
+  }
+ },
  "f04-foundry-en-probe": {
   "bluesky_en": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwgy7up4fi2f",
