@@ -56,6 +56,10 @@
    "ergebnis": "instagram:17941395537369598 (Reel)",
    "zeit": "2026-10-01T18:07:33.955426+02:00"
   },
+  "instagram_story": {
+   "ergebnis": "story:18076005725443131 (Video)",
+   "zeit": "2026-10-01T21:07:23.761100+02:00"
+  },
   "mastodon_de": {
    "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117366512576713013",
    "zeit": "2026-10-01T18:07:33.955426+02:00"
@@ -119,6 +123,32 @@
   "tumblr": {
    "ergebnis": "tumblr:829118436164747264",
    "zeit": "2026-09-29T21:07:27.913350+02:00"
+  }
+ },
+ "f06-foundry-en-psi": {
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwtkk66rtj2i",
+   "zeit": "2026-10-01T21:07:23.761100+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1555295097938247800",
+   "zeit": "2026-10-01T21:07:23.761100+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18215077009357711 (Reel)",
+   "zeit": "2026-10-01T21:07:23.761100+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117367219611625403",
+   "zeit": "2026-10-01T21:07:23.761100+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:17911429752498016",
+   "zeit": "2026-10-01T21:07:23.761100+02:00"
+  },
+  "tumblr": {
+   "ergebnis": "tumblr:829299597833879552",
+   "zeit": "2026-10-01T21:07:23.761100+02:00"
   }
  },
  "f07-foundry-en-generator": {
