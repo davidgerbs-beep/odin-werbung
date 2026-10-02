@@ -1736,3 +1736,34 @@ posts:
       The whole case as a video: https://youtu.be/LYBgEdWMKec
       From The Registry, card REG-A-0539. Free.
     link: https://odin-rpg.pages.dev/en/book/the-registry
+
+# ---------------- Miniaturen-Reel (ODIN Coder, Common §7 02.10.) ----------------
+- id: reel-miniaturen
+  datum: "2026-10-08"
+  zeit: "12:30"
+  zeit_en: "14:00"
+  bild:
+    typ: foto
+    datei: reel_miniaturen.jpg
+    zeile_de: "30 Miniaturen, bald zum Selbstdrucken"
+    zeile_en: "30 miniatures, coming soon"
+    alt_de: "Zwei unbemalte graue Miniaturen des Invokers auf runden Bases, ein Mann und eine Frau in langen Roben, beide mit ausgebreiteten Armen, darüber „Thaumaturg, Invoker“."
+    alt_en: "Two unpainted grey miniatures of the Invoker on round bases, a man and a woman in long robes, both with arms spread wide, labelled Thaumaturge, Invoker."
+  de:
+    text: |
+      Der Antiquarian mit der Lupe, die Psychic Healer auf einem Knie: Alle 30 Unterklassen von O.D.I.N. kommen als Miniatur, je männlich und weiblich.
+
+      Als STL für den eigenen Drucker oder fertig gedruckt.
+    mehr: |
+      Noch steht bei allen „Coming soon“. Verkauft werden sie später über Etsy.
+    link: https://odin-rpg.pages.dev/miniaturen
+    tags: ["Miniaturen", "3DDruck"]
+  en:
+    text: |
+      The Antiquarian with his magnifying glass, the Psychic Healer down on one knee: all 30 O.D.I.N. subclasses are coming as miniatures, male and female.
+
+      As STL files for your own printer, or printed and ready.
+    mehr: |
+      Every figure still says "Coming soon". They will be sold through Etsy.
+    link: https://odin-rpg.pages.dev/en/miniatures
+    tags: ["Miniatures", "3DPrinting"]
