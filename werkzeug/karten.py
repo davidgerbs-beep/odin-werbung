@@ -192,7 +192,7 @@ def build(post):
         elif t == "zitat":
             im = card_zitat(b[lang], b[f"quelle_{lang}"], lang)
         elif t == "raster":
-            im = card_raster(b["dateien"], b[f"zeile_{lang}"], lang)
+            im = card_raster(b.get(f"dateien_{lang}") or b["dateien"], b[f"zeile_{lang}"], lang)
         else:
             raise SystemExit(f"{post['id']}: unbekannter Bildtyp {t}")
         out = OUT / f"{post['id']}_{lang}.jpg"
