@@ -18,6 +18,7 @@ import base64
 import json
 import os
 import re
+import struct
 import sys
 import time
 from datetime import date, datetime, timedelta, timezone
@@ -441,21 +442,90 @@ def tumblr_post(blog, cred, caption, tags, link="", image_url=None):
     return f"tumblr:{r.json().get('response', {}).get('id_string') or r.json().get('response', {}).get('id', '')}"
 
 
-def tumblr_video_post(blog, cred, content, tags, video_path):
-    """Video-Post über die NPF-API, damit das Reel in Tumblr TV auftaucht.
+def mp4_masse(path):
+    """Liest Breite, Höhe (Videospur, tkhd) und Dauer in ms (mvhd) aus einer MP4, ohne ffprobe.
 
-    multipart/form-data: ein Teil "json" mit den Blöcken, ein Datei-Teil mit der MP4,
-    dessen Feldname der identifier im video-Block ist.
+    Liefert (breite, hoehe, dauer_ms); was sich nicht lesen lässt, ist None.
     """
+    breite = hoehe = dauer = None
+    with open(path, "rb") as fh:
+        daten_ende = fh.seek(0, 2)
+
+        def boxen(start, ende):
+            pos = start
+            while pos + 8 <= ende:
+                fh.seek(pos)
+                groesse, typ = struct.unpack(">I4s", fh.read(8))
+                kopf = 8
+                if groesse == 1:
+                    groesse = struct.unpack(">Q", fh.read(8))[0]
+                    kopf = 16
+                elif groesse == 0:
+                    groesse = ende - pos
+                if groesse < kopf:
+                    return
+                yield typ, pos + kopf, pos + groesse
+                pos += groesse
+
+        def suchen(start, ende):
+            nonlocal breite, hoehe, dauer
+            for typ, a, b in boxen(start, ende):
+                if typ in (b"moov", b"trak", b"mdia"):
+                    suchen(a, b)
+                elif typ == b"mvhd" and dauer is None:
+                    fh.seek(a)
+                    version = fh.read(4)[0]
+                    if version == 1:
+                        fh.seek(16, 1)
+                        skala, laenge = struct.unpack(">IQ", fh.read(12))
+                    else:
+                        fh.seek(8, 1)
+                        skala, laenge = struct.unpack(">II", fh.read(8))
+                    if skala:
+                        dauer = round(laenge * 1000 / skala)
+                elif typ == b"tkhd" and breite is None:
+                    fh.seek(a)
+                    version = fh.read(4)[0]
+                    fh.seek(32 if version == 1 else 20, 1)   # Zeiten, Spur-ID, Dauer
+                    fh.seek(52, 1)                           # reserviert, Ebene, Lautstärke, Matrix
+                    w, h = struct.unpack(">II", fh.read(8))
+                    if w and h:                              # Tonspuren haben 0 x 0
+                        breite, hoehe = w >> 16, h >> 16
+
+        suchen(0, daten_ende)
+    return breite, hoehe, dauer
+
+
+def tumblr_npf_video(content, tags, video_path):
+    """Baut JSON und Multipart-Teile für einen NPF-Video-Post nach der Tumblr-API-Doku.
+
+    Doku (github.com/tumblr/docs, api.md, Abschnitt "User Uploaded Media"): erster Teil
+    name="json" mit Content-Type application/json, danach die Datei, deren Feldname der
+    identifier im Block ist. Wichtig: Beim video-Block ist "media" EIN Media-Objekt, beim
+    image-Block dagegen eine Liste. Mit der Liste antwortete Tumblr am 30.09.2026 mit
+    "400 Bad Request, Unknown error".
+    """
+    video_path = Path(video_path)
+    ident = re.sub(r"[^a-z0-9-]", "-", video_path.stem.lower()) + "-video"
+    media = {"type": "video/mp4", "identifier": ident}
+    breite, hoehe, dauer = mp4_masse(video_path)
+    if breite and hoehe:
+        media.update({"width": breite, "height": hoehe})
+    block = {"type": "video", "provider": "tumblr", "media": media}
+    if dauer:
+        block["duration"] = dauer
+    body = {"content": [block] + list(content), "tags": ",".join(tags)}
+    return ident, body
+
+
+def tumblr_video_post(blog, cred, content, tags, video_path):
+    """Video-Post über die NPF-API, damit das Reel in Tumblr TV auftaucht."""
     from requests_oauthlib import OAuth1
     auth = OAuth1(cred[0], cred[1], cred[2], cred[3])
-    ident = "reel"
-    body = {
-        "content": [{"type": "video", "media": [{"type": "video/mp4", "identifier": ident}]}] + list(content),
-        "tags": ",".join(tags),
-    }
     video_path = Path(video_path)
+    ident, body = tumblr_npf_video(content, tags, video_path)
     with open(video_path, "rb") as fh:
+        # Reihenfolge zählt: zuerst der JSON-Teil, dann die Datei (dict behält die Reihenfolge)
         files = {
             "json": (None, json.dumps(body, ensure_ascii=False), "application/json"),
             ident: (video_path.name, fh, "video/mp4"),
@@ -591,6 +661,12 @@ def applies(post, lang):
 class Poster:
     def __init__(self, cfg, dry):
         self.cfg, self.dry, self.bsky = cfg, dry, {}
+        self.warnungen = []
+
+    def warnung(self, text):
+        """Rückfall auf Bild: Warnung im Log (GitHub-Annotation), kein Fehler, der Lauf bleibt grün."""
+        self.warnungen.append(text)
+        print(f"::warning::{text}" if env("GITHUB_ACTIONS") else f"WARNUNG {text}")
 
     def send(self, post, channel, lang, cred):
         cfg = self.cfg
@@ -630,7 +706,7 @@ class Poster:
                     return instagram_post(cred[0], cred[1], None, caption,
                                           video_url=instagram_image_url(cfg, video.name)) + " (Reel)"
                 except Exception as e:
-                    print(f"[instagram] {post['id']}: Reel fehlgeschlagen, poste Bild. {str(e)[:200]}")
+                    self.warnung(f"[instagram] {post['id']}: Reel fehlgeschlagen, poste Bild. {str(e)[:200]}")
             return instagram_post(cred[0], cred[1], instagram_image_url(cfg, img.name), caption)
         if channel == "instagram_story":
             il = cfg.get("instagram_bildsprache", "en")
@@ -644,7 +720,7 @@ class Poster:
                 try:
                     return instagram_story(cred[0], cred[1], video_url=instagram_image_url(cfg, video.name)) + " (Video)"
                 except Exception as e:
-                    print(f"[instagram_story] {post['id']}: Video-Story fehlgeschlagen, poste Bild. {str(e)[:200]}")
+                    self.warnung(f"[instagram_story] {post['id']}: Video-Story fehlgeschlagen, poste Bild. {str(e)[:200]}")
             return instagram_story(cred[0], cred[1], image_url=instagram_image_url(cfg, img.name))
         if channel == "tumblr":
             tl = lang if lang in post else ("de" if "de" in post else "en")
@@ -660,7 +736,7 @@ class Poster:
                     content, _ = compose_tumblr_npf(post, tl, cfg)
                     return tumblr_video_post(blog, cred, content, tags, video)
                 except Exception as e:
-                    print(f"[tumblr] {post['id']}: Video-Post fehlgeschlagen, poste Bild. {str(e)[:200]}")
+                    self.warnung(f"[tumblr] {post['id']}: Video-Post fehlgeschlagen, poste Bild. {str(e)[:200]}")
             url = instagram_image_url(cfg, img.name) if img else None
             return tumblr_post(blog, cred, caption, tags, link, url)
         if channel == "threads":
@@ -683,6 +759,7 @@ def run(cfg, plan, now, dry, only_id=None):
     maxlate = timedelta(hours=float(cfg.get("max_verspaetung_stunden", 36)))
     per_run = int(cfg.get("max_pro_lauf", 1))
     errors = 0
+    fehler, gepostet = [], []
     for channel, (lang, cred) in chans.items():
         if cred is None:
             print(f"[{channel}] keine Zugangsdaten, übersprungen")
@@ -715,8 +792,12 @@ def run(cfg, plan, now, dry, only_id=None):
                 continue
             l = post_langs(post, lang, cfg) if lang != "ig" else "ig"
             try:
+                vorher = len(poster.warnungen)
                 res = poster.send(post, channel, l, cred)
+                if len(poster.warnungen) > vorher:
+                    res += " (Rückfall auf Bild)"
                 print(f"[{channel}] {post['id']}: gepostet {res}")
+                gepostet.append(f"[{channel}] {post['id']}: {res}")
                 if not dry:
                     st.setdefault(post["id"], {})[channel] = {"zeit": now.isoformat(), "ergebnis": res}
                     save_state(st)
@@ -725,8 +806,26 @@ def run(cfg, plan, now, dry, only_id=None):
                 errors += 1
                 msg = getattr(getattr(e, "response", None), "text", "") or str(e)
                 print(f"[{channel}] {post['id']}: FEHLER {msg[:400]}")
+                fehler.append(f"[{channel}] {post['id']}: {msg[:200]}")
                 break
+    zusammenfassung(gepostet, poster.warnungen, fehler, dry)
+    # Ein Rückfall auf Bild ist nur eine Warnung, rot wird der Lauf nur bei echten Fehlern
     return 1 if errors else 0
+
+
+def zusammenfassung(gepostet, warnungen, fehler, dry=False):
+    """Schreibt die Zusammenfassung des Laufs in $GITHUB_STEP_SUMMARY (nur in GitHub Actions)."""
+    ziel = env("GITHUB_STEP_SUMMARY")
+    if not ziel:
+        return
+    zeilen = ["## Posten" + (" (trocken)" if dry else ""), ""]
+    for titel, eintraege in (("Gepostet", gepostet), ("Warnungen", warnungen), ("Fehler", fehler)):
+        if eintraege:
+            zeilen += [f"**{titel}**", ""] + [f"- {x.replace(chr(10), ' ')}" for x in eintraege] + [""]
+    if len(zeilen) == 2:
+        zeilen.append("Nichts fällig.")
+    with open(ziel, "a", encoding="utf-8") as fh:
+        fh.write("\n".join(zeilen) + "\n")
 
 
 def probe(cfg, plan):
