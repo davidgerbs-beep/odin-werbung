@@ -1705,3 +1705,32 @@ posts:
       The full explainer: https://youtu.be/msd_hOLizjU
       Plus maps for Foundry VTT and Owlbear Rodeo, free.
     link: https://odin-rpg.pages.dev/en/book/the-map-room
+
+# ---------------- Strichmännchen-Video „Der Fall Emma Pahl“ (02.10., Dave: „übernimm das alles“) ----------------
+- id: emma-pahl
+  datum: "2026-10-02"
+  zeit: "18:00"
+  zeit_en: "18:30"
+  bild:
+    typ: foto
+    datei: reel_emma_pahl.jpg
+    zeile_de: "Der Fall Emma Pahl"
+    zeile_en: "The Emma Pahl Case"
+    alt_de: "Zeichentrick: Strichmännchen-Agenten mit großen runden Köpfen stehen nachts auf dem Deck einer Barkasse vor den Hamburger Landungsbrücken, auf der Luke eine Schale Grütze."
+    alt_en: "Cartoon: stick-figure agents with big round heads stand on the deck of a harbour launch at night, the Landungsbrücken in Hamburg behind them, a bowl of porridge on the hatch."
+  de:
+    text: |
+      „Dreimal, Pause, dreimal.“
+
+      An den Landungsbrücken klopft es nachts im Rumpf einer Barkasse. Die Zelle geht an Bord. Die Karte sagt: harmlos.
+    mehr: |
+      Aus der Registratur, Karte REG-A-0539. Kostenlos.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+  en:
+    text: |
+      "Three times, pause, three times."
+
+      At night something knocks in the hull of a harbour launch in Hamburg. The cell goes aboard. The card says: harmless.
+    mehr: |
+      From The Registry, card REG-A-0539. Free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
