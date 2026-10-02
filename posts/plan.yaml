@@ -235,8 +235,8 @@ posts:
     typ: cover
     de: cover_ODIN_10_Kampagne_Die_Tuer.jpg
     en: cover_ODIN_EN_10_The_Door_Campaign.jpg
-    alt_de: "Cover der Kampagne Die Tür: Eine einzelne Holztür steht nachts frei in einer verschneiten Ebene, vier Gestalten gehen darauf zu."
-    alt_en: "Cover of the campaign The Door: a single wooden door stands alone on a snowy plain at night, four figures walking towards it."
+    alt_de: "Cover der Kampagne Die Tür: eine einzelne Holztür steht nachts frei auf einem verschneiten Feld, durch den Spalt fällt Licht, in Sepia."
+    alt_en: "Cover of the campaign The Door: a single wooden door stands alone in a snowy field at night, light falling through the gap, in sepia."
   de:
     text: |
       Eine Tür steht mitten im Schnee. Kein Haus dahinter, kein Weg davor.
@@ -336,8 +336,8 @@ posts:
     typ: cover
     de: cover_ODIN_02_Agent.jpg
     en: cover_ODIN_EN_02_Agent.jpg
-    alt_de: "Cover des Klassenbuchs Agent: Bleistiftzeichnung einer Frau mit Hut und Trenchcoat, ein Buch in der Hand, vor einer Kompassrose."
-    alt_en: "Cover of the Class Book Agent: pencil drawing of a woman in hat and trench coat holding a book, in front of a compass rose."
+    alt_de: "Cover des Klassenbuchs Agent: ein Holztisch am regennassen Fenster, darauf Ausweis, Schlüssel, Füller, eine Tasse Kaffee und eine gefaltete Karte, in Sepia."
+    alt_en: "Cover of the Class Book Agent: a wooden table by a rain-streaked window with an ID wallet, keys, a pen, a cup of coffee and a folded map, in sepia."
   de:
     text: |
       Legenden wie Mäntel. Je länger ein Agent eine trägt, desto tiefer wird sie, bis er nicht mehr sicher weiß, welche die eigene war.
@@ -383,8 +383,8 @@ posts:
     typ: cover
     de: cover_ODIN_08_Spielleiterbuch.jpg
     en: cover_ODIN_EN_08_Game_Masters_Book.jpg
-    alt_de: "Cover des Spielleiterbuchs: Bleistiftzeichnung eines Mannes mit Hut, Mantel und Laterne vor einer Kompassrose."
-    alt_en: "Cover of the Game Master's Book: pencil drawing of a man with hat, coat and lantern in front of a compass rose."
+    alt_de: "Cover des Spielleiterbuchs: eine brennende Petroleumlampe neben einem Stapel verschnürter Akten und einer Karte auf einem Archivtisch, in Sepia."
+    alt_en: "Cover of the Game Master's Book: a lit oil lantern beside a stack of tied files and a map on an archive table, in sepia."
   de:
     text: |
       Im Spielleiterbuch von O.D.I.N. kommt nicht alles aus den Rissen. Acht Ursprünge: Stimme, Fremde, Verwandelte, Alte, Tote, Maschine, Menschen, Verschobene.
@@ -456,8 +456,8 @@ posts:
     typ: cover
     de: cover_ODIN_12_Arsenal.jpg
     en: cover_ODIN_EN_12_Arsenal.jpg
-    alt_de: "Cover des Ausrüstungsbuchs Arsenal: Bleistiftzeichnung einer Frau mit Gewehr über der Schulter und einem Buch im Arm."
-    alt_en: "Cover of the equipment book Arsenal: pencil drawing of a woman with a rifle over her shoulder and a book under her arm."
+    alt_de: "Cover des Ausrüstungsbuchs Arsenal: eine Werkbank mit Taschenlampe, altem Funkgerät, Revolver, Wecker, Seil und Werkzeug, in Sepia."
+    alt_en: "Cover of the equipment book Arsenal: a workbench with a torch, an old radio set, a revolver, an alarm clock, rope and tools, in sepia."
   de:
     text: |
       201 Gegenstände, von der Dienstpistole bis zum Schneemobil.
@@ -529,8 +529,8 @@ posts:
     typ: cover
     de: cover_ODIN_14_Graue_Akten.jpg
     en: cover_ODIN_EN_14_Grey_Files.jpg
-    alt_de: "Cover von Graue Akten: Bleistiftzeichnung einer Frau, die im Gehen in einer Akte liest."
-    alt_en: "Cover of Grey Files: pencil drawing of a woman reading a file as she walks."
+    alt_de: "Cover von Graue Akten: verschnürte Aktenbündel mit alten Fotos eines Herrenhauses und eines Sees unter einer Schreibtischlampe, daneben ein Stempel, in Sepia."
+    alt_en: "Cover of Grey Files: tied bundles of files with old photos of a manor and a lake under a desk lamp, a rubber stamp beside them, in sepia."
   de:
     text: |
       Die meisten Einsätze beginnen grau. Graue Akten sind acht davon, fertig für die Spielleitung, mit eigenem Handout-Heft.
@@ -603,8 +603,8 @@ posts:
     typ: cover
     de: cover_ODIN_15_Die_anderen_Dienste.jpg
     en: cover_ODIN_EN_15_The_Other_Services.jpg
-    alt_de: "Cover von Die anderen Dienste: Bleistiftzeichnung eines Mannes mit Schiebermütze und langem Mantel, der über die Schulter blickt."
-    alt_en: "Cover of The Other Services: pencil drawing of a man in a flat cap and long coat looking over his shoulder."
+    alt_de: "Cover von Die anderen Dienste: eine Parkbank unter einer Laterne bei Nacht, darauf eine zurückgelassene Aktentasche, in Sepia."
+    alt_en: "Cover of The Other Services: a park bench under a street lamp at night with an abandoned briefcase on it, in sepia."
   de:
     text: |
       O.D.I.N. ist nicht allein im Schatten. Die anderen Dienste stellt der Spielleitung Gegenspieler und Rivalen vor, die dieselben Risse wollen, nur aus anderen Gründen.
@@ -649,7 +649,7 @@ posts:
   bild:
     typ: cover
     de: cover_ODIN_16_Horte_der_Welt.jpg
-    alt_de: "Cover von Horte der Welt: Bleistiftzeichnung eines Mannes im Mantel, der auf eine gewölbte Tür in einer Mauer zugeht."
+    alt_de: "Cover von Horte der Welt: eine offene Stahltür gibt den Blick in einen langen, beleuchteten Bunkergang frei, in Sepia."
   de:
     text: |
       Kein Stützpunkt von O.D.I.N. beherbergt mehr als zwölf Agenten. Horte der Welt zeigt, wo sie liegen, unter welchen Städten und hinter welchen Türen.
@@ -824,8 +824,8 @@ posts:
     typ: cover
     de: cover_ODIN_13_Schnellstart.jpg
     en: cover_ODIN_EN_13_Quickstart.jpg
-    alt_de: "Cover des Schnellstarts: Ein Mädchen im weißen Kleid steht am Ende eines Holzstegs an einem nebligen See, Stempel QUICKSTART."
-    alt_en: "Cover of the Quickstart: a girl in a white dress stands at the end of a wooden jetty on a misty lake, QUICKSTART stamp."
+    alt_de: "Cover des Schnellstarts: ein leerer Holzsteg führt in einen nebligen See, am Ufer ein einzelnes Haus vor dunklem Wald, in Sepia."
+    alt_en: "Cover of the Quickstart: an empty wooden jetty leads into a misty lake, a lone house on the shore before a dark forest, in sepia."
   de:
     text: |
       Wo anfangen bei 22 Büchern? Mit dem Schnellstart für einen Abend. Wer weiterspielen will, liest im Grundregelwerk Kapitel I bis III, das reicht.
@@ -1625,8 +1625,8 @@ posts:
     typ: cover
     de: cover_ODIN_15_Die_anderen_Dienste.jpg
     en: cover_ODIN_EN_15_The_Other_Services.jpg
-    alt_de: "Cover von Die anderen Dienste: Bleistiftzeichnung eines Mannes mit Schiebermütze und langem Mantel, der über die Schulter blickt."
-    alt_en: "Cover of The Other Services: pencil drawing of a man in a flat cap and long coat looking over his shoulder."
+    alt_de: "Cover von Die anderen Dienste: eine Parkbank unter einer Laterne bei Nacht, darauf eine zurückgelassene Aktentasche, in Sepia."
+    alt_en: "Cover of The Other Services: a park bench under a street lamp at night with an abandoned briefcase on it, in sepia."
   de:
     text: |
       Morrow Biologics in Leiden züchtet Zellen aus Rissen. STILLWATER tarnt sich als Wetterbehörde. In China sagt das Siebte Büro Erdbeben voraus, danach öffnen sich Risse.
