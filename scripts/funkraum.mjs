@@ -9,7 +9,7 @@ const GUILD = process.env.FUNKRAUM_ID || "1552281593379299408";
 const TOKEN = process.env.DISCORD_BOT_TOKEN;
 if (!TOKEN) { console.error("DISCORD_BOT_TOKEN fehlt"); process.exit(1); }
 const API = "https://discord.com/api/v10";
-const ALT = [/drive ?thru/i, /dtrpg/i, /roll20/i, /hCw4C4Kh6/, /\b(20|zwanzig|twenty)\s+(bücher|books|bände)/i, /\b(15|16|17|18|19)\s+(bücher|books)/i];
+const ALT = [/drive ?thru/i, /dtrpg/i, /roll20/i, /hCw4C4Kh6/, /\b(20|zwanzig|twenty)\s+(bücher|books|bände)/i, /\b(15|16|17|18|19)\s+(bücher|books)/i, /seit 1977 die Risse/i, /since 1977/i, /ohne Namen/i, /nameless/i, /without a name/i];
 
 async function api(method, path, body) {
   for (let i = 0; i < 5; i++) {
@@ -68,6 +68,16 @@ async function ausfuehren() {
     } else if (a.tun === "bearbeiten") {
       await api("PATCH", `/channels/${a.kanal}/messages/${a.nachricht}`, { content: a.text });
       console.log(`bearbeitet ${a.kanal}/${a.nachricht}`);
+    } else if (a.tun === "ersetzen") {
+      // ersetzt Textstellen in einer eigenen Nachricht; Leerraum im Suchtext passt auf jeden Leerraum
+      const m = await api("GET", `/channels/${a.kanal}/messages/${a.nachricht}`);
+      let t = m.content, n = 0;
+      for (const [alt, neu] of a.paare || []) {
+        const re = new RegExp(alt.trim().split(/\s+/).map(w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("\\s+"));
+        if (re.test(t)) { t = t.replace(re, neu); n++; } else console.log(`  nicht gefunden: ${alt}`);
+      }
+      if (n && t !== m.content) { await api("PATCH", `/channels/${a.kanal}/messages/${a.nachricht}`, { content: t }); }
+      console.log(`ersetzt ${n} Stelle(n) in ${a.kanal}/${a.nachricht}`);
     } else if (a.tun === "anheften") {
       await api("PUT", `/channels/${a.kanal}/pins/${a.nachricht}`); console.log(`angeheftet ${a.kanal}/${a.nachricht}`);
     } else if (a.tun === "loesen") {
