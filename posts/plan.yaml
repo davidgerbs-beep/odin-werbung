@@ -1592,12 +1592,11 @@ posts:
   zeit: "12:30"
   zeit_en: "14:00"
   bild:
-    typ: foto
-    datei: reel_zufallsakten.jpg
-    zeile_de: "Zufallsakten, kurz erklärt"
-    zeile_en: "Random Files, explained"
-    alt_de: "Standbild aus dem Erklärvideo: das Cover von Random Files, eine Frau an einem Tisch voller Akten."
-    alt_en: "Still from the explainer: the Random Files cover, a woman at a table full of files."
+    typ: cover
+    de: cover_ODIN_17_Zufallsakten.jpg
+    en: cover_ODIN_EN_17_Random_Files.jpg
+    alt_de: "Cover von Zufallsakten: ein Holzkasten voller Karteikarten auf einem alten Tisch unter einer Schreibtischlampe, davor verstreute Karten und Würfel in Weiß und Rot, in Sepia."
+    alt_en: "Cover of Random Files: a wooden box full of index cards on an old table under a desk lamp, loose cards and white and red dice in front, in sepia."
   de:
     text: |
       Die Zelle biegt ab, eine Akte fehlt, und jemand braucht einen Namen, für den nichts vorbereitet ist.
