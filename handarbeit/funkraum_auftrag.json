@@ -1,8 +1,6 @@
 {
-  "zweck": "02.10.2026: Willkommenstext auf einheitlichen Stand (Organisation, die es offiziell nicht gibt; seit Jahrzehnten), Emma-Pahl-Beiträge anheften",
+  "zweck": "02.10.2026: Emma-Pahl-Beiträge anheften (Willkommenstext stammt von Daves Konto, den ändert Dave selbst)",
   "schritte": [
-    {"tun": "ersetzen", "kanal": "1552281809952182333", "nachricht": "1552282693717196914",
-     "paare": [["über eine Organisation ohne Namen, die seit 1977 die Risse schließt", "über eine Organisation, die es offiziell nicht gibt und die seit Jahrzehnten die Risse schließt"]]},
     {"tun": "anheften", "kanal": "1552281824510746715", "nachricht": "1555627360026497174"},
     {"tun": "anheften", "kanal": "1552281839270371350", "nachricht": "1555627363151126618"}
   ]
