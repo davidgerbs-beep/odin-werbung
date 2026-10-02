@@ -64,7 +64,7 @@ Server nach `handarbeit/verzeichnisse_und_discord.md` anlegen, Webhooks in #neui
 
 **Instagram Reels:** Liegt neben der Bildkarte ein Video (`bilder/<id>_en.mp4`), postet Instagram ein Reel statt des Bildes (`instagram_reels: true` in `config.yaml`). Videos bauen: `python werkzeug/reels.py` (10 Sekunden, Hochformat, langsamer Zoom, selbst erzeugter Klangteppich). Klappt ein Reel nicht, wird automatisch das Bild gepostet.
 
-**Tumblr** (Blog odin-rpg): App auf tumblr.com/oauth/apps registrieren, im API-Konsole (api.tumblr.com/console) mit Consumer Key und Secret anmelden und die Token holen. Secrets `TUMBLR_CONSUMER_KEY`, `TUMBLR_CONSUMER_SECRET`, `TUMBLR_TOKEN`, `TUMBLR_TOKEN_SECRET`. Blogname, Sprache und Tags in `config.yaml`.
+**Tumblr** (Blog odin-rpg): App auf tumblr.com/oauth/apps registrieren, im API-Konsole (api.tumblr.com/console) mit Consumer Key und Secret anmelden und die Token holen. Secrets `TUMBLR_CONSUMER_KEY`, `TUMBLR_CONSUMER_SECRET`, `TUMBLR_TOKEN`, `TUMBLR_TOKEN_SECRET`. Blogname, Sprache und Tags in `config.yaml`. Liegt neben der Bildkarte ein Video (`bilder/<id>_en.mp4`), geht der Beitrag als NPF-Video raus (Tumblr TV). Klappt das nicht, wird das Bild gepostet; das steht als Warnung im Log und in der Zusammenfassung des Laufs, der Lauf bleibt grün.
 
 **Threads**
 1. In der Instagram-App (Konto odin.rpg) ein Threads-Profil anlegen, öffentlich lassen.

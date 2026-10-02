@@ -53,7 +53,8 @@ class TumblrTest(unittest.TestCase):
         body = json.loads(raw)
         video = body["content"][0]
         self.assertEqual(video["type"], "video")
-        ident = video["media"][0]["identifier"]
+        self.assertIsInstance(video["media"], dict)   # beim video-Block ein Objekt, keine Liste
+        ident = video["media"]["identifier"]
         texte = [b["text"] for b in body["content"][1:]]
         self.assertEqual(texte[:2], ["Erster Absatz.", "Zweiter Absatz."])
         link = body["content"][3]
@@ -61,6 +62,7 @@ class TumblrTest(unittest.TestCase):
         self.assertEqual(link["formatting"][0]["url"], "https://odin-rpg.pages.dev/")
         self.assertEqual(body["tags"], "ttrpg,horror rpg")
         # Datei-Teil mit demselben identifier
+        self.assertEqual(list(files), ["json", ident])
         name, fh, ctype = files[ident]
         self.assertEqual(name, "t01_en.mp4")
         self.assertEqual(ctype, "video/mp4")
