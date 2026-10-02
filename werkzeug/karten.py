@@ -188,7 +188,7 @@ def build(post):
             src = b.get(lang) or b.get("de")
             im = card_cover(src, lang)
         elif t == "foto":
-            im = card_foto(b["datei"], b[f"zeile_{lang}"], lang)
+            im = card_foto(b.get(f"datei_{lang}") or b["datei"], b[f"zeile_{lang}"], lang)
         elif t == "zitat":
             im = card_zitat(b[lang], b[f"quelle_{lang}"], lang)
         elif t == "raster":
