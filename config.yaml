@@ -35,7 +35,7 @@ kanaele:
   instagram: true
   instagram_story: true
   threads: true
-  tumblr: true
+  tumblr: false  # pausiert 02.10.: Tumblr lehnt die App-Anmeldung ab (401), Dave prüft die App
 
 # Hashtags, die jeder Kanal anhängt (ohne #). Beitrags-Tags aus dem Plan kommen dazu.
 tags:
