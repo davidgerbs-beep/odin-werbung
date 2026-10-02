@@ -66,7 +66,7 @@ SPRACHE
 
 Willkommen im Funkraum von O.D.I.N.
 
-O.D.I.N. ist ein kostenloses Pen-&-Paper-Rollenspiel über eine Organisation ohne Namen, die seit 1977 die Risse schließt. Alle Bücher, der Charaktergenerator und das Foundry-System: https://odin-rpg.pages.dev
+O.D.I.N. ist ein kostenloses Pen-&-Paper-Rollenspiel über eine Organisation, die es offiziell nicht gibt und die seit 1977 die Risse schließt. Alle Bücher, der Charaktergenerator und das Foundry-System: https://odin-rpg.pages.dev
 
 Neu hier? Holt euch den Schnellstart, sucht euch in #mitspieler-gesucht eine Runde, und wenn eine Regel hakt, fragt in #regelfragen.
 
