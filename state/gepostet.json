@@ -20,6 +20,10 @@
    "ergebnis": "instagram:18141071869588890 (Reel)",
    "zeit": "2026-10-02T19:07:36.754037+02:00"
   },
+  "instagram_story": {
+   "ergebnis": "story:17931910389407076 (Video)",
+   "zeit": "2026-10-02T22:07:35.082200+02:00"
+  },
   "mastodon_de": {
    "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117372411067226583",
    "zeit": "2026-10-02T19:07:36.754037+02:00"
@@ -340,9 +344,25 @@
   }
  },
  "f12-foundry-en-soldier": {
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mww6eqt5bu2l",
+   "zeit": "2026-10-02T22:07:35.082200+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1555672641380032592",
+   "zeit": "2026-10-02T22:07:35.082200+02:00"
+  },
   "instagram": {
    "ergebnis": "instagram:18075682601450169 (Reel)",
    "zeit": "2026-10-02T21:07:31.182544+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117373118717647702",
+   "zeit": "2026-10-02T22:07:35.082200+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:17958385806250285",
+   "zeit": "2026-10-02T22:07:35.082200+02:00"
   }
  },
  "foundry-registry-en": {
