@@ -1798,3 +1798,35 @@ posts:
       Grey Files at a click, Map Room maps with scale, sight and light from the walls, both dice colours, chat and music. Your own maps load as .dd2vtt or .uvtt.
     link: https://odin-rpg.pages.dev/tisch/?lang=en
     tags: ["VTT"]
+
+# ---------------- Neue Cover (ODIN Writer, Common §7 02.10.) ----------------
+- id: neue-cover
+  datum: "2026-10-04"
+  zeit: "18:00"
+  zeit_en: "20:30"
+  bild:
+    typ: raster
+    dateien: [cover_ODIN_01_Grundregelwerk.jpg, cover_ODIN_13_Schnellstart.jpg, cover_ODIN_10_Kampagne_Die_Tuer.jpg, cover_ODIN_22_Registratur.jpg, cover_ODIN_23_Kartenraum.jpg, cover_ODIN_21_Einzelgaenger.jpg]
+    dateien_en: [cover_ODIN_EN_01_Core_Rulebook.jpg, cover_ODIN_EN_13_Quickstart.jpg, cover_ODIN_EN_10_The_Door_Campaign.jpg, cover_ODIN_EN_22_The_Registry.jpg, cover_ODIN_EN_23_The_Map_Room.jpg, cover_ODIN_EN_21_Lone_Operative.jpg]
+    zeile_de: "Neue Cover für die ganze Reihe"
+    zeile_en: "New covers for the whole line"
+    alt_de: "Raster aus sechs neuen Covern in Sepia: Grundregelwerk, Schnellstart, Die Tür, Die Registratur, Der Kartenraum und Einzelgänger, jeweils ein Foto ohne Menschen mit der Windrose als Wasserzeichen."
+    alt_en: "Grid of six new sepia covers: Core Rulebook, Quickstart, The Door, The Registry, The Map Room and Lone Operative, each a photograph without people with the compass rose as a watermark."
+  de:
+    text: |
+      Alle Bände von O.D.I.N. haben neue Cover. Statt Bleistift jetzt Fotos in Sepia, ohne Menschen: eine Tür im Schnee, ein Steg im Nebel, ein Karteikasten unter der Lampe.
+
+      Die PDFs auf der Seite sind schon getauscht.
+    mehr: |
+      Die Windrose liegt jetzt als Wasserzeichen auf jedem Cover. Inhalt und Seitenzahlen bleiben gleich.
+      Die Illustrationen sind KI-generiert.
+    link: https://odin-rpg.pages.dev/buecher.html
+  en:
+    text: |
+      Every O.D.I.N. volume has a new cover. Pencil is out, sepia photographs without people are in: a door in the snow, a jetty in the fog, a card box under a lamp.
+
+      The PDFs on the site are already swapped.
+    mehr: |
+      The compass rose now sits on every cover as a watermark. Contents and page counts stay the same.
+      The illustrations are AI-generated.
+    link: https://odin-rpg.pages.dev/en/books.html
