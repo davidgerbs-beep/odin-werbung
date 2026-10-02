@@ -1,4 +1,38 @@
 {
+ "emma-pahl": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwvucw5fbc2l",
+   "zeit": "2026-10-02T19:07:36.754037+02:00"
+  },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwvucxssas2l",
+   "zeit": "2026-10-02T19:07:36.754037+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1555627360026497174",
+   "zeit": "2026-10-02T19:07:36.754037+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1555627363151126618",
+   "zeit": "2026-10-02T19:07:36.754037+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18141071869588890 (Reel)",
+   "zeit": "2026-10-02T19:07:36.754037+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117372411067226583",
+   "zeit": "2026-10-02T19:07:36.754037+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117372411207984489",
+   "zeit": "2026-10-02T19:07:36.754037+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:17909638323310635",
+   "zeit": "2026-10-02T19:07:36.754037+02:00"
+  }
+ },
  "f01-foundry-einsatz": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwgo6wnm5b2u",
