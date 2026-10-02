@@ -16,7 +16,7 @@ Vor dem ersten Beitrag Profil anlegen und dort ein paar Tage in anderen Threads 
 
 Moin zusammen,
 
-seit einiger Zeit schreibe ich an einem eigenen Rollenspiel, und inzwischen ist daraus eine ganze Reihe geworden. O.D.I.N. (Occult Dynamics Intelligence Network) handelt von einer Organisation, die es offiziell nicht gibt und die seit 1977 die Risse schließt, durch die etwas hereinkommt. Ihr spielt Agenten in Zellen von drei bis sechs Leuten: Psionen, Thaumaturgen, Soldaten, Agenten, Wissenschaftler und Ermittler.
+seit einiger Zeit schreibe ich an einem eigenen Rollenspiel, und inzwischen ist daraus eine ganze Reihe geworden. O.D.I.N. (Occult Dynamics Intelligence Network) handelt von einer Organisation, die es offiziell nicht gibt und die seit Jahrzehnten die Risse schließt, durch die etwas hereinkommt. Ihr spielt Agenten in Zellen von drei bis sechs Leuten: Psionen, Thaumaturgen, Soldaten, Agenten, Wissenschaftler und Ermittler.
 
 Das Würfelsystem ist der Teil, auf den ich am meisten Rückmeldung haben möchte. Es gibt nur W6, aber in zwei Farben. Weiße Würfel stehen für das Attribut und treffen bei 5 und 6. Bunte Würfel stehen für die Fertigkeit und treffen schon ab 4. Training ist damit verlässlicher als Talent, und wer eine Fertigkeit nicht hat, würfelt nur weiß.
 
@@ -51,7 +51,7 @@ David
 
 Hallo zusammen,
 
-ich habe ein Rollenspiel geschrieben und stelle es komplett kostenlos zur Verfügung. O.D.I.N. ist ein okkulter Geheimdienst, der seit 1977 Risse in der Realität schließt, und ihr spielt die Agenten, die dafür rausgeschickt werden.
+ich habe ein Rollenspiel geschrieben und stelle es komplett kostenlos zur Verfügung. O.D.I.N. ist ein okkulter Geheimdienst, der seit Jahrzehnten Risse in der Realität schließt, und ihr spielt die Agenten, die dafür rausgeschickt werden.
 
 (ab hier weiter wie oben, ab „Das Würfelsystem ist der Teil …")
 

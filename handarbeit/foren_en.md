@@ -15,7 +15,7 @@ Check each subreddit's sidebar rules on the day you post. I could not open reddi
 
 **Text:**
 
-O.D.I.N. (Occult Dynamics Intelligence Network) is a tabletop RPG about agents of an organisation that officially does not exist and has kept the rifts in reality closed since 1977. You play a cell of three to six agents: psions, thaumaturges, soldiers, spies, scientists and investigators.
+O.D.I.N. (Occult Dynamics Intelligence Network) is a tabletop RPG about agents of an organisation that officially does not exist and has kept the rifts in reality closed for decades. You play a cell of three to six agents: psions, thaumaturges, soldiers, spies, scientists and investigators.
 
 The part I'd most like feedback on is the dice. It's d6 only, in two colours. White dice come from the attribute and succeed on 5 or 6. Coloured dice come from the skill and succeed on 4, 5 or 6. So training is more reliable than raw talent, and if you lack a skill you roll white dice only.
 
