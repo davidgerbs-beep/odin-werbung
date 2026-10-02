@@ -1767,3 +1767,35 @@ posts:
       Every figure still says "Coming soon". They will be sold through Etsy.
     link: https://odin-rpg.pages.dev/en/miniatures
     tags: ["Miniatures", "3DPrinting"]
+
+# ---------------- Eigener Spieltisch (ODIN Coder, Common §7 02.10.) ----------------
+- id: spieltisch
+  datum: "2026-10-03"
+  zeit: "18:30"
+  zeit_en: "19:30"
+  bild:
+    typ: foto
+    datei: spieltisch_de.jpg
+    datei_en: spieltisch_en.jpg
+    zeile_de: "Der O.D.I.N.-Spieltisch im Browser"
+    zeile_en: "The O.D.I.N. table in your browser"
+    alt_de: "Bildschirm des O.D.I.N.-Spieltischs: Karte 2 aus Graue Akten, das Untergeschoss von Hort-9 in Prag auf Karopapier, mit Spielfiguren im beleuchteten Gang, dunklen Räumen und Legende, links die Werkzeugleiste."
+    alt_en: "Screen of the O.D.I.N. table: map 2 from Grey Files, the basement of Hold-9 in Prague on squared paper, with tokens in the lit corridor, dark rooms and a key, the toolbar on the left."
+  de:
+    text: |
+      Im Keller von Hort-9 brennt nur die Lampe im Gang. Raum 4/10 bleibt dunkel, bis jemand die Tür aufmacht.
+
+      O.D.I.N. hat jetzt einen eigenen Spieltisch im Browser. Ohne Konto, für Rechner und Tablet.
+    mehr: |
+      Graue Akten per Klick, Karten aus dem Kartenraum mit Maßstab, Sicht und Licht aus den Mauern, beide Würfelfarben, Chat und Musik. Eigene Karten gehen als .dd2vtt oder .uvtt.
+    link: https://odin-rpg.pages.dev/tisch/
+    tags: ["VTT"]
+  en:
+    text: |
+      In the basement of Hold-9 only the corridor lamp is on. Room 4/10 stays dark until someone opens the door.
+
+      O.D.I.N. now has its own table in the browser. No account, for computers and tablets.
+    mehr: |
+      Grey Files at a click, Map Room maps with scale, sight and light from the walls, both dice colours, chat and music. Your own maps load as .dd2vtt or .uvtt.
+    link: https://odin-rpg.pages.dev/tisch/?lang=en
+    tags: ["VTT"]
