@@ -9,6 +9,11 @@ on:
 permissions:
   contents: write
 
+# Mehrere Commits kurz hintereinander: nur der neueste Lauf zählt, ältere werden abgebrochen statt rot.
+concurrency:
+  group: plan-pruefen
+  cancel-in-progress: true
+
 jobs:
   pruefen:
     runs-on: ubuntu-latest
@@ -26,6 +31,13 @@ jobs:
           git config user.name "odin-werbung"
           git config user.email "actions@users.noreply.github.com"
           git add bilder
-          git diff --cached --quiet || (git commit -m "Bildkarten aktualisiert" && git push)
+          if ! git diff --cached --quiet; then
+            git commit -m "Bildkarten aktualisiert"
+            for i in 1 2 3; do
+              git pull --rebase --autostash origin main && git push && exit 0
+              sleep 5
+            done
+            exit 1
+          fi
       - name: Plan prüfen
         run: python scripts/post.py --probe
