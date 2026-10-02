@@ -755,6 +755,24 @@
    "zeit": "2026-09-25T21:07:25.440224+02:00"
   }
  },
+ "w02-generator": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwvqxhck4c2n",
+   "zeit": "2026-10-02T18:07:30.981296+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1555612219541299252",
+   "zeit": "2026-10-02T18:07:30.981296+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18046536392819137 (Reel)",
+   "zeit": "2026-10-02T18:07:30.981296+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117372174633282204",
+   "zeit": "2026-10-02T18:07:30.981296+02:00"
+  }
+ },
  "w02-psion": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwqpzetvv62k",
