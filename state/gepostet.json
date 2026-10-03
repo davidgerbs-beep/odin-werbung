@@ -821,6 +821,28 @@
    "zeit": "2026-09-27T15:49:36.168455+02:00"
   }
  },
+ "spieltisch": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwyerw2el22n",
+   "zeit": "2026-10-03T19:07:39.349211+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1555989743630553098",
+   "zeit": "2026-10-03T19:07:39.349211+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1137050795522298 (Video)",
+   "zeit": "2026-10-03T19:07:39.349211+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18343292785251324 (Reel)",
+   "zeit": "2026-10-03T19:07:39.349211+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117378073438335083",
+   "zeit": "2026-10-03T19:07:39.349211+02:00"
+  }
+ },
  "w01-schnellstart": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwkxmqlxng2o",
