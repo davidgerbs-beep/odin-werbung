@@ -828,7 +828,7 @@ posts:
     alt_en: "Cover of the Quickstart: an empty wooden jetty leads into a misty lake, a lone house on the shore before a dark forest, in sepia."
   de:
     text: |
-      Wo anfangen bei 22 Büchern? Mit dem Schnellstart für einen Abend. Wer weiterspielen will, liest im Grundregelwerk Kapitel I bis III, das reicht.
+      Wo anfangen bei 23 Büchern? Mit dem Schnellstart für einen Abend. Wer weiterspielen will, liest im Grundregelwerk Kapitel I bis III, das reicht.
 
       Alles andere kommt, wenn ihr es braucht.
     link: https://odin-rpg.pages.dev/
@@ -1902,3 +1902,29 @@ posts:
       One week left in the Field File Jam. Files for O.D.I.N. are accepted until Sunday 15 November, 23:59 Berlin time. One page is enough, and so is one evening.
     link: https://itch.io/jam/odin-field-file-jam
     tags: ["GameJam", "ODINFieldFile"]
+
+# ---------------- Band 24 „Fremdkörper“ / „Foreign Bodies“ (live 03.10.2026) ----------------
+- id: fremdkoerper
+  datum: "2026-10-03"
+  zeit: "20:30"
+  zeit_en: "21:30"
+  bild:
+    typ: cover
+    de: cover_ODIN_24_Fremdkoerper.jpg
+    en: cover_ODIN_EN_24_Foreign_Bodies.jpg
+    alt_de: "Cover von Band 24, Fremdkörper: eine steinerne Kugel liegt im bereiften Moorgras vor einem Birkenwald im Nebel, daneben ein Dutzend kleiner dunkler Steine in einer Pfütze, in Sepia."
+    alt_en: "Cover of Volume 24, Foreign Bodies: a stone sphere lies in frosted moor grass before a misty birch wood, a dozen small dark stones in a puddle beside it, in sepia."
+  de:
+    text: |
+      Band 24 ist da: „Fremdkörper“. Ein Schäferhund im Emsland frisst einen Stein, der vom Himmel gefallen ist. Daraus werden zwölf Missionen von Februar bis August 2026, und fast jede endet im Gefecht.
+    mehr: |
+      Die Zelle holt Sternsteine aus halb Europa zurück, bevor die Keimlinge darin schlüpfen. Silber hilft dabei nicht, Kälte, Salzwasser und Feuer schon. Die Vorgeschichte zu „Die Tür“, kostenlos.
+    link: https://odin-rpg.pages.dev/buch/fremdkoerper
+    tags: ["Kampagne"]
+  en:
+    text: |
+      Volume 24 is out: Foreign Bodies. A German Shepherd in the Emsland swallows a stone that fell from the sky. That starts twelve missions from February to August 2026, and almost every one ends in a firefight.
+    mehr: |
+      The cell recovers star stones from half of Europe before the Germlings inside them hatch. Silver is no help. Cold, salt water and fire are. The prequel to The Door, free.
+    link: https://odin-rpg.pages.dev/en/book/foreign-bodies
+    tags: ["Campaign"]
