@@ -415,6 +415,28 @@
    "zeit": "2026-09-29T20:07:31.631575+02:00"
   }
  },
+ "fremdkoerper": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwylidmxsg22",
+   "zeit": "2026-10-03T21:07:33.975021+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1556019923090935828",
+   "zeit": "2026-10-03T21:07:33.975021+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1775835566869205 (Video)",
+   "zeit": "2026-10-03T21:07:33.975021+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18206784004372519 (Reel)",
+   "zeit": "2026-10-03T21:07:33.975021+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117378544986833127",
+   "zeit": "2026-10-03T21:07:33.975021+02:00"
+  }
+ },
  "kartenraum": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwj6molxar26",
