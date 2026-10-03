@@ -668,7 +668,18 @@ def facebook_einrichten():
         return 1
     seiten = r.json().get("data", [])
     print("Seiten: " + (", ".join(f"{s.get('name')} ({s.get('id')})" for s in seiten) or "keine"))
-    want = env("FACEBOOK_PAGE_ID")
+    ich = requests.get(f"{FB_API}/me", params={"fields": "id,name", "access_token": user}, timeout=30).json()
+    print(f"Token gehört zu: {ich.get('name')} ({ich.get('id')})")
+    rechte = requests.get(f"{FB_API}/me/permissions", params={"access_token": user}, timeout=30).json().get("data", [])
+    print("Rechte: " + ", ".join(f"{x.get('permission')}={x.get('status')}" for x in rechte))
+    want = env("FACEBOOK_PAGE_ID") or str(load_yaml(CONFIG).get("facebook_seite", "") or "")
+    if want and not any(s.get("id") == want for s in seiten):
+        r2 = requests.get(f"{FB_API}/{want}", params={"fields": "id,name,access_token", "access_token": user}, timeout=30)
+        if r2.status_code < 400 and r2.json().get("access_token"):
+            seiten.append(r2.json())
+            print(f"Seite direkt über die ID gefunden: {r2.json().get('name')} ({want})")
+        else:
+            print(_fb_fehler(f"Seite {want} direkt", r2) if r2.status_code >= 400 else f"Seite {want}: kein Seiten-Token (fehlt die Rolle auf der Seite?)")
     seite = next((s for s in seiten if want and s.get("id") == want), None)
     if not seite:
         passend = [s for s in seiten if re.search(r"o\.?d\.?i\.?n", s.get("name", ""), re.I)]
