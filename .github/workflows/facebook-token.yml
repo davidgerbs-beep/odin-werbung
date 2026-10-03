@@ -1,0 +1,24 @@
+name: Facebook-Seite einrichten
+
+# Einmal von Hand starten, nachdem FB_USER_TOKEN (und am besten FB_APP_ID, FB_APP_SECRET) als Secret hinterlegt sind.
+# Holt das dauerhafte Token der O.D.I.N.-Seite und legt FACEBOOK_PAGE_ID und FACEBOOK_PAGE_TOKEN als Secret ab.
+# Im Log stehen nur Seitenname, ID und Rechte, nie ein Token.
+on:
+  workflow_dispatch:
+
+jobs:
+  einrichten:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - env:
+          FB_USER_TOKEN: ${{ secrets.FB_USER_TOKEN }}
+          FB_APP_ID: ${{ secrets.FB_APP_ID }}
+          FB_APP_SECRET: ${{ secrets.FB_APP_SECRET }}
+          FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: python scripts/post.py --fb-seite-einrichten
