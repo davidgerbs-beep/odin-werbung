@@ -35,6 +35,7 @@ kanaele:
   instagram: true
   instagram_story: true
   threads: true
+  facebook: true  # Seite O.D.I.N. Rollenspiel, postet erst, wenn FACEBOOK_PAGE_ID und FACEBOOK_PAGE_TOKEN als Secret da sind
   tumblr: false  # gestrichen 02.10.2026 (Dave), nicht wieder einschalten
 
 # Hashtags, die jeder Kanal anhängt (ohne #). Beitrags-Tags aus dem Plan kommen dazu.
@@ -69,3 +70,7 @@ threads_thema: TTRPG
 # Tumblr: Blogname und Sprache der Beiträge
 tumblr_blog: odin-rpg
 tumblr_sprache: en
+
+# Facebook-Seite: Sprache der Beiträge und ob neben dem Bild liegende MP4s als Video gehen
+facebook_sprache: de
+facebook_videos: true
