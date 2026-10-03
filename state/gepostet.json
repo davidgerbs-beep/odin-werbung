@@ -466,9 +466,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwxjxdp4422q",
    "zeit": "2026-10-03T11:07:29.893608+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwy635gufa2x",
+   "zeit": "2026-10-03T17:07:33.068565+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1555868909863698442",
    "zeit": "2026-10-03T11:07:29.893608+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1555959516154175622",
+   "zeit": "2026-10-03T17:07:33.068565+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1032297993161851 (Video)",
@@ -485,6 +493,14 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117376185414935042",
    "zeit": "2026-10-03T11:07:29.893608+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117377601137706227",
+   "zeit": "2026-10-03T17:07:33.068565+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18080452151388402",
+   "zeit": "2026-10-03T17:07:33.068565+02:00"
   }
  },
  "reel-die-tuer": {
@@ -549,6 +565,10 @@
   "discord_en": {
    "ergebnis": "discord:1555914219067670613",
    "zeit": "2026-10-03T14:07:32.351649+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1375689388959077_122106143445490766",
+   "zeit": "2026-10-03T17:07:33.068565+02:00"
   },
   "instagram": {
    "ergebnis": "instagram:18219200125354121 (Reel)",
