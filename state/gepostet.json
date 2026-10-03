@@ -46,6 +46,10 @@
    "ergebnis": "discord:1553438034354114643",
    "zeit": "2026-09-26T18:08:04.554876+02:00"
   },
+  "facebook": {
+   "ergebnis": "übersprungen",
+   "zeit": "2026-10-03T14:07:32.351649+02:00"
+  },
   "instagram": {
    "ergebnis": "instagram:18173075494452816 (Reel)",
    "zeit": "2026-09-26T18:08:04.554876+02:00"
@@ -68,6 +72,10 @@
    "ergebnis": "discord:1554525041553842228",
    "zeit": "2026-09-29T18:07:27.404880+02:00"
   },
+  "facebook": {
+   "ergebnis": "übersprungen",
+   "zeit": "2026-10-03T14:07:32.351649+02:00"
+  },
   "instagram": {
    "ergebnis": "instagram:17989265342865265 (Reel)",
    "zeit": "2026-09-29T18:07:27.404880+02:00"
@@ -89,6 +97,10 @@
   "discord_de": {
    "ergebnis": "discord:1555249849518006403",
    "zeit": "2026-10-01T18:07:33.955426+02:00"
+  },
+  "facebook": {
+   "ergebnis": "übersprungen",
+   "zeit": "2026-10-03T14:07:32.351649+02:00"
   },
   "instagram": {
    "ergebnis": "instagram:17941395537369598 (Reel)",
@@ -416,6 +428,10 @@
    "ergebnis": "discord:1553815352180220025",
    "zeit": "2026-09-27T19:07:23.980428+02:00"
   },
+  "facebook": {
+   "ergebnis": "übersprungen",
+   "zeit": "2026-10-03T14:07:32.351649+02:00"
+  },
   "instagram": {
    "ergebnis": "instagram:18090930446484952 (Reel)",
    "zeit": "2026-09-27T18:07:24.906433+02:00"
@@ -454,6 +470,10 @@
    "ergebnis": "instagram:18194065384398675 (Reel)",
    "zeit": "2026-10-03T11:07:29.893608+02:00"
   },
+  "instagram_story": {
+   "ergebnis": "story:18126836179888704 (Video)",
+   "zeit": "2026-10-03T14:07:32.351649+02:00"
+  },
   "mastodon_de": {
    "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117376185414935042",
    "zeit": "2026-10-03T11:07:29.893608+02:00"
@@ -475,6 +495,10 @@
   "discord_en": {
    "ergebnis": "discord:1554827035203993600",
    "zeit": "2026-09-30T14:07:27.379377+02:00"
+  },
+  "facebook": {
+   "ergebnis": "übersprungen",
+   "zeit": "2026-10-03T14:07:32.351649+02:00"
   },
   "instagram": {
    "ergebnis": "instagram:18073034423738788 (Reel)",
@@ -506,9 +530,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwxqo5w4jd2r",
    "zeit": "2026-10-03T13:07:38.086963+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwxtzbmthk2l",
+   "zeit": "2026-10-03T14:07:32.351649+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1555899146303709324",
    "zeit": "2026-10-03T13:07:38.086963+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1555914219067670613",
+   "zeit": "2026-10-03T14:07:32.351649+02:00"
   },
   "instagram": {
    "ergebnis": "instagram:18219200125354121 (Reel)",
@@ -517,6 +549,14 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117376657858496116",
    "zeit": "2026-10-03T13:07:38.086963+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117376893377734851",
+   "zeit": "2026-10-03T14:07:32.351649+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:17960460591232430",
+   "zeit": "2026-10-03T14:07:32.351649+02:00"
   }
  },
  "reel-graue-akten": {
@@ -535,6 +575,10 @@
   "discord_en": {
    "ergebnis": "discord:1555189400831266856",
    "zeit": "2026-10-01T14:07:23.041028+02:00"
+  },
+  "facebook": {
+   "ergebnis": "übersprungen",
+   "zeit": "2026-10-03T14:07:32.351649+02:00"
   },
   "instagram": {
    "ergebnis": "instagram:18198414943379945 (Reel)",
@@ -578,6 +622,10 @@
    "ergebnis": "discord:1555551852890820648",
    "zeit": "2026-10-02T14:07:37.579789+02:00"
   },
+  "facebook": {
+   "ergebnis": "facebook:1375689388959077_122105995281490766",
+   "zeit": "2026-10-03T14:07:32.351649+02:00"
+  },
   "instagram": {
    "ergebnis": "instagram:17991010734047021 (Reel)",
    "zeit": "2026-10-02T13:07:26.774068+02:00"
@@ -619,6 +667,10 @@
   "discord_en": {
    "ergebnis": "discord:1553562932846137406",
    "zeit": "2026-09-27T02:24:18.099850+02:00"
+  },
+  "facebook": {
+   "ergebnis": "übersprungen",
+   "zeit": "2026-10-03T14:07:32.351649+02:00"
   },
   "instagram": {
    "ergebnis": "instagram:18418132159152479 (Reel)",
@@ -662,6 +714,10 @@
    "ergebnis": "discord:1554464684395069530",
    "zeit": "2026-09-29T14:07:34.046041+02:00"
   },
+  "facebook": {
+   "ergebnis": "übersprungen",
+   "zeit": "2026-10-03T14:07:32.351649+02:00"
+  },
   "instagram": {
    "ergebnis": "instagram:18096787343428189 (Reel)",
    "zeit": "2026-09-29T13:07:27.178833+02:00"
@@ -703,6 +759,10 @@
   "discord_en": {
    "ergebnis": "discord:1553765574096453632",
    "zeit": "2026-09-27T15:49:36.168455+02:00"
+  },
+  "facebook": {
+   "ergebnis": "übersprungen",
+   "zeit": "2026-10-03T14:07:32.351649+02:00"
   },
   "instagram": {
    "ergebnis": "instagram:18141737161589550 (Reel)",
@@ -746,6 +806,10 @@
    "ergebnis": "discord:1554147563962372289",
    "zeit": "2026-09-28T17:07:28.617361+02:00"
   },
+  "facebook": {
+   "ergebnis": "übersprungen",
+   "zeit": "2026-10-03T14:07:32.351649+02:00"
+  },
   "instagram": {
    "ergebnis": "instagram:18003792677793789 (Reel)",
    "zeit": "2026-09-28T11:07:30.368817+02:00"
@@ -788,6 +852,10 @@
    "ergebnis": "discord:1552381375515070465",
    "zeit": "2026-09-23T20:09:17.955319+02:00"
   },
+  "facebook": {
+   "ergebnis": "übersprungen",
+   "zeit": "2026-10-03T14:07:32.351649+02:00"
+  },
   "instagram": {
    "ergebnis": "instagram:18118279030799643",
    "zeit": "2026-09-23T18:07:22.719841+02:00"
@@ -829,6 +897,10 @@
   "discord_en": {
    "ergebnis": "discord:1553120782547157092",
    "zeit": "2026-09-25T21:07:25.440224+02:00"
+  },
+  "facebook": {
+   "ergebnis": "übersprungen",
+   "zeit": "2026-10-03T14:07:32.351649+02:00"
   },
   "instagram": {
    "ergebnis": "instagram:17968916193151561 (Reel)",
@@ -910,6 +982,10 @@
    "ergebnis": "discord:1554932002682048635",
    "zeit": "2026-09-30T21:04:33.973849+02:00"
   },
+  "facebook": {
+   "ergebnis": "übersprungen",
+   "zeit": "2026-10-03T14:07:32.351649+02:00"
+  },
   "instagram": {
    "ergebnis": "instagram:18089614769228518 (Reel)",
    "zeit": "2026-09-30T18:07:23.468911+02:00"
@@ -951,6 +1027,10 @@
   "discord_en": {
    "ergebnis": "discord:1553785175274692670",
    "zeit": "2026-09-27T17:07:27.898399+02:00"
+  },
+  "facebook": {
+   "ergebnis": "übersprungen",
+   "zeit": "2026-10-03T14:07:32.351649+02:00"
   },
   "instagram": {
    "ergebnis": "instagram:18116082943965784 (Reel)",
