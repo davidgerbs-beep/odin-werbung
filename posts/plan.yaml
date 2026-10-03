@@ -1830,3 +1830,75 @@ posts:
       The compass rose now sits on every cover as a watermark. Contents and page counts stay the same.
       The illustrations are AI-generated.
     link: https://odin-rpg.pages.dev/en/books.html
+
+# ---------------- itch.io-Jam „O.D.I.N. Field File Jam“ (16.10. bis 15.11.2026) ----------------
+- id: jam-ankuendigung
+  datum: "2026-10-07"
+  zeit: "10:30"
+  zeit_en: "17:00"
+  bild:
+    typ: zitat
+    de: "O.D.I.N. Field File Jam\n\n16.10. bis 15.11.2026\nEinsatz, Ort oder Gegner\nEine Seite reicht\nKeine Wertung"
+    en: "O.D.I.N. Field File Jam\n\n16 Oct to 15 Nov 2026\nMission, place or opponent\nOne page is enough\nNo ranking"
+    quelle_de: "itch.io/jam/odin-field-file-jam"
+    quelle_en: "itch.io/jam/odin-field-file-jam"
+    alt_de: "Texttafel zum O.D.I.N. Field File Jam auf itch.io vom 16.10. bis 15.11.2026: ein Einsatz, ein Ort, ein Gegner, eine Seite reicht, keine Wertung."
+    alt_en: "Text card for the O.D.I.N. Field File Jam on itch.io, 16 October to 15 November 2026: a mission, a place, an opponent, one page is enough, no ranking."
+  de:
+    text: |
+      Schreibt einen Einsatz für O.D.I.N. Vom 16.10. bis 15.11. läuft auf itch.io der Field File Jam: ein Fall, ein Ort, ein Gegner oder ein Handout-Set. Eine Seite reicht.
+    mehr: |
+      Es gibt keine Wertung und keine Jury. Jede fertige Akte stelle ich im Devlog und im Funkraum vor, mit Link zu eurer Seite. Deutsch oder Englisch, kostenlos zum Herunterladen. Schnellstart und Grundregelwerk sind frei, mehr braucht ihr zum Schreiben nicht.
+    link: https://itch.io/jam/odin-field-file-jam
+    tags: ["GameJam", "ODINFieldFile"]
+  en:
+    text: |
+      Write a mission for O.D.I.N. The Field File Jam runs on itch.io from 16 October to 15 November: a case, a location, an opponent or a handout set. One page is enough.
+    mehr: |
+      No ranking, no jury. Every finished file gets a write-up in a devlog and a post in the O.D.I.N. Discord, with a link to your page. German or English, free to download. The Quickstart and the Core Rulebook are free, and that is all you need to write for it.
+    link: https://itch.io/jam/odin-field-file-jam
+    tags: ["GameJam", "ODINFieldFile"]
+
+- id: jam-start
+  datum: "2026-10-16"
+  zeit: "12:00"
+  zeit_en: "19:00"
+  bild:
+    typ: foto
+    datei: stausee_2.jpg
+    zeile_de: "Field File Jam: 16.10. bis 15.11."
+    zeile_en: "Field File Jam is open"
+    alt_de: "Steinhaus am Stausee im Nebel, vier Gestalten mit Fackeln auf dem Steg. Darunter: Field File Jam, 16.10. bis 15.11."
+    alt_en: "Stone house by a misty reservoir, four figures with torches on the jetty. Caption: Field File Jam is open."
+  de:
+    text: |
+      Heute um 18:00 öffnet der Field File Jam. Bis 15.11. sammeln wir Akten für O.D.I.N.: Einsätze, Orte, Gegner, Handouts. Wer schon eine Idee hat, fängt heute Abend an.
+    link: https://itch.io/jam/odin-field-file-jam
+    tags: ["GameJam", "ODINFieldFile"]
+  en:
+    text: |
+      The Field File Jam is open. Until 15 November we are collecting field files for O.D.I.N.: missions, locations, opponents, handouts. A single page counts.
+    link: https://itch.io/jam/odin-field-file-jam
+    tags: ["GameJam", "ODINFieldFile"]
+
+- id: jam-endspurt
+  datum: "2026-11-08"
+  zeit: "10:30"
+  zeit_en: "17:00"
+  bild:
+    typ: foto
+    datei: stausee_3.jpg
+    zeile_de: "Noch eine Woche"
+    zeile_en: "One week left"
+    alt_de: "Steinhaus auf einer Insel im Stausee, vier Gestalten mit Fackeln am Ufer neben einem Steg. Darunter: Noch eine Woche."
+    alt_en: "Stone house on an island in a reservoir, four figures with torches on the shore by a jetty. Caption: One week left."
+  de:
+    text: |
+      Noch eine Woche im Field File Jam. Bis Sonntag, 15.11., 23:59 nimmt itch.io Akten für O.D.I.N. an. Eine Seite reicht, ein Abend auch.
+    link: https://itch.io/jam/odin-field-file-jam
+    tags: ["GameJam", "ODINFieldFile"]
+  en:
+    text: |
+      One week left in the Field File Jam. Files for O.D.I.N. are accepted until Sunday 15 November, 23:59 Berlin time. One page is enough, and so is one evening.
+    link: https://itch.io/jam/odin-field-file-jam
+    tags: ["GameJam", "ODINFieldFile"]
