@@ -1928,3 +1928,31 @@ posts:
       The cell recovers star stones from half of Europe before the Germlings inside them hatch. Silver is no help. Cold, salt water and fire are. The prequel to The Door, free.
     link: https://odin-rpg.pages.dev/en/book/foreign-bodies
     tags: ["Campaign"]
+
+# ---------------- Spieltisch Stufe A (ODIN Coder, Common §7 03.10. abends: A1 bis A5 freigegeben) ----------------
+- id: spieltisch-stufe-a
+  datum: "2026-10-05"
+  zeit: "18:30"
+  zeit_en: "20:00"
+  bild:
+    typ: zitat
+    de: "Neu am O.D.I.N.-Spieltisch\n\nGeheimes Flüstern\nWetter und Flackerlicht\nMarker mit Lebensring\nFortschrittsuhren\nZufallstabellen\nZeigen und Zeichnen"
+    en: "New at the O.D.I.N. table\n\nSecret whispers\nWeather and flicker\nMarkers with health ring\nProgress clocks\nRandom tables\nPointing and drawing"
+    quelle_de: "odin-rpg.pages.dev/tisch"
+    quelle_en: "odin-rpg.pages.dev/tisch"
+    alt_de: "Texttafel: Neu am O.D.I.N.-Spieltisch sind geheimes Flüstern, Wetter und Flackerlicht, Marker mit Lebensring, Fortschrittsuhren, Zufallstabellen sowie Zeigen und Zeichnen."
+    alt_en: "Text card: new at the O.D.I.N. table are secret whispers, weather and flicker, markers with a health ring, progress clocks, random tables, and pointing and drawing."
+  de:
+    text: |
+      Neu am O.D.I.N.-Spieltisch: Die Spielleitung kann einem einzelnen Agenten etwas zuflüstern oder ihm ein Handout zeigen, das die anderen nicht sehen. Über der Karte gibt es jetzt Wetter und flackerndes Licht.
+    mehr: |
+      Figuren tragen Marker für Belastet, Trauma, Bewusstlos und Tot, mit Lebensring. Fortschrittsuhren zählen mit, die Zufallstabellen aus den Büchern liegen einen Klick entfernt, und auf der Karte kann man zeigen und zeichnen.
+    link: https://odin-rpg.pages.dev/tisch/
+    tags: ["VTT"]
+  en:
+    text: |
+      New at the O.D.I.N. table: the GM can whisper to a single agent or show them a handout nobody else sees. The map now has weather and flickering light.
+    mehr: |
+      Tokens carry markers for strain, trauma, unconscious and dead, with a health ring. Progress clocks keep count, the random tables from the books are one click away, and you can point and draw on the map. Still in the browser, no account.
+    link: https://odin-rpg.pages.dev/tisch/?lang=en
+    tags: ["VTT"]
