@@ -12,6 +12,7 @@ Discord und Instagram und merkt sich in state/gepostet.json, was schon draußen 
   python scripts/post.py --jetzt 2026-10-12T19:00   tut so, als wäre es diese Uhrzeit
   python scripts/post.py --ig-token-auffrischen     verlängert das Instagram-Token (wöchentlich)
   python scripts/post.py --verbindung  meldet sich bei allen Kanälen an, postet nichts
+  python scripts/post.py --fb-seite-einrichten   holt aus FB_USER_TOKEN das dauerhafte Seiten-Token (Workflow facebook-token)
 """
 import argparse
 import base64
@@ -42,6 +43,7 @@ BILDER = ROOT / "bilder"
 UA = "odin-werbung/1.0 (+https://odin-rpg.pages.dev)"
 IG_API = "https://graph.instagram.com/v23.0"
 TH_API = "https://graph.threads.net/v1.0"
+FB_API = "https://graph.facebook.com/v23.0"
 KI_TYPEN = {"cover", "foto", "raster"}
 
 
@@ -189,6 +191,17 @@ def compose_instagram(post, cfg):
             if t.lower() not in [x.lower() for x in tags]:
                 tags.append(t)
     return "\n\n· · ·\n\n".join(blocks) + "\n\n" + hashtags(tags[:30])
+
+
+def compose_facebook(post, lang, cfg):
+    """Facebook-Seite: Text, Mehr-Text und Link als Klartext (Links sind dort klickbar)."""
+    p = post[lang]
+    parts = [fill(p["text"], cfg)]
+    if p.get("mehr"):
+        parts.append(fill(p["mehr"], cfg))
+    if p.get("link"):
+        parts.append(p["link"])
+    return "\n\n".join(parts)
 
 
 def compose_threads(post, lang, cfg):
@@ -568,6 +581,34 @@ def threads_post(user_id, token, text, image_url=None, alt=""):
     return f"threads:{r.json().get('id', '')}"
 
 
+def _fb_fehler(was, r):
+    try:
+        e = r.json().get("error", {})
+        return f"Facebook {was}: {r.status_code} {e.get('code')} {e.get('message', '')[:250]}"
+    except Exception:
+        return f"Facebook {was}: {r.status_code} {r.text[:250]}"
+
+
+def facebook_post(page_id, token, text, image_url=None, video_url=None):
+    if video_url:
+        r = requests.post(f"{FB_API}/{page_id}/videos",
+                          data={"file_url": video_url, "description": text, "access_token": token}, timeout=180)
+        if r.status_code >= 400:
+            raise RuntimeError(_fb_fehler("Video", r))
+        return f"facebook:{r.json().get('id', '')}"
+    if image_url:
+        r = requests.post(f"{FB_API}/{page_id}/photos",
+                          data={"url": image_url, "message": text, "published": "true", "access_token": token}, timeout=120)
+        if r.status_code >= 400:
+            raise RuntimeError(_fb_fehler("Foto", r))
+        j = r.json()
+        return f"facebook:{j.get('post_id') or j.get('id', '')}"
+    r = requests.post(f"{FB_API}/{page_id}/feed", data={"message": text, "access_token": token}, timeout=60)
+    if r.status_code >= 400:
+        raise RuntimeError(_fb_fehler("Beitrag", r))
+    return f"facebook:{r.json().get('id', '')}"
+
+
 def secret_setzen(name, wert):
     pat, repo = env("GH_PAT"), env("GITHUB_REPOSITORY")
     if not (pat and repo):
@@ -600,6 +641,51 @@ def threads_refresh():
     if new == token:
         return 0
     return 0 if secret_setzen("THREADS_TOKEN", new) else 1
+
+
+def facebook_einrichten():
+    """Aus einem Nutzer-Token (FB_USER_TOKEN) das dauerhafte Token der O.D.I.N.-Seite holen und als Secret ablegen.
+    Gibt nie ein Token aus, nur Seitenname, ID und Berechtigungen."""
+    user = env("FB_USER_TOKEN")
+    if not user:
+        print("FB_USER_TOKEN fehlt (Secret anlegen, siehe Werbung/facebook_automatik.md).")
+        return 1
+    app_id, app_secret = env("FB_APP_ID"), env("FB_APP_SECRET")
+    if app_id and app_secret:
+        r = requests.get(f"{FB_API}/oauth/access_token", params={
+            "grant_type": "fb_exchange_token", "client_id": app_id, "client_secret": app_secret,
+            "fb_exchange_token": user}, timeout=30)
+        if r.status_code >= 400:
+            print(_fb_fehler("Token verlängern", r))
+            return 1
+        user = r.json()["access_token"]
+        print("Nutzer-Token auf 60 Tage verlängert.")
+    else:
+        print("FB_APP_ID/FB_APP_SECRET fehlen: Token wird so genommen, wie es ist (muss schon langlebig sein).")
+    r = requests.get(f"{FB_API}/me/accounts", params={"fields": "id,name,access_token,tasks", "access_token": user}, timeout=30)
+    if r.status_code >= 400:
+        print(_fb_fehler("Seitenliste", r))
+        return 1
+    seiten = r.json().get("data", [])
+    print("Seiten: " + (", ".join(f"{s.get('name')} ({s.get('id')})" for s in seiten) or "keine"))
+    want = env("FACEBOOK_PAGE_ID")
+    seite = next((s for s in seiten if want and s.get("id") == want), None)
+    if not seite:
+        passend = [s for s in seiten if re.search(r"o\.?d\.?i\.?n", s.get("name", ""), re.I)]
+        seite = passend[0] if len(passend) == 1 else (seiten[0] if len(seiten) == 1 else None)
+    if not seite or not seite.get("access_token"):
+        print("Keine eindeutige O.D.I.N.-Seite mit Seiten-Token gefunden.")
+        return 1
+    print(f"Gewählt: {seite['name']} ({seite['id']}), Aufgaben: {', '.join(seite.get('tasks', []))}")
+    if app_id and app_secret:
+        d = requests.get(f"{FB_API}/debug_token", params={"input_token": seite["access_token"],
+                         "access_token": f"{app_id}|{app_secret}"}, timeout=30).json().get("data", {})
+        ab = d.get("expires_at", 0)
+        print(f"Seiten-Token: {'läuft nicht ab' if not ab else 'läuft ab ' + datetime.fromtimestamp(ab, timezone.utc).isoformat()}; "
+              f"Rechte: {', '.join(d.get('scopes', []))}")
+    a = secret_setzen("FACEBOOK_PAGE_ID", seite["id"])
+    b = secret_setzen("FACEBOOK_PAGE_TOKEN", seite["access_token"])
+    return 0 if (a and b) else 1
 
 
 def instagram_refresh():
@@ -635,6 +721,7 @@ def channels(cfg):
         "instagram": ("ig", (env("INSTAGRAM_USER_ID"), env("INSTAGRAM_TOKEN"))),
         "instagram_story": ("ig", (env("INSTAGRAM_USER_ID"), env("INSTAGRAM_TOKEN"))),
         "threads": (cfg.get("threads_sprache", "en"), (env("THREADS_USER_ID") or "me", env("THREADS_TOKEN"))),
+        "facebook": (cfg.get("facebook_sprache", "de"), (env("FACEBOOK_PAGE_ID"), env("FACEBOOK_PAGE_TOKEN"))),
         "tumblr": (cfg.get("tumblr_sprache", "en"), (env("TUMBLR_CONSUMER_KEY"), env("TUMBLR_CONSUMER_SECRET"),
                                                     env("TUMBLR_TOKEN"), env("TUMBLR_TOKEN_SECRET"))),
     }
@@ -739,6 +826,21 @@ class Poster:
                     self.warnung(f"[tumblr] {post['id']}: Video-Post fehlgeschlagen, poste Bild. {str(e)[:200]}")
             url = instagram_image_url(cfg, img.name) if img else None
             return tumblr_post(blog, cred, caption, tags, link, url)
+        if channel == "facebook":
+            fl = lang if lang in post else ("de" if "de" in post else "en")
+            text = compose_facebook(post, fl, cfg)
+            img, _ = image_for(post, fl)
+            video = img.with_suffix(".mp4") if img else None
+            mitvideo = cfg.get("facebook_videos", True) and video is not None and video.exists()
+            if self.dry:
+                return "(trocken, Video)" if mitvideo else "(trocken)"
+            if mitvideo:
+                try:
+                    return facebook_post(cred[0], cred[1], text, video_url=instagram_image_url(cfg, video.name)) + " (Video)"
+                except Exception as e:
+                    self.warnung(f"[facebook] {post['id']}: Video fehlgeschlagen, poste Bild. {str(e)[:200]}")
+            url = instagram_image_url(cfg, img.name) if img else None
+            return facebook_post(cred[0], cred[1], text, url)
         if channel == "threads":
             tl = lang if lang in post else ("de" if "de" in post else "en")
             text = compose_threads(post, tl, cfg)
@@ -904,7 +1006,7 @@ def probe(cfg, plan):
         print(f"  {due:%a %d.%m.%Y %H:%M}  {lang}  {pid}" + (f"   [{bl}]" if bl else ""))
     chans = channels(cfg)
     print("\nKanäle:")
-    for k in ("bluesky_de", "bluesky_en", "mastodon_de", "mastodon_en", "discord_de", "discord_en", "instagram", "instagram_story", "threads", "tumblr"):
+    for k in ("bluesky_de", "bluesky_en", "mastodon_de", "mastodon_en", "discord_de", "discord_en", "instagram", "instagram_story", "threads", "facebook", "tumblr"):
         if k not in chans:
             print(f"  {k:12s} aus (config.yaml)")
         else:
@@ -976,6 +1078,12 @@ def check_connections(cfg):
                 r.raise_for_status()
                 blogs = [b.get("name") for b in r.json()["response"]["user"].get("blogs", [])]
                 print(f"[{channel}] OK, Blogs: {', '.join(blogs)}")
+            elif channel == "facebook":
+                r = requests.get(f"{FB_API}/{cred[0]}", params={"fields": "name,fan_count,link", "access_token": cred[1]}, timeout=30)
+                if r.status_code >= 400:
+                    raise RuntimeError(_fb_fehler("Seite", r))
+                j = r.json()
+                print(f"[{channel}] OK, Seite \"{j.get('name')}\" ({j.get('fan_count', 0)} Fans)")
             elif channel == "threads":
                 r = requests.get(f"{TH_API}/me", params={"fields": "id,username", "access_token": cred[1]}, timeout=30)
                 r.raise_for_status()
@@ -997,6 +1105,7 @@ def main():
     ap.add_argument("--jetzt")
     ap.add_argument("--ig-token-auffrischen", action="store_true")
     ap.add_argument("--verbindung", action="store_true")
+    ap.add_argument("--fb-seite-einrichten", action="store_true")
     a = ap.parse_args()
     cfg, plan = load_yaml(CONFIG), load_yaml(PLAN)
     tz = ZoneInfo(cfg.get("zeitzone", "Europe/Berlin"))
@@ -1005,6 +1114,8 @@ def main():
         return max(instagram_refresh(), threads_refresh())
     if a.verbindung:
         return check_connections(cfg)
+    if a.fb_seite_einrichten:
+        return facebook_einrichten()
     if a.probe:
         return probe(cfg, plan)
     if a.vorschau:
