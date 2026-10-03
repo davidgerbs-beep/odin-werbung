@@ -73,6 +73,6 @@ tumblr_sprache: en
 
 # Facebook-Seite: Sprache der Beiträge und ob neben dem Bild liegende MP4s als Video gehen
 facebook_sprache: de
-# ID der Seite (aus facebook.com/profile.php?id=...)
-facebook_seite: "61594723003360"
+# Graph-ID der Seite (nicht die profile.php-ID 61594723003360)
+facebook_seite: "1375689388959077"
 facebook_videos: true
