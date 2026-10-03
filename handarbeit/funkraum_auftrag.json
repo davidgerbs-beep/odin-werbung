@@ -1,7 +1,17 @@
 {
-  "zweck": "02.10.2026: Emma-Pahl-Beiträge anheften (Willkommenstext stammt von Daves Konto, den ändert Dave selbst)",
-  "schritte": [
-    {"tun": "anheften", "kanal": "1552281824510746715", "nachricht": "1555627360026497174"},
-    {"tun": "anheften", "kanal": "1552281839270371350", "nachricht": "1555627363151126618"}
-  ]
+ "zweck": "03.10.2026: itch.io-Jam in #neuigkeiten und #news-en ankündigen und anheften",
+ "schritte": [
+  {
+   "tun": "senden",
+   "kanal": "1552281824510746715",
+   "text": "**O.D.I.N. Field File Jam**\n\nVom 16.10. bis 15.11. sammeln wir auf itch.io Akten für O.D.I.N.: einen Einsatz, einen Ort, einen Gegner, ein Handout-Set oder eine kurze Szene. Eine Seite reicht, dreißig gehen auch.\n\nEs gibt keine Wertung. Jede fertige Akte stelle ich im Devlog und hier im Funkraum vor, mit Link zu eurer Seite. Deutsch oder Englisch, kostenlos zum Herunterladen. Wer KI für Text oder Bilder nutzt, schreibt das dazu.\n\nFragen zu den Regeln oder zu eurer Idee gern hier.\nhttps://itch.io/jam/odin-field-file-jam",
+   "anheften": true
+  },
+  {
+   "tun": "senden",
+   "kanal": "1552281839270371350",
+   "text": "**O.D.I.N. Field File Jam**\n\nFrom 16 October to 15 November we are collecting field files for O.D.I.N. on itch.io: a mission, a location, an opponent, a handout set or a short scene. One page is enough, thirty are fine too.\n\nThere is no ranking. Every finished file gets a write-up in a devlog and here in the Discord, with a link to your page. German or English, free to download. If you use AI for text or images, say so on your page.\n\nQuestions about the rules or your idea are welcome here.\nhttps://itch.io/jam/odin-field-file-jam",
+   "anheften": true
+  }
+ ]
 }
