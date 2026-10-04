@@ -817,6 +817,28 @@
    "zeit": "2026-09-29T14:07:34.046041+02:00"
   }
  },
+ "reg-schornsteinmann": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx22gclthi2n",
+   "zeit": "2026-10-04T11:07:31.968477+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1556231302938759278",
+   "zeit": "2026-10-04T11:07:31.968477+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1156529163548425 (Video)",
+   "zeit": "2026-10-04T11:07:31.968477+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18131048437786646 (Reel)",
+   "zeit": "2026-10-04T11:07:31.968477+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117381847797104810",
+   "zeit": "2026-10-04T11:07:31.968477+02:00"
+  }
+ },
  "registratur": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwir7syaht2f",
