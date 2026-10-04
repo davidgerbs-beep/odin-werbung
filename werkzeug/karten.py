@@ -184,7 +184,7 @@ def build(post):
         if lang not in post:
             continue
         t = b["typ"]
-        if t == "cover":
+        if t in ("cover", "akte"):  # akte: Buchseite nur mit Text, ohne KI-Bild
             src = b.get(lang) or b.get("de")
             im = card_cover(src, lang)
         elif t == "foto":
