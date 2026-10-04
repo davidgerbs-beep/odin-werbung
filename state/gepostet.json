@@ -385,6 +385,12 @@
    "zeit": "2026-10-02T22:07:35.082200+02:00"
   }
  },
+ "f13-foundry-en-investigator": {
+  "instagram": {
+   "ergebnis": "instagram:18355351771173394 (Reel)",
+   "zeit": "2026-10-04T21:07:45.775910+02:00"
+  }
+ },
  "foundry-registry-en": {
   "bluesky_en": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwogbcddnb2u",
@@ -508,9 +514,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx2rvobg2s24",
    "zeit": "2026-10-04T18:07:43.785462+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx33xmj6nk2z",
+   "zeit": "2026-10-04T21:07:45.775910+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1556337049852837978",
    "zeit": "2026-10-04T18:07:43.785462+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1556382359111213164",
+   "zeit": "2026-10-04T21:07:45.775910+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1805833467330910 (Video)",
@@ -520,9 +534,21 @@
    "ergebnis": "instagram:18124245298916504 (Reel)",
    "zeit": "2026-10-04T18:07:43.785462+02:00"
   },
+  "instagram_story": {
+   "ergebnis": "story:17991614234851723 (Video)",
+   "zeit": "2026-10-04T21:07:45.775910+02:00"
+  },
   "mastodon_de": {
    "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117383500107234864",
    "zeit": "2026-10-04T18:07:43.785462+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117384208063651791",
+   "zeit": "2026-10-04T21:07:45.775910+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:17960871273219091",
+   "zeit": "2026-10-04T21:07:45.775910+02:00"
   }
  },
  "owlbear": {
