@@ -1956,3 +1956,30 @@ posts:
       Tokens carry markers for strain, trauma, unconscious and dead, with a health ring. Progress clocks keep count, the random tables from the books are one click away, and you can point and draw on the map. Still in the browser, no account.
     link: https://odin-rpg.pages.dev/tisch/?lang=en
     tags: ["VTT"]
+
+- id: questportal
+  datum: "2026-10-09"
+  zeit: "18:30"
+  zeit_en: "20:00"
+  bild:
+    typ: zitat
+    de: "Neu: O.D.I.N. auf Quest Portal\n\nAgentenakte als Vorlage\nWürfelknöpfe zählen die Erfolge\nKostenlos, Deutsch und Englisch"
+    en: "New: O.D.I.N. on Quest Portal\n\nAgent file as a template\nDice buttons count successes\nFree, English and German"
+    quelle_de: "odin-rpg.pages.dev/spieltische"
+    quelle_en: "odin-rpg.pages.dev/en/tables"
+    alt_de: "Texttafel: O.D.I.N. gibt es neu auf Quest Portal, mit der Agentenakte als kostenloser Vorlage auf Deutsch und Englisch, deren Würfelknöpfe die Erfolge zählen."
+    alt_en: "Text card: O.D.I.N. is new on Quest Portal, with the agent file as a free template in English and German whose dice buttons count successes."
+  de:
+    text: |
+      O.D.I.N. gibt es jetzt auch auf Quest Portal: die Agentenakte als kostenlose Vorlage. Die Würfelknöpfe werfen weiß und bunt und zählen die Erfolge selbst.
+    mehr: |
+      Quest Portal läuft im Browser, die Grundversion kostet nichts. Die Vorlage gibt es auf Deutsch als „O.D.I.N. Agentenakte“ und auf Englisch als „O.D.I.N. Agent File“. Alle Spieltische für O.D.I.N. stehen auf einer Seite.
+    link: https://odin-rpg.pages.dev/spieltische#questportal
+    tags: ["VTT"]
+  en:
+    text: |
+      O.D.I.N. is now on Quest Portal: the agent file as a free template. The dice buttons roll white and coloured d6 and count the successes for you.
+    mehr: |
+      Quest Portal runs in the browser and its basic tier is free. The template comes in English as "O.D.I.N. Agent File" and in German as "O.D.I.N. Agentenakte". Every way to play O.D.I.N. online is on one page.
+    link: https://odin-rpg.pages.dev/en/tables#questportal
+    tags: ["VTT"]
