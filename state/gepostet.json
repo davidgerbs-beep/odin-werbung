@@ -386,9 +386,25 @@
   }
  },
  "f13-foundry-en-investigator": {
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx37d47okt2q",
+   "zeit": "2026-10-04T22:07:52.851402+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1556397490297905278",
+   "zeit": "2026-10-04T22:07:52.851402+02:00"
+  },
   "instagram": {
    "ergebnis": "instagram:18355351771173394 (Reel)",
    "zeit": "2026-10-04T21:07:45.775910+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117384444475925029",
+   "zeit": "2026-10-04T22:07:52.851402+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18106897331228956",
+   "zeit": "2026-10-04T22:07:52.851402+02:00"
   }
  },
  "foundry-registry-en": {
