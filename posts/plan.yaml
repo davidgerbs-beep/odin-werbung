@@ -2047,6 +2047,33 @@ posts:
     link: https://odin-rpg.pages.dev/en/tables#realm
     tags: ["VTT"]
 
+- id: spieltisch-sicht
+  datum: "2026-10-13"
+  zeit: "18:30"
+  zeit_en: "20:00"
+  bild:
+    typ: zitat
+    de: "Neu am Spieltisch\n\nSicht pro Agent\nErkundetes im Halbdunkel\nMauern und Türen fertig\nKarten ohne SL-Notizen"
+    en: "New at the O.D.I.N. table\n\nSight per agent\nExplored rooms dimmed\nWalls and doors ready\nMaps without GM notes"
+    quelle_de: "odin-rpg.pages.dev/tisch"
+    quelle_en: "odin-rpg.pages.dev/tisch"
+    alt_de: "Texttafel: Neu am O.D.I.N.-Spieltisch sieht jeder nur, was sein Agent sieht, Erkundetes bleibt im Halbdunkel, Mauern und Türen sind je Karte fertig, und die Spieler bekommen Karten ohne die Notizen der Spielleitung."
+    alt_en: "Text card: new at the O.D.I.N. table, you see only what your agent sees, explored rooms stay dimmed, walls and doors come ready per map, and players get maps without the GM notes."
+  de:
+    text: |
+      Am O.D.I.N.-Spieltisch sieht jetzt jeder nur, was sein eigener Agent sieht. Was schon erkundet ist, bleibt im Halbdunkel stehen, der Rest liegt im Schwarzen.
+    mehr: |
+      Für die Karten aus den Abenteuern sind Mauern und Türen schon gesetzt. Die Spieler bekommen eine Fassung ohne die Notizen der Spielleitung, das Original sieht nur die SL. Mit der Taste V prüft sie, was ein bestimmter Agent gerade sieht. Weiter im Browser, ohne Konto.
+    link: https://odin-rpg.pages.dev/tisch/
+    tags: ["VTT"]
+  en:
+    text: |
+      At the O.D.I.N. table, everyone now sees only what their own agent sees. Explored rooms stay dimmed, the rest stays black.
+    mehr: |
+      The adventure maps come with walls and doors already set. Players get a version without the GM notes, and only the GM sees the original. Press V to check what a given agent sees right now. Still in the browser, no account.
+    link: https://odin-rpg.pages.dev/tisch/?lang=en
+    tags: ["VTT"]
+
 - id: spieltisch-stufe-b
   datum: "2026-10-10"
   zeit: "18:30"
