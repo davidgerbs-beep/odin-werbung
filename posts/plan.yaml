@@ -1963,8 +1963,8 @@ posts:
   zeit_en: "20:00"
   bild:
     typ: zitat
-    de: "Neu: O.D.I.N. auf Quest Portal\n\nAgentenakte als Vorlage\nWürfelknöpfe zählen die Erfolge\nKostenlos, Deutsch und Englisch"
-    en: "New: O.D.I.N. on Quest Portal\n\nAgent file as a template\nDice buttons count successes\nFree, English and German"
+    de: "Neu auf Quest Portal\n\nAgentenakte als Vorlage\nZählt die Erfolge selbst\nKostenlos, DE und EN"
+    en: "New on Quest Portal\n\nAgent file as a template\nCounts the successes\nFree, EN and DE"
     quelle_de: "odin-rpg.pages.dev/spieltische"
     quelle_en: "odin-rpg.pages.dev/en/tables"
     alt_de: "Texttafel: O.D.I.N. gibt es neu auf Quest Portal, mit der Agentenakte als kostenloser Vorlage auf Deutsch und Englisch, deren Würfelknöpfe die Erfolge zählen."
