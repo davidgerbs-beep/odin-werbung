@@ -1983,3 +1983,30 @@ posts:
       Quest Portal runs in the browser and its basic tier is free. The template comes in English as "O.D.I.N. Agent File" and in German as "O.D.I.N. Agentenakte". Every way to play O.D.I.N. online is on one page.
     link: https://odin-rpg.pages.dev/en/tables#questportal
     tags: ["VTT"]
+
+- id: spieltisch-stufe-b
+  datum: "2026-10-10"
+  zeit: "18:30"
+  zeit_en: "20:00"
+  bild:
+    typ: zitat
+    de: "Neu am Spieltisch\n\nRaumtexte an der Karte\nKampf rechnet selbst\nFernsehansicht\nEinsatzbericht als Datei\nGeräusche auf der Karte"
+    en: "New at the O.D.I.N. table\n\nRoom texts on the map\nCombat does the maths\nA view for the TV\nMission report as a file\nSounds at map locations"
+    quelle_de: "odin-rpg.pages.dev/tisch"
+    quelle_en: "odin-rpg.pages.dev/tisch"
+    alt_de: "Texttafel: Neu am O.D.I.N.-Spieltisch sind Raumtexte an der Karte, ein Kampf, der selbst rechnet, eine Fernsehansicht, der Einsatzbericht als Datei und Geräusche auf der Karte."
+    alt_en: "Text card: new at the O.D.I.N. table are room texts on the map, combat that does the maths, a view for the TV, the mission report as a file and sounds at map locations."
+  de:
+    text: |
+      Der O.D.I.N.-Spieltisch rechnet jetzt im Kampf selbst: Lebenspunkte sinken von allein, Silber, Salz und Eisen wirken je nach Gegner. Raumtexte hängen an den Kartennummern, und für den Fernseher gibt es eine eigene Ansicht.
+    mehr: |
+      Dazu Flächenschablonen und ein Laufweg-Messer, Titelkarten beim Szenenwechsel und Geräusche an Orten auf der Karte. Nach dem Abend speichert der Einsatzbericht alles als Datei. Weiter im Browser, ohne Konto.
+    link: https://odin-rpg.pages.dev/tisch/
+    tags: ["VTT"]
+  en:
+    text: |
+      The O.D.I.N. table now does the combat maths: hit points drop on their own, and silver, salt and iron work depending on the enemy. Room texts sit on the map numbers, and there is a separate view for the TV.
+    mehr: |
+      Plus area templates and a movement ruler, title cards on scene changes and sounds at places on the map. After the session, the mission report saves everything as a file. Still in the browser, no account.
+    link: https://odin-rpg.pages.dev/tisch/?lang=en
+    tags: ["VTT"]
