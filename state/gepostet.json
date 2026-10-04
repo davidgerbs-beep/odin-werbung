@@ -503,6 +503,28 @@
    "zeit": "2026-09-27T19:07:23.980428+02:00"
   }
  },
+ "neue-cover": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx2rvobg2s24",
+   "zeit": "2026-10-04T18:07:43.785462+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1556337049852837978",
+   "zeit": "2026-10-04T18:07:43.785462+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1805833467330910 (Video)",
+   "zeit": "2026-10-04T18:07:43.785462+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18124245298916504 (Reel)",
+   "zeit": "2026-10-04T18:07:43.785462+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117383500107234864",
+   "zeit": "2026-10-04T18:07:43.785462+02:00"
+  }
+ },
  "owlbear": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwxjxdp4422q",
