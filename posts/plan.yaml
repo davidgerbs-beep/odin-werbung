@@ -307,25 +307,30 @@ posts:
   zeit: "10:30"
   zeit_en: "16:00"
   bild:
-    typ: foto
-    datei: stausee_3.jpg
-    zeile_de: "Für heute Abend: Das Haus am Stausee"
-    zeile_en: "For tonight: The House by the Reservoir"
-    alt_de: "Vier Gestalten mit Fackeln an einem Steg vor einem Steinhaus auf einer Insel, dunkler Nadelwald, tiefe Wolken."
-    alt_en: "Four figures with torches on a jetty before a stone house on an island, dark pine forest, low clouds."
+    typ: cover
+    de: cover_ODIN_24b_Hop-tu-Naa.jpg
+    en: cover_ODIN_EN_24b_Hop-tu-Naa.jpg
+    alt_de: "Cover von Hop-tu-Naa: ein Wasserfall in einer bewaldeten Schlucht bei Dämmerung, vorn auf einem flachen Stein eine geschnitzte Laterne mit Gesicht, in Sepia."
+    alt_en: "Cover of Hop-tu-Naa: a waterfall in a wooded glen at dusk, a carved lantern with a face on a flat stone in front, in sepia."
   de:
     text: |
       Halloween und noch keinen Plan für heute Abend?
 
-      Der O.D.I.N.-Schnellstart ist genau dafür gebaut: vier fertige Agenten, ein Einsatz, drei bis vier Stunden. Ausdrucken, Würfel suchen, los.
-    link: https://odin-rpg.pages.dev/buecher.html
+      „Hop-tu-Naa“ ist genau dafür gebaut: ein Einsatz auf der Isle of Man, vier fertige Agenten, drei bis vier Stunden. Ausdrucken, Würfel suchen, los.
+    mehr: |
+      Quick and dirty und kostenlos als PDF. Die Agenten sind die aus dem Schnellstart, wer ihn kennt, spielt mit ihnen weiter.
+      Die Illustrationen sind KI-generiert.
+    link: https://odin-rpg.pages.dev/buch/hop-tu-naa
     tags: ["Halloween"]
   en:
     text: |
       Halloween and no plan for tonight yet?
 
-      The O.D.I.N. Quickstart was built for exactly this: four ready agents, one mission, three to four hours. Print it, find some dice, go.
-    link: https://odin-rpg.pages.dev/en/books.html
+      Hop-tu-Naa was built for exactly this: one mission on the Isle of Man, four ready agents, three to four hours. Print it, find some dice, go.
+    mehr: |
+      Quick and dirty, free as a PDF. The agents are the ones from the Quickstart, so if you played it, you carry on with them.
+      The illustrations are AI-generated.
+    link: https://odin-rpg.pages.dev/en/book/hop-tu-naa
     tags: ["Halloween"]
 
 # ---------------- Woche 5 ----------------
