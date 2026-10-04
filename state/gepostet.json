@@ -684,9 +684,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx2b4xlcxm2l",
    "zeit": "2026-10-04T13:07:34.467758+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx2eij5o632z",
+   "zeit": "2026-10-04T14:07:43.335079+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1556261513365553293",
    "zeit": "2026-10-04T13:07:34.467758+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1556276648868053063",
+   "zeit": "2026-10-04T14:07:43.335079+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1375689388959077_122107009671490766",
@@ -699,6 +707,14 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117382319843799544",
    "zeit": "2026-10-04T13:07:34.467758+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117382556345708254",
+   "zeit": "2026-10-04T14:07:43.335079+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18137299162712847",
+   "zeit": "2026-10-04T14:07:43.335079+02:00"
   }
  },
  "reel-nordlicht-1977": {
@@ -855,6 +871,10 @@
   "instagram": {
    "ergebnis": "instagram:18131048437786646 (Reel)",
    "zeit": "2026-10-04T11:07:31.968477+02:00"
+  },
+  "instagram_story": {
+   "ergebnis": "story:18086883290301118 (Video)",
+   "zeit": "2026-10-04T14:07:43.335079+02:00"
   },
   "mastodon_de": {
    "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117381847797104810",
