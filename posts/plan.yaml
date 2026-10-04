@@ -1984,6 +1984,64 @@ posts:
     link: https://odin-rpg.pages.dev/en/tables#questportal
     tags: ["VTT"]
 
+- id: hop-tu-naa
+  datum: "2026-10-05"
+  zeit: "16:00"
+  zeit_en: "17:30"
+  bild:
+    typ: cover
+    de: cover_ODIN_24b_Hop-tu-Naa.jpg
+    en: cover_ODIN_EN_24b_Hop-tu-Naa.jpg
+    alt_de: "Cover von Hop-tu-Naa: ein Wasserfall in einer bewaldeten Schlucht bei Dämmerung, vorn auf einem flachen Stein eine geschnitzte Laterne mit Gesicht, in Sepia, darüber der Titel und die Windrose als Wasserzeichen."
+    alt_en: "Cover of Hop-tu-Naa: a waterfall in a wooded glen at dusk, a carved lantern with a face on a flat stone in front, in sepia, with the title above and the compass rose as a watermark."
+  de:
+    text: |
+      Quick and dirty für Halloween: „Hop-tu-Naa“, ein kostenloser Einsatz für einen Abend.
+
+      Seit sieben Jahren wächst Finlo Kinvig nicht. Um Mitternacht bleibt das für immer so.
+    mehr: |
+      Auf der Isle of Man heißt Halloween Hop-tu-Naa. Schnell gebaut, nicht poliert: Gespielt wird mit Raven, Brandt, Echo und Folio aus dem Schnellstart, das Wesen kommt aus der Registratur. Kostenlos als PDF.
+      Die Illustrationen sind KI-generiert.
+    link: https://odin-rpg.pages.dev/buch/hop-tu-naa
+    tags: ["Halloween"]
+  en:
+    text: |
+      Quick and dirty for Halloween: Hop-tu-Naa, a free mission for one evening.
+
+      For seven years Finlo Kinvig has not grown. At midnight it stays that way for ever.
+    mehr: |
+      On the Isle of Man, Halloween is called Hop-tu-Naa. Built fast, not polished: you play Raven, Brandt, Echo and Folio from the Quickstart, and the creature comes from the Registry. Free as a PDF.
+      The illustrations are AI-generated.
+    link: https://odin-rpg.pages.dev/en/book/hop-tu-naa
+    tags: ["Halloween"]
+
+- id: realm
+  datum: "2026-10-07"
+  zeit: "18:30"
+  zeit_en: "20:00"
+  bild:
+    typ: zitat
+    de: "Neu auf Realm VTT\n\nAgentenbogen und Regelwerk\n347 Gegner mit Token\nStartabenteuer als Modul\nKostenlos, DE und EN"
+    en: "New on Realm VTT\n\nAgent sheet and ruleset\n347 enemies with tokens\nStarter adventure as a module\nFree, EN and DE"
+    quelle_de: "odin-rpg.pages.dev/spieltische"
+    quelle_en: "odin-rpg.pages.dev/en/tables"
+    alt_de: "Texttafel: O.D.I.N. gibt es neu auf Realm VTT, mit Regelwerk und Agentenbogen, 347 Gegnern mit Token und dem Startabenteuer als Modul, kostenlos auf Deutsch und Englisch."
+    alt_en: "Text card: O.D.I.N. is new on Realm VTT, with a ruleset and agent sheet, 347 enemies with tokens and the starter adventure as a module, free in English and German."
+  de:
+    text: |
+      O.D.I.N. läuft jetzt auch in Realm VTT. Der Agentenbogen zählt die Erfolge selbst, 347 Gegner aus allen Büchern kommen mit Bild und Token.
+    mehr: |
+      Zum Ausprobieren gibt es das Startabenteuer „Das Haus am Stausee“ als Modul: vier fertige Agenten, drei Szenen, Handouts. Alles kostenlos im Marktplatz von Realm, auf Deutsch und Englisch.
+    link: https://odin-rpg.pages.dev/spieltische#realm
+    tags: ["VTT"]
+  en:
+    text: |
+      O.D.I.N. now runs in Realm VTT. The agent sheet counts successes for you, and 347 enemies from every book come with portrait and token.
+    mehr: |
+      To try it, the starter adventure "The House by the Reservoir" is a module: four ready agents, three scenes, handouts. All free on the Realm marketplace, in English and German.
+    link: https://odin-rpg.pages.dev/en/tables#realm
+    tags: ["VTT"]
+
 - id: spieltisch-stufe-b
   datum: "2026-10-10"
   zeit: "18:30"
