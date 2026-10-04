@@ -2010,3 +2010,671 @@ posts:
       Plus area templates and a movement ruler, title cards on scene changes and sounds at places on the map. After the session, the mission report saves everything as a file. Still in the browser, no account.
     link: https://odin-rpg.pages.dev/tisch/?lang=en
     tags: ["VTT"]
+
+# ---------------- Halloween-Countdown (Registratur-Karteikarten, nur Text, 05.–30.10.) ----------------
+- id: hc-puppe
+  datum: "2026-10-05"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_t0636_de.jpg
+    en: reg_t0636_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Die Puppe, REG-T-0636, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Doll, REG-T-0636, with a quote and registry fields."
+  de:
+    text: |
+      „Das Kind hat uns gehört. Die ganze Zeit. Es hat nur gewartet, dass einer richtig sucht.“
+
+      Noch 26 Nächte bis Halloween. Aus der Registratur: die Puppe.
+    mehr: |
+      Nürnberg seit 1908, zuletzt im September 2026 in Ansbach. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “The child heard us. The whole time. It was only waiting for someone to search properly.”
+
+      26 nights to Halloween. From the Registry: the Doll.
+    mehr: |
+      Nuremberg since 1908, last seen in September 2026 in Ansbach. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-mann-in-der-wand
+  datum: "2026-10-06"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_v0123_de.jpg
+    en: reg_v0123_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Der Mann in der Wand, REG-V-0123, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Man in the Wall, REG-V-0123, with a quote and registry fields."
+  de:
+    text: |
+      „Er hat gesagt, ich soll die Musik leiser drehen. Dann wollte er wissen, wie Coventry gespielt hat. Dann hat er Tee verlangt, mit Strohhalm.“
+
+      Noch 25 Nächte bis Halloween. Aus der Registratur: der Mann in der Wand.
+    mehr: |
+      Seit 1964 in einer Küchenwand in Coventry. Jeden November schaut jemand nach ihm. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “He told me to turn the music down. Then he wanted to know how Coventry did. Then he asked for tea, with a straw.”
+
+      25 nights to Halloween. From the Registry: the Man in the Wall.
+    mehr: |
+      In a kitchen wall in Coventry since 1964. Every November someone checks on him. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-anhalterin
+  datum: "2026-10-07"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_g1012_de.jpg
+    en: reg_g1012_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Die Anhalterin, REG-G-1012, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Hitchhiker, REG-G-1012, with a quote and registry fields."
+  de:
+    text: |
+      „Ich habe mich nicht umgedreht. Ich habe nur in den Spiegel gesehen und gefragt, wie sie heißt. Sie hat gesagt: ‚Wie die vom Bäck.‘“
+
+      Noch 24 Nächte bis Halloween. Aus der Registratur: die Anhalterin.
+    mehr: |
+      Burgenland seit 1977, zuletzt im September 2026 auf dem Rücksitz eines Taxis. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “I didn’t turn round. I only looked in the mirror and asked what her name was. She said: ‘Same as the girl from the baker’s.’”
+
+      24 nights to Halloween. From the Registry: the Hitchhiker.
+    mehr: |
+      Burgenland since 1977, last seen in September 2026 on the back seat of a taxi. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-strigoi
+  datum: "2026-10-08"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_a0524_de.jpg
+    en: reg_a0524_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Der Strigoi, REG-A-0524, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Strigoi, REG-A-0524, with a quote and registry fields."
+  de:
+    text: |
+      „Wir sind um acht nach Hause gefahren, wie jedes Jahr. Nur die Wirtin hat gefragt, warum wir nicht noch eine Nacht bleiben.“
+
+      Noch 23 Nächte bis Halloween. Aus der Registratur: der Strigoi.
+    mehr: |
+      Siebenbürgen seit 1873. Er ruft in der Nacht, und wer antwortet, wird krank. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “We drove home at eight, like every year. Only the landlady asked why we weren’t staying another night.”
+
+      23 nights to Halloween. From the Registry: the Strigoi.
+    mehr: |
+      Transylvania since 1873. He calls at night, and whoever answers falls sick. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-banshee
+  datum: "2026-10-09"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_a0563_de.jpg
+    en: reg_a0563_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Die Banshee, REG-A-0563, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Banshee, REG-A-0563, with a quote and registry fields."
+  de:
+    text: |
+      „Ich habe die Nachbarin gebeten, den Sohn in Glasgow anzurufen, damit er sich verabschieden kann. So stand es in der Empfehlung. Er hat sich verabschiedet.“
+
+      Noch 22 Nächte bis Halloween. Aus der Registratur: die Banshee.
+    mehr: |
+      Donegal seit 1847, zuletzt im September 2026 auf einem Hof bei Dungloe. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “I asked the neighbour to ring the son in Glasgow so he could say goodbye. That’s what the recommendation said. He said goodbye.”
+
+      22 nights to Halloween. From the Registry: the Banshee.
+    mehr: |
+      Donegal since 1847, last heard in September 2026 on a farm near Dungloe. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-kind-im-treppenhaus
+  datum: "2026-10-10"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_v0131_de.jpg
+    en: reg_v0131_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Das Kind im Treppenhaus, REG-V-0131, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Child in the Stairwell, REG-V-0131, with a quote and registry fields."
+  de:
+    text: |
+      „Sechsundsechzig. Ich hätte es beschworen. Sie hat siebenundsechzig gesagt, und ich habe ihr geglaubt.“
+
+      Noch 21 Nächte bis Halloween. Aus der Registratur: das Kind im Treppenhaus.
+    mehr: |
+      Ein Treppenhaus in Glasgow seit 1905. Seit September 2026 wird dort ein Nachbar vermisst. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “Sixty-six. I’d have sworn to it. She said sixty-seven, and I believed her.”
+
+      21 nights to Halloween. From the Registry: the Child in the Stairwell.
+    mehr: |
+      A stairwell in Glasgow since 1905. A neighbour there has been missing since September 2026. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-heimkehrer
+  datum: "2026-10-12"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_t0627_de.jpg
+    en: reg_t0627_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Der Heimkehrer, REG-T-0627, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Homecomer, REG-T-0627, with a quote and registry fields."
+  de:
+    text: |
+      „Um sieben hat Monika über den Gartenzaun gerufen, und aus dem Haus kam ‚Hier‘. Dann haben wir weitergegessen. Das war der ganze Einsatz.“
+
+      Noch 19 Nächte bis Halloween. Aus der Registratur: der Heimkehrer.
+    mehr: |
+      1955 über Friedland heimgekehrt. Im April 2026 wurde er hundert. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “At seven Monika called over the garden fence, and from the house came ‘Here’. Then we went on eating. That was the whole mission.”
+
+      19 nights to Halloween. From the Registry: the Homecomer.
+    mehr: |
+      Came home through Friedland in 1955. In April 2026 he turned a hundred. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-yuki-onna
+  datum: "2026-10-13"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_a0572_de.jpg
+    en: reg_a0572_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Die Yuki-onna, REG-A-0572, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Yuki-onna, REG-A-0572, with a quote and registry fields."
+  de:
+    text: |
+      „Sie hat mir das Kind hingehalten, und ich habe die Hände in die Taschen gesteckt, wie es in der Akte steht. Am Morgen lag das Dach von Frau Mori im Wohnzimmer.“
+
+      Noch 18 Nächte bis Halloween. Aus der Registratur: die Yuki-onna.
+    mehr: |
+      Niigata, in jedem schweren Winter, zuletzt im Februar 2026 vor der Kamera eines Räumfahrzeugs. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “She held the child out to me, and I put my hands in my pockets, like it says in the file. In the morning Mrs Mori’s roof was in her living room.”
+
+      18 nights to Halloween. From the Registry: the Yuki-onna.
+    mehr: |
+      Niigata, every hard winter, last seen in February 2026 by the camera of a snowplough. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-mieter
+  datum: "2026-10-14"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_s0232_de.jpg
+    en: reg_s0232_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Der Mieter, REG-S-0232, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Tenant, REG-S-0232, with a quote and registry fields."
+  de:
+    text: |
+      „Er hat uns einen Zettel geschrieben. Das Schlimmste daran war, dass er recht hatte.“
+
+      Noch 17 Nächte bis Halloween. Aus der Registratur: der Mieter.
+    mehr: |
+      Haus C, dritter Stock links, seit 1937. Im September 2026 hing sein dritter Zettel an einer Tür. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “He wrote us a note. The worst of it was that he was right.”
+
+      17 nights to Halloween. From the Registry: the Tenant.
+    mehr: |
+      Building C, third floor left, since 1937. In September 2026 his third note was on a door. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-pflegerin
+  datum: "2026-10-15"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_m0715_de.jpg
+    en: reg_m0715_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Die Pflegerin, REG-M-0715, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Carer, REG-M-0715, with a quote and registry fields."
+  de:
+    text: |
+      „Sie hat ihm die Hand gehalten, fünf Nächte lang. Ich dachte, sie weiß etwas, das wir nicht wissen.“
+
+      Noch 16 Nächte bis Halloween. Aus der Registratur: die Pflegerin.
+    mehr: |
+      Ein Pflegeheim in Bremen-Nord seit 2020, immer gegen drei Uhr nachts. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “She held his hand, five nights in a row. I thought she knew something we didn’t.”
+
+      16 nights to Halloween. From the Registry: the Carer.
+    mehr: |
+      A care home in the north of Bremen since 2020, always around three in the morning. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-wirt-im-eis
+  datum: "2026-10-16"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_f0318_de.jpg
+    en: reg_f0318_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Der Wirt im Eis, REG-F-0318, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Host in the Ice, REG-F-0318, with a quote and registry fields."
+  de:
+    text: |
+      „Er hat gewinkt wie Arild. Ich habe geschossen, und er ist gefallen wie Arild. Dann sind die beiden mit dem Schlitten losgelaufen.“
+
+      Noch 15 Nächte bis Halloween. Aus der Registratur: der Wirt im Eis.
+    mehr: |
+      Spitzbergen seit 1984, zuletzt im März 2025 auf dem Fjordeis. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “He waved like Arild. I fired, and he fell like Arild. Then the two of them set off with the sledge.”
+
+      15 nights to Halloween. From the Registry: the Host in the Ice.
+    mehr: |
+      Svalbard since 1984, last seen in March 2025 on the fjord ice. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-llorona
+  datum: "2026-10-17"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_a0575_de.jpg
+    en: reg_a0575_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: La Llorona, REG-A-0575, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: La Llorona, REG-A-0575, with a quote and registry fields."
+  de:
+    text: |
+      „Wir haben den Müttern gesagt, sie sollen nicht mehr rufen. Es wurde sehr still in den Straßen am Kanal. Wir hielten das für einen Erfolg.“
+
+      Noch 14 Nächte bis Halloween. Aus der Registratur: La Llorona.
+    mehr: |
+      Am Rand von Mexiko-Stadt seit 1973, zuletzt im Oktober 2025 in einer Sprachnachricht. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “We told the mothers to stop calling. It got very quiet in the streets along the canal. We thought that was a success.”
+
+      14 nights to Halloween. From the Registry: La Llorona.
+    mehr: |
+      On the edge of Mexico City since 1973, last heard in October 2025 in a voice message. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-werwolf
+  datum: "2026-10-19"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_a0530_de.jpg
+    en: reg_a0530_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Der Werwolf der Sage, REG-A-0530, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Werewolf of Legend, REG-A-0530, with a quote and registry fields."
+  de:
+    text: |
+      „Er hat auf die Ernte getrunken und mir den Krug gereicht. Ich wollte nicht unhöflich sein. Das Protokoll verlangte es.“
+
+      Noch 12 Nächte bis Halloween. Aus der Registratur: der Werwolf der Sage.
+    mehr: |
+      Livland seit 1683, zuletzt in der Johannisnacht 2026 an der Gauja. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “He drank to the harvest and handed me the jug. I didn’t want to be rude. The protocol required it.”
+
+      12 nights to Halloween. From the Registry: the Werewolf of Legend.
+    mehr: |
+      Livonia since 1683, last seen on Midsummer Night 2026 on the Gauja. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-braut
+  datum: "2026-10-20"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_t0615_de.jpg
+    en: reg_t0615_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Die Braut, REG-T-0615, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Bride, REG-T-0615, with a quote and registry fields."
+  de:
+    text: |
+      „Ich war auf elf Hochzeiten in Benaquís, zur Beobachtung. Sie hat mich nie angesehen. Ich dachte, das liegt an mir.“
+
+      Noch 11 Nächte bis Halloween. Aus der Registratur: die Braut.
+    mehr: |
+      Benaquís seit 1939. Am Morgen nach mancher Hochzeit liegt einer tot an der Friedhofsmauer. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “I went to eleven weddings in Benaquís, as an observer. She never looked at me. I thought it was because of me.”
+
+      11 nights to Halloween. From the Registry: the Bride.
+    mehr: |
+      Benaquís since 1939. On the morning after some weddings, a man lies dead at the cemetery wall. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-draugr
+  datum: "2026-10-21"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_a0527_de.jpg
+    en: reg_a0527_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Der Draugr, REG-A-0527, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Draugr, REG-A-0527, with a quote and registry fields."
+  de:
+    text: |
+      „Fünf Namen, und fünf sind aufgestanden und gegangen. So sauber ist danach nie wieder ein Fall ausgegangen.“
+
+      Noch 10 Nächte bis Halloween. Aus der Registratur: der Draugr.
+    mehr: |
+      Island seit 1997, zuletzt im Januar 2025 in einer Hotelbewertung. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “Five names, and five stood up and left. No case ever ended that cleanly again.”
+
+      10 nights to Halloween. From the Registry: the Draugr.
+    mehr: |
+      Iceland since 1997, last seen in January 2025 in a hotel review. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-altes-kind
+  datum: "2026-10-22"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_v0118_de.jpg
+    en: reg_v0118_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Das alte Kind, REG-V-0118, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Old Child, REG-V-0118, with a quote and registry fields."
+  de:
+    text: |
+      „Sie hat mich gefragt, ob ihre Mutter sie noch erkennt, wenn sie aufwacht. Ich habe nicht gewusst, welche von beiden ich zuerst ansehen soll.“
+
+      Noch 9 Nächte bis Halloween. Aus der Registratur: das alte Kind.
+    mehr: |
+      Masuren seit 1887, zuletzt im September 2026 in Ungarn. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “She asked me whether her mother would still recognise her when she woke up. I didn’t know which of the two to look at first.”
+
+      9 nights to Halloween. From the Registry: the Old Child.
+    mehr: |
+      Masuria since 1887, last seen in September 2026 in Hungary. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-schachtgaenger
+  datum: "2026-10-23"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_s0203_de.jpg
+    en: reg_s0203_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Der Schachtgänger, REG-S-0203, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Shaft Walker, REG-S-0203, with a quote and registry fields."
+  de:
+    text: |
+      „Unter Tage lernst du am ersten Tag: Wo die Wetter stehen, gehst du nicht allein hinein. In dem Keller in Bochum hat mir das keiner gesagt.“
+
+      Noch 8 Nächte bis Halloween. Aus der Registratur: der Schachtgänger.
+    mehr: |
+      Das Ruhrgebiet seit 1961, zuletzt im September 2026 aus einem Keller gemeldet. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “Underground you learn on the first day: where the air stands still, you don’t go in alone. In that cellar in Bochum nobody told me.”
+
+      8 nights to Halloween. From the Registry: the Shaft Walker.
+    mehr: |
+      The Ruhr since 1961, last reported in September 2026 from a cellar. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-knochige
+  datum: "2026-10-24"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_a0536_de.jpg
+    en: reg_a0536_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Die Knochige im Wald, REG-A-0536, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Bony One in the Woods, REG-A-0536, with a quote and registry fields."
+  de:
+    text: |
+      „Sie fragte, ob ich eine Arbeit suche oder vor einer fliehe. Ich sagte: Erst die Sauna, dann das Essen, dann die Fragen. Sie lachte, auf Englisch: Endlich einer mit Manieren.“
+
+      Noch 7 Nächte bis Halloween. Aus der Registratur: die Knochige im Wald.
+    mehr: |
+      Karelien seit 1938, zuletzt im August 2026 auf einer Wildkamera. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “She asked whether I was looking for work or running from it. I said: first the sauna, then the food, then the questions. She laughed, in English: at last, someone with manners.”
+
+      7 nights to Halloween. From the Registry: the Bony One in the Woods.
+    mehr: |
+      Karelia since 1938, last seen in August 2026 on a trail camera. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-band
+  datum: "2026-10-26"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_t0639_de.jpg
+    en: reg_t0639_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Das Band, das man nicht abspielen soll, REG-T-0639, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Tape You Must Not Play, REG-T-0639, with a quote and registry fields."
+  de:
+    text: |
+      „Ich habe es 1986 gelöscht, Meter für Meter. Beim Löschen war es still. Das hielt ich für ein gutes Zeichen.“
+
+      Noch 5 Nächte bis Halloween. Aus der Registratur: das Band, das man nicht abspielen soll.
+    mehr: |
+      Bologna seit 1981. Seit September 2026 fehlt in Stockholm eine Kopie. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “I erased it in 1986, metre by metre. While it was being erased, it was quiet. I took that for a good sign.”
+
+      5 nights to Halloween. From the Registry: the Tape You Must Not Play.
+    mehr: |
+      Bologna since 1981. A copy has been missing in Stockholm since September 2026. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-souffleuse
+  datum: "2026-10-27"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_v0109_de.jpg
+    en: reg_v0109_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Die Souffleuse, REG-V-0109, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Prompter, REG-V-0109, with a quote and registry fields."
+  de:
+    text: |
+      „Ich höre Gedanken, kurz bevor sie gesprochen werden. Ihre höre ich, bevor sie gedacht werden.“
+
+      Noch 4 Nächte bis Halloween. Aus der Registratur: die Souffleuse.
+    mehr: |
+      Wien seit 1945, zuletzt im Treppenhaus der Polizeidirektion. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “I hear thoughts just before they’re spoken. Hers I hear before they’re thought.”
+
+      4 nights to Halloween. From the Registry: the Prompter.
+    mehr: |
+      Vienna since 1945, last seen in the stairwell of the police headquarters. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-lindwurm
+  datum: "2026-10-28"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_a0557_de.jpg
+    en: reg_a0557_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Der Lindwurm im Stollen, REG-A-0557, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Lindworm in the Tunnel, REG-A-0557, with a quote and registry fields."
+  de:
+    text: |
+      „Wir hatten zwei Maschinengewehre und sechstausend Schuss. Jede Kugel, die traf, hat er behalten. Weg war er erst, als ich den Gurt weggeworfen hatte.“
+
+      Noch 3 Nächte bis Halloween. Aus der Registratur: der Lindwurm im Stollen.
+    mehr: |
+      Kärnten seit 1936, zuletzt im August 2026 auf einem Seismogramm. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “We had two machine guns and six thousand rounds. Every bullet that hit, he kept. He only went when I’d thrown the belt away.”
+
+      3 nights to Halloween. From the Registry: the Lindworm in the Tunnel.
+    mehr: |
+      Carinthia since 1936, last seen in August 2026 on a seismogram. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-nachtmahr
+  datum: "2026-10-29"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_v0137_de.jpg
+    en: reg_v0137_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Der Nachtmahr aus dem Schlaflabor, REG-V-0137, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Nightmare from the Sleep Lab, REG-V-0137, with a quote and registry fields."
+  de:
+    text: |
+      „Er sitzt auf der Brust und sagt: Wach auf. Das ist das Schlimmste daran. Man will ja.“
+
+      Noch 2 Nächte bis Halloween. Aus der Registratur: der Nachtmahr aus dem Schlaflabor.
+    mehr: |
+      Perugia seit 1976, zuletzt im September 2026 im Schlaflabor. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “He sits on your chest and says: Wake up. That’s the worst of it. You want to.”
+
+      2 nights to Halloween. From the Registry: the Nightmare from the Sleep Lab.
+    mehr: |
+      Perugia since 1976, last seen in September 2026 in the sleep lab. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
+
+- id: hc-rufer
+  datum: "2026-10-30"
+  zeit: "09:30"
+  zeit_en: "15:30"
+  bild:
+    typ: akte
+    de: reg_f0336_de.jpg
+    en: reg_f0336_en.jpg
+    alt_de: "Karteikarte aus Band 22, Die Registratur: Der Rufer unter dem Schelfeis, REG-F-0336, mit Zitat und Registerfeldern."
+    alt_en: "Index card from Volume 22, The Registry: The Caller Beneath the Ice Shelf, REG-F-0336, with a quote and registry fields."
+  de:
+    text: |
+      „Wir haben ihm jedes Jahr geantwortet. Jedes Mal hat er es gehört. Das war nie die Frage.“
+
+      Noch eine Nacht bis Halloween. Aus der Registratur: der Rufer unter dem Schelfeis.
+    mehr: |
+      Antarktis seit 1994. Im September 2026 haben Hydrophone ihn bei Tristan da Cunha geortet. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
+    link: https://odin-rpg.pages.dev/buch/die-registratur
+    tags: ["Halloween"]
+  en:
+    text: |
+      “We answered him every year. Every time, he heard it. That was never the question.”
+
+      One more night to Halloween. From the Registry: the Caller Beneath the Ice Shelf.
+    mehr: |
+      Antarctica since 1994. In September 2026 hydrophones located him near Tristan da Cunha. Volume 22 keeps 105 beings on index cards, free and ad-free.
+    link: https://odin-rpg.pages.dev/en/book/the-registry
+    tags: ["Halloween"]
