@@ -28,7 +28,7 @@ discord_einladung: "https://discord.gg/HVZu67uAZa"
 kanaele:
   bluesky_de: true
   bluesky_en: true
-  mastodon_de: true
+  mastodon_de: false  # pnpde.social hat das Konto am 05.10.2026 gesperrt (Einspruch läuft), nicht einschalten, bis es entsperrt ist
   mastodon_en: true
   discord_de: true
   discord_en: true
