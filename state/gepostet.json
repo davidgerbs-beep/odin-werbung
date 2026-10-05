@@ -488,9 +488,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx4hkkshe32n",
    "zeit": "2026-10-05T10:07:52.454691+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx53o6dz5j2r",
+   "zeit": "2026-10-05T16:07:47.523301+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1556578681454067712",
    "zeit": "2026-10-05T10:07:52.454691+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1556669271122120725",
+   "zeit": "2026-10-05T16:07:47.523301+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1375689388959077_122107917801490766",
@@ -507,6 +515,36 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117387275590495701",
    "zeit": "2026-10-05T10:07:52.454691+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117388691009213730",
+   "zeit": "2026-10-05T16:07:47.523301+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18025505162916247",
+   "zeit": "2026-10-05T16:07:47.523301+02:00"
+  }
+ },
+ "hop-tu-naa": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx53o4one62o",
+   "zeit": "2026-10-05T16:07:47.523301+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1556669267582255106",
+   "zeit": "2026-10-05T16:07:47.523301+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1770331497537645 (Video)",
+   "zeit": "2026-10-05T16:07:47.523301+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:17984782521114712 (Reel)",
+   "zeit": "2026-10-05T16:07:47.523301+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117388690885572803",
+   "zeit": "2026-10-05T16:07:47.523301+02:00"
   }
  },
  "kartenraum": {
@@ -977,6 +1015,10 @@
   "instagram": {
    "ergebnis": "instagram:18109433261230249 (Reel)",
    "zeit": "2026-10-05T13:07:51.024609+02:00"
+  },
+  "instagram_story": {
+   "ergebnis": "story:17980340835093679 (Video)",
+   "zeit": "2026-10-05T16:07:47.523301+02:00"
   },
   "mastodon_de": {
    "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117387983450422365",
