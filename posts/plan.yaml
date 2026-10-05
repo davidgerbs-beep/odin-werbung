@@ -2768,3 +2768,30 @@ posts:
       Antarctica since 1994. In September 2026 hydrophones located him near Tristan da Cunha. Volume 22 keeps 105 beings on index cards, free and ad-free.
     link: https://odin-rpg.pages.dev/en/book/the-registry
     tags: ["Halloween"]
+
+- id: owlbear-video
+  datum: "2026-10-11"
+  zeit: "18:30"
+  zeit_en: "20:00"
+  bild:
+    typ: zitat
+    de: "O.D.I.N. in Owlbear Rodeo\n\nGegner suchen und setzen\nVersteckt, nummeriert\nAgent aus dem Generator\nKostenlose Erweiterung"
+    en: "O.D.I.N. in Owlbear Rodeo\n\nSearch and place enemies\nHidden, numbered\nAgent from the generator\nFree extension"
+    quelle_de: "odin-rpg.pages.dev/spieltische"
+    quelle_en: "odin-rpg.pages.dev/en/tables"
+    alt_de: "Texttafel: O.D.I.N. in Owlbear Rodeo. Gegner suchen und versteckt und nummeriert setzen, Agenten aus dem Charaktergenerator laden, kostenlose Erweiterung."
+    alt_en: "Text card: O.D.I.N. in Owlbear Rodeo. Search enemies and place them hidden and numbered, load agents from the character generator, free extension."
+  de:
+    text: |
+      Eine Minute aus der Owlbear-Erweiterung: Gegner aus allen Büchern suchen, mehrere auf einmal setzen, versteckt und nummeriert. Danach kommt ein Agent direkt aus dem Charaktergenerator an den Tisch.
+    mehr: |
+      Die Erweiterung ist kostenlos und braucht kein Konto. Den Installationslink gibt es auf der Spieltische-Seite. Die Illustrationen sind KI-generiert.
+    link: https://odin-rpg.pages.dev/spieltische
+    tags: ["OwlbearRodeo", "VTT"]
+  en:
+    text: |
+      One minute of the Owlbear Rodeo extension: search enemies from every book, place several at once, hidden and numbered. Then an agent comes straight from the character generator to the table.
+    mehr: |
+      The extension is free and needs no account. The install link is on the tables page. The illustrations are AI-generated.
+    link: https://odin-rpg.pages.dev/en/tables
+    tags: ["OwlbearRodeo", "VTT"]
