@@ -483,6 +483,28 @@
    "zeit": "2026-10-03T22:07:32.271946+02:00"
   }
  },
+ "hc-puppe": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx4hkkshe32n",
+   "zeit": "2026-10-05T10:07:52.454691+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1556578681454067712",
+   "zeit": "2026-10-05T10:07:52.454691+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1375689388959077_122107917801490766",
+   "zeit": "2026-10-05T10:07:52.454691+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18434847448180540 (Reel)",
+   "zeit": "2026-10-05T10:07:52.454691+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117387275590495701",
+   "zeit": "2026-10-05T10:07:52.454691+02:00"
+  }
+ },
  "kartenraum": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwj6molxar26",
