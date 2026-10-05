@@ -958,9 +958,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx4rmeriod2x",
    "zeit": "2026-10-05T13:07:51.024609+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx4uxlxqyo2z",
+   "zeit": "2026-10-05T14:07:48.394204+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1556623984034848819",
    "zeit": "2026-10-05T13:07:51.024609+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1556639061433647115",
+   "zeit": "2026-10-05T14:07:48.394204+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1375689388959077_122107995627490766",
@@ -973,6 +981,14 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117387983450422365",
    "zeit": "2026-10-05T13:07:51.024609+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117388219036589783",
+   "zeit": "2026-10-05T14:07:48.394204+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18108927737600870",
+   "zeit": "2026-10-05T14:07:48.394204+02:00"
   }
  },
  "reg-schornsteinmann": {
@@ -1259,6 +1275,10 @@
   "instagram": {
    "ergebnis": "instagram:18113732429043192 (Reel)",
    "zeit": "2026-10-05T11:07:55.730549+02:00"
+  },
+  "instagram_story": {
+   "ergebnis": "story:18121624849779935 (Video)",
+   "zeit": "2026-10-05T14:07:48.394204+02:00"
   },
   "mastodon_de": {
    "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117387511729501197",
