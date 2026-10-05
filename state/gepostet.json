@@ -550,6 +550,10 @@
    "ergebnis": "instagram:17984782521114712 (Reel)",
    "zeit": "2026-10-05T16:07:47.523301+02:00"
   },
+  "instagram_story": {
+   "ergebnis": "story:18154945747518801 (Video)",
+   "zeit": "2026-10-05T19:07:42.797686+02:00"
+  },
   "mastodon_de": {
    "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117388690885572803",
    "zeit": "2026-10-05T16:07:47.523301+02:00"
@@ -1177,6 +1181,24 @@
   "threads": {
    "ergebnis": "threads:17992209113848873",
    "zeit": "2026-10-03T20:07:33.844765+02:00"
+  }
+ },
+ "spieltisch-stufe-a": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx5fpuetle27",
+   "zeit": "2026-10-05T19:07:42.797686+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1556714525237973093",
+   "zeit": "2026-10-05T19:07:42.797686+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1249890897323495 (Video)",
+   "zeit": "2026-10-05T19:07:42.797686+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18094641011670405 (Reel)",
+   "zeit": "2026-10-05T19:07:42.797686+02:00"
   }
  },
  "w01-schnellstart": {
