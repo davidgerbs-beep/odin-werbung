@@ -2026,24 +2026,24 @@ posts:
   zeit_en: "20:00"
   bild:
     typ: zitat
-    de: "Neu auf Realm VTT\n\nAgentenbogen und Regelwerk\n347 Gegner mit Token\nStartabenteuer als Modul\nKostenlos, DE und EN"
-    en: "New on Realm VTT\n\nAgent sheet and ruleset\n347 enemies with tokens\nStarter adventure as a module\nFree, EN and DE"
+    de: "Neu auf Realm VTT\n\nAgentenbogen und Regelwerk\n347 Gegner mit Token\nNeun Module je Sprache\nKostenlos, DE und EN"
+    en: "New on Realm VTT\n\nAgent sheet and ruleset\n347 enemies with tokens\nNine modules per language\nFree, EN and DE"
     quelle_de: "odin-rpg.pages.dev/spieltische"
     quelle_en: "odin-rpg.pages.dev/en/tables"
-    alt_de: "Texttafel: O.D.I.N. gibt es neu auf Realm VTT, mit Regelwerk und Agentenbogen, 347 Gegnern mit Token und dem Startabenteuer als Modul, kostenlos auf Deutsch und Englisch."
-    alt_en: "Text card: O.D.I.N. is new on Realm VTT, with a ruleset and agent sheet, 347 enemies with tokens and the starter adventure as a module, free in English and German."
+    alt_de: "Texttafel: O.D.I.N. gibt es neu auf Realm VTT, mit Regelwerk und Agentenbogen, 347 Gegnern mit Token und neun Modulen je Sprache, kostenlos auf Deutsch und Englisch."
+    alt_en: "Text card: O.D.I.N. is new on Realm VTT, with a ruleset and agent sheet, 347 enemies with tokens and nine modules per language, free in English and German."
   de:
     text: |
       O.D.I.N. läuft jetzt auch in Realm VTT. Der Agentenbogen zählt die Erfolge selbst, 347 Gegner aus allen Büchern kommen mit Bild und Token.
     mehr: |
-      Zum Ausprobieren gibt es das Startabenteuer „Das Haus am Stausee“ als Modul: vier fertige Agenten, drei Szenen, Handouts. Alles kostenlos im Marktplatz von Realm, auf Deutsch und Englisch.
+      Im Marktplatz von Realm liegen neun kostenlose Module je Sprache: die Gegner, das Startabenteuer „Das Haus am Stausee“ mit vier fertigen Agenten, „Nordlicht 1977“, „Die Tür“, „Die Grauen Akten“, „Die Registratur“, „Horte der Welt“, „Die anderen Dienste“ und die Würfeltabellen.
     link: https://odin-rpg.pages.dev/spieltische#realm
     tags: ["VTT"]
   en:
     text: |
       O.D.I.N. now runs in Realm VTT. The agent sheet counts successes for you, and 347 enemies from every book come with portrait and token.
     mehr: |
-      To try it, the starter adventure "The House by the Reservoir" is a module: four ready agents, three scenes, handouts. All free on the Realm marketplace, in English and German.
+      The Realm marketplace has nine free modules per language: the enemies, the starter adventure "The House by the Reservoir" with four ready agents, "Nordlicht 1977", "The Door", "The Grey Files", "The Registry", "Holds of the World", "The Other Services" and the roll tables.
     link: https://odin-rpg.pages.dev/en/tables#realm
     tags: ["VTT"]
 
