@@ -23,7 +23,7 @@ concurrency:
 
 jobs:
   posten:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
     steps:
       # Neuesten Stand von main holen, nicht den vom Start des Laufs: Ein Lauf, der wegen
