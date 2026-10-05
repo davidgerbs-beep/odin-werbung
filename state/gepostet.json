@@ -530,9 +530,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx53o4one62o",
    "zeit": "2026-10-05T16:07:47.523301+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx5bij25xj24",
+   "zeit": "2026-10-05T17:52:01.157922+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1556669267582255106",
    "zeit": "2026-10-05T16:07:47.523301+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1556695488433233950",
+   "zeit": "2026-10-05T17:52:01.157922+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1770331497537645 (Video)",
@@ -545,6 +553,10 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.pnpde.social/@odin_rpg/117388690885572803",
    "zeit": "2026-10-05T16:07:47.523301+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117389100703135214",
+   "zeit": "2026-10-05T17:52:01.157922+02:00"
   }
  },
  "kartenraum": {
@@ -1337,6 +1349,10 @@
   "mastodon_en": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117388927060267698",
    "zeit": "2026-10-05T17:07:52.485372+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18123903208694715",
+   "zeit": "2026-10-05T17:52:01.157922+02:00"
   }
  },
  "w02-generator": {
