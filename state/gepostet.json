@@ -676,9 +676,17 @@
    "ergebnis": "instagram:18113592980024017 (Reel)",
    "zeit": "2026-10-06T18:07:33.467135+02:00"
   },
+  "instagram_story": {
+   "ergebnis": "story:18135635464641691 (Video)",
+   "zeit": "2026-10-06T22:07:44.449009+02:00"
+  },
   "mastodon_en": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117395531568819519",
    "zeit": "2026-10-06T21:07:29.471119+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18091149314679225",
+   "zeit": "2026-10-06T22:07:44.449009+02:00"
   }
  },
  "neue-cover": {
