@@ -656,9 +656,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx7st7li6r2l",
    "zeit": "2026-10-06T18:07:33.467135+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxa4uxi22k2w",
+   "zeit": "2026-10-06T21:07:29.471119+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1557061774648283206",
    "zeit": "2026-10-06T18:07:33.467135+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1557107064097079408",
+   "zeit": "2026-10-06T21:07:29.471119+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1634291815085610 (Video)",
@@ -667,6 +675,10 @@
   "instagram": {
    "ergebnis": "instagram:18113592980024017 (Reel)",
    "zeit": "2026-10-06T18:07:33.467135+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117395531568819519",
+   "zeit": "2026-10-06T21:07:29.471119+02:00"
   }
  },
  "neue-cover": {
