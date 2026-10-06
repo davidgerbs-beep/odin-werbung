@@ -499,6 +499,10 @@
   "instagram": {
    "ergebnis": "instagram:18096020171554482 (Reel)",
    "zeit": "2026-10-06T10:07:45.249224+02:00"
+  },
+  "instagram_story": {
+   "ergebnis": "story:18130430989743124 (Video)",
+   "zeit": "2026-10-06T13:07:27.655986+02:00"
   }
  },
  "hc-puppe": {
@@ -739,6 +743,24 @@
   "threads": {
    "ergebnis": "threads:18383382532236120",
    "zeit": "2026-10-05T21:07:55.114262+02:00"
+  }
+ },
+ "reel-die-anderen-dienste": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx7c2masll2n",
+   "zeit": "2026-10-06T13:07:27.655986+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1556986254241960019",
+   "zeit": "2026-10-06T13:07:27.655986+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1375689388959077_122108586861490766",
+   "zeit": "2026-10-06T13:07:27.655986+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18006355556786908 (Reel)",
+   "zeit": "2026-10-06T13:07:27.655986+02:00"
   }
  },
  "reel-die-tuer": {
