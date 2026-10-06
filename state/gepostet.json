@@ -488,9 +488,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx6xzazazk2w",
    "zeit": "2026-10-06T10:07:45.249224+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx7m4vcslu2r",
+   "zeit": "2026-10-06T16:07:42.237043+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1556941027061796895",
    "zeit": "2026-10-06T10:07:45.249224+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1557031620165509330",
+   "zeit": "2026-10-06T16:07:42.237043+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1375689388959077_122108507763490766",
@@ -503,6 +511,14 @@
   "instagram_story": {
    "ergebnis": "story:18130430989743124 (Video)",
    "zeit": "2026-10-06T13:07:27.655986+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117394352752971529",
+   "zeit": "2026-10-06T16:07:42.237043+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18051770774804786",
+   "zeit": "2026-10-06T16:07:42.237043+02:00"
   }
  },
  "hc-puppe": {
@@ -769,6 +785,10 @@
   "instagram": {
    "ergebnis": "instagram:18006355556786908 (Reel)",
    "zeit": "2026-10-06T13:07:27.655986+02:00"
+  },
+  "instagram_story": {
+   "ergebnis": "story:18197495674381051 (Video)",
+   "zeit": "2026-10-06T16:07:42.237043+02:00"
   },
   "mastodon_en": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117393880012039507",
