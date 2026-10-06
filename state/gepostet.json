@@ -651,6 +651,24 @@
    "zeit": "2026-09-27T19:07:23.980428+02:00"
   }
  },
+ "letsrole": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx7st7li6r2l",
+   "zeit": "2026-10-06T18:07:33.467135+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1557061774648283206",
+   "zeit": "2026-10-06T18:07:33.467135+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1634291815085610 (Video)",
+   "zeit": "2026-10-06T18:07:33.467135+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18113592980024017 (Reel)",
+   "zeit": "2026-10-06T18:07:33.467135+02:00"
+  }
+ },
  "neue-cover": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx2rvobg2s24",
