@@ -623,6 +623,24 @@
    "zeit": "2026-10-05T18:08:14.024498+02:00"
   }
  },
+ "jam-ankuendigung": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxbjsuty5g27",
+   "zeit": "2026-10-07T10:31:37.940819+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1557309424605855750",
+   "zeit": "2026-10-07T10:31:37.940819+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:2150554599232750 (Video)",
+   "zeit": "2026-10-07T10:31:37.940819+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:17922042111439538 (Reel)",
+   "zeit": "2026-10-07T10:31:37.940819+02:00"
+  }
+ },
  "kartenraum": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwj6molxar26",
