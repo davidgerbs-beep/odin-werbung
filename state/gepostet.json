@@ -499,6 +499,10 @@
   "instagram": {
    "ergebnis": "instagram:18149264431552819 (Reel)",
    "zeit": "2026-10-07T10:07:31.862394+02:00"
+  },
+  "instagram_story": {
+   "ergebnis": "story:18109084268587720 (Video)",
+   "zeit": "2026-10-07T13:07:30.735226+02:00"
   }
  },
  "hc-mann-in-der-wand": {
@@ -1139,6 +1143,24 @@
   "tumblr": {
    "ergebnis": "tumblr:828866524782673920",
    "zeit": "2026-09-27T02:24:18.099850+02:00"
+  }
+ },
+ "reel-schattenoffiziere": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxbsjmhtwu2x",
+   "zeit": "2026-10-07T13:07:30.735226+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1557348653423927386",
+   "zeit": "2026-10-07T13:07:30.735226+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1375689388959077_122109223815490766",
+   "zeit": "2026-10-07T13:07:30.735226+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18086423801290335 (Reel)",
+   "zeit": "2026-10-07T13:07:30.735226+02:00"
   }
  },
  "reel-schnellstart": {
