@@ -875,6 +875,24 @@
    "zeit": "2026-10-05T21:07:55.114262+02:00"
   }
  },
+ "realm": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxcgnfaegx2z",
+   "zeit": "2026-10-07T19:07:32.562652+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1557439257533092022",
+   "zeit": "2026-10-07T19:07:32.562652+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1405967861081004 (Video)",
+   "zeit": "2026-10-07T19:07:32.562652+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18090402158239703 (Reel)",
+   "zeit": "2026-10-07T19:07:32.562652+02:00"
+  }
+ },
  "reel-die-anderen-dienste": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx7c2masll2n",
