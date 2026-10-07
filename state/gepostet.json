@@ -515,6 +515,10 @@
   "mastodon_en": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117400014432659006",
    "zeit": "2026-10-07T16:07:32.050287+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:17990927922027686",
+   "zeit": "2026-10-07T18:07:29.031469+02:00"
   }
  },
  "hc-mann-in-der-wand": {
@@ -644,9 +648,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxbjsuty5g27",
    "zeit": "2026-10-07T10:31:37.940819+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxcdc2igqd22",
+   "zeit": "2026-10-07T18:07:29.031469+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1557309424605855750",
    "zeit": "2026-10-07T10:31:37.940819+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1557424163403071488",
+   "zeit": "2026-10-07T18:07:29.031469+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:2150554599232750 (Video)",
@@ -659,6 +671,10 @@
   "instagram_story": {
    "ergebnis": "story:18120440236949151 (Video)",
    "zeit": "2026-10-07T14:07:28.953878+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117400486200252379",
+   "zeit": "2026-10-07T18:07:29.031469+02:00"
   }
  },
  "kartenraum": {
@@ -1721,6 +1737,24 @@
   "tumblr": {
    "ergebnis": "tumblr:829208905542418432",
    "zeit": "2026-09-30T21:04:33.973849+02:00"
+  }
+ },
+ "w03-thaumaturg": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxcdbyq6x22z",
+   "zeit": "2026-10-07T18:07:29.031469+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1557424159745773708",
+   "zeit": "2026-10-07T18:07:29.031469+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1375689388959077_122109338901490766",
+   "zeit": "2026-10-07T18:07:29.031469+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:17960969742236468 (Reel)",
+   "zeit": "2026-10-07T18:07:29.031469+02:00"
   }
  },
  "w12-discord": {
