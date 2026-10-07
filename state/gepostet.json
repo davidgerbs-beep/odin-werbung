@@ -643,6 +643,10 @@
   "instagram": {
    "ergebnis": "instagram:17922042111439538 (Reel)",
    "zeit": "2026-10-07T10:31:37.940819+02:00"
+  },
+  "instagram_story": {
+   "ergebnis": "story:18120440236949151 (Video)",
+   "zeit": "2026-10-07T14:07:28.953878+02:00"
   }
  },
  "kartenraum": {
@@ -1154,6 +1158,10 @@
    "ergebnis": "discord:1557348653423927386",
    "zeit": "2026-10-07T13:07:30.735226+02:00"
   },
+  "discord_en": {
+   "ergebnis": "discord:1557363746794635348",
+   "zeit": "2026-10-07T14:07:28.953878+02:00"
+  },
   "facebook": {
    "ergebnis": "facebook:1375689388959077_122109223815490766",
    "zeit": "2026-10-07T13:07:30.735226+02:00"
@@ -1161,6 +1169,14 @@
   "instagram": {
    "ergebnis": "instagram:18086423801290335 (Reel)",
    "zeit": "2026-10-07T13:07:30.735226+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117399542246585791",
+   "zeit": "2026-10-07T14:07:28.953878+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18094822274437965",
+   "zeit": "2026-10-07T14:07:28.953878+02:00"
   }
  },
  "reel-schnellstart": {
