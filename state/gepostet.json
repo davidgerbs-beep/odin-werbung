@@ -4,9 +4,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxetqvzd242o",
    "zeit": "2026-10-08T18:07:29.205898+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxf5swdzjl2w",
+   "zeit": "2026-10-08T21:07:33.813615+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1557786529403904112",
    "zeit": "2026-10-08T18:07:29.205898+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1557831864918737013",
+   "zeit": "2026-10-08T21:07:33.813615+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:2528011184366694 (Video)",
@@ -15,6 +23,18 @@
   "instagram": {
    "ergebnis": "instagram:18112619690465352 (Reel)",
    "zeit": "2026-10-08T18:07:29.205898+02:00"
+  },
+  "instagram_story": {
+   "ergebnis": "story:18097581188645615 (Video)",
+   "zeit": "2026-10-08T21:07:33.813615+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117406856598866716",
+   "zeit": "2026-10-08T21:07:33.813615+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18094383614454304",
+   "zeit": "2026-10-08T21:07:33.813615+02:00"
   }
  },
  "emma-pahl": {
