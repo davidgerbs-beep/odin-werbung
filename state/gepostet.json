@@ -601,6 +601,24 @@
    "zeit": "2026-10-05T16:07:47.523301+02:00"
   }
  },
+ "hc-strigoi": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxdywvcni42w",
+   "zeit": "2026-10-08T10:07:38.116391+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1557665774057955419",
+   "zeit": "2026-10-08T10:07:38.116391+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1375689388959077_122109772059490766",
+   "zeit": "2026-10-08T10:07:38.116391+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18001778063804152 (Reel)",
+   "zeit": "2026-10-08T10:07:38.116391+02:00"
+  }
+ },
  "hop-tu-naa": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx53o4one62o",
