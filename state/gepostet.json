@@ -1,4 +1,22 @@
 {
+ "discord-bot": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxetqvzd242o",
+   "zeit": "2026-10-08T18:07:29.205898+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1557786529403904112",
+   "zeit": "2026-10-08T18:07:29.205898+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:2528011184366694 (Video)",
+   "zeit": "2026-10-08T18:07:29.205898+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18112619690465352 (Reel)",
+   "zeit": "2026-10-08T18:07:29.205898+02:00"
+  }
+ },
  "emma-pahl": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwvucw5fbc2l",
