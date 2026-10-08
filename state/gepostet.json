@@ -617,6 +617,10 @@
   "instagram": {
    "ergebnis": "instagram:18001778063804152 (Reel)",
    "zeit": "2026-10-08T10:07:38.116391+02:00"
+  },
+  "instagram_story": {
+   "ergebnis": "story:17939379276386565 (Video)",
+   "zeit": "2026-10-08T13:07:29.803921+02:00"
   }
  },
  "hop-tu-naa": {
@@ -1143,6 +1147,24 @@
   "threads": {
    "ergebnis": "threads:18137299162712847",
    "zeit": "2026-10-04T14:07:43.335079+02:00"
+  }
+ },
+ "reel-miniaturen": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxecyjbo2p2h",
+   "zeit": "2026-10-08T13:07:29.803921+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1557711038416429129",
+   "zeit": "2026-10-08T13:07:29.803921+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1727024928382581 (Video)",
+   "zeit": "2026-10-08T13:07:29.803921+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18098210072561518 (Reel)",
+   "zeit": "2026-10-08T13:07:29.803921+02:00"
   }
  },
  "reel-nordlicht-1977": {
