@@ -1154,9 +1154,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxecyjbo2p2h",
    "zeit": "2026-10-08T13:07:29.803921+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxege3uy4422",
+   "zeit": "2026-10-08T14:07:39.834500+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1557711038416429129",
    "zeit": "2026-10-08T13:07:29.803921+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1557726188733079592",
+   "zeit": "2026-10-08T14:07:39.834500+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1727024928382581 (Video)",
@@ -1165,6 +1173,10 @@
   "instagram": {
    "ergebnis": "instagram:18098210072561518 (Reel)",
    "zeit": "2026-10-08T13:07:29.803921+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117405205411785415",
+   "zeit": "2026-10-08T14:07:39.834500+02:00"
   }
  },
  "reel-nordlicht-1977": {
