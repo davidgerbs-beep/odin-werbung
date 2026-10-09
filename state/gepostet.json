@@ -559,6 +559,24 @@
    "zeit": "2026-10-07T18:07:29.031469+02:00"
   }
  },
+ "hc-banshee": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxgjflsda52l",
+   "zeit": "2026-10-09T10:07:30.943483+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1558028130512543796",
+   "zeit": "2026-10-09T10:07:30.943483+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1375689388959077_122110331829490766",
+   "zeit": "2026-10-09T10:07:30.943483+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18134715490708254 (Reel)",
+   "zeit": "2026-10-09T10:07:30.943483+02:00"
+  }
+ },
  "hc-mann-in-der-wand": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx6xzazazk2w",
