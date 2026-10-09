@@ -2074,6 +2074,60 @@ posts:
     link: https://odin-rpg.pages.dev/tisch/?lang=en
     tags: ["VTT"]
 
+- id: halloween-wuerfel
+  datum: "2026-10-14"
+  zeit: "18:30"
+  zeit_en: "20:00"
+  bild:
+    typ: zitat
+    de: "Halloween am Spieltisch\n\nKnochenweiße Würfel\nKürbisorange Würfel\nEin Kürbis auf der 6\nAuch in Owlbear Rodeo"
+    en: "Halloween at the O.D.I.N. table\n\nBone-white dice\nPumpkin-orange dice\nA pumpkin on the 6\nIn Owlbear Rodeo too"
+    quelle_de: "odin-rpg.pages.dev/tisch"
+    quelle_en: "odin-rpg.pages.dev/tisch"
+    alt_de: "Texttafel: Halloween am O.D.I.N.-Spieltisch mit knochenweißen und kürbisorangen Würfeln, einem Kürbis auf der 6, auch in Owlbear Rodeo."
+    alt_en: "Text card: Halloween at the O.D.I.N. table with bone-white and pumpkin-orange dice and a pumpkin on the 6, in Owlbear Rodeo too."
+  de:
+    text: |
+      Im Oktober würfelt der O.D.I.N.-Spieltisch mit Halloween-Würfeln: die weißen knochenfarben, die bunten kürbisorange, und auf der 6 grinst ein Kürbis mit Reißzähnen.
+    mehr: |
+      Das Thema gilt den ganzen Oktober und verschwindet im November von selbst. Wer es nicht mag, schaltet es in den Einstellungen ab. Die Owlbear-Rodeo-Erweiterung hat dieselben Würfel, dort entscheidet die Spielleitung. Weiter im Browser, ohne Konto.
+    link: https://odin-rpg.pages.dev/tisch/
+    tags: ["VTT", "Halloween"]
+  en:
+    text: |
+      In October the O.D.I.N. table rolls Halloween dice: the white ones bone-coloured, the coloured ones pumpkin orange, and a fanged pumpkin grins on every 6.
+    mehr: |
+      The theme runs all October and disappears in November on its own. Not your thing? Switch it off in the settings. The Owlbear Rodeo extension has the same dice, and there the GM decides. Still in the browser, no account.
+    link: https://odin-rpg.pages.dev/tisch/?lang=en
+    tags: ["VTT", "Halloween"]
+
+- id: spieltisch-flaechen
+  datum: "2026-10-15"
+  zeit: "18:30"
+  zeit_en: "20:00"
+  bild:
+    typ: zitat
+    de: "Neu am Spieltisch\n\nGranaten mit Radius\nZauber auf Flächen\nEin Wurf je Ziel\nWürfe im Discord-Kanal"
+    en: "New at the O.D.I.N. table\n\nGrenades with a radius\nSpells on areas\nOne roll per target\nRolls in Discord"
+    quelle_de: "odin-rpg.pages.dev/tisch"
+    quelle_en: "odin-rpg.pages.dev/tisch"
+    alt_de: "Texttafel: Neu am O.D.I.N.-Spieltisch sind Granaten mit Radius, Zauber auf Flächen, ein Wurf je Ziel und Würfe im Discord-Kanal der Runde."
+    alt_en: "Text card: new at the O.D.I.N. table are grenades with a radius, spells on areas, one roll per target and rolls in your group's Discord channel."
+  de:
+    text: |
+      Am O.D.I.N.-Spieltisch trifft eine Granate jetzt alles im Radius. Die Spielleitung tippt auf die Mitte, der Tisch würfelt gegen jedes Ziel einzeln, Deckung schützt, und wer ausweicht, halbiert den Schaden.
+    mehr: |
+      Kräfte und Zauber mit Fläche laufen genauso, mit eigener Animation. Neu ist auch der Draht zum Discord der Runde: Würfe, Runden und Treffer landen als kurze Zeile im Kanal, verdeckte Würfe und Geflüstertes nie. Weiter im Browser, ohne Konto.
+    link: https://odin-rpg.pages.dev/tisch/
+    tags: ["VTT"]
+  en:
+    text: |
+      At the O.D.I.N. table, a grenade now hits everything in its radius. The GM taps the centre, the table rolls against each target separately, cover protects, and dodging halves the damage.
+    mehr: |
+      Powers and spells with an area work the same way, each with its own animation. Also new: a line to your group's Discord. Rolls, rounds and hits show up as a short line in the channel, hidden rolls and whispers never. Still in the browser, no account.
+    link: https://odin-rpg.pages.dev/tisch/?lang=en
+    tags: ["VTT"]
+
 - id: spieltisch-stufe-b
   datum: "2026-10-10"
   zeit: "18:30"
