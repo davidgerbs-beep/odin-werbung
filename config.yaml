@@ -25,10 +25,16 @@ discord_einladung: "https://discord.gg/HVZu67uAZa"
 
 # Welche Kanäle aktiv sind. Ein Kanal postet nur, wenn er hier true ist UND seine Zugangsdaten
 # als GitHub-Secret hinterlegt sind.
+# Deutsche Mastodon-Beiträge laufen über das EN-Konto (mastodon.world), nicht mehr über pnpde.social.
+mastodon_de_konto: en
+# Kanäle, die erst ab einem Zeitpunkt posten (ältere Beiträge werden nicht nachgeholt).
+kanal_ab:
+  mastodon_de: "2026-10-09T19:00:00"
+
 kanaele:
   bluesky_de: true
   bluesky_en: true
-  mastodon_de: false  # pnpde.social: 05.10. gesperrt, Einspruch 09.10. 09:21 angenommen, 09:25 erneut gesperrt. Nicht einschalten, nicht neu anmelden.
+  mastodon_de: true  # seit 09.10. 19:00 über das EN-Konto auf mastodon.world (Dave: „Ja“). pnpde.social: 05.10. gesperrt, Einspruch 09.10. 09:21 angenommen, 09:25 erneut gesperrt, nicht neu anmelden.
   mastodon_en: true
   discord_de: true
   discord_en: true
