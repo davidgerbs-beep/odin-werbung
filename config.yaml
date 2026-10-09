@@ -28,7 +28,7 @@ discord_einladung: "https://discord.gg/HVZu67uAZa"
 kanaele:
   bluesky_de: true
   bluesky_en: true
-  mastodon_de: true  # pnpde.social: am 05.10.2026 gesperrt, Einspruch am 09.10. angenommen, wieder aktiv (höchstens 1 Beitrag pro Stunde, #KIgeneriert)
+  mastodon_de: false  # pnpde.social: 05.10. gesperrt, Einspruch 09.10. 09:21 angenommen, 09:25 erneut gesperrt. Nicht einschalten, nicht neu anmelden.
   mastodon_en: true
   discord_de: true
   discord_en: true
