@@ -725,7 +725,9 @@ def channels(cfg):
     c = {
         "bluesky_de": ("de", (env("BSKY_DE_HANDLE", "BSKY_HANDLE"), env("BSKY_DE_PASSWORD", "BSKY_PASSWORD"))),
         "bluesky_en": ("en", (env("BSKY_EN_HANDLE", "BSKY_HANDLE"), env("BSKY_EN_PASSWORD", "BSKY_PASSWORD"))),
-        "mastodon_de": ("de", (env("MASTODON_DE_INSTANCE"), env("MASTODON_DE_TOKEN"))),
+        # mastodon_de_konto: en -> deutsche Beiträge über das EN-Konto (mastodon.world), seit 09.10.2026
+        "mastodon_de": ("de", (env("MASTODON_EN_INSTANCE"), env("MASTODON_EN_TOKEN")) if cfg.get("mastodon_de_konto") == "en"
+                        else (env("MASTODON_DE_INSTANCE"), env("MASTODON_DE_TOKEN"))),
         "mastodon_en": ("en", (env("MASTODON_EN_INSTANCE"), env("MASTODON_EN_TOKEN"))),
         "discord_de": ("de", (env("DISCORD_DE_WEBHOOK"),)),
         "discord_en": ("en", (env("DISCORD_EN_WEBHOOK"),)),
@@ -889,6 +891,9 @@ def run(cfg, plan, now, dry, only_id=None):
             if blocked(post, cfg) and not only_id:
                 continue
             due = due_time(post, post_langs(post, lang, cfg), cfg)
+            ab = (cfg.get("kanal_ab") or {}).get(channel)
+            if ab and not only_id and due < datetime.fromisoformat(str(ab)).replace(tzinfo=due.tzinfo):
+                continue  # Kanal erst ab diesem Zeitpunkt, ältere Beiträge nicht nachholen
             if channel == "instagram_story":
                 due += timedelta(hours=float(cfg.get("instagram_story_versatz_stunden", 3)))
             if only_id or due <= now:
