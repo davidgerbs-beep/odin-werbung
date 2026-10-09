@@ -1741,6 +1741,33 @@ posts:
       From The Registry, card REG-A-0539. Free.
     link: https://odin-rpg.pages.dev/en/book/the-registry
 
+# ---------------- Miniaturen bei Etsy (Dave 09.10.: „miniaturen sind online“) ----------------
+- id: miniaturen-etsy
+  datum: "2026-10-10"
+  zeit: "12:30"
+  zeit_en: "14:00"
+  bild:
+    typ: raster
+    dateien: [mini_invoker-w.jpg, mini_antiquarian-m.jpg, mini_psychic-healer-w.jpg, mini_infiltrator-m.jpg, mini_techno-stormtrooper-m.jpg, mini_telepath-w.jpg]
+    zeile_de: "30 Miniaturen · jetzt bei Etsy"
+    zeile_en: "30 miniatures · now on Etsy"
+    alt_de: "Sechs unbemalte graue Miniaturen auf runden Bases: Invokerin mit ausgebreiteten Armen, Antiquar mit Lupe, kniende Heilerin, hockender Infiltrator mit Kapuze, gepanzerter Sturmsoldat mit Schild, Telepathin mit erhobener Hand."
+    alt_en: "Six unpainted grey miniatures on round bases: an Invoker with arms spread wide, an Antiquarian with a magnifying glass, a kneeling Psychic Healer, a crouching hooded Infiltrator, an armoured stormtrooper with a shield, a Telepath with a raised hand."
+  de:
+    text: |
+      Die O.D.I.N.-Miniaturen sind da: alle 30 Unterklassen, je als Mann und als Frau, im Maßstab 28 mm.
+    mehr: |
+      Als STL-Datei für den eigenen Drucker ab 5,90 €, fertig gedruckt aus Resin ab 19,90 €, mit oder ohne Base. Auf der Website dreht sich jede Figur einmal rundherum, bevor man kauft. Verkauft wird über den Etsy-Shop ODINArsenal.
+    link: https://odin-rpg.pages.dev/miniaturen
+    tags: ["Miniaturen", "3DDruck"]
+  en:
+    text: |
+      The O.D.I.N. miniatures are out: all 30 subclasses, each as a man and as a woman, in 28 mm scale.
+    mehr: |
+      STL files for your own printer from €5.90, printed in resin from €19.90, with or without base. On the website every figure turns once all the way round before you buy. Sold through the Etsy shop ODINArsenal.
+    link: https://odin-rpg.pages.dev/en/miniatures
+    tags: ["Miniatures", "3DPrinting"]
+
 # ---------------- Miniaturen-Reel (ODIN Coder, Common §7 02.10.) ----------------
 - id: reel-miniaturen
   datum: "2026-10-08"
