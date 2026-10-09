@@ -1757,14 +1757,41 @@ posts:
     text: |
       Die O.D.I.N.-Miniaturen sind da: alle 30 Unterklassen, je als Mann und als Frau, im Maßstab 28 mm.
     mehr: |
-      Als STL-Datei für den eigenen Drucker ab 5,90 €, fertig gedruckt aus Resin ab 19,90 €, mit oder ohne Base. Auf der Website dreht sich jede Figur einmal rundherum, bevor man kauft. Verkauft wird über den Etsy-Shop ODINArsenal.
+      Als STL-Datei für den eigenen Drucker ab 5,90 €, fertig gedruckt aus Resin ab 19,90 €, mit oder ohne Base. Auf der Website dreht sich jede Figur einmal rundherum, bevor man kauft. Verkauft wird über den Etsy-Shop odinarsenal.etsy.com. Zum Start gibt es dort bis 23.10. mit dem Code ODINSTART 10 % auf alles.
     link: https://odin-rpg.pages.dev/miniaturen
     tags: ["Miniaturen", "3DDruck"]
   en:
     text: |
       The O.D.I.N. miniatures are out: all 30 subclasses, each as a man and as a woman, in 28 mm scale.
     mehr: |
-      STL files for your own printer from €5.90, printed in resin from €19.90 (shipping within Germany), with or without base. On the website every figure turns once all the way round before you buy. Sold through the Etsy shop ODINArsenal.
+      STL files for your own printer from €5.90, printed in resin from €19.90 (shipping within Germany), with or without base. On the website every figure turns once all the way round before you buy. Sold through the Etsy shop odinarsenal.etsy.com. Launch code ODINSTART takes 10 % off everything until 23 October.
+    link: https://odin-rpg.pages.dev/en/miniatures
+    tags: ["Miniatures", "3DPrinting"]
+
+# ---------------- Miniaturen: Rabattcodes (Common §7 09.10., ODIN Coder) ----------------
+- id: miniaturen-codes
+  datum: "2026-10-21"
+  zeit: "12:30"
+  zeit_en: "14:00"
+  bild:
+    typ: raster
+    dateien: [mini_assassin-w.jpg, mini_chronomancer-m.jpg, mini_cyberneticist-w.jpg, mini_paranormal-detective-m.jpg, mini_stormbreaker-w.jpg, mini_spy-m.jpg]
+    zeile_de: "Code ODINSTART · 10 % bis 23.10."
+    zeile_en: "Code ODINSTART · 10 % off until 23 Oct"
+    alt_de: "Sechs unbemalte graue Miniaturen auf runden Bases: Assassinin im langen Mantel, Chronomant mit Sanduhrstab und Taschenuhr, Kybernetikerin mit Prothesenarm, Detektiv mit Hut und erhobener Glocke, Sturmbrecherin in Panzerung, Spion mit Schiebermütze und Mappe."
+    alt_en: "Six unpainted grey miniatures on round bases: an Assassin in a long coat, a Chronomancer with an hourglass staff and pocket watch, a Cyberneticist with a prosthetic arm, a detective in a hat raising a bell, an armoured Stormbreaker, a Spy with a flat cap and folder."
+  de:
+    text: |
+      Bis Freitag, 23.10., gibt es mit dem Code ODINSTART 10 % auf alle O.D.I.N.-Miniaturen.
+    mehr: |
+      Wer drei Sets oder mehr nimmt, spart bis 08.11. 15 %. Jedes Set hat Mann und Frau, 28 mm, als STL ab 5,90 € oder gedruckt aus Resin ab 19,90 €, Versand innerhalb Deutschlands inklusive. Shop: odinarsenal.etsy.com
+    link: https://odin-rpg.pages.dev/miniaturen
+    tags: ["Miniaturen", "3DDruck"]
+  en:
+    text: |
+      Until Friday, 23 October, code ODINSTART takes 10 % off every O.D.I.N. miniature.
+    mehr: |
+      Three sets or more save 15 % until 8 November. Every set has a man and a woman, 28 mm, as STL from €5.90 or printed in resin from €19.90 (printed sets ship within Germany only). Shop: odinarsenal.etsy.com
     link: https://odin-rpg.pages.dev/en/miniatures
     tags: ["Miniatures", "3DPrinting"]
 
@@ -2116,7 +2143,7 @@ posts:
     text: |
       Im Oktober würfelt der O.D.I.N.-Spieltisch mit Halloween-Würfeln: die weißen knochenfarben, die bunten kürbisorange, und auf der 6 grinst ein Kürbis mit Reißzähnen.
     mehr: |
-      Das Thema gilt den ganzen Oktober und verschwindet im November von selbst. Wer es nicht mag, schaltet es in den Einstellungen ab. Die Owlbear-Rodeo-Erweiterung hat dieselben Würfel, dort entscheidet die Spielleitung. Weiter im Browser, ohne Konto.
+      Das Thema gilt den ganzen Oktober und verschwindet im November von selbst. Wer es nicht mag, schaltet es in den Einstellungen ab. Die Owlbear-Rodeo-Erweiterung hat dieselben Würfel, dort entscheidet die Spielleitung. Im Browser, ohne Konto.
     link: https://odin-rpg.pages.dev/tisch/
     tags: ["VTT", "Halloween"]
   en:
@@ -2141,9 +2168,9 @@ posts:
     alt_en: "Text card: new at the O.D.I.N. table are grenades with a radius, spells on areas, one roll per target and rolls in your group's Discord channel."
   de:
     text: |
-      Am O.D.I.N.-Spieltisch trifft eine Granate jetzt alles im Radius. Die Spielleitung tippt auf die Mitte, der Tisch würfelt gegen jedes Ziel einzeln, Deckung schützt, und wer ausweicht, halbiert den Schaden.
+      Am O.D.I.N.-Spieltisch trifft eine Granate jetzt alles im Radius. Die Spielleitung tippt auf die Mitte, der Tisch würfelt gegen jedes Ziel einzeln, Deckung schützt, Ausweichen halbiert den Schaden.
     mehr: |
-      Kräfte und Zauber mit Fläche laufen genauso, mit eigener Animation. Neu ist auch der Draht zum Discord der Runde: Würfe, Runden und Treffer landen als kurze Zeile im Kanal, verdeckte Würfe und Geflüstertes nie. Weiter im Browser, ohne Konto.
+      Kräfte und Zauber mit Fläche laufen genauso, mit eigener Animation. Neu ist auch der Draht zum Discord der Runde: Würfe, Runden und Treffer landen als kurze Zeile im Kanal, verdeckte Würfe und Geflüstertes nie. Im Browser, ohne Konto.
     link: https://odin-rpg.pages.dev/tisch/
     tags: ["VTT"]
   en:
