@@ -1768,6 +1768,33 @@ posts:
     link: https://odin-rpg.pages.dev/en/miniatures
     tags: ["Miniatures", "3DPrinting"]
 
+# ---------------- Würfelpakete auf Realm VTT (Common §7 09.10., ODIN Coder) ----------------
+- id: realm-wuerfel
+  datum: "2026-10-11"
+  zeit: "13:30"
+  zeit_en: "14:30"
+  bild:
+    typ: foto
+    datei: realm_wuerfelpakete.jpg
+    zeile_de: "Zwei Würfelpakete für Realm VTT · kostenlos"
+    zeile_en: "Two dice packs for Realm VTT · free"
+    alt_de: "Zwei Titelbilder nebeneinander: links das O.D.I.N. Dice Pack mit acht Würfeln in Schwarz, Rot, Blau, Grün, Grau, Braun, Rot und Weiß, jeder mit Klassensymbol auf der Sechs; rechts das Halloween Dice Pack mit einem orangen Kürbis-W20 und einem knochenfarbenen W20 vor Nachthimmel und Mond."
+    alt_en: "Two cover images side by side: on the left the O.D.I.N. Dice Pack with eight dice in black, red, blue, green, grey, brown, red and white, each with a class symbol on the six; on the right the Halloween Dice Pack with an orange pumpkin d20 and a bone-coloured d20 against a night sky and moon."
+  de:
+    text: |
+      Für Realm VTT gibt es jetzt zwei kostenlose Würfelpakete von O.D.I.N.: acht W6 mit den Zeichen der sechs Klassen, dazu Rot und Weiß, und Halloween-Würfel in Kürbis und Knochen.
+    mehr: |
+      Beide Pakete laufen mit jedem Regelwerk in Realm, nicht nur mit O.D.I.N. Halloween-Paket: play.realmvtt.com/marketplace/halloween-dice-pack
+    link: https://play.realmvtt.com/marketplace/o-d-i-n-dice-pack
+    tags: ["RealmVTT", "Würfel"]
+  en:
+    text: |
+      Two free O.D.I.N. dice packs are now on Realm VTT: eight d6 with the marks of the six classes plus red and white, and Halloween dice in pumpkin and bone.
+    mehr: |
+      Both work with any ruleset in Realm, not just O.D.I.N. Halloween pack: play.realmvtt.com/marketplace/halloween-dice-pack
+    link: https://play.realmvtt.com/marketplace/o-d-i-n-dice-pack
+    tags: ["RealmVTT", "TTRPGDice"]
+
 # ---------------- Miniaturen: Rabattcodes (Common §7 09.10., ODIN Coder) ----------------
 - id: miniaturen-codes
   datum: "2026-10-21"
