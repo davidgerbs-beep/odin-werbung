@@ -1863,6 +1863,28 @@
    "zeit": "2026-10-05T20:07:30.775142+02:00"
   }
  },
+ "spieltisch-stufe-b": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxjy25vhqa24",
+   "zeit": "2026-10-10T19:07:33.005488+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1558526432676679784",
+   "zeit": "2026-10-10T19:07:33.005488+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:4337016643110091 (Video)",
+   "zeit": "2026-10-10T19:07:33.005488+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:17905872057595628 (Reel)",
+   "zeit": "2026-10-10T19:07:33.005488+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117417709179292068",
+   "zeit": "2026-10-10T19:07:33.005488+02:00"
+  }
+ },
  "w01-schnellstart": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwkxmqlxng2o",
