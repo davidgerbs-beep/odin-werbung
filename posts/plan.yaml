@@ -3048,3 +3048,33 @@ posts:
       The illustrations are AI-generated.
     link: https://play.realmvtt.com/marketplace/odin-hop-tu-naa-en
     tags: ["RealmVTT", "Halloween"]
+
+# ---------------- Let's-Role-Demotisch (Common §7 10.10., ODIN Coder gefüllt) ----------------
+- id: letsrole-demo
+  datum: "2026-10-18"
+  zeit: "13:30"
+  zeit_en: "14:30"
+  bild:
+    typ: zitat
+    de: "Ein Tisch, vier Agenten, ein Haus am Stausee.\nNichts aufbauen, nur beitreten."
+    en: "One table, four agents, a house by the reservoir.\nNothing to set up, just join."
+    quelle_de: "Demotisch auf Let's Role"
+    quelle_en: "Demo table on Let's Role"
+    alt_de: "Texttafel: Ein Tisch, vier Agenten, ein Haus am Stausee. Nichts aufbauen, nur beitreten. Demotisch auf Let's Role."
+    alt_en: "Text card: One table, four agents, a house by the reservoir. Nothing to set up, just join. Demo table on Let's Role."
+  de:
+    text: |
+      O.D.I.N. auf Let's Role ausprobieren, ohne etwas aufzubauen: Am Demotisch liegen der Schnellstart-Einsatz „Das Haus am Stausee“, zwei Szenen, vier fertige Agenten und zwei Handouts.
+    mehr: |
+      Ein Let's-Role-Konto ist kostenlos, über den Link tretet ihr dem Tisch bei.
+      Die Illustrationen sind KI-generiert.
+    link: https://lets-role.com/join/Q0MvolFLnmoU/nOMrNhDwadDG
+    tags: ["LetsRole", "Schnellstart"]
+  en:
+    text: |
+      Try O.D.I.N. on Let's Role with nothing to set up: the demo table holds the Quickstart mission “Das Haus am Stausee”, two scenes, four ready-made agents and two handouts. The table is in German.
+    mehr: |
+      A Let's Role account is free, and the link takes you to the table.
+      The illustrations are AI-generated.
+    link: https://lets-role.com/join/Q0MvolFLnmoU/nOMrNhDwadDG
+    tags: ["LetsRole", "TTRPG"]
