@@ -3078,3 +3078,34 @@ posts:
       The illustrations are AI-generated.
     link: https://lets-role.com/join/Q0MvolFLnmoU/nOMrNhDwadDG
     tags: ["LetsRole", "TTRPG"]
+
+# ---------------- Amazon-Druck (KDP, Woche 1, eingereicht 10.10.) ----------------
+- id: amazon-druck
+  datum: "2026-10-14"
+  zeit: "12:30"
+  zeit_en: "14:00"
+  wartet_auf: "Amazon-Seiten live: Links eintragen, Datum setzen, dann diese Zeile löschen (Werbe-Chat)"
+  bild:
+    typ: cover
+    de: cover_ODIN_13_Schnellstart.jpg
+    en: cover_ODIN_EN_13_Quickstart.jpg
+    zeile_de: "JETZT GEDRUCKT · Taschenbuch, Hardcover, Kindle"
+    zeile_en: "NOW IN PRINT · German editions on Amazon"
+    alt_de: "Cover des O.D.I.N.-Schnellstarts: ein Holzsteg führt in einen nebligen Stausee, am Ufer ein einzelnes Haus."
+    alt_en: "Cover of the O.D.I.N. Quickstart: a wooden jetty leads into a misty reservoir, a single house on the shore."
+  de:
+    text: |
+      O.D.I.N. gibt es jetzt auch gedruckt: Schnellstart und Grundregelwerk als Taschenbuch in A4 und Farbe, Grundregelwerk und Spielleiterbuch als Hardcover, dazu zwei Kindle-Ausgaben. Die PDFs bleiben kostenlos.
+    mehr: |
+      Schnellstart 10,99 €, Grundregelwerk 17,99 € (Hardcover 24,98 €), Spielleiterbuch 30,99 €, Kindle je 2,69 €. Wer gedruckt kauft, zahlt im Wesentlichen den Druck. Weitere Bände folgen Woche für Woche.
+      Die Illustrationen sind KI-generiert.
+    link: https://odin-rpg.pages.dev/
+    tags: ["Pen&Paper", "Rollenspiel"]
+  en:
+    text: |
+      The German print editions of O.D.I.N. are out on Amazon: Quickstart and Core Rulebook as full-colour A4 paperbacks, Core Rulebook and Game Master's Book in hardcover. English print editions are next. The PDFs stay free.
+    mehr: |
+      If you buy print, you are mostly paying for the printing. More books follow week by week.
+      The illustrations are AI-generated.
+    link: https://odin-rpg.pages.dev/en/
+    tags: ["TTRPG", "Print"]
