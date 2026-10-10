@@ -1768,6 +1768,34 @@ posts:
     link: https://odin-rpg.pages.dev/en/miniatures
     tags: ["Miniatures", "3DPrinting"]
 
+# ---------------- Newsletter (Common §7 09.10., ODIN Coder: Anmeldefeld live) ----------------
+- id: newsletter
+  datum: "2026-10-12"
+  zeit: "12:30"
+  zeit_en: "14:00"
+  bild:
+    typ: zitat
+    de: "Einmal im Monat.\nNeue Bände, Abenteuer, Spieltisch.\nKostenlos, mit einem Klick abbestellt."
+    en: "Once a month.\nNew books, adventures, the game table.\nFree, one click to unsubscribe."
+    quelle_de: "O.D.I.N. per Mail"
+    quelle_en: "O.D.I.N. by email"
+    alt_de: "Texttafel: O.D.I.N. per Mail. Einmal im Monat neue Bände, Abenteuer und Neues vom Spieltisch, kostenlos, mit einem Klick abbestellt."
+    alt_en: "Text card: O.D.I.N. by email. Once a month new books, adventures and news from the game table, free, one click to unsubscribe."
+  de:
+    text: |
+      O.D.I.N. gibt es jetzt auch per Mail: einmal im Monat neue Bände, Abenteuer und was sich am Spieltisch getan hat.
+    mehr: |
+      Das Anmeldefeld steht unten auf jeder Seite der Website. Erst kommt eine Mail zur Bestätigung, abbestellen geht mit einem Klick.
+    link: https://odin-rpg.pages.dev/
+    tags: ["Newsletter"]
+  en:
+    text: |
+      O.D.I.N. now comes by email too: once a month, new books, adventures and what changed at the game table.
+    mehr: |
+      The sign-up field is at the bottom of every page on the website. You confirm once by email, and one click unsubscribes you.
+    link: https://odin-rpg.pages.dev/en/
+    tags: ["Newsletter"]
+
 # ---------------- Würfelpakete auf Realm VTT (Common §7 09.10., ODIN Coder) ----------------
 - id: realm-wuerfel
   datum: "2026-10-11"
