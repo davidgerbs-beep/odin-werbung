@@ -3013,3 +3013,38 @@ posts:
       The token is linked to the sheet. HP and strain show underneath, and “Start combat” puts it straight into the turn order. A second click makes no duplicate. Nothing to upload, nothing to link by hand. The illustrations are AI-generated.
     link: https://odin-rpg.pages.dev/en/tables#owlbear-rodeo
     tags: ["OwlbearRodeo", "VTT"]
+
+# ---------------- Hop-tu-Naa auf Realm VTT (DE und EN öffentlich seit 10.10.) ----------------
+- id: realm-hop-tu-naa
+  datum: "2026-10-17"
+  zeit: "13:30"
+  zeit_en: "14:30"
+  bild:
+    typ: foto
+    datei_de: realm_hoptunaa_de.jpg
+    datei_en: realm_hoptunaa_en.jpg
+    datei: realm_hoptunaa_de.jpg
+    zeile_de: "Hop-tu-Naa auf Realm VTT · DE und EN · kostenlos"
+    zeile_en: "Hop-tu-Naa on Realm VTT · EN and DE · free"
+    alt_de: "Das Cover von Hop-tu-Naa mit Wasserfall und geschnitzter Laterne im Realm-VTT-Marktplatz, darunter der Modultitel „O.D.I.N. Hop-tu-Naa (DE)“."
+    alt_en: "The Hop-tu-Naa cover with waterfall and carved lantern in the Realm VTT marketplace, with the module title “O.D.I.N. Hop-tu-Naa (EN)” below."
+  de:
+    text: |
+      „Hop-tu-Naa“ gibt es jetzt als Modul für Realm VTT, auf Deutsch und auf Englisch, kostenlos.
+
+      Szenen, Journale für Spielleitung und Spieler, vier Handouts, der Wechselbalg und die vier Agenten aus dem Schnellstart liegen fertig in der Kampagne.
+    mehr: |
+      Englische Fassung: play.realmvtt.com/marketplace/odin-hop-tu-naa-en
+      Die Illustrationen sind KI-generiert.
+    link: https://play.realmvtt.com/marketplace/odin-hop-tu-naa-de
+    tags: ["RealmVTT", "Halloween"]
+  en:
+    text: |
+      Hop-tu-Naa is now a module for Realm VTT, in English and German, free.
+
+      Scenes, GM and player journals, four handouts, the Changeling and the four Quickstart agents come ready in the campaign.
+    mehr: |
+      German edition: play.realmvtt.com/marketplace/odin-hop-tu-naa-de
+      The illustrations are AI-generated.
+    link: https://play.realmvtt.com/marketplace/odin-hop-tu-naa-en
+    tags: ["RealmVTT", "Halloween"]
