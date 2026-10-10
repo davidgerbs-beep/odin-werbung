@@ -602,9 +602,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxizuu6kkx2o",
    "zeit": "2026-10-10T10:07:42.296222+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxjlxtojpu2n",
+   "zeit": "2026-10-10T15:31:30.469591+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1558390576943079455",
    "zeit": "2026-10-10T10:07:42.296222+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1558472059431166036",
+   "zeit": "2026-10-10T15:31:30.469591+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1375689388959077_122110963563490766",
@@ -621,6 +629,10 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117415586478476110",
    "zeit": "2026-10-10T10:07:42.296222+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117416859641934968",
+   "zeit": "2026-10-10T15:31:30.469591+02:00"
   }
  },
  "hc-mann-in-der-wand": {
@@ -929,6 +941,10 @@
   "instagram": {
    "ergebnis": "instagram:18133993651680350 (Reel)",
    "zeit": "2026-10-10T13:07:33.075461+02:00"
+  },
+  "instagram_story": {
+   "ergebnis": "story:18118778147099509 (Video)",
+   "zeit": "2026-10-10T15:31:30.469591+02:00"
   },
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117416293649157609",
