@@ -614,6 +614,10 @@
    "ergebnis": "instagram:17904238644668857 (Reel)",
    "zeit": "2026-10-10T10:07:42.296222+02:00"
   },
+  "instagram_story": {
+   "ergebnis": "story:18465335530143008 (Video)",
+   "zeit": "2026-10-10T13:07:33.075461+02:00"
+  },
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117415586478476110",
    "zeit": "2026-10-10T10:07:42.296222+02:00"
@@ -899,6 +903,28 @@
   "threads": {
    "ergebnis": "threads:18091149314679225",
    "zeit": "2026-10-06T22:07:44.449009+02:00"
+  }
+ },
+ "miniaturen-etsy": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxjdwh7ndm27",
+   "zeit": "2026-10-10T13:07:33.075461+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1558435836536819782",
+   "zeit": "2026-10-10T13:07:33.075461+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1479941060676937 (Video)",
+   "zeit": "2026-10-10T13:07:33.075461+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18133993651680350 (Reel)",
+   "zeit": "2026-10-10T13:07:33.075461+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117416293649157609",
+   "zeit": "2026-10-10T13:07:33.075461+02:00"
   }
  },
  "neue-cover": {
