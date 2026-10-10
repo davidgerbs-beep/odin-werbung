@@ -3109,3 +3109,30 @@ posts:
       The illustrations are AI-generated.
     link: https://odin-rpg.pages.dev/en/
     tags: ["TTRPG", "Print"]
+
+# ---------------- Würfel v2 (Common §7 10./11.10., ODIN Coder: Tisch und Foundry live) ----------------
+- id: wuerfel-v2
+  datum: "2026-10-13"
+  zeit: "19:00"
+  zeit_en: "20:30"
+  bild:
+    typ: foto
+    datei: wuerfel_v2.jpg
+    zeile_de: "NEUE WÜRFEL · Spieltisch und Foundry VTT"
+    zeile_en: "NEW DICE · Our table and Foundry VTT"
+    alt_de: "Vier gerenderte W6 auf Schwarz: blau mit Psion-Zeichen, rot mit Kompassrose, elfenbeinweiß mit schwarzer Kompassrose und ein Knochenwürfel mit Kürbisfratze."
+    alt_en: "Four rendered d6 on black: blue with the Psion sign, red with a compass rose, ivory with a black compass rose and a bone die with a jack-o'-lantern face."
+  de:
+    text: |
+      Neue Würfel für O.D.I.N.: runder, mit Klarlack und feinem Abrieb an den Kanten, und der Kürbis leuchtet von innen. Sie rollen jetzt an unserem Spieltisch im Browser und in Foundry VTT.
+    mehr: |
+      Am Spieltisch ohne Konto ausprobieren, einfach auf „Würfeln“ klicken. In Foundry kommen sie mit dem System 0.10.11 über Dice So Nice, die Halloween-Würfel mit dem Halloween-Modul 1.1.0.
+    link: https://odin-rpg.pages.dev/tisch/
+    tags: ["Würfel", "FoundryVTT"]
+  en:
+    text: |
+      New dice for O.D.I.N.: rounder, clear-coated, with fine wear on the edges, and the pumpkin glows from inside. They roll at our browser table and in Foundry VTT now.
+    mehr: |
+      Try them at the table with no account, just hit “Roll”. In Foundry they come with system 0.10.11 through Dice So Nice, the Halloween dice with the Halloween module 1.1.0.
+    link: https://odin-rpg.pages.dev/tisch/?lang=en
+    tags: ["Dice", "FoundryVTT"]
