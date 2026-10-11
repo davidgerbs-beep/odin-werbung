@@ -1090,9 +1090,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxmij7r53k2q",
    "zeit": "2026-10-11T19:07:36.839518+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxmlumyypj2l",
+   "zeit": "2026-10-11T20:07:41.561588+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1558888837793587211",
    "zeit": "2026-10-11T19:07:36.839518+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1558903956749549681",
+   "zeit": "2026-10-11T20:07:41.561588+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1831338241614718 (Video)",
@@ -1105,6 +1113,14 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117423371802111209",
    "zeit": "2026-10-11T19:07:36.839518+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117423608041631839",
+   "zeit": "2026-10-11T20:07:41.561588+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18098195828554339",
+   "zeit": "2026-10-11T20:07:41.561588+02:00"
   }
  },
  "owlbear-video-en": {
