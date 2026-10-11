@@ -1085,6 +1085,28 @@
    "zeit": "2026-10-08T22:07:31.958083+02:00"
   }
  },
+ "owlbear-video": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxmij7r53k2q",
+   "zeit": "2026-10-11T19:07:36.839518+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1558888837793587211",
+   "zeit": "2026-10-11T19:07:36.839518+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1831338241614718 (Video)",
+   "zeit": "2026-10-11T19:07:36.839518+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:17954357556038019 (Reel)",
+   "zeit": "2026-10-11T19:07:36.839518+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117423371802111209",
+   "zeit": "2026-10-11T19:07:36.839518+02:00"
+  }
+ },
  "owlbear-video-en": {
   "bluesky_en": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx5mgsi2ic2l",
