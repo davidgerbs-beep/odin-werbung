@@ -1187,6 +1187,28 @@
    "zeit": "2026-10-07T20:07:31.776362+02:00"
   }
  },
+ "realm-wuerfel": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxlxqwqqck2l",
+   "zeit": "2026-10-11T14:07:42.627019+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1558813362572369962",
+   "zeit": "2026-10-11T14:07:42.627019+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1674602837509730 (Video)",
+   "zeit": "2026-10-11T14:07:42.627019+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:17986387197072906 (Reel)",
+   "zeit": "2026-10-11T14:07:42.627019+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117422192501643049",
+   "zeit": "2026-10-11T14:07:42.627019+02:00"
+  }
+ },
  "reel-die-anderen-dienste": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx7c2masll2n",
@@ -1711,6 +1733,10 @@
   "instagram": {
    "ergebnis": "instagram:18094135352435412 (Reel)",
    "zeit": "2026-10-11T10:39:39.107330+02:00"
+  },
+  "instagram_story": {
+   "ergebnis": "story:18124812436681697 (Video)",
+   "zeit": "2026-10-11T14:07:42.627019+02:00"
   },
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117421374387595874",
