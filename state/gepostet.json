@@ -1192,9 +1192,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxlxqwqqck2l",
    "zeit": "2026-10-11T14:07:42.627019+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxm344afla2l",
+   "zeit": "2026-10-11T15:07:38.843218+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1558813362572369962",
    "zeit": "2026-10-11T14:07:42.627019+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1558828446166032395",
+   "zeit": "2026-10-11T15:07:38.843218+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1674602837509730 (Video)",
@@ -1207,6 +1215,14 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117422192501643049",
    "zeit": "2026-10-11T14:07:42.627019+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117422428181561191",
+   "zeit": "2026-10-11T15:07:38.843218+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18110560256520301",
+   "zeit": "2026-10-11T15:07:38.843218+02:00"
   }
  },
  "reel-die-anderen-dienste": {
