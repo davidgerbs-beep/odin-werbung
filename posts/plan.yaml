@@ -3153,3 +3153,19 @@ posts:
       Gespielt wird reihum an einem Gerät, kostenlos und ohne Anmeldung. Regeln und Werte können sich noch ändern, Rückmeldungen gern im Discord.
     link: https://odin-rpg.pages.dev/schleierriss/
     tags: ["Brettspiel", "Boardgame"]
+
+- id: schleierriss-druck
+  datum: "2026-10-15"
+  zeit: "12:30"
+  bild:
+    typ: foto
+    datei: schleierriss_druck.jpg
+    zeile_de: "Schleierriss zum Ausdrucken · kostenlos"
+    alt_de: "Die Titelseiten der beiden Schleierriss-Bände nebeneinander: Regelbuch und Spielmaterial zum Ausdrucken."
+  de:
+    text: |
+      Schleierriss gibt es jetzt auch für den echten Tisch: ein Regelbuch mit 32 Seiten und 63 Seiten Spielmaterial zum Ausdrucken, mit Karten, Spielsteinen, Pappaufstellern, Lagekarte und Hortplänen in A3. Kostenlos.
+    mehr: |
+      Druckt die Vorlagen ohne Skalierung, sonst passen die Schnittmarken nicht. Bisher gibt es Schleierriss nur auf Deutsch, im Browser spielen geht auch: https://odin-rpg.pages.dev/schleierriss/
+    link: https://odin-rpg.pages.dev/meldung/schleierriss-druck
+    tags: ["Brettspiel", "PrintAndPlay"]
