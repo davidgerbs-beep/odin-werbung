@@ -2426,9 +2426,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxo65th34a2z",
    "zeit": "2026-10-12T11:07:37.218873+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxosblvtea2h",
+   "zeit": "2026-10-12T17:07:38.713108+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1559130430064566282",
    "zeit": "2026-10-12T11:07:37.218873+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1559221031321997433",
+   "zeit": "2026-10-12T17:07:38.713108+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1375689388959077_122112406515490766",
@@ -2445,6 +2453,14 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117427146672920843",
    "zeit": "2026-10-12T11:07:37.218873+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117428562317273150",
+   "zeit": "2026-10-12T17:07:38.713108+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18143515651572606",
+   "zeit": "2026-10-12T17:07:38.713108+02:00"
   }
  },
  "w03-thaumaturg": {
