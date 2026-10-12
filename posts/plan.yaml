@@ -3136,3 +3136,20 @@ posts:
       Try them at the table with no account, just hit “Roll”. In Foundry they come with system 0.10.11 through Dice So Nice, the Halloween dice with the Halloween module 1.1.0.
     link: https://odin-rpg.pages.dev/tisch/?lang=en
     tags: ["Dice", "FoundryVTT"]
+
+# ---------------- Schleierriss: Brettspiel-Prototyp online (Dave 12.10.: „ja“) ----------------
+- id: schleierriss
+  datum: "2026-10-12"
+  zeit: "19:30"
+  bild:
+    typ: foto
+    datei: schleierriss_lagekarte.jpg
+    zeile_de: "Schleierriss · Brettspiel-Prototyp im Browser"
+    alt_de: "Bildschirmfoto aus dem Brettspiel Schleierriss: eine dunkle Lagekarte mit Orten wie Bergen, Stockholm, London und Zürich, verbunden durch gestrichelte Wege. Zwei Orte leuchten rot als Riss, in der Mitte liegt die Schwelle, bei Stockholm stehen runde Agentenmarken mit Porträts."
+  de:
+    text: |
+      O.D.I.N. gibt es jetzt auch als Brettspiel: Schleierriss. Eure Zelle reist über die Lagekarte, und wo ein Riss aufgeht, wird daraus ein Einsatz im Hort, Feld für Feld. Kooperativ, ein bis sechs Spieler, als Prototyp im Browser.
+    mehr: |
+      Gespielt wird reihum an einem Gerät, kostenlos und ohne Anmeldung. Regeln und Werte können sich noch ändern, Rückmeldungen gern im Discord.
+    link: https://odin-rpg.pages.dev/schleierriss/
+    tags: ["Brettspiel", "Boardgame"]
