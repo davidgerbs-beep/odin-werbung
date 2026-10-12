@@ -602,9 +602,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxo2sgrqqn2o",
    "zeit": "2026-10-12T10:07:34.181643+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxoow6ctsq2l",
+   "zeit": "2026-10-12T16:07:34.237957+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1559115313558327370",
    "zeit": "2026-10-12T10:07:34.181643+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1559205912231809166",
+   "zeit": "2026-10-12T16:07:34.237957+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1375689388959077_122112386607490766",
@@ -621,6 +629,14 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117426910492981175",
    "zeit": "2026-10-12T10:07:34.181643+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117428326095807494",
+   "zeit": "2026-10-12T16:07:34.237957+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18131065678613724",
+   "zeit": "2026-10-12T16:07:34.237957+02:00"
   }
  },
  "hc-kind-im-treppenhaus": {
@@ -1055,6 +1071,10 @@
   "instagram": {
    "ergebnis": "instagram:18114536132127090 (Reel)",
    "zeit": "2026-10-12T13:07:34.565943+02:00"
+  },
+  "instagram_story": {
+   "ergebnis": "story:18127629656512454 (Video)",
+   "zeit": "2026-10-12T16:07:34.237957+02:00"
   },
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117427618281593562",
