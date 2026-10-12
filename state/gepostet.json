@@ -1036,9 +1036,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxoeucsvpk2n",
    "zeit": "2026-10-12T13:07:34.565943+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxoi7ueulj27",
+   "zeit": "2026-10-12T14:07:42.984767+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1559160612238528597",
    "zeit": "2026-10-12T13:07:34.565943+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1559175750848880700",
+   "zeit": "2026-10-12T14:07:42.984767+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1410060857413008 (Video)",
@@ -1051,6 +1059,14 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117427618281593562",
    "zeit": "2026-10-12T13:07:34.565943+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117427854812028563",
+   "zeit": "2026-10-12T14:07:42.984767+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18052606139816590",
+   "zeit": "2026-10-12T14:07:42.984767+02:00"
   }
  },
  "owlbear": {
@@ -2401,6 +2417,10 @@
   "instagram": {
    "ergebnis": "instagram:18091841735463670 (Reel)",
    "zeit": "2026-10-12T11:07:37.218873+02:00"
+  },
+  "instagram_story": {
+   "ergebnis": "story:18384472900237296 (Video)",
+   "zeit": "2026-10-12T14:07:42.984767+02:00"
   },
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117427146672920843",
