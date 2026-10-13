@@ -3084,30 +3084,29 @@ posts:
   datum: "2026-10-14"
   zeit: "12:30"
   zeit_en: "14:00"
-  wartet_auf: "Amazon-Seiten live: Links eintragen, Datum setzen, dann diese Zeile löschen (Werbe-Chat)"
   bild:
     typ: cover
-    de: cover_ODIN_13_Schnellstart.jpg
-    en: cover_ODIN_EN_13_Quickstart.jpg
-    zeile_de: "JETZT GEDRUCKT · Taschenbuch, Hardcover, Kindle"
+    de: cover_ODIN_01_Grundregelwerk.jpg
+    en: cover_ODIN_EN_01_Core_Rulebook.jpg
+    zeile_de: "JETZT GEDRUCKT · Hardcover und Kindle"
     zeile_en: "NOW IN PRINT · German editions on Amazon"
-    alt_de: "Cover des O.D.I.N.-Schnellstarts: ein Holzsteg führt in einen nebligen Stausee, am Ufer ein einzelnes Haus."
-    alt_en: "Cover of the O.D.I.N. Quickstart: a wooden jetty leads into a misty reservoir, a single house on the shore."
+    alt_de: "Cover des O.D.I.N.-Grundregelwerks."
+    alt_en: "Cover of the O.D.I.N. Core Rulebook."
   de:
     text: |
-      O.D.I.N. gibt es jetzt auch gedruckt: Schnellstart und Grundregelwerk als Taschenbuch in A4 und Farbe, Grundregelwerk und Spielleiterbuch als Hardcover, dazu zwei Kindle-Ausgaben. Die PDFs bleiben kostenlos.
+      O.D.I.N. gibt es jetzt gedruckt. Bei Amazon liegen Grundregelwerk, Spielleiterbuch, die Registratur und der Kampagnenband Nordlicht 1977 als Hardcover, dazu drei Kindle-Ausgaben. Die PDFs bleiben kostenlos.
     mehr: |
-      Schnellstart 10,99 €, Grundregelwerk ab 17,99 €, Spielleiterbuch 30,99 €, Kindle je 2,69 €. Weitere Bände folgen Woche für Woche.
+      Hardcover ab 24,98 €, Kindle je 2,69 €. Die Taschenbücher in A4 und Farbe, auch der Schnellstart, kommen in den nächsten Tagen.
       Die Illustrationen sind KI-generiert.
-    link: https://odin-rpg.pages.dev/
+    link: https://www.amazon.de/dp/B0HMWPFCM6
     tags: ["Pen&Paper", "Rollenspiel"]
   en:
     text: |
-      The German print editions of O.D.I.N. are out on Amazon: Quickstart and Core Rulebook as full-colour A4 paperbacks, Core Rulebook and Game Master's Book in hardcover. English print editions are next. The PDFs stay free.
+      The German print editions of O.D.I.N. are out on Amazon: Core Rulebook, Game Master's Book, the Registry and the campaign Nordlicht 1977 in hardcover, plus three Kindle editions. English print editions are next. The PDFs stay free.
     mehr: |
-      If you buy print, you are mostly paying for the printing. More books follow week by week.
+      If you buy print, you are mostly paying for the printing. Paperbacks follow in the next few days.
       The illustrations are AI-generated.
-    link: https://odin-rpg.pages.dev/en/
+    link: https://www.amazon.de/dp/B0HMWPFCM6
     tags: ["TTRPG", "Print"]
 
 # ---------------- Würfel v2 (Common §7 10./11.10., ODIN Coder: Tisch und Foundry live) ----------------
