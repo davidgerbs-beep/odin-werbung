@@ -719,6 +719,28 @@
    "zeit": "2026-10-06T16:07:42.237043+02:00"
   }
  },
+ "hc-mieter": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxt3qge65t2h",
+   "zeit": "2026-10-14T10:07:34.440197+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1559840112496484363",
+   "zeit": "2026-10-14T10:07:34.440197+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1375689388959077_122113646541490766",
+   "zeit": "2026-10-14T10:07:34.440197+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18146758420577862 (Reel)",
+   "zeit": "2026-10-14T10:07:34.440197+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117438235460239535",
+   "zeit": "2026-10-14T10:07:34.440197+02:00"
+  }
+ },
  "hc-puppe": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mx4hkkshe32n",
