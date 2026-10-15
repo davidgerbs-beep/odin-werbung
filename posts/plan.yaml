@@ -3109,6 +3109,35 @@ posts:
     link: https://www.amazon.de/dp/B0HMWPFCM6
     tags: ["TTRPG", "Print"]
 
+- id: amazon-taschenbuch
+  datum: "2026-10-17"
+  zeit: "18:00"
+  zeit_en: "19:30"
+  bild:
+    typ: cover
+    de: cover_ODIN_13_Schnellstart.jpg
+    en: cover_ODIN_EN_13_Quickstart.jpg
+    zeile_de: "JETZT AUCH ALS TASCHENBUCH"
+    zeile_en: "NOW IN PAPERBACK · German editions"
+    alt_de: "Cover des O.D.I.N.-Schnellstarts: ein Holzsteg führt in einen nebligen Stausee, am Ufer ein einzelnes Haus."
+    alt_en: "Cover of the O.D.I.N. Quickstart: a wooden jetty leads into a misty reservoir, a single house on the shore."
+  de:
+    text: |
+      Die Taschenbücher von O.D.I.N. sind da, in A4 und Farbe. Für den Einstieg reicht der Schnellstart für 10,99 €: Welt, Kurzregeln, vier fertige Agenten und ein Einsatz für den ersten Abend.
+    mehr: |
+      Grundregelwerk 17,99 €, Spielleiterbuch 23,99 €, Die Registratur 55,99 €. Die Registratur gibt es jetzt auch für Kindle. Die PDFs bleiben kostenlos.
+      Die Illustrationen sind KI-generiert.
+    link: https://www.amazon.de/dp/B0HN48YBVM
+    tags: ["Pen&Paper", "Rollenspiel"]
+  en:
+    text: |
+      The German O.D.I.N. paperbacks are out, A4 and full colour. The Quickstart is the place to begin: setting, quick rules, four ready agents and a mission for your first night.
+    mehr: |
+      Core Rulebook, Game Master's Book and the Registry follow the same format. English print editions are next, and the PDFs stay free in both languages.
+      The illustrations are AI-generated.
+    link: https://www.amazon.de/dp/B0HN48YBVM
+    tags: ["TTRPG", "Print"]
+
 # ---------------- Würfel v2 (Common §7 10./11.10., ODIN Coder: Tisch und Foundry live) ----------------
 - id: wuerfel-v2
   datum: "2026-10-13"
