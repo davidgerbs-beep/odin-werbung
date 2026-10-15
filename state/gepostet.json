@@ -2297,6 +2297,28 @@
    "zeit": "2026-10-03T20:07:33.844765+02:00"
   }
  },
+ "spieltisch-flaechen": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxwketsovl27",
+   "zeit": "2026-10-15T19:07:35.805658+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1560338379017822258",
+   "zeit": "2026-10-15T19:07:35.805658+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1805990843883399 (Video)",
+   "zeit": "2026-10-15T19:07:35.805658+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:17906532765657269 (Reel)",
+   "zeit": "2026-10-15T19:07:35.805658+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117446020882234097",
+   "zeit": "2026-10-15T19:07:35.805658+02:00"
+  }
+ },
  "spieltisch-sicht": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxrjhjalqp2n",
