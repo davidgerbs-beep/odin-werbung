@@ -3229,9 +3229,8 @@ posts:
     link: https://odin-rpg.pages.dev/meldung/schleierriss-druck
     tags: ["Brettspiel", "PrintAndPlay"]
 - id: veilrift-en
-  datum: "2026-10-20"
+  datum: "2026-10-18"
   zeit_en: "19:30"
-  wartet_auf: "Veilrift 1.1 freigegeben, Release veilrift-v1.1 und en/veilrift/ live (Coder meldet in der Common); Datum dann auf den nächsten freien Abend setzen, Browsersatz prüfen; Bild zeigt englische Kartenbeschriftung, vorher prüfen, dass der Prototyp sie auch hat"
   bild:
     typ: foto
     datei: veilrift_lagekarte_en.jpg
