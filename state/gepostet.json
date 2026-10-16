@@ -2978,9 +2978,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxyxiipzp72w",
    "zeit": "2026-10-16T18:07:36.459328+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxzbkg5w4w2n",
+   "zeit": "2026-10-16T21:07:38.322634+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1560685670484287630",
    "zeit": "2026-10-16T18:07:36.459328+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1560730977163280524",
+   "zeit": "2026-10-16T21:07:38.322634+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1375689388959077_122114793009490766",
@@ -2990,9 +2998,21 @@
    "ergebnis": "instagram:18126440824855064 (Reel)",
    "zeit": "2026-10-16T18:07:36.459328+02:00"
   },
+  "instagram_story": {
+   "ergebnis": "story:18109393823264420 (Video)",
+   "zeit": "2026-10-16T21:07:38.322634+02:00"
+  },
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117451447320666345",
    "zeit": "2026-10-16T18:07:36.459328+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117452155231872737",
+   "zeit": "2026-10-16T21:07:38.322634+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18094986830159697",
+   "zeit": "2026-10-16T21:07:38.322634+02:00"
   }
  },
  "w04-soldier": {
