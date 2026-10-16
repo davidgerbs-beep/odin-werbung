@@ -972,9 +972,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxy4o5727u2l",
    "zeit": "2026-10-16T10:07:34.906301+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxyqrvbgsw2l",
+   "zeit": "2026-10-16T16:07:35.122744+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1560564868447207585",
    "zeit": "2026-10-16T10:07:34.906301+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1560655467766747158",
+   "zeit": "2026-10-16T16:07:35.122744+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1375689388959077_122114576187490766",
@@ -991,6 +999,10 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117449559769401023",
    "zeit": "2026-10-16T10:07:34.906301+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117450975402272819",
+   "zeit": "2026-10-16T16:07:35.122744+02:00"
   }
  },
  "hc-yuki-onna": {
