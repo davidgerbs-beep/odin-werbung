@@ -3228,3 +3228,20 @@ posts:
       Druckt die Vorlagen ohne Skalierung, sonst passen die Schnittmarken nicht. Bisher gibt es Schleierriss nur auf Deutsch, im Browser spielen geht auch: https://odin-rpg.pages.dev/schleierriss/
     link: https://odin-rpg.pages.dev/meldung/schleierriss-druck
     tags: ["Brettspiel", "PrintAndPlay"]
+- id: veilrift-en
+  datum: "2026-10-20"
+  zeit_en: "19:30"
+  wartet_auf: "Veilrift 1.1 freigegeben, Release veilrift-v1.1 und en/veilrift/ live (Coder meldet in der Common); Datum dann auf den nächsten freien Abend setzen, Browsersatz prüfen; Bild zeigt englische Kartenbeschriftung, vorher prüfen, dass der Prototyp sie auch hat"
+  bild:
+    typ: foto
+    datei: veilrift_lagekarte_en.jpg
+    zeile_en: "VEILRIFT · free co-op board game"
+    alt_en: "Screenshot of the Veilrift Situation Map in the browser: locations such as London, Bergen, Stockholm, Zurich and Naples linked by dashed routes. Two rifts glow red at Antwerp and Bern, the Threshold sits in the middle, round agent tokens with portraits stand in London and Stockholm."
+  en:
+    text: |
+      O.D.I.N. has a board game now, and it's in English: Veilrift. Your cell travels the Situation Map, and where a rift opens, the game drops you into a Hold, square by square. Co-op, one to six players, no game master.
+    mehr: |
+      Free to play in the browser or to print at home: a rulebook and print-and-play material with cards, tokens, standees and A3 Hold plans.
+      The illustrations are AI-generated.
+    link: https://odin-rpg.pages.dev/en/veilrift/
+    tags: ["Boardgame", "PrintAndPlay"]
