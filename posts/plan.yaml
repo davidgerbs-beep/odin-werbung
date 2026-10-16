@@ -3138,6 +3138,37 @@ posts:
     link: https://www.amazon.de/dp/B0HN48YBVM
     tags: ["TTRPG", "Print"]
 
+# ---------------- KDP Woche 3 (vorbereitet 16.10., Upload So 18.10.; Link und Datum nach Live-Check setzen, dann wartet_auf löschen) ----------------
+- id: amazon-woche3
+  datum: "2026-10-22"
+  zeit: "18:00"
+  zeit_en: "19:30"
+  wartet_auf: "Woche 3 live bei Amazon (Kartenraum TB), dann Link auf dessen ASIN setzen"
+  bild:
+    typ: cover
+    de: cover_ODIN_23_Kartenraum.jpg
+    en: cover_ODIN_EN_23_The_Map_Room.jpg
+    zeile_de: "JETZT GEDRUCKT · Taschenbuch und Hardcover"
+    zeile_en: "NOW IN PRINT · German editions"
+    alt_de: "Cover von Band 23, Der Kartenraum: Bleistiftzeichnung einer älteren Frau mit Brille, die an einem Holztisch unter einer Schreibtischlampe einen Grundriss zeichnet, dahinter eine Kompassrose."
+    alt_en: "Cover of Volume 23, The Map Room: pencil drawing of an older woman in glasses drawing a floor plan at a wooden table under a desk lamp, a compass rose behind her."
+  de:
+    text: |
+      Der Kartenraum ist jetzt gedruckt zu haben: 160 Grundrisse, Lagepläne und Strecken, mit Bleistift auf Karopapier gezeichnet. Ein Buch neben dem Schirm statt einer PDF auf dem Laptop.
+    mehr: |
+      Taschenbuch 31,99 €, Hardcover 38,99 €. Neu sind auch Kartensets und Spielhilfen (Hardcover) und Nordlicht 1977 (Taschenbuch), dazu Kindle für 2,69 €. Die PDFs bleiben kostenlos.
+      Die Illustrationen sind KI-generiert.
+    link: https://www.amazon.de/dp/B0HMSNW4YK
+    tags: ["Pen&Paper", "Rollenspiel"]
+  en:
+    text: |
+      The Map Room is now in print: 160 floor plans, site plans and routes, drawn in pencil on squared paper. A book next to the GM screen instead of a PDF on the laptop.
+    mehr: |
+      German editions on Amazon, paperback and hardcover. Also new: Card Sets and Game Aids in hardcover and the Nordlicht 1977 campaign in paperback. English print editions are next, and the PDFs stay free.
+      The illustrations are AI-generated.
+    link: https://www.amazon.de/dp/B0HMSNW4YK
+    tags: ["TTRPG", "Print"]
+
 # ---------------- Würfel v2 (Common §7 10./11.10., ODIN Coder: Tisch und Foundry live) ----------------
 - id: wuerfel-v2
   datum: "2026-10-13"
