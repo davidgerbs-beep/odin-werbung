@@ -320,7 +320,7 @@ posts:
     mehr: |
       Quick and dirty und kostenlos als PDF. Die Agenten sind die aus dem Schnellstart. Wer ihn kennt, spielt mit ihnen weiter.
       Die Illustrationen sind KI-generiert.
-    link: https://odin-rpg.pages.dev/buch/hop-tu-naa
+    link: https://odin-rpg.de/buch/hop-tu-naa
     tags: ["Halloween"]
   en:
     text: |
@@ -330,7 +330,7 @@ posts:
     mehr: |
       Quick and dirty, free as a PDF. The agents are the ones from the Quickstart, so if you played it, you carry on with them.
       The illustrations are AI-generated.
-    link: https://odin-rpg.pages.dev/en/book/hop-tu-naa
+    link: https://odin-rpg.de/en/book/hop-tu-naa
     tags: ["Halloween"]
 
 # ---------------- Woche 5 ----------------
@@ -1301,7 +1301,7 @@ posts:
       Aus der Registratur: der Klabautermann. An Bord gibt es keine einzige Ratte.
     mehr: |
       Band 22 führt 105 Wesen auf Karteikarten, so wie O.D.I.N. sie kennt. Was wirklich stimmt, steht darunter. Kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
   en:
     text: |
       “At night he nailed my cap to the bunk, drank my schnapps and plugged the leak in the forepeak. In that order.”
@@ -1309,7 +1309,7 @@ posts:
       From the Registry: the Klabautermann. There is not a single rat on board.
     mehr: |
       Volume 22 keeps 105 beings on index cards, the way O.D.I.N. knows them. What is really true is written below. Free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
 
 - id: reg-letzter-zug
   datum: "2026-10-25"
@@ -1328,7 +1328,7 @@ posts:
       Aus der Registratur: der letzte Zug.
     mehr: |
       Band 22 führt 105 Wesen auf Karteikarten, so wie O.D.I.N. sie kennt. Was wirklich stimmt, steht darunter. Kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
   en:
     text: |
       “The briefing said: into the niche, back to the wall, don't lie down. The old lineman said: ‘Lie down.’ We had a regulation.”
@@ -1336,7 +1336,7 @@ posts:
       From the Registry: the Last Train.
     mehr: |
       Volume 22 keeps 105 beings on index cards, the way O.D.I.N. knows them. What is really true is written below. Free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
 
 - id: foundry-registry-en
   datum: "2026-09-29"
@@ -1842,14 +1842,14 @@ posts:
       Bis Freitag, 23.10., gibt es mit dem Code ODINSTART 10 % auf alle O.D.I.N.-Miniaturen.
     mehr: |
       Wer drei Sets oder mehr nimmt, spart bis 08.11. 15 %. Jedes Set hat Mann und Frau, 28 mm, als STL ab 5,90 € oder gedruckt aus Resin ab 19,90 €, Versand innerhalb Deutschlands inklusive. Shop: odinarsenal.etsy.com
-    link: https://odin-rpg.pages.dev/miniaturen
+    link: https://odin-rpg.de/miniaturen
     tags: ["Miniaturen", "3DDruck"]
   en:
     text: |
       Until Friday, 23 October, code ODINSTART takes 10 % off every O.D.I.N. miniature.
     mehr: |
       Three sets or more save 15 % until 8 November. Every set has a man and a woman, 28 mm, as STL from €5.90 or printed in resin from €19.90 (printed sets ship within Germany only). Shop: odinarsenal.etsy.com
-    link: https://odin-rpg.pages.dev/en/miniatures
+    link: https://odin-rpg.de/en/miniatures
     tags: ["Miniatures", "3DPrinting"]
 
 # ---------------- Miniaturen-Reel (ODIN Coder, Common §7 02.10.) ----------------
@@ -2658,7 +2658,7 @@ posts:
       Noch 12 Nächte bis Halloween. Aus der Registratur: der Werwolf der Sage.
     mehr: |
       Livland seit 1683, zuletzt in der Johannisnacht 2026 an der Gauja. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2667,7 +2667,7 @@ posts:
       12 nights to Halloween. From the Registry: the Werewolf of Legend.
     mehr: |
       Livonia since 1683, last seen on Midsummer Night 2026 on the Gauja. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-braut
@@ -2687,7 +2687,7 @@ posts:
       Noch 11 Nächte bis Halloween. Aus der Registratur: die Braut.
     mehr: |
       Benaquís seit 1939. Am Morgen nach mancher Hochzeit liegt einer tot an der Friedhofsmauer. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2696,7 +2696,7 @@ posts:
       11 nights to Halloween. From the Registry: the Bride.
     mehr: |
       Benaquís since 1939. On the morning after some weddings, a man lies dead at the cemetery wall. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-draugr
@@ -2716,7 +2716,7 @@ posts:
       Noch 10 Nächte bis Halloween. Aus der Registratur: der Draugr.
     mehr: |
       Island seit 1997, zuletzt im Januar 2025 in einer Hotelbewertung. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2725,7 +2725,7 @@ posts:
       10 nights to Halloween. From the Registry: the Draugr.
     mehr: |
       Iceland since 1997, last seen in January 2025 in a hotel review. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-altes-kind
@@ -2745,7 +2745,7 @@ posts:
       Noch 9 Nächte bis Halloween. Aus der Registratur: das alte Kind.
     mehr: |
       Masuren seit 1887, zuletzt im September 2026 in Ungarn. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2754,7 +2754,7 @@ posts:
       9 nights to Halloween. From the Registry: the Old Child.
     mehr: |
       Masuria since 1887, last seen in September 2026 in Hungary. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-schachtgaenger
@@ -2774,7 +2774,7 @@ posts:
       Noch 8 Nächte bis Halloween. Aus der Registratur: der Schachtgänger.
     mehr: |
       Das Ruhrgebiet seit 1961, zuletzt im September 2026 aus einem Keller gemeldet. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2783,7 +2783,7 @@ posts:
       8 nights to Halloween. From the Registry: the Shaft Walker.
     mehr: |
       The Ruhr since 1961, last reported in September 2026 from a cellar. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-knochige
@@ -2803,7 +2803,7 @@ posts:
       Noch 7 Nächte bis Halloween. Aus der Registratur: die Knochige im Wald.
     mehr: |
       Karelien seit 1938, zuletzt im August 2026 auf einer Wildkamera. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2812,7 +2812,7 @@ posts:
       7 nights to Halloween. From the Registry: the Bony One in the Woods.
     mehr: |
       Karelia since 1938, last seen in August 2026 on a trail camera. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-band
@@ -2832,7 +2832,7 @@ posts:
       Noch 5 Nächte bis Halloween. Aus der Registratur: das Band, das man nicht abspielen soll.
     mehr: |
       Bologna seit 1981. Seit September 2026 fehlt in Stockholm eine Kopie. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2841,7 +2841,7 @@ posts:
       5 nights to Halloween. From the Registry: the Tape You Must Not Play.
     mehr: |
       Bologna since 1981. A copy has been missing in Stockholm since September 2026. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-souffleuse
@@ -2861,7 +2861,7 @@ posts:
       Noch 4 Nächte bis Halloween. Aus der Registratur: die Souffleuse.
     mehr: |
       Wien seit 1945, zuletzt im Treppenhaus der Polizeidirektion. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2870,7 +2870,7 @@ posts:
       4 nights to Halloween. From the Registry: the Prompter.
     mehr: |
       Vienna since 1945, last seen in the stairwell of the police headquarters. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-lindwurm
@@ -2890,7 +2890,7 @@ posts:
       Noch 3 Nächte bis Halloween. Aus der Registratur: der Lindwurm im Stollen.
     mehr: |
       Kärnten seit 1936, zuletzt im August 2026 auf einem Seismogramm. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2899,7 +2899,7 @@ posts:
       3 nights to Halloween. From the Registry: the Lindworm in the Tunnel.
     mehr: |
       Carinthia since 1936, last seen in August 2026 on a seismogram. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-nachtmahr
@@ -2919,7 +2919,7 @@ posts:
       Noch 2 Nächte bis Halloween. Aus der Registratur: der Nachtmahr aus dem Schlaflabor.
     mehr: |
       Perugia seit 1976, zuletzt im September 2026 im Schlaflabor. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2928,7 +2928,7 @@ posts:
       2 nights to Halloween. From the Registry: the Nightmare from the Sleep Lab.
     mehr: |
       Perugia since 1976, last seen in September 2026 in the sleep lab. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-rufer
@@ -2948,7 +2948,7 @@ posts:
       Noch eine Nacht bis Halloween. Aus der Registratur: der Rufer unter dem Schelfeis.
     mehr: |
       Antarktis seit 1994. Im September 2026 haben Hydrophone ihn bei Tristan da Cunha geortet. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2957,7 +2957,7 @@ posts:
       One more night to Halloween. From the Registry: the Caller Beneath the Ice Shelf.
     mehr: |
       Antarctica since 1994. In September 2026 hydrophones located him near Tristan da Cunha. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: owlbear-video
@@ -3242,5 +3242,5 @@ posts:
     mehr: |
       Free to play in the browser or to print at home: a rulebook and print-and-play material with cards, tokens, standees and A3 Hold plans.
       The illustrations are AI-generated.
-    link: https://odin-rpg.pages.dev/en/veilrift/
+    link: https://odin-rpg.de/en/veilrift/
     tags: ["Boardgame", "PrintAndPlay"]
