@@ -801,6 +801,10 @@
   "mastodon_en": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117456638236136208",
    "zeit": "2026-10-17T16:07:42.711336+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18089368016269214",
+   "zeit": "2026-10-17T17:07:47.862719+02:00"
   }
  },
  "hc-mann-in-der-wand": {
@@ -1669,6 +1673,10 @@
   "instagram": {
    "ergebnis": "instagram:17917340430528970 (Reel)",
    "zeit": "2026-10-17T13:32:35.249799+02:00"
+  },
+  "instagram_story": {
+   "ergebnis": "story:18070419659772716 (Video)",
+   "zeit": "2026-10-17T17:07:47.862719+02:00"
   },
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117456028271965699",
