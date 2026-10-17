@@ -40,7 +40,7 @@ CONFIG = ROOT / "config.yaml"
 STATE = ROOT / "state" / "gepostet.json"
 BILDER = ROOT / "bilder"
 
-UA = "odin-werbung/1.0 (+https://odin-rpg.pages.dev)"
+UA = "odin-werbung/1.0 (+https://odin-rpg.de)"
 IG_API = "https://graph.instagram.com/v23.0"
 TH_API = "https://graph.threads.net/v1.0"
 FB_API = "https://graph.facebook.com/v23.0"
