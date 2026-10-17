@@ -1633,6 +1633,28 @@
    "zeit": "2026-10-07T20:07:31.776362+02:00"
   }
  },
+ "realm-hop-tu-naa": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3my2ylnxmjv2l",
+   "zeit": "2026-10-17T13:32:35.249799+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1560978853097250826",
+   "zeit": "2026-10-17T13:32:35.249799+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1125332203722085 (Video)",
+   "zeit": "2026-10-17T13:32:35.249799+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:17917340430528970 (Reel)",
+   "zeit": "2026-10-17T13:32:35.249799+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117456028271965699",
+   "zeit": "2026-10-17T13:32:35.249799+02:00"
+  }
+ },
  "realm-wuerfel": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxlxqwqqck2l",
