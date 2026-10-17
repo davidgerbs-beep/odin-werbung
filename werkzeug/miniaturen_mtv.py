@@ -31,10 +31,10 @@ FIGUREN = ["invoker-w", "techno-stormtrooper-m", "psychic-healer-w", "antiquaria
 WORTE = {
     "de": {"haken": "30 MINIATUREN", 6: "STL", 10: "RESIN", 14: "28 MM", 18: "MANN & FRAU", 24: "JETZT BEI ETSY",
            "ende": ("O.D.I.N.-Miniaturen", "Alle 30 Unterklassen",
-                    "STL ab 5,90 €, gedruckt ab 19,90 €.\nodin-rpg.pages.dev/miniaturen")},
+                    "STL ab 5,90 €, gedruckt ab 19,90 €.\nodin-rpg.de/miniaturen")},
     "en": {"haken": "30 MINIATURES", 6: "STL", 10: "RESIN", 14: "28 MM", 18: "MALE & FEMALE", 24: "NOW ON ETSY",
            "ende": ("O.D.I.N. miniatures", "All 30 subclasses",
-                    "STL from €5.90, printed from €19.90\n(shipping in Germany).\nodin-rpg.pages.dev/en/miniatures")},
+                    "STL from €5.90, printed from €19.90\n(shipping in Germany).\nodin-rpg.de/en/miniatures")},
 }
 
 
