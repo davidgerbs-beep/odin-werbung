@@ -770,9 +770,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3my2n57d2qw2h",
    "zeit": "2026-10-17T10:07:38.983742+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3my3bb2e7z622",
+   "zeit": "2026-10-17T16:07:42.711336+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1560927277921869848",
    "zeit": "2026-10-17T10:07:38.983742+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1561017890499727410",
+   "zeit": "2026-10-17T16:07:42.711336+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1375689388959077_122115214749490766",
@@ -789,6 +797,10 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117455222428137127",
    "zeit": "2026-10-17T10:07:38.983742+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117456638236136208",
+   "zeit": "2026-10-17T16:07:42.711336+02:00"
   }
  },
  "hc-mann-in-der-wand": {
