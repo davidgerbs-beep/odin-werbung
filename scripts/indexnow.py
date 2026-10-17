@@ -8,7 +8,7 @@ Läuft über .github/workflows/indexnow.yml (alle 6 Stunden und von Hand).
 import json, re, sys, urllib.request
 from pathlib import Path
 
-BASE = "https://odin-rpg.pages.dev"
+BASE = "https://odin-rpg.de"
 KEY = "451d3aed371ca1b1a35723f1eb97c968"
 STAND = Path(__file__).resolve().parent.parent / "state" / "indexnow.json"
 
@@ -31,7 +31,7 @@ def main():
         return
     for i in range(0, len(neu), 1000):
         teil = neu[i:i + 1000]
-        daten = json.dumps({"host": "odin-rpg.pages.dev", "key": KEY, "keyLocation": f"{BASE}/{KEY}.txt",
+        daten = json.dumps({"host": "odin-rpg.de", "key": KEY, "keyLocation": f"{BASE}/{KEY}.txt",
                             "urlList": [u for u, _ in teil]}).encode("utf-8")
         req = urllib.request.Request("https://api.indexnow.org/indexnow", data=daten, method="POST",
                                      headers={"Content-Type": "application/json; charset=utf-8"})
