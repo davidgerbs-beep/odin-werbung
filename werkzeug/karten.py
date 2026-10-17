@@ -23,8 +23,8 @@ MUT = (168, 153, 127)
 LINE = (62, 52, 40)
 ACC = (192, 73, 58)
 
-FOOTER = {"de": "Alle Bücher kostenlos  ·  odin-rpg.pages.dev",
-          "en": "Every book free  ·  odin-rpg.pages.dev/en"}
+FOOTER = {"de": "Alle Bücher kostenlos  ·  odin-rpg.de",
+          "en": "Every book free  ·  odin-rpg.de/en"}
 
 
 def font(name, size):
