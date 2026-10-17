@@ -1638,9 +1638,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3my2ylnxmjv2l",
    "zeit": "2026-10-17T13:32:35.249799+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3my35vrasvq2x",
+   "zeit": "2026-10-17T15:07:43.133027+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1560978853097250826",
    "zeit": "2026-10-17T13:32:35.249799+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1561002792452227113",
+   "zeit": "2026-10-17T15:07:43.133027+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1125332203722085 (Video)",
@@ -1653,6 +1661,14 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117456028271965699",
    "zeit": "2026-10-17T13:32:35.249799+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117456402343641714",
+   "zeit": "2026-10-17T15:07:43.133027+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:17913779058493870",
+   "zeit": "2026-10-17T15:07:43.133027+02:00"
   }
  },
  "realm-wuerfel": {
