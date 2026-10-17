@@ -117,10 +117,10 @@ def baue(pid, lang, ziel):
     zitat, countdown, name = teile(p, lang)
     if lang == "de":
         abspann_mitte = f"{name}\naus Band 22, Die Registratur"
-        abspann_unten = "105 Wesen auf Karteikarten.\nAlle 24 Bücher kostenlos:\nodin-rpg.pages.dev"
+        abspann_unten = "105 Wesen auf Karteikarten.\nAlle 24 Bücher kostenlos:\nodin-rpg.de"
     else:
         abspann_mitte = f"{name}\nfrom Volume 22, The Registry"
-        abspann_unten = "105 beings on index cards.\nAll 24 books free:\nodin-rpg.pages.dev"
+        abspann_unten = "105 beings on index cards.\nAll 24 books free:\nodin-rpg.de"
     with tempfile.TemporaryDirectory() as tmp:
         tmp = Path(tmp)
         tafel(tmp / "haken.jpg", countdown, zitat, "")
