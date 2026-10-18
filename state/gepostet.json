@@ -1341,6 +1341,28 @@
    "zeit": "2026-10-06T22:07:44.449009+02:00"
   }
  },
+ "letsrole-demo": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3my5kz7z7ct2n",
+   "zeit": "2026-10-18T14:07:37.801278+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1561350054491455561",
+   "zeit": "2026-10-18T14:07:37.801278+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:4321291071464914 (Video)",
+   "zeit": "2026-10-18T14:07:37.801278+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18117706684793250 (Reel)",
+   "zeit": "2026-10-18T14:07:37.801278+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117461828315016452",
+   "zeit": "2026-10-18T14:07:37.801278+02:00"
+  }
+ },
  "miniaturen-etsy": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxjdwh7ndm27",
@@ -2299,6 +2321,10 @@
   "instagram": {
    "ergebnis": "instagram:18110593487133628 (Reel)",
    "zeit": "2026-10-18T11:07:37.404409+02:00"
+  },
+  "instagram_story": {
+   "ergebnis": "story:17989698219059645 (Video)",
+   "zeit": "2026-10-18T14:07:37.801278+02:00"
   },
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117461120510769528",
