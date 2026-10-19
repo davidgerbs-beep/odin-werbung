@@ -1051,6 +1051,28 @@
    "zeit": "2026-10-08T16:07:29.644607+02:00"
   }
  },
+ "hc-werwolf": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3my7o3f7ao52r",
+   "zeit": "2026-10-19T10:07:50.498352+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1561652101765922857",
+   "zeit": "2026-10-19T10:07:50.498352+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1375689388959077_122116330335490766",
+   "zeit": "2026-10-19T10:07:50.498352+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18632736202063811 (Reel)",
+   "zeit": "2026-10-19T10:07:50.498352+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117466547797007894",
+   "zeit": "2026-10-19T10:07:50.498352+02:00"
+  }
+ },
  "hc-wirt-im-eis": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxy4o5727u2l",
