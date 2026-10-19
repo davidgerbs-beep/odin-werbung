@@ -1056,9 +1056,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3my7o3f7ao52r",
    "zeit": "2026-10-19T10:07:50.498352+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3myac7exotv24",
+   "zeit": "2026-10-19T16:07:59.141069+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1561652101765922857",
    "zeit": "2026-10-19T10:07:50.498352+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1561742740281102408",
+   "zeit": "2026-10-19T16:07:59.141069+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1375689388959077_122116330335490766",
@@ -1075,6 +1083,14 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117466547797007894",
    "zeit": "2026-10-19T10:07:50.498352+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117467964030681706",
+   "zeit": "2026-10-19T16:07:59.141069+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:17888363034620660",
+   "zeit": "2026-10-19T16:07:59.141069+02:00"
   }
  },
  "hc-wirt-im-eis": {
