@@ -3278,3 +3278,35 @@ posts:
       The illustrations are AI-generated.
     link: https://odin-rpg.de/en/veilrift/
     tags: ["Boardgame", "PrintAndPlay"]
+- id: erweiterung-verschobene
+  datum: "2026-10-23"
+  zeit: "12:30"
+  bild:
+    typ: foto
+    datei: erweiterung_verschobene_de.jpg
+    zeile_de: "SCHLEIERRISS · Erweiterung Das Verschobene"
+    alt_de: "Altes Schwarzweißfoto: Ein Mann im Wollpullover steht hinter einer Glastür, davor derselbe Mann in Jacke auf einer verschneiten Veranda."
+  de:
+    text: |
+      Ein Beutelwolf steht im Ministerium. Ausgestorben seit 1936. Die erste Erweiterung für Schleierriss heißt „Das Verschobene“: ein fünfter Ursprung mit Gegnern, die aus ihrer Zeit gefallen sind.
+    mehr: |
+      Dazu der Pendler, der Gast auf dem Gruppenbild und drei Hortpläne: Ministerium, Bahnhof, Gemeindehaus. 16 Seiten zum Ausdrucken, im Browser reicht ein Kreuz. Kostenlos.
+      Die Illustrationen sind KI-generiert.
+    link: https://odin-rpg.de/schleierriss/
+    tags: ["Brettspiel", "PrintAndPlay"]
+- id: expansion-shifted
+  datum: "2026-10-23"
+  zeit_en: "19:30"
+  bild:
+    typ: foto
+    datei: expansion_shifted_en.jpg
+    zeile_en: "VEILRIFT · Expansion The Shifted"
+    alt_en: "Old black-and-white photo: a man in a cable-knit sweater stands behind a glass door, in front of it the same man in a jacket on a snowy porch."
+  en:
+    text: |
+      A thylacine in the Ministry. Extinct since 1936. The first expansion for Veilrift is called The Shifted: a fifth Origin, with enemies who have fallen out of their time.
+    mehr: |
+      Also the Commuter, the Guest in the Group Photo and three new Hold plans: Ministry, Station, Parish Hall. 16 pages to print, or one tick box in the browser start window. Free.
+      The illustrations are AI-generated.
+    link: https://odin-rpg.de/en/veilrift/
+    tags: ["Boardgame", "PrintAndPlay"]
