@@ -3244,3 +3244,35 @@ posts:
       The illustrations are AI-generated.
     link: https://odin-rpg.de/en/veilrift/
     tags: ["Boardgame", "PrintAndPlay"]
+- id: schleierriss-premium
+  datum: "2026-10-20"
+  zeit: "12:30"
+  bild:
+    typ: foto
+    datei: schleierriss_premium_de.jpg
+    zeile_de: "SCHLEIERRISS · jetzt auf dem Holztisch"
+    alt_de: "Bildschirmfoto aus Schleierriss im Browser: eine gezeichnete Lagekarte von Europa auf einem Holztisch, Miniaturen der Agenten stehen in London und Stockholm, Bern und Tromsø leuchten als erreichbare Ziele, links der Bogen des Agenten Brandt, rechts das Einsatzprotokoll."
+  de:
+    text: |
+      Schleierriss liegt jetzt auf einem Holztisch: Miniaturen auf einer gezeichneten Lagekarte, und im Hort leuchten die Felder, die deine Figur erreicht. Kostenlos, im Browser oder ausgedruckt.
+    mehr: |
+      Neue Druckbögen für Drucker und Druckerei, dazu zwei Regeln: Durch Verbündete darfst du ziehen, bei sechs Agenten wartet im Rissraum ein dritter Elite-Gegner.
+      Die Illustrationen sind KI-generiert.
+    link: https://odin-rpg.de/schleierriss/
+    tags: ["Brettspiel", "PrintAndPlay"]
+- id: veilrift-premium
+  datum: "2026-10-20"
+  zeit_en: "19:30"
+  bild:
+    typ: foto
+    datei: veilrift_premium_en.jpg
+    zeile_en: "VEILRIFT · now on a proper table"
+    alt_en: "Screenshot of Veilrift in the browser: a hand-drawn Situation Map of Europe on a wooden table, agent miniatures in London and Stockholm, Bergen and Zurich glowing as reachable locations, Raven's agent sheet on the left and the mission log on the right."
+  en:
+    text: |
+      Veilrift got a proper table. Miniatures stand on a hand-drawn Situation Map, and inside a Hold the squares your agent can reach light up. Free in the browser or printed at home.
+    mehr: |
+      New print sheets for your own printer or a print shop, and two new rules: you may move through allies, and with six agents a third elite enemy waits in the rift room.
+      The illustrations are AI-generated.
+    link: https://odin-rpg.de/en/veilrift/
+    tags: ["Boardgame", "PrintAndPlay"]
