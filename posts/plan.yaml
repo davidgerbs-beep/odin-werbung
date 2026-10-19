@@ -1833,22 +1833,24 @@ posts:
   bild:
     typ: raster
     dateien: [mini_assassin-w.jpg, mini_chronomancer-m.jpg, mini_cyberneticist-w.jpg, mini_paranormal-detective-m.jpg, mini_stormbreaker-w.jpg, mini_spy-m.jpg]
-    zeile_de: "Code ODINSTART · 10 % bis 23.10."
-    zeile_en: "Code ODINSTART · 10 % off until 23 Oct"
+    zeile_de: "Neue Preise · STL 3,90 € · gedruckt ab 12,90 €"
+    zeile_en: "New prices · STL €3.90 · printed from €12.90"
     alt_de: "Sechs unbemalte graue Miniaturen auf runden Bases: Assassinin im langen Mantel, Chronomant mit Sanduhrstab und Taschenuhr, Kybernetikerin mit Prothesenarm, Detektiv mit Hut und erhobener Glocke, Sturmbrecherin in Panzerung, Spion mit Schiebermütze und Mappe."
     alt_en: "Six unpainted grey miniatures on round bases: an Assassin in a long coat, a Chronomancer with an hourglass staff and pocket watch, a Cyberneticist with a prosthetic arm, a detective in a hat raising a bell, an armoured Stormbreaker, a Spy with a flat cap and folder."
   de:
     text: |
-      Bis Freitag, 23.10., gibt es mit dem Code ODINSTART 10 % auf alle O.D.I.N.-Miniaturen.
+      Die O.D.I.N.-Miniaturen sind günstiger geworden: Jedes Set mit Mann und Frau in 28 mm kostet jetzt 3,90 € als STL oder ab 12,90 € fertig gedruckt aus Resin.
     mehr: |
-      Wer drei Sets oder mehr nimmt, spart bis 08.11. 15 %. Jedes Set hat Mann und Frau, 28 mm, als STL ab 5,90 € oder gedruckt aus Resin ab 19,90 €, Versand innerhalb Deutschlands inklusive. Shop: odinarsenal.etsy.com
+      Bis Freitag, 23.10., gibt es mit dem Code ODINSTART noch 10 % dazu, ab drei Sets bis 08.11. 15 %. Der Versand innerhalb Deutschlands ist im Preis. Shop: odinarsenal.etsy.com
+      Die Figuren sind mit KI entworfen und von Hand nachgearbeitet.
     link: https://odin-rpg.de/miniaturen
     tags: ["Miniaturen", "3DDruck"]
   en:
     text: |
-      Until Friday, 23 October, code ODINSTART takes 10 % off every O.D.I.N. miniature.
+      O.D.I.N. miniatures just got cheaper: every set, a man and a woman in 28 mm, is now €3.90 as STL or from €12.90 printed in resin.
     mehr: |
-      Three sets or more save 15 % until 8 November. Every set has a man and a woman, 28 mm, as STL from €5.90 or printed in resin from €19.90 (printed sets ship within Germany only). Shop: odinarsenal.etsy.com
+      Until Friday, 23 October, code ODINSTART takes another 10 % off, and three sets or more save 15 % until 8 November. Printed sets ship within Germany only. Shop: odinarsenal.etsy.com
+      The figures were designed with AI and finished by hand.
     link: https://odin-rpg.de/en/miniatures
     tags: ["Miniatures", "3DPrinting"]
 
