@@ -765,6 +765,28 @@
    "zeit": "2026-10-20T16:07:40.088220+02:00"
   }
  },
+ "hc-draugr": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3myeoynm2hg2f",
+   "zeit": "2026-10-21T10:07:31.255596+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1562376796471558195",
+   "zeit": "2026-10-21T10:07:31.255596+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1375689388959077_122117262111490766",
+   "zeit": "2026-10-21T10:07:31.255596+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:17912904060475152 (Reel)",
+   "zeit": "2026-10-21T10:07:31.255596+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117477871149395831",
+   "zeit": "2026-10-21T10:07:31.255596+02:00"
+  }
+ },
  "hc-heimkehrer": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxo2sgrqqn2o",
