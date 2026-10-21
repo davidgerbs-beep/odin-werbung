@@ -1498,9 +1498,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3myez2nw4py2s",
    "zeit": "2026-10-21T13:07:36.117533+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3myf4fsnux52n",
+   "zeit": "2026-10-21T14:07:31.462728+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1562422115225833482",
    "zeit": "2026-10-21T13:07:36.117533+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1562437195715977297",
+   "zeit": "2026-10-21T14:07:31.462728+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1058980393809638 (Video)",
@@ -1513,6 +1521,14 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117478579254630962",
    "zeit": "2026-10-21T13:07:36.117533+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117478814877708690",
+   "zeit": "2026-10-21T14:07:31.462728+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18095941751667081",
+   "zeit": "2026-10-21T14:07:31.462728+02:00"
   }
  },
  "miniaturen-etsy": {
