@@ -770,9 +770,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3myeoynm2hg2f",
    "zeit": "2026-10-21T10:07:31.255596+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3myfbmyrwfu23",
+   "zeit": "2026-10-21T15:41:01.327514+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1562376796471558195",
    "zeit": "2026-10-21T10:07:31.255596+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1562460729121185823",
+   "zeit": "2026-10-21T15:41:01.327514+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1375689388959077_122117262111490766",
@@ -789,6 +797,14 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117477871149395831",
    "zeit": "2026-10-21T10:07:31.255596+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117479182584999444",
+   "zeit": "2026-10-21T15:41:01.327514+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18097139159379258",
+   "zeit": "2026-10-21T15:41:01.327514+02:00"
   }
  },
  "hc-heimkehrer": {
@@ -1517,6 +1533,10 @@
   "instagram": {
    "ergebnis": "instagram:18317413588303539 (Reel)",
    "zeit": "2026-10-21T13:07:36.117533+02:00"
+  },
+  "instagram_story": {
+   "ergebnis": "story:17908280286588732 (Video)",
+   "zeit": "2026-10-21T15:41:01.327514+02:00"
   },
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117478579254630962",
