@@ -3513,6 +3513,28 @@
    "zeit": "2026-10-14T21:07:42.131502+02:00"
   }
  },
+ "w05-agent": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3myfjtfa4mk2b",
+   "zeit": "2026-10-21T18:07:46.056037+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1562497653659664595",
+   "zeit": "2026-10-21T18:07:46.056037+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1375689388959077_122117437665490766",
+   "zeit": "2026-10-21T18:07:46.056037+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18206680471373655 (Reel)",
+   "zeit": "2026-10-21T18:07:46.056037+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117479759530794088",
+   "zeit": "2026-10-21T18:07:46.056037+02:00"
+  }
+ },
  "w12-discord": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwih5wnf752n",
