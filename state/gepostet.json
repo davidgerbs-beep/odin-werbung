@@ -3518,9 +3518,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3myfjtfa4mk2b",
    "zeit": "2026-10-21T18:07:46.056037+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3myftutszqa2e",
+   "zeit": "2026-10-21T21:07:31.122695+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1562497653659664595",
    "zeit": "2026-10-21T18:07:46.056037+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1562542894748016753",
+   "zeit": "2026-10-21T21:07:31.122695+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1375689388959077_122117437665490766",
@@ -3530,9 +3538,21 @@
    "ergebnis": "instagram:18206680471373655 (Reel)",
    "zeit": "2026-10-21T18:07:46.056037+02:00"
   },
+  "instagram_story": {
+   "ergebnis": "story:17891634729458257 (Video)",
+   "zeit": "2026-10-21T21:07:31.122695+02:00"
+  },
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117479759530794088",
    "zeit": "2026-10-21T18:07:46.056037+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117480466430520048",
+   "zeit": "2026-10-21T21:07:31.122695+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18217927321361102",
+   "zeit": "2026-10-21T21:07:31.122695+02:00"
   }
  },
  "w12-discord": {
