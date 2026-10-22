@@ -652,9 +652,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3myh7hixbku2w",
    "zeit": "2026-10-22T10:07:28.595045+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3myhs66u2ju2l",
+   "zeit": "2026-10-22T15:42:17.844533+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1562739174875070566",
    "zeit": "2026-10-22T10:07:28.595045+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1562823431186288752",
+   "zeit": "2026-10-22T15:42:17.844533+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1375689388959077_122117714481490766",
@@ -671,6 +679,14 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117483533307523984",
    "zeit": "2026-10-22T10:07:28.595045+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117484849825354701",
+   "zeit": "2026-10-22T15:42:17.844533+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18129217630846324",
+   "zeit": "2026-10-22T15:42:17.844533+02:00"
   }
  },
  "hc-anhalterin": {
