@@ -1139,6 +1139,28 @@
    "zeit": "2026-10-05T16:07:47.523301+02:00"
   }
  },
+ "hc-schachtgaenger": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3myjpwdzjqp25",
+   "zeit": "2026-10-23T10:07:26.524878+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1563101551583821904",
+   "zeit": "2026-10-23T10:07:26.524878+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1375689388959077_122118232689490766",
+   "zeit": "2026-10-23T10:07:26.524878+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18102287849456268 (Reel)",
+   "zeit": "2026-10-23T10:07:26.524878+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117489195444007992",
+   "zeit": "2026-10-23T10:07:26.524878+02:00"
+  }
+ },
  "hc-strigoi": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxdywvcni42w",
