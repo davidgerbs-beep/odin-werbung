@@ -163,6 +163,28 @@
    "zeit": "2026-10-02T19:07:36.754037+02:00"
   }
  },
+ "erweiterung-verschobene": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3myjzya7oxq2z",
+   "zeit": "2026-10-23T13:07:27.050799+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1563146851576717362",
+   "zeit": "2026-10-23T13:07:27.050799+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1434084292022841 (Video)",
+   "zeit": "2026-10-23T13:07:27.050799+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:17917291617265791 (Reel)",
+   "zeit": "2026-10-23T13:07:27.050799+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117489903261087806",
+   "zeit": "2026-10-23T13:07:27.050799+02:00"
+  }
+ },
  "f01-foundry-einsatz": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mwgo6wnm5b2u",
@@ -1155,6 +1177,10 @@
   "instagram": {
    "ergebnis": "instagram:18102287849456268 (Reel)",
    "zeit": "2026-10-23T10:07:26.524878+02:00"
+  },
+  "instagram_story": {
+   "ergebnis": "story:18183874798481401 (Video)",
+   "zeit": "2026-10-23T13:07:27.050799+02:00"
   },
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117489195444007992",
