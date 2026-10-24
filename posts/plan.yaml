@@ -29,7 +29,7 @@ posts:
       O.D.I.N. ist mein Pen-&-Paper-Rollenspiel über genau diese Leute. 15 Bücher, alle kostenlos.
     mehr: |
       Grundregelwerk, sechs Klassenbücher, Spielleiterbuch, Kampagne, Szenarioband, Ausrüstungsbuch, Schnellstart. Dazu ein Charaktergenerator im Browser und ein System für Foundry VTT. Ohne Anmeldung.
-    link: https://odin-rpg.pages.dev/
+    link: https://odin-rpg.de/
   en:
     text: |
       For decades, an organisation that officially does not exist has kept the rifts closed. No flag, no headquarters on any map.
@@ -37,7 +37,7 @@ posts:
       O.D.I.N. is my tabletop RPG about the people who do that work. The whole line is free.
     mehr: |
       Core Rulebook, six class books, Game Master's Book, a campaign, a mission collection, an equipment book and a Quickstart. Plus a character generator in the browser and a full Foundry VTT system. No sign-up, just download.
-    link: https://odin-rpg.pages.dev/en/
+    link: https://odin-rpg.de/en/
 
 - id: w01-wuerfel
   tag: 2
@@ -57,7 +57,7 @@ posts:
       Heißt am Tisch: Training ist verlässlicher als Talent. Das Naturtalent glänzt, der Ausgebildete liefert.
     mehr: |
       Wer eine Fertigkeit gar nicht beherrscht, würfelt nur weiß. Das spürt man sofort.
-    link: https://odin-rpg.pages.dev/buecher.html
+    link: https://odin-rpg.de/buecher.html
     tags: ["Spieldesign"]
   en:
     text: |
@@ -66,7 +66,7 @@ posts:
       At the table that means training beats talent. The natural shines, the trained agent delivers.
     mehr: |
       No skill at all? You roll white dice only, and you feel it immediately.
-    link: https://odin-rpg.pages.dev/en/books.html
+    link: https://odin-rpg.de/en/books.html
     tags: ["TTRPGDesign"]
 
 - id: w01-schnellstart
@@ -87,7 +87,7 @@ posts:
       Der Schnellstart von O.D.I.N. hat Welt und Kurzregeln auf wenigen Seiten. Drei bis vier Spieler, eine Spielleitung, acht weiße und acht bunte W6. Kostenlos.
     mehr: |
       Wer danach mehr will: Die Agenten lassen sich im Charaktergenerator nachbauen und in die Kampagne mitnehmen.
-    link: https://odin-rpg.pages.dev/buecher.html
+    link: https://odin-rpg.de/buecher.html
     tags: ["OneShot"]
   en:
     text: |
@@ -96,7 +96,7 @@ posts:
       The O.D.I.N. Quickstart gives you the world and the short rules in a few pages. Three to four players, one GM, eight white and eight coloured d6. Free.
     mehr: |
       If you want more afterwards, rebuild the agents in the character generator and take them into the campaign.
-    link: https://odin-rpg.pages.dev/en/books.html
+    link: https://odin-rpg.de/en/books.html
     tags: ["OneShot"]
 
 # ---------------- Woche 2 ----------------
@@ -115,13 +115,13 @@ posts:
       Der Chor hört, was andere nicht hören. Jeder Psion trägt einen Helm aus Legierung S, und keiner redet gern darüber, wie er zu O.D.I.N. kam.
 
       Klassenbuch Psion: Subklassen, Kräfte, und der Preis, den jede Gabe kostet.
-    link: https://odin-rpg.pages.dev/buecher.html
+    link: https://odin-rpg.de/buecher.html
   en:
     text: |
       The Choir hears what others cannot. Every Psion wears a helmet of Alloy S, and none of them likes to talk about how they came to O.D.I.N.
 
       Class Book Psion: subclasses, powers, and the price every gift demands.
-    link: https://odin-rpg.pages.dev/en/books.html
+    link: https://odin-rpg.de/en/books.html
 
 - id: w02-generator
   tag: 9
@@ -140,7 +140,7 @@ posts:
       Am Ende steht ein fertiger Klassenbogen als PDF. Läuft im Browser, auch auf dem Handy.
     mehr: |
       Die Datei lässt sich in Foundry VTT einlesen.
-    link: https://odin-rpg.pages.dev/generator/
+    link: https://odin-rpg.de/generator/
   en:
     text: |
       Character creation without a dice marathon: the O.D.I.N. generator walks you through branch, subclass, background and signature, one question at a time.
@@ -148,7 +148,7 @@ posts:
       You end up with a finished class sheet as a PDF. Runs in the browser, on phones too.
     mehr: |
       The export file imports into Foundry VTT.
-    link: https://odin-rpg.pages.dev/generator/en/
+    link: https://odin-rpg.de/generator/en/
 
 - id: w02-akten
   tag: 12
@@ -169,7 +169,7 @@ posts:
       Die meisten Einsätze beginnen grau. Umgestuft wird öfter, als den Agenten lieb ist.
     mehr: |
       Wer eine Schwarze Akte in der Hand hält, erfährt meistens nicht, warum.
-    link: https://odin-rpg.pages.dev/buecher.html
+    link: https://odin-rpg.de/buecher.html
   en:
     text: |
       Every O.D.I.N. mission starts with a file, and the first thing an agent checks is its colour.
@@ -177,7 +177,7 @@ posts:
       Most missions start grey. Files get upgraded more often than the agents would like.
     mehr: |
       Whoever holds a Black File usually never learns why.
-    link: https://odin-rpg.pages.dev/en/books.html
+    link: https://odin-rpg.de/en/books.html
 
 # ---------------- Woche 3 ----------------
 - id: w03-thaumaturg
@@ -195,13 +195,13 @@ posts:
       Ohne Kristalle keine Magie. Das Kollegium verwahrt jeden einzelnen, jeder Stein hat eine Nummer, und jeder flüstert.
 
       Klassenbuch Thaumaturg: für alle, die Magie lieber gefährlich als bequem mögen.
-    link: https://odin-rpg.pages.dev/buecher.html
+    link: https://odin-rpg.de/buecher.html
   en:
     text: |
       No crystals, no magic. The Collegium keeps every one of them. Each stone has a number, and each one whispers.
 
       Class Book Thaumaturge: for players who like their magic dangerous rather than convenient.
-    link: https://odin-rpg.pages.dev/en/books.html
+    link: https://odin-rpg.de/en/books.html
 
 - id: w03-ausbildung
   tag: 16
@@ -219,13 +219,13 @@ posts:
       Seite 1 des Ausbildungshandbuchs, das jeder Kadett bei O.D.I.N. bekommt.
 
       Gelesen haben es alle. Befolgt hat es nach dem ersten Einsatz keiner mehr.
-    link: https://odin-rpg.pages.dev/buecher.html
+    link: https://odin-rpg.de/buecher.html
   en:
     text: |
       Page 1 of the training manual every O.D.I.N. cadet receives.
 
       Everyone has read it. Nobody still follows it after their first mission.
-    link: https://odin-rpg.pages.dev/en/books.html
+    link: https://odin-rpg.de/en/books.html
 
 - id: w03-die-tuer
   tag: 19
@@ -242,14 +242,14 @@ posts:
       Eine Tür steht mitten im Schnee. Kein Haus dahinter, kein Weg davor.
 
       Die Tür ist die Kampagne für O.D.I.N.: vier Akten, eigene Handouts, gedacht für eine Zelle, die zusammenbleiben will. Kostenlos wie der Rest.
-    link: https://odin-rpg.pages.dev/buecher.html
+    link: https://odin-rpg.de/buecher.html
     tags: ["Kampagne"]
   en:
     text: |
       A door stands in the middle of the snow. No house behind it, no path leading to it.
 
       The Door is the O.D.I.N. campaign: four files, its own handouts, built for a cell that wants to stay together. Free like everything else.
-    link: https://odin-rpg.pages.dev/en/books.html
+    link: https://odin-rpg.de/en/books.html
     tags: ["Campaign"]
 
 # ---------------- Woche 4 ----------------
@@ -268,13 +268,13 @@ posts:
       Der Hammer von O.D.I.N. Soldier tragen Silber, das andere vor ihnen getragen haben, mit den Namen der Vorbesitzer.
 
       Klassenbuch Soldier: wer als Erster durch die Tür geht und was er danach nicht mehr los wird.
-    link: https://odin-rpg.pages.dev/buecher.html
+    link: https://odin-rpg.de/buecher.html
   en:
     text: |
       The Hammer of O.D.I.N. Soldiers carry silver that others carried before them, engraved with the names of the previous owners.
 
       Class Book Soldier: the ones who go through the door first, and what they can't shake afterwards.
-    link: https://odin-rpg.pages.dev/en/books.html
+    link: https://odin-rpg.de/en/books.html
 
 - id: w04-foundry
   tag: 23
@@ -292,14 +292,14 @@ posts:
       O.D.I.N. läuft online. Für Foundry VTT (ab Version 14) gibt es ein komplettes System: Bögen, Zwei-Farben-Würfel, Klassenbäume, Waffen, Kräfte, Zauber und den Einstiegseinsatz Nexus-Splitter.
 
       Installiert wird über die Manifest-URL auf der Website.
-    link: https://odin-rpg.pages.dev/spieltische.html
+    link: https://odin-rpg.de/spieltische.html
     tags: ["FoundryVTT"]
   en:
     text: |
       O.D.I.N. plays online. There is a full Foundry VTT system (v14+): sheets, two-colour dice, class trees, weapons, powers, spells and the intro mission Nexus-Splitter.
 
       Install it with the manifest URL from the website.
-    link: https://odin-rpg.pages.dev/en/tables.html
+    link: https://odin-rpg.de/en/tables.html
     tags: ["FoundryVTT"]
 
 - id: halloween
@@ -348,13 +348,13 @@ posts:
       Legenden wie Mäntel. Je länger ein Agent eine trägt, desto tiefer wird sie, bis er nicht mehr sicher weiß, welche die eigene war.
 
       Klassenbuch Agent. Preis: Schwund.
-    link: https://odin-rpg.pages.dev/buecher.html
+    link: https://odin-rpg.de/buecher.html
   en:
     text: |
       Legends like coats. The longer an agent wears one, the deeper it goes, until they are no longer sure which one was their own.
 
       Class Book Agent. Price: Fade.
-    link: https://odin-rpg.pages.dev/en/books.html
+    link: https://odin-rpg.de/en/books.html
 
 - id: w05-risse
   tag: 30
@@ -372,13 +372,13 @@ posts:
       Manche Risse schließen sich nach Sekunden. Andere bleiben jahrelang offen: Uhren gehen falsch, Pflanzen wachsen in falschen Farben, Menschen träumen dieselben Träume.
 
       Darum geht es in O.D.I.N.
-    link: https://odin-rpg.pages.dev/
+    link: https://odin-rpg.de/
   en:
     text: |
       Some rifts close after seconds. Others stay open for years: clocks run wrong, plants grow in the wrong colours, people dream the same dreams.
 
       That is what O.D.I.N. is about.
-    link: https://odin-rpg.pages.dev/en/
+    link: https://odin-rpg.de/en/
 
 - id: w05-spielleiterbuch
   tag: 33
@@ -395,14 +395,14 @@ posts:
       Im Spielleiterbuch von O.D.I.N. kommt nicht alles aus den Rissen. Acht Ursprünge: Stimme, Fremde, Verwandelte, Alte, Tote, Maschine, Menschen, Verschobene.
 
       Die Spieler wissen am Anfang nie, womit sie es zu tun haben. Das ist der Sinn.
-    link: https://odin-rpg.pages.dev/buecher.html
+    link: https://odin-rpg.de/buecher.html
     tags: ["Spielleitung"]
   en:
     text: |
       Not everything in the O.D.I.N. Game Master's Book comes through the rifts. Eight origins: voices, aliens, mutants, cryptids, hauntings, machines, humans and displaced things.
 
       Players never know at the start what they are facing.
-    link: https://odin-rpg.pages.dev/en/books.html
+    link: https://odin-rpg.de/en/books.html
     tags: ["GameMaster"]
 
 # ---------------- Woche 6 ----------------
@@ -421,13 +421,13 @@ posts:
       Das Institut liegt in einem Stollen bei Bern. Dort bauen sie, was es noch nicht gibt, und manchmal etwas, das es besser nicht gäbe.
 
       Klassenbuch Scientist: Technik, Naniten, Schilde. Preis: Kontamination.
-    link: https://odin-rpg.pages.dev/buecher.html
+    link: https://odin-rpg.de/buecher.html
   en:
     text: |
       The Institute sits in a tunnel near Bern. They build what does not exist yet, and sometimes something that shouldn't.
 
       Class Book Scientist: tech, nanites, shields. Price: Contamination.
-    link: https://odin-rpg.pages.dev/en/books.html
+    link: https://odin-rpg.de/en/books.html
 
 - id: w06-kodex
   tag: 37
@@ -445,13 +445,13 @@ posts:
       Vier der Sieben Gebote, die jeder Agent bei O.D.I.N. kennt.
 
       Das sechste ist das, über das am Tisch am meisten gestritten wird.
-    link: https://odin-rpg.pages.dev/
+    link: https://odin-rpg.de/
   en:
     text: |
       Four of the Seven Commandments every O.D.I.N. agent knows by heart.
 
       Number six is the one that causes the most arguments at the table.
-    link: https://odin-rpg.pages.dev/en/
+    link: https://odin-rpg.de/en/
 
 - id: w06-arsenal
   tag: 40
@@ -468,13 +468,13 @@ posts:
       201 Gegenstände, von der Dienstpistole bis zum Schneemobil.
 
       Arsenal ist das Ausrüstungsbuch für O.D.I.N. Wer bei der Waffenkammer etwas anfordert, findet es hier, und wer es privat kauft, auch.
-    link: https://odin-rpg.pages.dev/buecher.html
+    link: https://odin-rpg.de/buecher.html
   en:
     text: |
       201 items, from the service pistol to the snowmobile.
 
       Arsenal is the equipment book for O.D.I.N. Whatever you requisition from the armoury is in here, and whatever you buy on your own dime too.
-    link: https://odin-rpg.pages.dev/en/books.html
+    link: https://odin-rpg.de/en/books.html
 
 # ---------------- Woche 7 ----------------
 - id: w07-investigator
@@ -492,13 +492,13 @@ posts:
       Die Spurenleser. Jeder Hort von O.D.I.N. hat eine Wand voller Fotos und roter Fäden, und die Wand gehört ihnen.
 
       Klassenbuch Investigator. Preis: Verdacht.
-    link: https://odin-rpg.pages.dev/buecher.html
+    link: https://odin-rpg.de/buecher.html
   en:
     text: |
       The trace readers. Every O.D.I.N. Hold has a Wall covered in photos and red string, and the Wall belongs to them.
 
       Class Book Investigator. Price: Suspicion.
-    link: https://odin-rpg.pages.dev/en/books.html
+    link: https://odin-rpg.de/en/books.html
 
 - id: w07-preis
   tag: 44
@@ -516,14 +516,14 @@ posts:
       In O.D.I.N. riskiert jeder Wurf mehr als Lebenspunkte. Jede Klasse hat einen eigenen Preis, der sich über die Kampagne aufbaut.
 
       Der Psion hört irgendwann zu viel. Der Agent weiß irgendwann nicht mehr, wer er war.
-    link: https://odin-rpg.pages.dev/
+    link: https://odin-rpg.de/
     tags: ["Spieldesign"]
   en:
     text: |
       In O.D.I.N. every roll risks more than hit points. Each class has its own price, and it builds up over a campaign.
 
       The Psion eventually hears too much. The Agent eventually forgets who they were.
-    link: https://odin-rpg.pages.dev/en/
+    link: https://odin-rpg.de/en/
     tags: ["TTRPGDesign"]
 
 - id: w07-graue-akten
@@ -541,14 +541,14 @@ posts:
       Die meisten Einsätze beginnen grau. Graue Akten sind acht davon, fertig für die Spielleitung, mit eigenem Handout-Heft.
 
       Für alle, die keine Zeit haben, jede Woche einen Einsatz zu schreiben.
-    link: https://odin-rpg.pages.dev/buecher.html
+    link: https://odin-rpg.de/buecher.html
     tags: ["Spielleitung"]
   en:
     text: |
       Most missions start grey. Grey Files collects eight of them, ready to run, with their own handout booklet.
 
       For every GM who doesn't have time to write a mission every week.
-    link: https://odin-rpg.pages.dev/en/books.html
+    link: https://odin-rpg.de/en/books.html
     tags: ["GameMaster"]
 
 # ---------------- Woche 8 ----------------
@@ -568,13 +568,13 @@ posts:
       Irgendwann klopft jemand an die Tür, oft dann, wenn das alte Leben ohnehin in Trümmern liegt. Das Angebot: Wissen gegen Freiheit.
 
       Wer ablehnt, erinnert sich am nächsten Morgen an nichts. Behaupten jedenfalls die Anwerber.
-    link: https://odin-rpg.pages.dev/generator/
+    link: https://odin-rpg.de/generator/
   en:
     text: |
       One day someone knocks on the door, usually when the old life is already in ruins. The offer: knowledge for freedom.
 
       Those who refuse remember nothing the next morning. Or so the recruiters claim.
-    link: https://odin-rpg.pages.dev/generator/en/
+    link: https://odin-rpg.de/generator/en/
 
 - id: w08-zellen
   tag: 51
@@ -592,13 +592,13 @@ posts:
       Seit dem Verrat von 1989 arbeitet O.D.I.N. in Zellen aus drei bis sechs Agenten verschiedener Zweige. Die Zelle ist eure Spielgruppe.
 
       Ein guter Führungsoffizier schützt seine Zelle. Ein schlechter opfert sie.
-    link: https://odin-rpg.pages.dev/
+    link: https://odin-rpg.de/
   en:
     text: |
       Since the betrayal of 1989, O.D.I.N. works in cells of three to six agents from different branches. The cell is your gaming group.
 
       A good handler protects the cell. A bad one sacrifices it.
-    link: https://odin-rpg.pages.dev/en/
+    link: https://odin-rpg.de/en/
 
 - id: w08-andere-dienste
   tag: 54
@@ -615,14 +615,14 @@ posts:
       O.D.I.N. ist nicht allein im Schatten. Die anderen Dienste stellt der Spielleitung Gegenspieler und Rivalen vor, die dieselben Risse wollen, nur aus anderen Gründen.
 
       Manchmal ist der gefährlichste Gegner einer mit Dienstausweis.
-    link: https://odin-rpg.pages.dev/buecher.html
+    link: https://odin-rpg.de/buecher.html
     tags: ["Spielleitung"]
   en:
     text: |
       O.D.I.N. isn't alone in the shadows. The Other Services gives the GM rivals and opponents who want the same rifts for different reasons.
 
       Sometimes the most dangerous enemy carries a government ID.
-    link: https://odin-rpg.pages.dev/en/books.html
+    link: https://odin-rpg.de/en/books.html
     tags: ["GameMaster"]
 
 # ---------------- Woche 9 ----------------
@@ -640,12 +640,12 @@ posts:
   de:
     text: |
       Menschen sind nicht dafür gemacht, das Unmögliche zu sehen. In O.D.I.N. bleibt es nicht bei Wunden: Belastung und Trauma laufen mit, und sie gehen nach dem Einsatz nicht einfach weg.
-    link: https://odin-rpg.pages.dev/
+    link: https://odin-rpg.de/
     tags: ["Horror"]
   en:
     text: |
       People aren't made to see the impossible. In O.D.I.N. it doesn't stop at wounds: strain and trauma are tracked too, and they don't just go away after the mission.
-    link: https://odin-rpg.pages.dev/en/
+    link: https://odin-rpg.de/en/
     tags: ["HorrorRPG"]
 
 - id: w09-horte
@@ -660,7 +660,7 @@ posts:
       Kein Stützpunkt von O.D.I.N. beherbergt mehr als zwölf Agenten. Horte der Welt zeigt, wo sie liegen, unter welchen Städten und hinter welchen Türen.
 
       Der Regionalband, neu und kostenlos.
-    link: https://odin-rpg.pages.dev/buecher.html
+    link: https://odin-rpg.de/buecher.html
 
 - id: w09-kostenlos
   tag: 61
@@ -678,13 +678,13 @@ posts:
       Oft gefragt: warum ist O.D.I.N. kostenlos?
 
       Weil ich will, dass es gespielt wird. Wer trotzdem etwas zurückgeben möchte, findet auf der Seite einen PayPal-Link. Noch lieber ist mir ein Bericht von eurer Runde.
-    link: https://odin-rpg.pages.dev/
+    link: https://odin-rpg.de/
   en:
     text: |
       People ask why O.D.I.N. is free.
 
       Because I want it played. If you'd like to give something back, there's a PayPal link on the site. A report from your table means even more to me.
-    link: https://odin-rpg.pages.dev/en/
+    link: https://odin-rpg.de/en/
 
 # ---------------- Woche 10 ----------------
 - id: w10-schirm
@@ -701,14 +701,14 @@ posts:
       Alles, was man am Tisch nachschlagen muss, auf einem Schirm: Proben, Schwierigkeiten, Boni und Mali, Aktenfarben und Spesen, Aufbau einer Mission.
 
       Der Spielleiterschirm für O.D.I.N., zum Ausdrucken.
-    link: https://odin-rpg.pages.dev/buecher.html
+    link: https://odin-rpg.de/buecher.html
     tags: ["Spielleitung"]
   en:
     text: |
       Everything you need to look up at the table on one screen: checks, difficulties, bonuses and penalties, file colours and expenses, how a mission is built.
 
       The O.D.I.N. Game Master's Screen, ready to print.
-    link: https://odin-rpg.pages.dev/en/books.html
+    link: https://odin-rpg.de/en/books.html
     tags: ["GameMaster"]
 
 - id: w10-familie
@@ -727,13 +727,13 @@ posts:
       Zwischen den Einsätzen leben O.D.I.N.-Agenten unter Tarnidentität in ganz normalen Wohnungen.
 
       Diese Lüge aufrechtzuerhalten, ist oft schwerer als jeder Einsatz. Und sie gibt am Tisch mehr Szenen her als jedes Monster.
-    link: https://odin-rpg.pages.dev/
+    link: https://odin-rpg.de/
   en:
     text: |
       Between missions, O.D.I.N. agents live under cover in perfectly normal flats.
 
       Keeping that lie going is often harder than any mission. At the table it produces more scenes than any monster.
-    link: https://odin-rpg.pages.dev/en/
+    link: https://odin-rpg.de/en/
 
 - id: w10-frage
   tag: 68
@@ -751,13 +751,13 @@ posts:
       Sechs Zweige, 30 Subklassen. Welchen würdet ihr als Erstes spielen?
 
       Psion, Thaumaturg, Soldier, Agent, Scientist oder Investigator. Ich tippe auf den Psion.
-    link: https://odin-rpg.pages.dev/generator/
+    link: https://odin-rpg.de/generator/
   en:
     text: |
       Six branches, 30 subclasses. Which would you play first?
 
       Psion, Thaumaturge, Soldier, Agent, Scientist or Investigator. My bet is on the Psion.
-    link: https://odin-rpg.pages.dev/generator/en/
+    link: https://odin-rpg.de/generator/en/
 
 # ---------------- Woche 11 ----------------
 - id: w11-tunguska
@@ -776,13 +776,13 @@ posts:
       In O.D.I.N. hat die Geschichte ein Aktenzeichen. Tunguska ist T-08, und intern stuft der Rat die Lage als anhaltende Eskalation ein.
 
       Deshalb erleben viele Kadetten ihren ersten Einsatz vor der Prüfung.
-    link: https://odin-rpg.pages.dev/
+    link: https://odin-rpg.de/
   en:
     text: |
       In O.D.I.N., history has a file number. Tunguska is T-08, and internally the Council rates the situation as ongoing escalation.
 
       That's why many cadets see their first mission before their final exam.
-    link: https://odin-rpg.pages.dev/en/
+    link: https://odin-rpg.de/en/
 
 - id: w11-handouts
   tag: 72
@@ -799,14 +799,14 @@ posts:
       Ein Makler aus Hannover fragt seine Versicherung, ob sie zahlt, wenn Feriengäste verschwinden. Die Versicherung gehört einer Stiftung. Die Stiftung gehört O.D.I.N.
 
       Das Haus am Stausee steckt im kostenlosen Schnellstart von O.D.I.N. Ein Abend, vier fertige Agenten.
-    link: https://odin-rpg.pages.dev/buecher.html
+    link: https://odin-rpg.de/buecher.html
     tags: ["OneShot"]
   en:
     text: |
       An estate agent asks his insurer whether his policy pays out when holiday guests disappear. The insurer belongs to a foundation. The foundation belongs to O.D.I.N.
 
       The House by the Reservoir is in the free O.D.I.N. Quickstart.
-    link: https://odin-rpg.pages.dev/en/books.html
+    link: https://odin-rpg.de/en/books.html
     tags: ["OneShot"]
 
 - id: w11-charakterboegen
@@ -819,7 +819,7 @@ posts:
   de:
     text: |
       Für alle, die lieber mit Bleistift bauen: Die Charakterbögen aller sechs Klassen gibt es als ein PDF, jeder mit Feldern für Signatur und Preis der Klasse.
-    link: https://odin-rpg.pages.dev/buecher.html
+    link: https://odin-rpg.de/buecher.html
 
 # ---------------- Woche 12 ----------------
 - id: w12-reihe
@@ -836,13 +836,13 @@ posts:
       Wo anfangen bei 23 Büchern? Mit dem Schnellstart für einen Abend. Wer weiterspielen will, liest im Grundregelwerk Kapitel I bis III, das reicht.
 
       Alles andere kommt, wenn ihr es braucht.
-    link: https://odin-rpg.pages.dev/
+    link: https://odin-rpg.de/
   en:
     text: |
       Where to start with a whole book line? The Quickstart, for one evening. If you want to keep going, chapters I to III of the Core Rulebook are enough.
 
       Everything else can wait until you need it.
-    link: https://odin-rpg.pages.dev/en/
+    link: https://odin-rpg.de/en/
 
 - id: w12-handouts-tuer
   tag: 79
@@ -858,14 +858,14 @@ posts:
       Ein Zeitungsartikel von 1960. Ein Brief des Roten Kreuzes. Das Notizbuch eines Hausmeisters. Eine Fahrkarte von 1962.
 
       Zur Kampagne Die Tür gibt es ein eigenes Handout-Heft, damit die Spieler etwas in die Hand bekommen, über das sie streiten können.
-    link: https://odin-rpg.pages.dev/buecher.html
+    link: https://odin-rpg.de/buecher.html
     tags: ["Kampagne"]
   en:
     text: |
       A newspaper article from 1960. A letter from the Red Cross. A caretaker's notebook. A train ticket from 1962.
 
       The Door campaign comes with its own handout booklet, so players get something in their hands to argue about.
-    link: https://odin-rpg.pages.dev/en/books.html
+    link: https://odin-rpg.de/en/books.html
     tags: ["Campaign"]
 
 - id: w12-discord
@@ -905,7 +905,7 @@ posts:
       So sieht O.D.I.N. in Foundry VTT aus: Moth, Folio und Echo betreten das Pfandhaus Gwynne. Karte, Token und Kamera kommen direkt aus dem Spielsystem, und das ist kostenlos.
     mehr: |
       Das ganze Video mit drei Szenen: https://youtu.be/ZAQX5wzS02I
-    link: https://odin-rpg.pages.dev/spieltische
+    link: https://odin-rpg.de/spieltische
     tags: ["FoundryVTT"]
 
 - id: f02-foundry-probe
@@ -923,7 +923,7 @@ posts:
       Eine Probe in Foundry VTT: Doppelklick auf Moth, Fertigkeit wählen, würfeln. Weiße Würfel treffen ab 5, bunte ab 4. Diesmal: 4 Erfolge, 2 waren nötig.
     mehr: |
       Das ganze Video mit drei Szenen: https://youtu.be/ZAQX5wzS02I
-    link: https://odin-rpg.pages.dev/spieltische
+    link: https://odin-rpg.de/spieltische
     tags: ["FoundryVTT"]
 
 - id: f03-foundry-handout
@@ -941,7 +941,7 @@ posts:
       Handouts in Foundry VTT: Ein Klick auf die Notiz am Safe, dann „Show Players“, und die ganze Runde liest den Brief von Evan Pryce.
     mehr: |
       Das ganze Video mit drei Szenen: https://youtu.be/ZAQX5wzS02I
-    link: https://odin-rpg.pages.dev/spieltische
+    link: https://odin-rpg.de/spieltische
     tags: ["FoundryVTT"]
 
 - id: f04-foundry-en-probe
@@ -957,7 +957,7 @@ posts:
       A skill check in Foundry VTT: Raven searches the miners' museum. Perception against Hard (3), white dice hit on 5+, coloured dice on 4+. It works, and then the ghost of Liese Hartmann steps out of the dark.
     mehr: |
       The full video with all three scenes: https://youtu.be/FXwu2DbkXsc
-    link: https://odin-rpg.pages.dev/en/tables
+    link: https://odin-rpg.de/en/tables
     tags: ["FoundryVTT"]
 
 - id: f05-foundry-en-kampf
@@ -973,7 +973,7 @@ posts:
       Combat in Foundry VTT, deep in the Old Elbe Tunnel: Brandt opens up with the assault rifle and the first mercenary goes down. Initiative, attack and damage come straight from the sheet.
     mehr: |
       The full video with all three scenes: https://youtu.be/FXwu2DbkXsc
-    link: https://odin-rpg.pages.dev/en/tables
+    link: https://odin-rpg.de/en/tables
     tags: ["FoundryVTT"]
 
 - id: f06-foundry-en-psi
@@ -989,7 +989,7 @@ posts:
       Psi powers in Foundry VTT: in a cellar in Anderlecht, Echo reads Maarten's mind. Critical success, two Psi points gone, a blue glow around her. Then something answers from the chalk circle.
     mehr: |
       The full video with all three scenes: https://youtu.be/FXwu2DbkXsc
-    link: https://odin-rpg.pages.dev/en/tables
+    link: https://odin-rpg.de/en/tables
     tags: ["FoundryVTT"]
 
 - id: f07-foundry-en-generator
@@ -1005,7 +1005,7 @@ posts:
       From question to personnel file: the free character generator builds an O.D.I.N. agent step by step, from the recruitment to the crystal. Export the file, import it into Foundry VTT, and the agent is ready for the first case.
     mehr: |
       Watch the whole process: https://youtu.be/3jPA2JQMJ8Q
-    link: https://odin-rpg.pages.dev/generator/en/
+    link: https://odin-rpg.de/generator/en/
     tags: ["FoundryVTT"]
 
 - id: f08-foundry-en-agent
@@ -1021,7 +1021,7 @@ posts:
       The Agent lives behind legends. In Foundry VTT the Agent sheet keeps every cover identity, the craft and the False Bottom in one place, and the dice come straight from the sheet.
     mehr: |
       The Agent class in Foundry VTT: https://youtu.be/Qgh9mYze0Bw
-    link: https://odin-rpg.pages.dev/en/books
+    link: https://odin-rpg.de/en/books
     tags: ["FoundryVTT"]
 
 - id: f09-foundry-en-scientist
@@ -1037,7 +1037,7 @@ posts:
       The Scientist builds what should not work. The sheet in Foundry VTT tracks the prototypes, their malfunctions and the samples, and every roll uses the same white and coloured dice.
     mehr: |
       The Scientist class in Foundry VTT: https://youtu.be/ory6lumi2TQ
-    link: https://odin-rpg.pages.dev/en/books
+    link: https://odin-rpg.de/en/books
     tags: ["FoundryVTT"]
 
 - id: f10-foundry-en-psion
@@ -1053,7 +1053,7 @@ posts:
       The Psion hears the Choir. In Foundry VTT the sheet holds the helmet, the psi points and the Resonance, and a power is only one roll away.
     mehr: |
       The Psion class in Foundry VTT: https://youtu.be/zpBlEI6Hokk
-    link: https://odin-rpg.pages.dev/en/books
+    link: https://odin-rpg.de/en/books
     tags: ["FoundryVTT"]
 
 - id: f11-foundry-en-thaumaturge
@@ -1069,7 +1069,7 @@ posts:
       The Thaumaturge speaks to the crystal. In Foundry VTT the sheet keeps the crystal, the magic energy and the Whisper in view, and every spell is one roll with white and coloured dice.
     mehr: |
       The Thaumaturge class in Foundry VTT: https://youtu.be/dWvgIe0c4-E
-    link: https://odin-rpg.pages.dev/en/books
+    link: https://odin-rpg.de/en/books
     tags: ["FoundryVTT"]
 
 - id: f12-foundry-en-soldier
@@ -1085,7 +1085,7 @@ posts:
       The Soldier carries ashsilver. In Foundry VTT the sheet tracks the silver, the basic training and the arsenal, and attack and damage come straight from the sheet.
     mehr: |
       The Soldier class in Foundry VTT: https://youtu.be/xjV46pvo40A
-    link: https://odin-rpg.pages.dev/en/books
+    link: https://odin-rpg.de/en/books
     tags: ["FoundryVTT"]
 
 - id: f13-foundry-en-investigator
@@ -1101,7 +1101,7 @@ posts:
       The Investigator follows the threads. In Foundry VTT the sheet holds the open cases, the pieces of evidence and the Wall, and every clue starts with a roll.
     mehr: |
       The Investigator class in Foundry VTT: https://youtu.be/XkGSVYNn4-I
-    link: https://odin-rpg.pages.dev/en/books
+    link: https://odin-rpg.de/en/books
     tags: ["FoundryVTT"]
 
 
@@ -1124,14 +1124,14 @@ posts:
       O.D.I.N. läuft jetzt auch in Owlbear Rodeo. Die kostenlose Erweiterung bringt die Personalakte, weiße und bunte Würfel, Angriffe, Grauen-Proben, Kräfte und Zauber. Jeder Wurf erscheint bei allen am Tisch.
     mehr: |
       Agenten aus dem Charaktergenerator liest die Erweiterung per Datei ein. Installiert wird sie über den Link auf der Seite Virtuelle Spieltische.
-    link: https://odin-rpg.pages.dev/spieltische
+    link: https://odin-rpg.de/spieltische
     tags: ["OwlbearRodeo"]
   en:
     text: |
       O.D.I.N. now runs in Owlbear Rodeo. The free extension brings the personnel file, white and coloured dice, attacks, horror checks, powers and spells. Every roll shows up for everyone at the table.
     mehr: |
       Agents from the character generator are imported from their file. Install it with the link on the Virtual Tabletops page.
-    link: https://odin-rpg.pages.dev/en/tables
+    link: https://odin-rpg.de/en/tables
     tags: ["OwlbearRodeo"]
 
 - id: letsrole
@@ -1150,14 +1150,14 @@ posts:
       O.D.I.N. gibt es jetzt auch auf Let's Role, im Browser und für alle kostenlos: Personalakte, weiße und bunte Würfel, Angriffe, Grauen-Proben, Kräfte und Zauber, auf Deutsch und Englisch.
     mehr: |
       Direkt zum System: https://lets-role.com/system/odin-occult-dynamics-intelligence-network-28559
-    link: https://odin-rpg.pages.dev/spieltische
+    link: https://odin-rpg.de/spieltische
     tags: ["LetsRole"]
   en:
     text: |
       O.D.I.N. is now on Let's Role, in the browser and free for everyone: personnel file, white and coloured dice, attacks, horror checks, powers and spells, in English and German.
     mehr: |
       Straight to the system: https://lets-role.com/system/odin-occult-dynamics-intelligence-network-28559
-    link: https://odin-rpg.pages.dev/en/tables
+    link: https://odin-rpg.de/en/tables
     tags: ["LetsRole"]
 
 - id: discord-bot
@@ -1176,14 +1176,14 @@ posts:
       Für Discord gibt es jetzt einen kostenlosen O.D.I.N.-Bot. Er würfelt Proben, ganze Akten für die Spielleitung und fertige Agenten, führt die Initiative im Kampf und kennt 281 Würfeltabellen, alle Gegner und die Regeln.
     mehr: |
       Mit /akte bekommt die Spielleitung eine komplette Akte, die nur sie sieht. Ausprobieren kannst du den Bot im Funkraum: https://discord.gg/HVZu67uAZa
-    link: https://odin-rpg.pages.dev/discord
+    link: https://odin-rpg.de/discord
     tags: ["Discord"]
   en:
     text: |
       There is now a free O.D.I.N. bot for Discord. It rolls checks, whole case files for the GM and ready agents, keeps the initiative in combat and knows 281 random tables, every enemy and the rules.
     mehr: |
       With /file the GM gets a complete case file that only they see. Try the bot in the radio room: https://discord.gg/HVZu67uAZa
-    link: https://odin-rpg.pages.dev/en/discord
+    link: https://odin-rpg.de/en/discord
     tags: ["Discord"]
 
 - id: registratur
@@ -1203,7 +1203,7 @@ posts:
       Nicht alles auf den Karten ist wahr.
     mehr: |
       Dazu Werte nach dem Grundregelwerk, Unterarten, Vertuschungen und Aufhänger, im Anhang Register und W66-Begegnungstabellen. Für die Spielleitung, 390 Seiten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
   en:
     text: |
       Volume 22 is out: The Registry. 105 creatures from nine origins, three pages each: the index card as O.D.I.N. keeps it, and below that what is really true.
@@ -1211,7 +1211,7 @@ posts:
       Not everything on the cards is.
     mehr: |
       With stats for the Core Rulebook, subtypes, cover-ups and hooks, plus registers and D66 encounter tables in the appendix. For the GM, 390 pages, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
 
 - id: owlbear-video-en
   datum: "2026-10-05"
@@ -1226,7 +1226,7 @@ posts:
       One minute of O.D.I.N. in Owlbear Rodeo: Central sends a telex to every cell, the extension keeps the turn order, and every roll shows up for the whole table. It's free.
     mehr: |
       The full video with voiceover: https://youtu.be/7zfJCKo9y54
-    link: https://odin-rpg.pages.dev/en/tables
+    link: https://odin-rpg.de/en/tables
     tags: ["OwlbearRodeo"]
 
 # ---------------- Aus der Registratur (Band 22), sonntags ----------------
@@ -1247,7 +1247,7 @@ posts:
       Aus der Registratur: der Schornsteinmann. Bradford seit 1884, zuletzt gesehen im Januar 2026.
     mehr: |
       Band 22 führt 105 Wesen auf Karteikarten, so wie O.D.I.N. sie kennt. Was wirklich stimmt, steht darunter. Kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
   en:
     text: |
       “The house has no chimney. The little one drew one anyway, and he's looking out of the top.”
@@ -1255,7 +1255,7 @@ posts:
       From the Registry: the Chimney Man. Bradford since 1884, last seen in January 2026.
     mehr: |
       Volume 22 keeps 105 beings on index cards, the way O.D.I.N. knows them. What is really true is written below. Free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
 
 - id: reg-kugel
   datum: "2026-10-11"
@@ -1274,7 +1274,7 @@ posts:
       Aus der Registratur: die Kugel über dem Moor. Das Gras darunter wirft keinen Schatten.
     mehr: |
       Band 22 führt 105 Wesen auf Karteikarten, so wie O.D.I.N. sie kennt. Was wirklich stimmt, steht darunter. Kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
   en:
     text: |
       “Seven Octobers of measurement campaigns on the moor. It stood over us every night. The report says: no approach. Which was true, too.”
@@ -1282,7 +1282,7 @@ posts:
       From the Registry: the Sphere over the Moor. The grass beneath it casts no shadow.
     mehr: |
       Volume 22 keeps 105 beings on index cards, the way O.D.I.N. knows them. What is really true is written below. Free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
 
 - id: reg-klabautermann
   datum: "2026-10-18"
@@ -1310,6 +1310,46 @@ posts:
     mehr: |
       Volume 22 keeps 105 beings on index cards, the way O.D.I.N. knows them. What is really true is written below. Free and ad-free.
     link: https://odin-rpg.de/en/book/the-registry
+
+- id: verlosung
+  datum: "2026-10-25"
+  zeit: "12:30"
+  zeit_en: "14:00"
+  bild:
+    typ: raster
+    dateien:
+      - mini_antiquarian-m.jpg
+      - mini_invoker-w.jpg
+      - mini_infiltrator-m.jpg
+      - mini_psychic-healer-w.jpg
+      - mini_assassin-w.jpg
+      - mini_chronomancer-m.jpg
+    zeile_de: "Verlosung · drei Sets gedruckter Figuren"
+    zeile_en: "Giveaway · three sets of printed miniatures"
+    alt_de: "Sechs unbemalte graue Miniaturen auf runden Bases: Antiquar, Beschwörerin, Infiltrator, Heilerin, Assassinin und Chronomant."
+    alt_en: "Six unpainted grey miniatures on round bases: an Antiquarian, an Invoker, an Infiltrator, a Psychic Healer, an Assassin and a Chronomancer."
+  de:
+    text: |
+      Ein Abend am Tisch reicht: Wer bis 30. November eine Runde O.D.I.N. oder eine Partie Schleierriss spielt und ein Foto oder ein paar Sätze dazu zeigt, ist in der Verlosung.
+    mehr: |
+      Zu gewinnen sind drei Sets aus den ersten gedruckten Figuren, Mann und Frau einer Unterklasse, unbemalt. Kostenlos, kein Kauf nötig, ab 16.
+
+      Die Figuren sind mit KI entworfen und von Hand nachgearbeitet.
+    link: https://odin-rpg.de/verlosung
+    tags:
+      - Verlosung
+      - PenAndPaper
+  en:
+    text: |
+      One evening at the table is enough: play a session of O.D.I.N. or a game of Veilrift before 30 November, show a photo or a few lines about it, and you are in the draw.
+    mehr: |
+      Three sets from the first printed miniatures are up for grabs, the man and the woman of one subclass, unpainted. Free, no purchase needed, 16+, shipping free within the EU.
+
+      The figures were designed with AI and finished by hand.
+    link: https://odin-rpg.de/en/giveaway
+    tags:
+      - Giveaway
+      - TTRPG
 
 - id: reg-letzter-zug
   datum: "2026-10-25"
@@ -1352,7 +1392,7 @@ posts:
       The Registry is at the table now. In Foundry VTT all 105 beings from volume 22 sit in the Threat Atlas, with photo and stats. One click asks the table for a knowledge test: every agent rolls and reads only the lines of the file they reached.
     mehr: |
       Also new: the Central, with a mood filter for every scene and a teletype for the GM. All of it in 73 seconds: https://youtu.be/Dgg1cQnJgnw
-    link: https://odin-rpg.pages.dev/en/tables
+    link: https://odin-rpg.de/en/tables
     tags:
       - FoundryVTT
 
@@ -1373,7 +1413,7 @@ posts:
       Drei Karteikarten aus Band 22, Die Registratur: der Klopfer in Graz, die Gurken von Numabe, 1300 sprechende Plüschbären in Zürich.
     mehr: |
       105 Wesen, jedes auf einer Karteikarte, so wie O.D.I.N. sie kennt. Darunter steht, was wirklich stimmt. Kostenlos und werbefrei als PDF.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
   en:
     text: |
       “The file calls that pointless. The cucumbers work.”
@@ -1381,7 +1421,7 @@ posts:
       Three index cards from Volume 22, The Registry: the knocker in Graz, the cucumbers of Numabe, 1300 talking plush bears in Zurich.
     mehr: |
       105 beings, each on an index card, the way O.D.I.N. knows them. Below that, what is really true. Free and ad-free as a PDF.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
 
 # ---------------- Band 23 (27.09., Website live seit 02:55) ----------------
 - id: kartenraum
@@ -1401,7 +1441,7 @@ posts:
       Das Druckblatt zeigt auch den Raum, der auf keinem Plan steht.
     mehr: |
       Dazu 60 Musterkarten für eigene Akten und Spieltischdateien mit Raster für Foundry VTT und Owlbear Rodeo. 200 Seiten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/der-kartenraum
+    link: https://odin-rpg.de/buch/der-kartenraum
   en:
     text: |
       Volume 23 is out: The Map Room. 160 maps on 175 sheets, drawn in pencil on squared paper. For almost every operation in the series, the floor plan, the site plan or the route is here.
@@ -1409,7 +1449,7 @@ posts:
       The printed sheet also shows the room that is on no plan.
     mehr: |
       Plus 60 template maps for home-made files, and tabletop files with a grid for Foundry VTT and Owlbear Rodeo, one version for the GM and one for the players. 200 pages, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-map-room
+    link: https://odin-rpg.de/en/book/the-map-room
 
 # ---------------- Reels zu den Erklärvideos (je am Tag nach dem langen Video, Instagram bekommt das EN-Reel) ----------------
 - id: reel-schnellstart
@@ -1431,7 +1471,7 @@ posts:
     mehr: |
       Das ganze Erklärvideo: https://youtu.be/R0KY-yMK2I4
       Vier fertige Agenten, Kurzregeln, kostenlos als PDF.
-    link: https://odin-rpg.pages.dev/buch/schnellstart
+    link: https://odin-rpg.de/buch/schnellstart
   en:
     text: |
       “Not every answer is a bullet.”
@@ -1440,7 +1480,7 @@ posts:
     mehr: |
       The full explainer: https://youtu.be/0Cr7hVBRLgc
       Four ready agents, quick rules, free PDF.
-    link: https://odin-rpg.pages.dev/en/book/quickstart
+    link: https://odin-rpg.de/en/book/quickstart
 
 - id: reel-die-tuer
   datum: "2026-09-30"
@@ -1461,7 +1501,7 @@ posts:
     mehr: |
       Das ganze Erklärvideo: https://youtu.be/yrjhnH4WIek
       Kostenlos als PDF, mit Handouts.
-    link: https://odin-rpg.pages.dev/buch/die-tuer
+    link: https://odin-rpg.de/buch/die-tuer
   en:
     text: |
       Under an institute near Bern something knocks every four minutes. The gaps are getting shorter.
@@ -1470,7 +1510,7 @@ posts:
     mehr: |
       The full explainer: https://youtu.be/5CwYJmkNLcE
       Free PDF, handouts included.
-    link: https://odin-rpg.pages.dev/en/book/the-door
+    link: https://odin-rpg.de/en/book/the-door
 
 - id: reel-graue-akten
   datum: "2026-10-01"
@@ -1491,7 +1531,7 @@ posts:
     mehr: |
       Das ganze Erklärvideo: https://youtu.be/8Zr17S_u2kc
       Mit Handouts und Karten, kostenlos.
-    link: https://odin-rpg.pages.dev/buch/graue-akten
+    link: https://odin-rpg.de/buch/graue-akten
   en:
     text: |
       A foster child in Hamburg who can do more than he should. A room in a Prague hold that should not exist. A visor in a Cardiff pawn shop.
@@ -1500,7 +1540,7 @@ posts:
     mehr: |
       The full explainer: https://youtu.be/YmWhZ4B5acc
       Handouts and maps included, free.
-    link: https://odin-rpg.pages.dev/en/book/grey-files
+    link: https://odin-rpg.de/en/book/grey-files
 
 - id: reel-nordlicht-1977
   datum: "2026-10-02"
@@ -1521,7 +1561,7 @@ posts:
     mehr: |
       Das ganze Erklärvideo: https://youtu.be/IaZYLo3-MVo
       Kampagne mit Handouts, kostenlos.
-    link: https://odin-rpg.pages.dev/buch/nordlicht-1977
+    link: https://odin-rpg.de/buch/nordlicht-1977
   en:
     text: |
       On the night of 14 February 1977 a door opens at Nordlicht, and 41 people walk through.
@@ -1530,7 +1570,7 @@ posts:
     mehr: |
       The full explainer: https://youtu.be/ExE6Lpwy3YA
       Campaign with handouts, free.
-    link: https://odin-rpg.pages.dev/en/book/nordlicht-1977
+    link: https://odin-rpg.de/en/book/nordlicht-1977
 
 - id: reel-einzelgaenger
   datum: "2026-10-03"
@@ -1551,7 +1591,7 @@ posts:
     mehr: |
       Das ganze Erklärvideo: https://youtu.be/SFx9srb5mg0
       Kostenlos als PDF.
-    link: https://odin-rpg.pages.dev/buch/einzelgaenger
+    link: https://odin-rpg.de/buch/einzelgaenger
   en:
     text: |
       For the evenings when nobody else is around: one player, one agent, no GM.
@@ -1560,7 +1600,7 @@ posts:
     mehr: |
       The full explainer: https://youtu.be/EXliF3NTUqA
       Free PDF.
-    link: https://odin-rpg.pages.dev/en/book/lone-operative
+    link: https://odin-rpg.de/en/book/lone-operative
 
 - id: reel-horte-der-welt
   datum: "2026-10-04"
@@ -1581,7 +1621,7 @@ posts:
     mehr: |
       Das ganze Erklärvideo: https://youtu.be/uervhwlWWIE
       Kostenlos als PDF, die Grundrisse auch für Foundry und Owlbear.
-    link: https://odin-rpg.pages.dev/buch/horte-der-welt
+    link: https://odin-rpg.de/buch/horte-der-welt
   en:
     text: |
       A hold is no headquarters. It's a hideout, a workshop and an infirmary, mostly beneath houses nobody looks at twice.
@@ -1590,7 +1630,7 @@ posts:
     mehr: |
       The full explainer: https://youtu.be/HLH4sKEm60w
       Free PDF, floor plans also for Foundry and Owlbear.
-    link: https://odin-rpg.pages.dev/en/book/holds-of-the-world
+    link: https://odin-rpg.de/en/book/holds-of-the-world
 
 - id: reel-zufallsakten
   datum: "2026-10-05"
@@ -1610,7 +1650,7 @@ posts:
     mehr: |
       Das ganze Erklärvideo: https://youtu.be/GzlAdxSLt_Q
       Für die Spielleitung, kostenlos.
-    link: https://odin-rpg.pages.dev/buch/zufallsakten
+    link: https://odin-rpg.de/buch/zufallsakten
   en:
     text: |
       The cell takes a turn, a file is missing, and someone needs a name nobody prepared.
@@ -1619,7 +1659,7 @@ posts:
     mehr: |
       The full explainer: https://youtu.be/5cRYGcoSQXY
       For the GM, free.
-    link: https://odin-rpg.pages.dev/en/book/random-files
+    link: https://odin-rpg.de/en/book/random-files
 
 - id: reel-die-anderen-dienste
   datum: "2026-10-06"
@@ -1639,7 +1679,7 @@ posts:
     mehr: |
       Das ganze Erklärvideo: https://youtu.be/bRZcyZdRUJw
       Kostenlos als PDF.
-    link: https://odin-rpg.pages.dev/buch/die-anderen-dienste
+    link: https://odin-rpg.de/buch/die-anderen-dienste
   en:
     text: |
       Morrow Biologics in Leiden grows cells from rifts. STILLWATER hides behind a weather agency. In China the Seventh Bureau predicts earthquakes, and rifts open afterwards.
@@ -1648,7 +1688,7 @@ posts:
     mehr: |
       The full explainer: https://youtu.be/nurYkZXxv6Y
       Free PDF.
-    link: https://odin-rpg.pages.dev/en/book/the-other-services
+    link: https://odin-rpg.de/en/book/the-other-services
 
 - id: reel-schattenoffiziere
   datum: "2026-10-07"
@@ -1669,7 +1709,7 @@ posts:
     mehr: |
       Das ganze Erklärvideo: https://youtu.be/rCbg6mhXQEs
       Für lange Kampagnen, kostenlos.
-    link: https://odin-rpg.pages.dev/buch/schattenoffiziere
+    link: https://odin-rpg.de/buch/schattenoffiziere
   en:
     text: |
       “You don't get promoted because you're good, but because you're still alive.”
@@ -1678,7 +1718,7 @@ posts:
     mehr: |
       The full explainer: https://youtu.be/2EwUEtrHEsk
       For long campaigns, free.
-    link: https://odin-rpg.pages.dev/en/book/shadow-officers
+    link: https://odin-rpg.de/en/book/shadow-officers
 
 - id: reel-kartenraum
   datum: "2026-10-09"
@@ -1699,7 +1739,7 @@ posts:
     mehr: |
       Das ganze Erklärvideo: https://youtu.be/t2UnNKBbcAk
       Dazu Karten für Foundry VTT und Owlbear Rodeo, kostenlos.
-    link: https://odin-rpg.pages.dev/buch/der-kartenraum
+    link: https://odin-rpg.de/buch/der-kartenraum
   en:
     text: |
       In the Harz lies a village, flooded in 1959. The bell of the sunken church strikes every night at 10 past 10.
@@ -1708,7 +1748,7 @@ posts:
     mehr: |
       The full explainer: https://youtu.be/YZsMRNf8ouU
       Plus maps for Foundry VTT and Owlbear Rodeo, free.
-    link: https://odin-rpg.pages.dev/en/book/the-map-room
+    link: https://odin-rpg.de/en/book/the-map-room
 
 # ---------------- Strichmännchen-Video „Der Fall Emma Pahl“ (02.10., Dave: „übernimm das alles“) ----------------
 - id: emma-pahl
@@ -1730,7 +1770,7 @@ posts:
     mehr: |
       Der ganze Fall als Video: https://youtu.be/HfrcvGEmV9A
       Aus der Registratur, Karte REG-A-0539. Kostenlos.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
   en:
     text: |
       "Three times, pause, three times."
@@ -1739,7 +1779,7 @@ posts:
     mehr: |
       The whole case as a video: https://youtu.be/LYBgEdWMKec
       From The Registry, card REG-A-0539. Free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
 
 # ---------------- Miniaturen bei Etsy (Dave 09.10.: „miniaturen sind online“) ----------------
 - id: miniaturen-etsy
@@ -1758,14 +1798,14 @@ posts:
       Die O.D.I.N.-Miniaturen sind da: alle 30 Unterklassen, je als Mann und als Frau, im Maßstab 28 mm.
     mehr: |
       Als STL-Datei für den eigenen Drucker ab 5,90 €, fertig gedruckt aus Resin ab 19,90 €, mit oder ohne Base. Auf der Website dreht sich jede Figur einmal rundherum, bevor man kauft. Verkauft wird über den Etsy-Shop odinarsenal.etsy.com. Zum Start gibt es dort bis 23.10. mit dem Code ODINSTART 10 % auf alles.
-    link: https://odin-rpg.pages.dev/miniaturen
+    link: https://odin-rpg.de/miniaturen
     tags: ["Miniaturen", "3DDruck"]
   en:
     text: |
       The O.D.I.N. miniatures are out: all 30 subclasses, each as a man and as a woman, in 28 mm scale.
     mehr: |
       STL files for your own printer from €5.90, printed in resin from €19.90 (shipping within Germany), with or without base. On the website every figure turns once all the way round before you buy. Sold through the Etsy shop odinarsenal.etsy.com. Launch code ODINSTART takes 10 % off everything until 23 October.
-    link: https://odin-rpg.pages.dev/en/miniatures
+    link: https://odin-rpg.de/en/miniatures
     tags: ["Miniatures", "3DPrinting"]
 
 # ---------------- Newsletter (Common §7 09.10., ODIN Coder: Anmeldefeld live) ----------------
@@ -1786,14 +1826,14 @@ posts:
       O.D.I.N. gibt es jetzt auch per Mail: einmal im Monat neue Bände, Abenteuer und was sich am Spieltisch getan hat.
     mehr: |
       Das Anmeldefeld steht unten auf jeder Seite der Website. Erst kommt eine Mail zur Bestätigung, abbestellen geht mit einem Klick.
-    link: https://odin-rpg.pages.dev/
+    link: https://odin-rpg.de/
     tags: ["Newsletter"]
   en:
     text: |
       O.D.I.N. now comes by email too: once a month, new books, adventures and what changed at the game table.
     mehr: |
       The sign-up field is at the bottom of every page on the website. You confirm once by email, and one click unsubscribes you.
-    link: https://odin-rpg.pages.dev/en/
+    link: https://odin-rpg.de/en/
     tags: ["Newsletter"]
 
 # ---------------- Würfelpakete auf Realm VTT (Common §7 09.10., ODIN Coder) ----------------
@@ -1873,7 +1913,7 @@ posts:
       Als STL für den eigenen Drucker oder fertig gedruckt.
     mehr: |
       Noch steht bei allen „Coming soon“. Verkauft werden sie später über Etsy.
-    link: https://odin-rpg.pages.dev/miniaturen
+    link: https://odin-rpg.de/miniaturen
     tags: ["Miniaturen", "3DDruck"]
   en:
     text: |
@@ -1882,7 +1922,7 @@ posts:
       As STL files for your own printer, or printed and ready.
     mehr: |
       Every figure still says "Coming soon". They will be sold through Etsy.
-    link: https://odin-rpg.pages.dev/en/miniatures
+    link: https://odin-rpg.de/en/miniatures
     tags: ["Miniatures", "3DPrinting"]
 
 # ---------------- Eigener Spieltisch (ODIN Coder, Common §7 02.10.) ----------------
@@ -1905,7 +1945,7 @@ posts:
       O.D.I.N. hat jetzt einen eigenen Spieltisch im Browser. Ohne Konto, für Rechner und Tablet.
     mehr: |
       Graue Akten per Klick, Karten aus dem Kartenraum mit Maßstab, Sicht und Licht aus den Mauern, beide Würfelfarben, Chat und Musik. Eigene Karten gehen als .dd2vtt oder .uvtt.
-    link: https://odin-rpg.pages.dev/tisch/
+    link: https://odin-rpg.de/tisch/
     tags: ["VTT"]
   en:
     text: |
@@ -1914,7 +1954,7 @@ posts:
       O.D.I.N. now has its own table in the browser. No account, for computers and tablets.
     mehr: |
       Grey Files at a click, Map Room maps with scale, sight and light from the walls, both dice colours, chat and music. Your own maps load as .dd2vtt or .uvtt.
-    link: https://odin-rpg.pages.dev/tisch/?lang=en
+    link: https://odin-rpg.de/tisch/?lang=en
     tags: ["VTT"]
 
 # ---------------- Neue Cover (ODIN Writer, Common §7 02.10.) ----------------
@@ -1938,7 +1978,7 @@ posts:
     mehr: |
       Die Windrose liegt jetzt als Wasserzeichen auf jedem Cover. Inhalt und Seitenzahlen bleiben gleich.
       Die Illustrationen sind KI-generiert.
-    link: https://odin-rpg.pages.dev/buecher.html
+    link: https://odin-rpg.de/buecher.html
   en:
     text: |
       Every O.D.I.N. volume has a new cover. Pencil is out, sepia photographs without people are in: a door in the snow, a jetty in the fog, a card box under a lamp.
@@ -1947,7 +1987,7 @@ posts:
     mehr: |
       The compass rose now sits on every cover as a watermark. Contents and page counts stay the same.
       The illustrations are AI-generated.
-    link: https://odin-rpg.pages.dev/en/books.html
+    link: https://odin-rpg.de/en/books.html
 
 # ---------------- itch.io-Jam „O.D.I.N. Field File Jam“ (16.10. bis 15.11.2026) ----------------
 - id: jam-ankuendigung
@@ -2037,14 +2077,14 @@ posts:
       Band 24 ist da: „Fremdkörper“. Ein Schäferhund im Emsland frisst einen Stein, der vom Himmel gefallen ist. Daraus werden zwölf Missionen von Februar bis August 2026, und fast jede endet im Gefecht.
     mehr: |
       Die Zelle holt Sternsteine aus halb Europa zurück, bevor die Keimlinge darin schlüpfen. Silber hilft dabei nicht, Kälte, Salzwasser und Feuer schon. Die Vorgeschichte zu „Die Tür“, kostenlos.
-    link: https://odin-rpg.pages.dev/buch/fremdkoerper
+    link: https://odin-rpg.de/buch/fremdkoerper
     tags: ["Kampagne"]
   en:
     text: |
       Volume 24 is out: Foreign Bodies. A German Shepherd in the Emsland swallows a stone that fell from the sky. That starts twelve missions from February to August 2026, and almost every one ends in a firefight.
     mehr: |
       The cell recovers star stones from half of Europe before the Germlings inside them hatch. Silver is no help. Cold, salt water and fire are. The prequel to The Door, free.
-    link: https://odin-rpg.pages.dev/en/book/foreign-bodies
+    link: https://odin-rpg.de/en/book/foreign-bodies
     tags: ["Campaign"]
 
 # ---------------- Spieltisch Stufe A (ODIN Coder, Common §7 03.10. abends: A1 bis A5 freigegeben) ----------------
@@ -2056,8 +2096,8 @@ posts:
     typ: zitat
     de: "Neu am O.D.I.N.-Spieltisch\n\nGeheimes Flüstern\nWetter und Flackerlicht\nMarker mit Lebensring\nFortschrittsuhren\nZufallstabellen\nZeigen und Zeichnen"
     en: "New at the O.D.I.N. table\n\nSecret whispers\nWeather and flicker\nMarkers with health ring\nProgress clocks\nRandom tables\nPointing and drawing"
-    quelle_de: "odin-rpg.pages.dev/tisch"
-    quelle_en: "odin-rpg.pages.dev/tisch"
+    quelle_de: "odin-rpg.de/tisch"
+    quelle_en: "odin-rpg.de/tisch"
     alt_de: "Texttafel: Neu am O.D.I.N.-Spieltisch sind geheimes Flüstern, Wetter und Flackerlicht, Marker mit Lebensring, Fortschrittsuhren, Zufallstabellen sowie Zeigen und Zeichnen."
     alt_en: "Text card: new at the O.D.I.N. table are secret whispers, weather and flicker, markers with a health ring, progress clocks, random tables, and pointing and drawing."
   de:
@@ -2065,14 +2105,14 @@ posts:
       Neu am O.D.I.N.-Spieltisch: Die Spielleitung kann einem einzelnen Agenten etwas zuflüstern oder ihm ein Handout zeigen, das die anderen nicht sehen. Über der Karte gibt es jetzt Wetter und flackerndes Licht.
     mehr: |
       Figuren tragen Marker für Belastet, Trauma, Bewusstlos und Tot, mit Lebensring. Fortschrittsuhren zählen mit, die Zufallstabellen aus den Büchern liegen einen Klick entfernt, und auf der Karte kann man zeigen und zeichnen.
-    link: https://odin-rpg.pages.dev/tisch/
+    link: https://odin-rpg.de/tisch/
     tags: ["VTT"]
   en:
     text: |
       New at the O.D.I.N. table: the GM can whisper to a single agent or show them a handout nobody else sees. The map now has weather and flickering light.
     mehr: |
       Tokens carry markers for strain, trauma, unconscious and dead, with a health ring. Progress clocks keep count, the random tables from the books are one click away, and you can point and draw on the map. Still in the browser, no account.
-    link: https://odin-rpg.pages.dev/tisch/?lang=en
+    link: https://odin-rpg.de/tisch/?lang=en
     tags: ["VTT"]
 
 - id: questportal
@@ -2083,8 +2123,8 @@ posts:
     typ: zitat
     de: "Neu auf Quest Portal\n\nAgentenakte als Vorlage\nZählt die Erfolge selbst\nKostenlos, DE und EN"
     en: "New on Quest Portal\n\nAgent file as a template\nCounts the successes\nFree, EN and DE"
-    quelle_de: "odin-rpg.pages.dev/spieltische"
-    quelle_en: "odin-rpg.pages.dev/en/tables"
+    quelle_de: "odin-rpg.de/spieltische"
+    quelle_en: "odin-rpg.de/en/tables"
     alt_de: "Texttafel: O.D.I.N. gibt es neu auf Quest Portal, mit der Agentenakte als kostenloser Vorlage auf Deutsch und Englisch, deren Würfelknöpfe die Erfolge zählen."
     alt_en: "Text card: O.D.I.N. is new on Quest Portal, with the agent file as a free template in English and German whose dice buttons count successes."
   de:
@@ -2092,14 +2132,14 @@ posts:
       O.D.I.N. gibt es jetzt auch auf Quest Portal: die Agentenakte als kostenlose Vorlage. Die Würfelknöpfe werfen weiß und bunt und zählen die Erfolge selbst.
     mehr: |
       Quest Portal läuft im Browser, die Grundversion kostet nichts. Die Vorlage gibt es auf Deutsch als „O.D.I.N. Agentenakte“ und auf Englisch als „O.D.I.N. Agent File“. Alle Spieltische für O.D.I.N. stehen auf einer Seite.
-    link: https://odin-rpg.pages.dev/spieltische#questportal
+    link: https://odin-rpg.de/spieltische#questportal
     tags: ["VTT"]
   en:
     text: |
       O.D.I.N. is now on Quest Portal: the agent file as a free template. The dice buttons roll white and coloured d6 and count the successes for you.
     mehr: |
       Quest Portal runs in the browser and its basic tier is free. The template comes in English as "O.D.I.N. Agent File" and in German as "O.D.I.N. Agentenakte". Every way to play O.D.I.N. online is on one page.
-    link: https://odin-rpg.pages.dev/en/tables#questportal
+    link: https://odin-rpg.de/en/tables#questportal
     tags: ["VTT"]
 
 - id: hop-tu-naa
@@ -2120,7 +2160,7 @@ posts:
     mehr: |
       Auf der Isle of Man heißt Halloween Hop-tu-Naa. Schnell gebaut, nicht poliert: Gespielt wird mit Raven, Brandt, Echo und Folio aus dem Schnellstart, das Wesen kommt aus der Registratur. Kostenlos als PDF.
       Die Illustrationen sind KI-generiert.
-    link: https://odin-rpg.pages.dev/buch/hop-tu-naa
+    link: https://odin-rpg.de/buch/hop-tu-naa
     tags: ["Halloween"]
   en:
     text: |
@@ -2130,7 +2170,7 @@ posts:
     mehr: |
       On the Isle of Man, Halloween is called Hop-tu-Naa. Built fast, not polished: you play Raven, Brandt, Echo and Folio from the Quickstart, and the creature comes from the Registry. Free as a PDF.
       The illustrations are AI-generated.
-    link: https://odin-rpg.pages.dev/en/book/hop-tu-naa
+    link: https://odin-rpg.de/en/book/hop-tu-naa
     tags: ["Halloween"]
 
 - id: realm
@@ -2141,8 +2181,8 @@ posts:
     typ: zitat
     de: "Neu auf Realm VTT\n\nAgentenbogen und Regelwerk\n347 Gegner mit Token\nNeun Module je Sprache\nKostenlos, DE und EN"
     en: "New on Realm VTT\n\nAgent sheet and ruleset\n347 enemies with tokens\nNine modules per language\nFree, EN and DE"
-    quelle_de: "odin-rpg.pages.dev/spieltische"
-    quelle_en: "odin-rpg.pages.dev/en/tables"
+    quelle_de: "odin-rpg.de/spieltische"
+    quelle_en: "odin-rpg.de/en/tables"
     alt_de: "Texttafel: O.D.I.N. gibt es neu auf Realm VTT, mit Regelwerk und Agentenbogen, 347 Gegnern mit Token und neun Modulen je Sprache, kostenlos auf Deutsch und Englisch."
     alt_en: "Text card: O.D.I.N. is new on Realm VTT, with a ruleset and agent sheet, 347 enemies with tokens and nine modules per language, free in English and German."
   de:
@@ -2150,14 +2190,14 @@ posts:
       O.D.I.N. läuft jetzt auch in Realm VTT. Der Agentenbogen zählt die Erfolge selbst, 347 Gegner aus allen Büchern kommen mit Bild und Token.
     mehr: |
       Im Marktplatz von Realm liegen neun kostenlose Module je Sprache: die Gegner, das Startabenteuer „Das Haus am Stausee“ mit vier fertigen Agenten, „Nordlicht 1977“, „Die Tür“, „Die Grauen Akten“, „Die Registratur“, „Horte der Welt“, „Die anderen Dienste“ und die Würfeltabellen.
-    link: https://odin-rpg.pages.dev/spieltische#realm
+    link: https://odin-rpg.de/spieltische#realm
     tags: ["VTT"]
   en:
     text: |
       O.D.I.N. now runs in Realm VTT. The agent sheet counts successes for you, and 347 enemies from every book come with portrait and token.
     mehr: |
       The Realm marketplace has nine free modules per language: the enemies, the starter adventure "The House by the Reservoir" with four ready agents, "Nordlicht 1977", "The Door", "The Grey Files", "The Registry", "Holds of the World", "The Other Services" and the roll tables.
-    link: https://odin-rpg.pages.dev/en/tables#realm
+    link: https://odin-rpg.de/en/tables#realm
     tags: ["VTT"]
 
 - id: spieltisch-sicht
@@ -2168,8 +2208,8 @@ posts:
     typ: zitat
     de: "Neu am Spieltisch\n\nSicht pro Agent\nErkundetes im Halbdunkel\nMauern und Türen fertig\nKarten ohne SL-Notizen"
     en: "New at the O.D.I.N. table\n\nSight per agent\nExplored rooms dimmed\nWalls and doors ready\nMaps without GM notes"
-    quelle_de: "odin-rpg.pages.dev/tisch"
-    quelle_en: "odin-rpg.pages.dev/tisch"
+    quelle_de: "odin-rpg.de/tisch"
+    quelle_en: "odin-rpg.de/tisch"
     alt_de: "Texttafel: Neu am O.D.I.N.-Spieltisch sieht jeder nur, was sein Agent sieht, Erkundetes bleibt im Halbdunkel, Mauern und Türen sind je Karte fertig, und die Spieler bekommen Karten ohne die Notizen der Spielleitung."
     alt_en: "Text card: new at the O.D.I.N. table, you see only what your agent sees, explored rooms stay dimmed, walls and doors come ready per map, and players get maps without the GM notes."
   de:
@@ -2177,14 +2217,14 @@ posts:
       Am O.D.I.N.-Spieltisch sieht jetzt jeder nur, was sein eigener Agent sieht. Was schon erkundet ist, bleibt im Halbdunkel stehen, der Rest liegt im Schwarzen.
     mehr: |
       Für die Karten aus den Abenteuern sind Mauern und Türen schon gesetzt. Die Spieler bekommen eine Fassung ohne die Notizen der Spielleitung, das Original sieht nur die SL. Mit der Taste V prüft sie, was ein bestimmter Agent gerade sieht. Weiter im Browser, ohne Konto.
-    link: https://odin-rpg.pages.dev/tisch/
+    link: https://odin-rpg.de/tisch/
     tags: ["VTT"]
   en:
     text: |
       At the O.D.I.N. table, everyone now sees only what their own agent sees. Explored rooms stay dimmed, the rest stays black.
     mehr: |
       The adventure maps come with walls and doors already set. Players get a version without the GM notes, and only the GM sees the original. Press V to check what a given agent sees right now. Still in the browser, no account.
-    link: https://odin-rpg.pages.dev/tisch/?lang=en
+    link: https://odin-rpg.de/tisch/?lang=en
     tags: ["VTT"]
 
 - id: halloween-wuerfel
@@ -2203,14 +2243,14 @@ posts:
       Im Oktober würfelt der O.D.I.N.-Spieltisch mit Halloween-Würfeln: die weißen knochenfarben, die bunten kürbisorange, und auf der 6 grinst ein Kürbis mit Reißzähnen.
     mehr: |
       Das Thema gilt den ganzen Oktober und verschwindet im November von selbst. Wer es nicht mag, schaltet es in den Einstellungen ab. Die Owlbear-Rodeo-Erweiterung hat dieselben Würfel, dort entscheidet die Spielleitung. Im Browser, ohne Konto.
-    link: https://odin-rpg.pages.dev/tisch/
+    link: https://odin-rpg.de/tisch/
     tags: ["VTT", "Halloween"]
   en:
     text: |
       In October the O.D.I.N. table rolls Halloween dice: the white ones bone-coloured, the coloured ones pumpkin orange, and a fanged pumpkin grins on every 6.
     mehr: |
       The theme runs all October and disappears in November on its own. Not your thing? Switch it off in the settings. The Owlbear Rodeo extension has the same dice, and there the GM decides. Still in the browser, no account.
-    link: https://odin-rpg.pages.dev/tisch/?lang=en
+    link: https://odin-rpg.de/tisch/?lang=en
     tags: ["VTT", "Halloween"]
 
 - id: spieltisch-flaechen
@@ -2221,8 +2261,8 @@ posts:
     typ: zitat
     de: "Neu am Spieltisch\n\nGranaten mit Radius\nZauber auf Flächen\nEin Wurf je Ziel\nWürfe im Discord-Kanal"
     en: "New at the O.D.I.N. table\n\nGrenades with a radius\nSpells on areas\nOne roll per target\nRolls in Discord"
-    quelle_de: "odin-rpg.pages.dev/tisch"
-    quelle_en: "odin-rpg.pages.dev/tisch"
+    quelle_de: "odin-rpg.de/tisch"
+    quelle_en: "odin-rpg.de/tisch"
     alt_de: "Texttafel: Neu am O.D.I.N.-Spieltisch sind Granaten mit Radius, Zauber auf Flächen, ein Wurf je Ziel und Würfe im Discord-Kanal der Runde."
     alt_en: "Text card: new at the O.D.I.N. table are grenades with a radius, spells on areas, one roll per target and rolls in your group's Discord channel."
   de:
@@ -2230,14 +2270,14 @@ posts:
       Am O.D.I.N.-Spieltisch trifft eine Granate jetzt alles im Radius. Die Spielleitung tippt auf die Mitte, der Tisch würfelt gegen jedes Ziel einzeln, Deckung schützt, Ausweichen halbiert den Schaden.
     mehr: |
       Kräfte und Zauber mit Fläche laufen genauso, mit eigener Animation. Neu ist auch der Draht zum Discord der Runde: Würfe, Runden und Treffer landen als kurze Zeile im Kanal, verdeckte Würfe und Geflüstertes nie. Im Browser, ohne Konto.
-    link: https://odin-rpg.pages.dev/tisch/
+    link: https://odin-rpg.de/tisch/
     tags: ["VTT"]
   en:
     text: |
       At the O.D.I.N. table, a grenade now hits everything in its radius. The GM taps the centre, the table rolls against each target separately, cover protects, and dodging halves the damage.
     mehr: |
       Powers and spells with an area work the same way, each with its own animation. Also new: a line to your group's Discord. Rolls, rounds and hits show up as a short line in the channel, hidden rolls and whispers never. Still in the browser, no account.
-    link: https://odin-rpg.pages.dev/tisch/?lang=en
+    link: https://odin-rpg.de/tisch/?lang=en
     tags: ["VTT"]
 
 - id: spieltisch-stufe-b
@@ -2248,8 +2288,8 @@ posts:
     typ: zitat
     de: "Neu am Spieltisch\n\nRaumtexte an der Karte\nKampf rechnet selbst\nFernsehansicht\nEinsatzbericht als Datei\nGeräusche auf der Karte"
     en: "New at the O.D.I.N. table\n\nRoom texts on the map\nCombat does the maths\nA view for the TV\nMission report as a file\nSounds at map locations"
-    quelle_de: "odin-rpg.pages.dev/tisch"
-    quelle_en: "odin-rpg.pages.dev/tisch"
+    quelle_de: "odin-rpg.de/tisch"
+    quelle_en: "odin-rpg.de/tisch"
     alt_de: "Texttafel: Neu am O.D.I.N.-Spieltisch sind Raumtexte an der Karte, ein Kampf, der selbst rechnet, eine Fernsehansicht, der Einsatzbericht als Datei und Geräusche auf der Karte."
     alt_en: "Text card: new at the O.D.I.N. table are room texts on the map, combat that does the maths, a view for the TV, the mission report as a file and sounds at map locations."
   de:
@@ -2257,14 +2297,14 @@ posts:
       Der O.D.I.N.-Spieltisch rechnet jetzt im Kampf selbst: Lebenspunkte sinken von allein, Silber, Salz und Eisen wirken je nach Gegner. Raumtexte hängen an den Kartennummern, und für den Fernseher gibt es eine eigene Ansicht.
     mehr: |
       Dazu Flächenschablonen und ein Laufweg-Messer, Titelkarten beim Szenenwechsel und Geräusche an Orten auf der Karte. Nach dem Abend speichert der Einsatzbericht alles als Datei. Weiter im Browser, ohne Konto.
-    link: https://odin-rpg.pages.dev/tisch/
+    link: https://odin-rpg.de/tisch/
     tags: ["VTT"]
   en:
     text: |
       The O.D.I.N. table now does the combat maths: hit points drop on their own, and silver, salt and iron work depending on the enemy. Room texts sit on the map numbers, and there is a separate view for the TV.
     mehr: |
       Plus area templates and a movement ruler, title cards on scene changes and sounds at places on the map. After the session, the mission report saves everything as a file. Still in the browser, no account.
-    link: https://odin-rpg.pages.dev/tisch/?lang=en
+    link: https://odin-rpg.de/tisch/?lang=en
     tags: ["VTT"]
 
 # ---------------- Halloween-Countdown (Registratur-Karteikarten, nur Text, 05.–30.10.) ----------------
@@ -2276,8 +2316,8 @@ posts:
     typ: zitat
     de: "Neu am O.D.I.N.-Spieltisch\n\nDie Wand mit roten Fäden\nGeschwärzte Akten\nGrauen nur für einen"
     en: "New at the O.D.I.N. table\n\nThe wall with red string\nRedacted files\nHorror for one player"
-    quelle_de: "odin-rpg.pages.dev/tisch"
-    quelle_en: "odin-rpg.pages.dev/tisch"
+    quelle_de: "odin-rpg.de/tisch"
+    quelle_en: "odin-rpg.de/tisch"
     alt_de: "Texttafel: Neu am O.D.I.N.-Spieltisch sind die Wand mit roten Fäden, geschwärzte Akten und Grauen, das nur ein Agent sieht."
     alt_en: "Text card: new at the O.D.I.N. table are the wall with red string, redacted files, and horror only one agent sees."
   de:
@@ -2285,14 +2325,14 @@ posts:
       Neu am Spieltisch im Browser: die Wand. Notizen und Fotos hängen nebeneinander, rote Fäden verbinden, was zusammengehört.
     mehr: |
       Die Spielleitung teilt Akten geschwärzt aus und deckt die Balken auf, sobald die Agenten etwas herausfinden. Und das Grauen zeigt sich nur auf dem Bildschirm des Agenten, den es trifft. Wem das zu viel wird, stellt die Effekte auf schwach oder aus. Kostenlos, ohne Konto.
-    link: https://odin-rpg.pages.dev/tisch/
+    link: https://odin-rpg.de/tisch/
     tags: ["VTT"]
   en:
     text: |
       New at the browser table: the wall. Notes and photos pinned side by side, red string between whatever belongs together.
     mehr: |
       The GM hands out redacted files and lifts the black bars as the agents find things out. And the horror only shows on the screen of the agent it hits. Too much? Set the effects to low or off. Free, no account.
-    link: https://odin-rpg.pages.dev/tisch/?lang=en
+    link: https://odin-rpg.de/tisch/?lang=en
     tags: ["VTT"]
 
 - id: hc-puppe
@@ -2312,7 +2352,7 @@ posts:
       Noch 26 Nächte bis Halloween. Aus der Registratur: die Puppe.
     mehr: |
       Nürnberg seit 1908, zuletzt im September 2026 in Ansbach. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2321,7 +2361,7 @@ posts:
       26 nights to Halloween. From the Registry: the Doll.
     mehr: |
       Nuremberg since 1908, last seen in September 2026 in Ansbach. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-mann-in-der-wand
@@ -2341,7 +2381,7 @@ posts:
       Noch 25 Nächte bis Halloween. Aus der Registratur: der Mann in der Wand.
     mehr: |
       Seit 1964 in einer Küchenwand in Coventry. Jeden November schaut jemand nach ihm. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2350,7 +2390,7 @@ posts:
       25 nights to Halloween. From the Registry: the Man in the Wall.
     mehr: |
       In a kitchen wall in Coventry since 1964. Every November someone checks on him. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-anhalterin
@@ -2370,7 +2410,7 @@ posts:
       Noch 24 Nächte bis Halloween. Aus der Registratur: die Anhalterin.
     mehr: |
       Burgenland seit 1977, zuletzt im September 2026 auf dem Rücksitz eines Taxis. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2379,7 +2419,7 @@ posts:
       24 nights to Halloween. From the Registry: the Hitchhiker.
     mehr: |
       Burgenland since 1977, last seen in September 2026 on the back seat of a taxi. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-strigoi
@@ -2399,7 +2439,7 @@ posts:
       Noch 23 Nächte bis Halloween. Aus der Registratur: der Strigoi.
     mehr: |
       Siebenbürgen seit 1873. Er ruft in der Nacht, und wer antwortet, wird krank. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2408,7 +2448,7 @@ posts:
       23 nights to Halloween. From the Registry: the Strigoi.
     mehr: |
       Transylvania since 1873. He calls at night, and whoever answers falls sick. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-banshee
@@ -2428,7 +2468,7 @@ posts:
       Noch 22 Nächte bis Halloween. Aus der Registratur: die Banshee.
     mehr: |
       Donegal seit 1847, zuletzt im September 2026 auf einem Hof bei Dungloe. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2437,7 +2477,7 @@ posts:
       22 nights to Halloween. From the Registry: the Banshee.
     mehr: |
       Donegal since 1847, last heard in September 2026 on a farm near Dungloe. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-kind-im-treppenhaus
@@ -2457,7 +2497,7 @@ posts:
       Noch 21 Nächte bis Halloween. Aus der Registratur: das Kind im Treppenhaus.
     mehr: |
       Ein Treppenhaus in Glasgow seit 1905. Seit September 2026 wird dort ein Nachbar vermisst. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2466,7 +2506,7 @@ posts:
       21 nights to Halloween. From the Registry: the Child in the Stairwell.
     mehr: |
       A stairwell in Glasgow since 1905. A neighbour there has been missing since September 2026. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-heimkehrer
@@ -2486,7 +2526,7 @@ posts:
       Noch 19 Nächte bis Halloween. Aus der Registratur: der Heimkehrer.
     mehr: |
       1955 über Friedland heimgekehrt. Im April 2026 wurde er hundert. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2495,7 +2535,7 @@ posts:
       19 nights to Halloween. From the Registry: the Homecomer.
     mehr: |
       Came home through Friedland in 1955. In April 2026 he turned a hundred. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-yuki-onna
@@ -2515,7 +2555,7 @@ posts:
       Noch 18 Nächte bis Halloween. Aus der Registratur: die Yuki-onna.
     mehr: |
       Niigata, in jedem schweren Winter, zuletzt im Februar 2026 vor der Kamera eines Räumfahrzeugs. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2524,7 +2564,7 @@ posts:
       18 nights to Halloween. From the Registry: the Yuki-onna.
     mehr: |
       Niigata, every hard winter, last seen in February 2026 by the camera of a snowplough. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-mieter
@@ -2544,7 +2584,7 @@ posts:
       Noch 17 Nächte bis Halloween. Aus der Registratur: der Mieter.
     mehr: |
       Haus C, dritter Stock links, seit 1937. Im September 2026 hing sein dritter Zettel an einer Tür. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2553,7 +2593,7 @@ posts:
       17 nights to Halloween. From the Registry: the Tenant.
     mehr: |
       Building C, third floor left, since 1937. In September 2026 his third note was on a door. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-pflegerin
@@ -2573,7 +2613,7 @@ posts:
       Noch 16 Nächte bis Halloween. Aus der Registratur: die Pflegerin.
     mehr: |
       Ein Pflegeheim in Bremen-Nord seit 2020, immer gegen drei Uhr nachts. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2582,7 +2622,7 @@ posts:
       16 nights to Halloween. From the Registry: the Carer.
     mehr: |
       A care home in the north of Bremen since 2020, always around three in the morning. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-wirt-im-eis
@@ -2602,7 +2642,7 @@ posts:
       Noch 15 Nächte bis Halloween. Aus der Registratur: der Wirt im Eis.
     mehr: |
       Spitzbergen seit 1984, zuletzt im März 2025 auf dem Fjordeis. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2611,7 +2651,7 @@ posts:
       15 nights to Halloween. From the Registry: the Host in the Ice.
     mehr: |
       Svalbard since 1984, last seen in March 2025 on the fjord ice. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-llorona
@@ -2631,7 +2671,7 @@ posts:
       Noch 14 Nächte bis Halloween. Aus der Registratur: La Llorona.
     mehr: |
       Am Rand von Mexiko-Stadt seit 1973, zuletzt im Oktober 2025 in einer Sprachnachricht. Band 22 führt 105 Wesen auf Karteikarten, kostenlos und werbefrei.
-    link: https://odin-rpg.pages.dev/buch/die-registratur
+    link: https://odin-rpg.de/buch/die-registratur
     tags: ["Halloween"]
   en:
     text: |
@@ -2640,7 +2680,7 @@ posts:
       14 nights to Halloween. From the Registry: La Llorona.
     mehr: |
       On the edge of Mexico City since 1973, last heard in October 2025 in a voice message. Volume 22 keeps 105 beings on index cards, free and ad-free.
-    link: https://odin-rpg.pages.dev/en/book/the-registry
+    link: https://odin-rpg.de/en/book/the-registry
     tags: ["Halloween"]
 
 - id: hc-werwolf
@@ -2970,8 +3010,8 @@ posts:
     typ: zitat
     de: "O.D.I.N. in Owlbear Rodeo\n\nGegner suchen und setzen\nVersteckt, nummeriert\nAgent aus dem Generator\nKostenlose Erweiterung"
     en: "O.D.I.N. in Owlbear Rodeo\n\nSearch and place enemies\nHidden, numbered\nAgent from the generator\nFree extension"
-    quelle_de: "odin-rpg.pages.dev/spieltische"
-    quelle_en: "odin-rpg.pages.dev/en/tables"
+    quelle_de: "odin-rpg.de/spieltische"
+    quelle_en: "odin-rpg.de/en/tables"
     alt_de: "Texttafel: O.D.I.N. in Owlbear Rodeo. Gegner suchen und versteckt und nummeriert setzen, Agenten aus dem Charaktergenerator laden, kostenlose Erweiterung."
     alt_en: "Text card: O.D.I.N. in Owlbear Rodeo. Search enemies and place them hidden and numbered, load agents from the character generator, free extension."
   de:
@@ -2979,14 +3019,14 @@ posts:
       Eine Minute aus der Owlbear-Erweiterung: Gegner aus allen Büchern suchen, mehrere auf einmal setzen, versteckt und nummeriert. Danach kommt ein Agent direkt aus dem Charaktergenerator an den Tisch.
     mehr: |
       Die Erweiterung ist kostenlos und braucht kein Konto. Den Installationslink gibt es auf der Spieltische-Seite. Die Illustrationen sind KI-generiert.
-    link: https://odin-rpg.pages.dev/spieltische
+    link: https://odin-rpg.de/spieltische
     tags: ["OwlbearRodeo", "VTT"]
   en:
     text: |
       One minute of the Owlbear Rodeo extension: search enemies from every book, place several at once, hidden and numbered. Then an agent comes straight from the character generator to the table.
     mehr: |
       The extension is free and needs no account. The install link is on the tables page. The illustrations are AI-generated.
-    link: https://odin-rpg.pages.dev/en/tables
+    link: https://odin-rpg.de/en/tables
     tags: ["OwlbearRodeo", "VTT"]
 
 - id: owlbear-token
@@ -2997,8 +3037,8 @@ posts:
     typ: zitat
     de: "Owlbear Rodeo 4.4.7\n\nKnopf „Als Token setzen“\nEin Klick, Token steht\nLP und Belastung dran\nKostenlose Erweiterung"
     en: "Owlbear Rodeo 4.4.7\n\n“Place as token” button\nOne click, token placed\nHP and strain attached\nFree extension"
-    quelle_de: "odin-rpg.pages.dev/spieltische"
-    quelle_en: "odin-rpg.pages.dev/en/tables"
+    quelle_de: "odin-rpg.de/spieltische"
+    quelle_en: "odin-rpg.de/en/tables"
     alt_de: "Texttafel: Owlbear-Rodeo-Erweiterung 4.4.7 mit dem Knopf „Als Token setzen“. Ein Klick setzt den Agenten auf die Karte, LP und Belastung stehen am Token, kostenlos."
     alt_en: "Text card: Owlbear Rodeo extension 4.4.7 with a “Place as token” button. One click puts the agent on the map, HP and strain show on the token, free."
   de:
@@ -3006,14 +3046,14 @@ posts:
       Owlbear Rodeo, Erweiterung 4.4.7: Im Agentenbogen gibt es jetzt den Knopf „Als Token setzen“. Ein Klick, und der Agent steht auf der Karte, rund und mit dem Bild seiner Subklasse.
     mehr: |
       Das Token hängt am Bogen. LP und Belastung stehen darunter, und „Kampf beginnen“ nimmt es gleich in die Zugreihenfolge. Ein zweiter Klick setzt kein Doppel. Nichts hochladen, nichts von Hand verbinden. Die Illustrationen sind KI-generiert.
-    link: https://odin-rpg.pages.dev/spieltische#owlbear-rodeo
+    link: https://odin-rpg.de/spieltische#owlbear-rodeo
     tags: ["OwlbearRodeo", "VTT"]
   en:
     text: |
       Owlbear Rodeo extension 4.4.7: the agent sheet now has a “Place as token” button. One click and your agent stands on the map, a round token with the subclass portrait.
     mehr: |
       The token is linked to the sheet. HP and strain show underneath, and “Start combat” puts it straight into the turn order. A second click makes no duplicate. Nothing to upload, nothing to link by hand. The illustrations are AI-generated.
-    link: https://odin-rpg.pages.dev/en/tables#owlbear-rodeo
+    link: https://odin-rpg.de/en/tables#owlbear-rodeo
     tags: ["OwlbearRodeo", "VTT"]
 
 # ---------------- Hop-tu-Naa auf Realm VTT (DE und EN öffentlich seit 10.10.) ----------------
@@ -3188,14 +3228,14 @@ posts:
       Neue Würfel für O.D.I.N.: runder, mit Klarlack und feinem Abrieb an den Kanten, und der Kürbis leuchtet von innen. Sie rollen jetzt an unserem Spieltisch im Browser und in Foundry VTT.
     mehr: |
       Am Spieltisch ohne Konto ausprobieren, einfach auf „Würfeln“ klicken. In Foundry kommen sie mit dem System 0.10.11 über Dice So Nice, die Halloween-Würfel mit dem Halloween-Modul 1.1.0.
-    link: https://odin-rpg.pages.dev/tisch/
+    link: https://odin-rpg.de/tisch/
     tags: ["Würfel", "FoundryVTT"]
   en:
     text: |
       New dice for O.D.I.N.: rounder, clear-coated, with fine wear on the edges, and the pumpkin glows from inside. They roll at our browser table and in Foundry VTT now.
     mehr: |
       Try them at the table with no account, just hit “Roll”. In Foundry they come with system 0.10.11 through Dice So Nice, the Halloween dice with the Halloween module 1.1.0.
-    link: https://odin-rpg.pages.dev/tisch/?lang=en
+    link: https://odin-rpg.de/tisch/?lang=en
     tags: ["Dice", "FoundryVTT"]
 
 # ---------------- Schleierriss: Brettspiel-Prototyp online (Dave 12.10.: „ja“) ----------------
@@ -3212,7 +3252,7 @@ posts:
       O.D.I.N. gibt es jetzt auch als Brettspiel: Schleierriss. Eure Zelle reist über die Lagekarte, und wo ein Riss aufgeht, wird daraus ein Einsatz im Hort, Feld für Feld. Kooperativ, ein bis sechs Spieler, als Prototyp im Browser.
     mehr: |
       Gespielt wird reihum an einem Gerät, kostenlos und ohne Anmeldung. Regeln und Werte können sich noch ändern, Rückmeldungen gern im Discord.
-    link: https://odin-rpg.pages.dev/schleierriss/
+    link: https://odin-rpg.de/schleierriss/
     tags: ["Brettspiel", "Boardgame"]
 
 - id: schleierriss-druck
@@ -3227,8 +3267,8 @@ posts:
     text: |
       Schleierriss gibt es jetzt auch für den echten Tisch: ein Regelbuch mit 32 Seiten und 63 Seiten Spielmaterial zum Ausdrucken, mit Karten, Spielsteinen, Pappaufstellern, Lagekarte und Hortplänen in A3. Kostenlos.
     mehr: |
-      Druckt die Vorlagen ohne Skalierung, sonst passen die Schnittmarken nicht. Bisher gibt es Schleierriss nur auf Deutsch, im Browser spielen geht auch: https://odin-rpg.pages.dev/schleierriss/
-    link: https://odin-rpg.pages.dev/meldung/schleierriss-druck
+      Druckt die Vorlagen ohne Skalierung, sonst passen die Schnittmarken nicht. Bisher gibt es Schleierriss nur auf Deutsch, im Browser spielen geht auch: https://odin-rpg.de/schleierriss/
+    link: https://odin-rpg.de/meldung/schleierriss-druck
     tags: ["Brettspiel", "PrintAndPlay"]
 - id: veilrift-en
   datum: "2026-10-18"
