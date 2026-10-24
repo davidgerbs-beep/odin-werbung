@@ -985,6 +985,28 @@
    "zeit": "2026-10-10T16:07:34.738150+02:00"
   }
  },
+ "hc-knochige": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mymafh5zjw2y",
+   "zeit": "2026-10-24T10:07:32.221947+02:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1563463966322196491",
+   "zeit": "2026-10-24T10:07:32.221947+02:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1375689388959077_122118622485490766",
+   "zeit": "2026-10-24T10:07:32.221947+02:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18082059314341129 (Reel)",
+   "zeit": "2026-10-24T10:07:32.221947+02:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117494858186531661",
+   "zeit": "2026-10-24T10:07:32.221947+02:00"
+  }
+ },
  "hc-llorona": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3my2n57d2qw2h",
