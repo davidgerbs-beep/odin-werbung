@@ -990,9 +990,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mymafh5zjw2y",
    "zeit": "2026-10-24T10:07:32.221947+02:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mymuj5r2ow22",
+   "zeit": "2026-10-24T16:07:31.620508+02:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1563463966322196491",
    "zeit": "2026-10-24T10:07:32.221947+02:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1563554560742793287",
+   "zeit": "2026-10-24T16:07:31.620508+02:00"
   },
   "facebook": {
    "ergebnis": "facebook:1375689388959077_122118622485490766",
@@ -1009,6 +1017,14 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117494858186531661",
    "zeit": "2026-10-24T10:07:32.221947+02:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117496273714402561",
+   "zeit": "2026-10-24T16:07:31.620508+02:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18217573735357498",
+   "zeit": "2026-10-24T16:07:31.620508+02:00"
   }
  },
  "hc-llorona": {
