@@ -2003,6 +2003,28 @@
    "zeit": "2026-10-05T21:07:55.114262+02:00"
   }
  },
+ "podcast-wuerfelveteranen": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mypide2xx32v",
+   "zeit": "2026-10-25T16:07:31.873872+01:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1563932040884125800",
+   "zeit": "2026-10-25T16:07:31.873872+01:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1886544229389890 (Video)",
+   "zeit": "2026-10-25T16:07:31.873872+01:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:17872843959640814 (Reel)",
+   "zeit": "2026-10-25T16:07:31.873872+01:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117502171858769369",
+   "zeit": "2026-10-25T16:07:31.873872+01:00"
+  }
+ },
  "questportal": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxhhlw2pm52h",
@@ -3271,6 +3293,10 @@
   "instagram": {
    "ergebnis": "instagram:18642815476025542 (Reel)",
    "zeit": "2026-10-25T13:07:31.147313+01:00"
+  },
+  "instagram_story": {
+   "ergebnis": "story:18434517652145219 (Video)",
+   "zeit": "2026-10-25T16:07:31.873872+01:00"
   },
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117501464123916958",
