@@ -1351,6 +1351,33 @@ posts:
       - Giveaway
       - TTRPG
 
+- id: allrounder
+  datum: "2026-11-01"
+  zeit: "12:30"
+  zeit_en: "17:00"
+  bild:
+    typ: zitat
+    de: "Am Tisch, mit Bleistift\nAls PDF oder als Buch\nGenerator, auch per Chat\nBrettspiel, ganz ohne SL\nEigener Tisch im Browser\nFoundry, Owlbear, Realm"
+    en: "At the table, in pencil\nFrom PDF or in print\nGenerator, or in a chat\nBoard game, no GM needed\nOur own browser table\nFoundry, Owlbear, Realm"
+    quelle_de: "Ein Spiel. Jeder Tisch."
+    quelle_en: "One game. Every table."
+    alt_de: "Textkarte: Ein Spiel, jeder Tisch. O.D.I.N. am Tisch mit Würfeln und Bleistift, als PDF oder gedrucktes Buch, mit Charaktergenerator, als Brettspiel, im eigenen Browser-Spieltisch und in Foundry, Owlbear und Realm."
+    alt_en: "Text card: One game, every table. O.D.I.N. at the table with dice and pencil, from PDF or a printed book, with a character generator, as a board game, on its own browser table and in Foundry, Owlbear and Realm."
+  de:
+    text: |
+      Halloween ist vorbei, die Risse bleiben. O.D.I.N. spielt ihr, wo ihr wollt: am Küchentisch mit Würfeln und Bleistift, im eigenen Spieltisch im Browser oder in Foundry und Owlbear. Und wer keine Spielleitung hat, nimmt das Brettspiel.
+    mehr: |
+      Die Bücher gibt es kostenlos als PDF oder gedruckt. Gewürfelt wird wie früher, mit W6 in zwei Farben.
+    link: https://odin-rpg.de/spieltische
+    tags: ["PenAndPaper", "Rollenspiel"]
+  en:
+    text: |
+      Halloween is over, the rifts stay open. Play O.D.I.N. wherever you like: at the kitchen table with dice and pencil, on our own browser table or in Foundry and Owlbear. No GM tonight? Take the board game.
+    mehr: |
+      The books are free as PDFs, and the German editions are also in print. The dice are the old kind: d6 in two colours.
+    link: https://odin-rpg.de/en/tables
+    tags: ["TTRPG"]
+
 - id: charakter-skill
   datum: "2026-10-26"
   zeit: "18:30"
