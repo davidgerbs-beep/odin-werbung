@@ -1351,6 +1351,24 @@ posts:
       - Giveaway
       - TTRPG
 
+- id: podcast-wuerfelveteranen
+  datum: "2026-10-25"
+  zeit: "16:00"
+  bild:
+    typ: zitat
+    de: "Wie O.D.I.N. am eigenen Tisch gewachsen ist und warum zwei Würfelfarben reichen."
+    quelle_de: "Würfel Veteranen · Folge 42 · ab Minute 40"
+    alt_de: "Textkarte: Wie O.D.I.N. am eigenen Tisch gewachsen ist und warum zwei Würfelfarben reichen. Würfel Veteranen, Folge 42, ab Minute 40."
+  de:
+    text: |
+      Zeit, Farbe zu bekennen: In Folge 42 der Würfel Veteranen erzählt David Ger, wie O.D.I.N. über fast zwanzig Jahre am Tisch gewachsen ist, warum zwei Würfelfarben reichen und was jede Klasse für ihre Kräfte zahlt.
+    mehr: |
+      Der O.D.I.N.-Teil beginnt bei Minute 40. Danke an Conny und die Würfel Veteranen für die Einladung.
+    link: https://wuerfel-veteranen.podigee.io/45-folge-42-zeit-farbe-zu-bekennen
+    tags:
+      - Podcast
+      - PenAndPaper
+
 - id: reg-letzter-zug
   datum: "2026-10-25"
   zeit: "10:30"
