@@ -1420,8 +1420,8 @@ posts:
 
 - id: weg-generator
   datum: '2026-11-04'
-  zeit: '18:30'
-  zeit_en: '20:00'
+  zeit: '12:30'
+  zeit_en: '14:00'
   bild:
     typ: foto
     datei: generator_akte_de.jpg
@@ -1489,8 +1489,8 @@ posts:
 
 - id: weg-eigener-tisch
   datum: '2026-11-06'
-  zeit: '18:30'
-  zeit_en: '20:00'
+  zeit: '12:30'
+  zeit_en: '14:00'
   bild:
     typ: foto
     datei: spieltisch_de.jpg
@@ -2339,6 +2339,181 @@ posts:
     mehr: David Ger picks three files, and each wins a set of unpainted resin miniatures. Free shipping within the EU.
     link: https://itch.io/jam/odin-field-file-jam
     tags: ["GameJam", "ODINFieldFile"]
+
+# ---------------- November 09. bis 30.11. (Werbe-Chat 26.10.) ----------------
+- id: solo-november
+  datum: "2026-11-10"
+  zeit: "18:30"
+  zeit_en: "20:00"
+  bild:
+    typ: cover
+    de: cover_ODIN_21_Einzelgaenger.jpg
+    en: cover_ODIN_EN_21_Lone_Operative.jpg
+    alt_de: "Cover von Band 21, Einzelgänger: eine einzelne Gestalt auf einem nebligen Weg."
+    alt_en: "Cover of Volume 21, Lone Operative: a single figure on a misty path."
+  de:
+    text: |
+      Im November wird es vor fünf dunkel, und nicht jeder Abend hat eine Runde.
+
+      „Einzelgänger“ ist O.D.I.N. für einen Spieler und einen Agenten, ohne Spielleitung. Gleiche Würfel wie im Grundregelwerk. Was dein Agent nicht wissen kann, beantwortet das Orakel.
+    mehr: |
+      Kostenlos als PDF. Das Erklärvideo dazu: https://youtu.be/SFx9srb5mg0
+    link: https://odin-rpg.de/buch/einzelgaenger
+    tags: ["SoloRPG"]
+  en:
+    text: |
+      In November it gets dark before five, and not every evening has a group.
+
+      Lone Operative is O.D.I.N. for one player and one agent, no GM. Same dice as the Core Rulebook. What your agent can't know, the oracle answers.
+    mehr: |
+      Free PDF. The explainer: https://youtu.be/EXliF3NTUqA
+    link: https://odin-rpg.de/en/book/lone-operative
+    tags: ["SoloRPG"]
+
+- id: jam-letzter-tag
+  datum: "2026-11-15"
+  zeit: "10:30"
+  zeit_en: "17:00"
+  bild:
+    typ: zitat
+    de: "Eine Seite.\nEin Abend.\nHeute bis 23:59."
+    en: "One page.\nOne evening.\nUntil 23:59 tonight."
+    quelle_de: "Field File Jam auf itch.io"
+    quelle_en: "Field File Jam on itch.io"
+    alt_de: "Texttafel im Schreibmaschinenstil: Eine Seite. Ein Abend. Heute bis 23:59. Field File Jam auf itch.io."
+    alt_en: "Typewriter-style text card: One page. One evening. Until 23:59 tonight. Field File Jam on itch.io."
+  de:
+    text: |
+      Letzter Tag im Field File Jam. Bis heute 23:59 nimmt itch.io noch Akten für O.D.I.N. an, und eine Seite reicht.
+    mehr: Drei Akten wählt David Ger aus, jede gewinnt ein Set unbemalter Resin-Figuren. Versand in der EU frei.
+    link: https://itch.io/jam/odin-field-file-jam
+    tags: ["GameJam", "ODINFieldFile"]
+  en:
+    text: |
+      Last day of the Field File Jam. itch.io takes files for O.D.I.N. until 23:59 Berlin time tonight, and one page is enough.
+    mehr: David Ger picks three files, and each wins a set of unpainted resin miniatures. Free shipping within the EU.
+    link: https://itch.io/jam/odin-field-file-jam
+    tags: ["GameJam", "ODINFieldFile"]
+
+- id: fremdkoerper-silber
+  datum: "2026-11-17"
+  zeit: "18:30"
+  zeit_en: "20:00"
+  bild:
+    typ: cover
+    de: cover_ODIN_24_Fremdkoerper.jpg
+    en: cover_ODIN_EN_24_Foreign_Bodies.jpg
+    alt_de: "Cover von Band 24, Fremdkörper: eine steinerne Kugel liegt im bereiften Moorgras vor einem Birkenwald im Nebel, daneben ein Dutzend kleiner dunkler Steine in einer Pfütze, in Sepia."
+    alt_en: "Cover of Volume 24, Foreign Bodies: a stone sphere lies in frosted moor grass before a misty birch wood, a dozen small dark stones in a puddle beside it, in sepia."
+  de:
+    text: |
+      Silber hilft nicht. Kälte, Salzwasser und Feuer schon.
+
+      „Fremdkörper“ beginnt mit einem Schäferhund im Emsland, der einen Stein vom Himmel frisst. Danach folgen zwölf Missionen quer durch Europa, immer knapp bevor die Keimlinge schlüpfen.
+    mehr: |
+      Band 24 ist die Vorgeschichte zur Kampagne „Die Tür“, kostenlos als PDF. Fast jede Mission endet im Gefecht.
+    link: https://odin-rpg.de/buch/fremdkoerper
+    tags: ["Kampagne"]
+  en:
+    text: |
+      Silver is no help. Cold, salt water and fire are.
+
+      Foreign Bodies starts with a German Shepherd in the Emsland eating a stone that fell from the sky. Then come twelve missions across Europe, always just before the Germlings hatch.
+    mehr: |
+      Volume 24 is the prequel to The Door campaign, free as a PDF. Almost every mission ends in a firefight.
+    link: https://odin-rpg.de/en/book/foreign-bodies
+    tags: ["Campaign"]
+
+- id: verlosung-halbzeit
+  datum: "2026-11-19"
+  zeit: "18:30"
+  zeit_en: "20:00"
+  bild:
+    typ: raster
+    dateien: [mini_cyberneticist-w.jpg, mini_spy-m.jpg, mini_stormbreaker-w.jpg, mini_paranormal-detective-m.jpg, mini_telepath-w.jpg, mini_techno-stormtrooper-m.jpg]
+    zeile_de: "Verlosung · bis 30. November"
+    zeile_en: "Giveaway · until 30 November"
+    alt_de: "Sechs unbemalte graue Miniaturen auf runden Bases: Kybernetikerin mit Prothesenarm, Spion mit Schiebermütze, Sturmbrecherin in Panzerung, Detektiv mit Hut, Telepathin mit erhobener Hand, Sturmsoldat mit Schild."
+    alt_en: "Six unpainted grey miniatures on round bases: a Cyberneticist with a prosthetic arm, a Spy in a flat cap, a Stormbreaker in armour, a Paranormal Detective in a hat, a Telepath with a raised hand and a Techno Stormtrooper with a shield."
+  de:
+    text: |
+      Die Verlosung läuft noch bis 30. November. Eine Runde O.D.I.N. oder eine Partie Schleierriss, dazu ein Foto oder drei Sätze, und du bist dabei. Es geht um drei Sets gedruckter Figuren.
+    mehr: |
+      Zeigen geht im Discord, in Foren, auf Bluesky, Mastodon oder Instagram mit #ODINrpg oder per Mail. Unbemalt, kostenlos, ab 16, Versand in der EU frei.
+
+      Die Figuren sind mit KI entworfen und von Hand nachgearbeitet.
+    link: https://odin-rpg.de/verlosung
+    tags: ["Verlosung", "PenAndPaper"]
+  en:
+    text: |
+      The giveaway runs until 30 November. Play a session of O.D.I.N. or a game of Veilrift, add a photo or three sentences, and you are in. Three sets of printed miniatures are up for grabs.
+    mehr: |
+      Share it on Discord, in a forum, on Bluesky, Mastodon or Instagram with #ODINrpg, or by mail. Unpainted, free, no purchase needed, 16+, shipping free within the EU.
+
+      The figures were designed with AI and finished by hand.
+    link: https://odin-rpg.de/en/giveaway
+    tags: ["Giveaway", "TTRPG"]
+
+- id: cyber-woche
+  datum: "2026-11-23"
+  zeit: "18:30"
+  zeit_en: "20:00"
+  bild:
+    typ: zitat
+    de: "25 % auf alle Figuren\nCode CYBER26\nbis 1. Dezember"
+    en: "25 % off every figure\nCode CYBER26\nuntil 1 December"
+    quelle_de: "O.D.I.N.-Miniaturen bei Etsy"
+    quelle_en: "O.D.I.N. miniatures on Etsy"
+    alt_de: "Texttafel im Schreibmaschinenstil: 25 % auf alle Figuren, Code CYBER26, bis 1. Dezember. O.D.I.N.-Miniaturen bei Etsy."
+    alt_en: "Typewriter-style text card: 25 % off every figure, code CYBER26, until 1 December. O.D.I.N. miniatures on Etsy."
+  de:
+    text: |
+      Cyber-Woche im Etsy-Shop: Mit dem Code CYBER26 kosten alle O.D.I.N.-Miniaturen bis 1. Dezember 25 % weniger. Das gilt auch für die STL-Sets und die Klassenpakete.
+    mehr: |
+      30 Unterklassen, je Mann und Frau, 28 mm. STL-Set sonst 3,90 €, gedruckt aus Resin ab 12,90 €, Klassenpaket (10 Figuren) ab 54,90 €. Versand in Deutschland frei. Shop: https://odinarsenal.etsy.com
+
+      Die Figuren sind mit KI entworfen und von Hand nachgearbeitet.
+    link: https://odin-rpg.de/miniaturen
+    tags: ["Miniaturen", "3DDruck"]
+  en:
+    text: |
+      Cyber week in the Etsy shop: code CYBER26 takes 25 % off every O.D.I.N. miniature until 1 December, STL sets and class packs included.
+    mehr: |
+      30 subclasses, each as a man and as a woman, 28 mm. STL set normally €3.90, printed in resin from €12.90, class pack of ten figures from €54.90. Shipping within the EU €7.90. Shop: https://odinarsenal.etsy.com
+
+      The figures were designed with AI and finished by hand.
+    link: https://odin-rpg.de/en/miniatures
+    tags: ["Miniatures", "3DPrinting"]
+
+- id: verlosung-endspurt
+  datum: "2026-11-29"
+  zeit: "12:30"
+  zeit_en: "14:00"
+  bild:
+    typ: raster
+    dateien: [mini_invoker-w.jpg, mini_antiquarian-m.jpg, mini_psychic-healer-w.jpg, mini_infiltrator-m.jpg, mini_assassin-w.jpg, mini_chronomancer-m.jpg]
+    zeile_de: "Verlosung · bis Montag, 23:59"
+    zeile_en: "Giveaway · ends Monday, 23:59"
+    alt_de: "Sechs unbemalte graue Miniaturen auf runden Bases: Beschwörerin, Antiquar, Heilerin, Infiltrator, Assassinin und Chronomant."
+    alt_en: "Six unpainted grey miniatures on round bases: an Invoker, an Antiquarian, a Psychic Healer, an Infiltrator, an Assassin and a Chronomancer."
+  de:
+    text: |
+      Letztes Wochenende der Verlosung. Wer bis Montag, 30.11., 23:59 eine Runde O.D.I.N. oder Schleierriss spielt und ein Foto oder ein paar Sätze zeigt, ist dabei. Ein Abend am Tisch reicht.
+    mehr: |
+      Drei Sets gedruckter, unbemalter Figuren. Kostenlos, kein Kauf nötig, ab 16, Versand in der EU frei.
+
+      Die Figuren sind mit KI entworfen und von Hand nachgearbeitet.
+    link: https://odin-rpg.de/verlosung
+    tags: ["Verlosung", "PenAndPaper"]
+  en:
+    text: |
+      Last weekend of the giveaway. Play O.D.I.N. or Veilrift before Monday 30 November, 23:59 Berlin time, show a photo or a few lines, and you are in. One evening at the table is enough.
+    mehr: |
+      Three sets of printed, unpainted miniatures. Free, no purchase needed, 16+, shipping free within the EU.
+
+      The figures were designed with AI and finished by hand.
+    link: https://odin-rpg.de/en/giveaway
+    tags: ["Giveaway", "TTRPG"]
 
 # ---------------- Band 24 „Fremdkörper“ / „Foreign Bodies“ (live 03.10.2026) ----------------
 - id: fremdkoerper
