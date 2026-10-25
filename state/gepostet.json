@@ -2772,6 +2772,10 @@
    "ergebnis": "instagram:18016715558750558 (Reel)",
    "zeit": "2026-10-25T11:07:28.429289+01:00"
   },
+  "instagram_story": {
+   "ergebnis": "story:18100994825354838 (Video)",
+   "zeit": "2026-10-25T14:07:32.112379+01:00"
+  },
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117500992014640304",
    "zeit": "2026-10-25T11:07:28.429289+01:00"
@@ -3248,9 +3252,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3myp6bik74p2p",
    "zeit": "2026-10-25T13:07:31.147313+01:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mypbmsl4my22",
+   "zeit": "2026-10-25T14:07:32.112379+01:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1563886746532577291",
    "zeit": "2026-10-25T13:07:31.147313+01:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1563901848765595750",
+   "zeit": "2026-10-25T14:07:32.112379+01:00"
   },
   "facebook": {
    "ergebnis": "facebook:1414099320884485 (Video)",
@@ -3263,6 +3275,14 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117501464123916958",
    "zeit": "2026-10-25T13:07:31.147313+01:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117501700104631850",
+   "zeit": "2026-10-25T14:07:32.112379+01:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18115543703027398",
+   "zeit": "2026-10-25T14:07:32.112379+01:00"
   }
  },
  "w01-schnellstart": {
