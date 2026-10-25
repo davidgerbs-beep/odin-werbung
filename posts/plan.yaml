@@ -1351,6 +1351,33 @@ posts:
       - Giveaway
       - TTRPG
 
+- id: charakter-skill
+  datum: "2026-10-26"
+  zeit: "18:30"
+  zeit_en: "20:00"
+  bild:
+    typ: zitat
+    de: "Niemand bewirbt sich bei uns. Wir finden Menschen, die gesehen haben, was nicht sein kann, und die daran nicht zerbrochen sind."
+    en: "Nobody applies to us. We find people who have seen what cannot be, and who were not broken by it."
+    quelle_de: "Die Frau im grauen Mantel"
+    quelle_en: "The woman in the grey coat"
+    alt_de: "Textkarte: Niemand bewirbt sich bei uns. Wir finden Menschen, die gesehen haben, was nicht sein kann, und die daran nicht zerbrochen sind. Die Frau im grauen Mantel."
+    alt_en: "Text card: Nobody applies to us. We find people who have seen what cannot be, and who were not broken by it. The woman in the grey coat."
+  de:
+    text: |
+      Neu bei O.D.I.N.: den Agenten im Gespräch bauen. Die Frau im grauen Mantel fragt, was du gesehen hast, legt dir zwei oder drei Akten vor und öffnet deinen Agenten fertig im Charaktergenerator. Ein kostenloser Skill für Claude und ChatGPT.
+    mehr: |
+      Die Werte rechnet weiter der Generator, dort änderst du jede Seite. Die Akte steht nur im Link und bleibt in deinem Browser.
+    link: https://odin-rpg.de/charakter-skill
+    tags: ["PenAndPaper", "Rollenspiel"]
+  en:
+    text: |
+      New for O.D.I.N.: build your agent in conversation. The woman in the grey coat asks what you have seen, puts two or three files in front of you and opens your agent in the character generator. A free skill for Claude and ChatGPT.
+    mehr: |
+      The generator still does the maths, and you can change every page there. The file lives only in the link and stays in your browser.
+    link: https://odin-rpg.de/en/character-skill
+    tags: ["CharacterCreation"]
+
 - id: podcast-wuerfelveteranen
   datum: "2026-10-25"
   zeit: "16:00"
@@ -1361,7 +1388,7 @@ posts:
     alt_de: "Textkarte: Wie O.D.I.N. am eigenen Tisch gewachsen ist und warum zwei Würfelfarben reichen. Würfel Veteranen, Folge 42, ab Minute 40."
   de:
     text: |
-      Zeit, Farbe zu bekennen: In Folge 42 der Würfel Veteranen erzählt David Ger, wie O.D.I.N. über fast zwanzig Jahre am Tisch gewachsen ist, warum zwei Würfelfarben reichen und was jede Klasse für ihre Kräfte zahlt.
+      Zeit, Farbe zu bekennen: In Folge 42 der Würfel Veteranen erzählt David Ger, wie O.D.I.N. über fast zwanzig Jahre am Tisch gewachsen ist, warum zwei Würfelfarben reichen und was jede Klasse für ihre Kräfte aufs Spiel setzt.
     mehr: |
       Der O.D.I.N.-Teil beginnt bei Minute 40. Danke an Conny und die Würfel Veteranen für die Einladung.
     link: https://wuerfel-veteranen.podigee.io/45-folge-42-zeit-farbe-zu-bekennen
