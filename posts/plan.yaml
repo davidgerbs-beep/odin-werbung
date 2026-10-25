@@ -1351,6 +1351,211 @@ posts:
       - Giveaway
       - TTRPG
 
+- id: weg-tisch
+  datum: '2026-11-02'
+  zeit: '18:30'
+  zeit_en: '20:00'
+  bild:
+    typ: foto
+    datei: reel_kartenraum.jpg
+    zeile_de: AM TISCH · Würfel und Bleistift
+    zeile_en: AT THE TABLE · Dice and pencil
+    alt_de: 'Bleistiftkarte auf Karopapier: ein Stausee im Harz mit geflutetem Dorf, versunkener Kirche und nummerierter Legende.'
+    alt_en: 'Pencil map on graph paper: a reservoir in the Harz with a flooded village, a sunken church and a numbered key.'
+  de:
+    text: 'O.D.I.N. braucht keinen Bildschirm. Zwei Handvoll W6 in zwei Farben, ein ausgedruckter Bogen, ein Bleistift. Die 160 Karten im Kartenraum sind mit Bleistift auf Karopapier gezeichnet, und genau so sehen sie auch am Tisch aus.
+
+      '
+    mehr: 'Für den ersten Abend reicht der Schnellstart: vier fertige Agenten, ein Einsatz, alles zum Ausdrucken.
+
+      '
+    link: https://odin-rpg.de/buch/schnellstart
+    tags:
+    - PenAndPaper
+    - Rollenspiel
+  en:
+    text: 'O.D.I.N. doesn''t need a screen. A handful of d6 in two colours, a printed sheet, a pencil. The 160 maps in the Map Room are drawn in pencil on graph paper, and that is how they look on your table too.
+
+      '
+    mehr: 'For a first evening, the Quickstart has four ready agents and one mission, all printable.
+
+      '
+    link: https://odin-rpg.de/en/book/quickstart
+    tags:
+    - TabletopRPG
+
+- id: weg-pdf-buch
+  datum: '2026-11-03'
+  zeit: '18:30'
+  zeit_en: '20:00'
+  bild:
+    typ: foto
+    datei: cover_ODIN_01_Grundregelwerk.jpg
+    datei_en: cover_ODIN_EN_01_Core_Rulebook.jpg
+    zeile_de: PDF ODER BUCH · Alle Bücher kostenlos
+    zeile_en: PDF OR PRINT · Every book free
+    alt_de: Titelbild des O.D.I.N.-Grundregelwerks.
+    alt_en: Cover of the O.D.I.N. Core Rulebook.
+  de:
+    text: 'Alle Bücher von O.D.I.N. gibt es kostenlos als PDF, ohne Anmeldung. Wer lieber blättert, bekommt Grundregelwerk, Spielleiterbuch, Registratur, Kartenraum und Schnellstart auch gedruckt.
+
+      '
+    mehr: 'Die PDFs bleiben kostenlos. Das Buch ist für alle, die es neben den Schirm legen wollen.
+
+      '
+    link: https://odin-rpg.de/buecher
+    tags:
+    - PenAndPaper
+    - Rollenspiel
+  en:
+    text: 'Every O.D.I.N. book is a free PDF, no sign-up. The German editions are also in print, from the Core Rulebook to the Map Room.
+
+      '
+    mehr: 'The PDFs stay free. Print is for anyone who wants the book next to the screen.
+
+      '
+    link: https://odin-rpg.de/en/books
+    tags:
+    - FreeRPG
+
+- id: weg-generator
+  datum: '2026-11-04'
+  zeit: '18:30'
+  zeit_en: '20:00'
+  bild:
+    typ: foto
+    datei: generator_akte_de.jpg
+    datei_en: generator_akte_en.jpg
+    zeile_de: GENERATOR · Schritt für Schritt oder im Gespräch
+    zeile_en: GENERATOR · Step by step or in conversation
+    alt_de: 'Bildschirmfoto aus dem O.D.I.N.-Charaktergenerator: die fertige Personalakte der Journalistin Mara Kessler, Codename Spalte, mit Hintergrund, Attributen und Werten.'
+    alt_en: 'Screenshot from the O.D.I.N. character generator: the finished personnel file of journalist Mara Kessler, codename Column, with background, attributes and values.'
+  de:
+    text: 'Einen Agenten baut ihr im Charaktergenerator Frage für Frage, im Ton einer Anwerbung. Oder ihr erzählt der Frau im grauen Mantel eure Geschichte: Der Skill für Claude und ChatGPT schreibt die Akte und öffnet sie im Generator.
+
+      '
+    mehr: 'Werte und Regeln prüft in beiden Fällen der Generator. Am Ende gibt es Personalakte und Klassenbogen als PDF.
+
+      '
+    link: https://odin-rpg.de/generator/
+    tags:
+    - PenAndPaper
+    - Rollenspiel
+  en:
+    text: 'Build an agent in the character generator one question at a time, framed as a recruitment. Or tell your story to the woman in the grey coat: the skill for Claude and ChatGPT writes the file and opens it in the generator.
+
+      '
+    mehr: 'Either way the generator checks every value, and you get the personnel file and class sheet as PDFs.
+
+      '
+    link: https://odin-rpg.de/generator/en/
+    tags:
+    - CharacterCreation
+
+- id: weg-brettspiel
+  datum: '2026-11-05'
+  zeit: '18:30'
+  zeit_en: '20:00'
+  bild:
+    typ: foto
+    datei: schleierriss_premium_de.jpg
+    datei_en: veilrift_premium_en.jpg
+    zeile_de: BRETTSPIEL · Ganz ohne Spielleitung
+    zeile_en: BOARD GAME · No GM needed
+    alt_de: 'Bildschirmfoto aus Schleierriss im Browser: eine gezeichnete Lagekarte von Europa auf einem Holztisch mit Miniaturen der Agenten.'
+    alt_en: 'Screenshot from Veilrift in the browser: a drawn situation map of Europe on a wooden table with the agents'' miniatures.'
+  de:
+    text: 'Keiner will leiten? Dann spielt Schleierriss. Das Brettspiel zu O.D.I.N. ist kooperativ, kommt ohne Spielleitung aus und schickt drei bis sechs Agenten in einen Einsatz, im Browser oder ausgedruckt am Küchentisch.
+
+      '
+    mehr: 'Eine bis sechs Personen, etwa 90 Minuten, ab 12 Jahren. Kostenlos, wie alles bei O.D.I.N.
+
+      '
+    link: https://odin-rpg.de/schleierriss/
+    tags:
+    - Brettspiel
+    - Koop
+  en:
+    text: 'Nobody wants to run the game? Play Veilrift. The O.D.I.N. board game is cooperative, needs no GM and sends three to six agents on a mission, in your browser or printed out on the kitchen table.
+
+      '
+    mehr: 'One to six players, about 90 minutes, ages 12 and up. Free, like everything in O.D.I.N.
+
+      '
+    link: https://odin-rpg.de/en/veilrift/
+    tags:
+    - Boardgame
+    - CoopGame
+
+- id: weg-eigener-tisch
+  datum: '2026-11-06'
+  zeit: '18:30'
+  zeit_en: '20:00'
+  bild:
+    typ: foto
+    datei: spieltisch_de.jpg
+    datei_en: spieltisch_en.jpg
+    zeile_de: EIGENER SPIELTISCH · Im Browser, ohne Konto
+    zeile_en: OUR OWN TABLE · In the browser, no account
+    alt_de: Bildschirmfoto des O.D.I.N.-Spieltischs im Browser mit Karte, Token und Würfeln.
+    alt_en: Screenshot of the O.D.I.N. table in the browser with a map, tokens and dice.
+  de:
+    text: 'Online spielen ohne Konto: Der eigene Spieltisch von O.D.I.N. läuft im Browser. Die Spielleitung schickt den Link, die Runde verbindet sich direkt. An der Wand hängen Fotos und rote Fäden, geschwärzte Akten deckt die Spielleitung Balken für Balken auf.
+
+      '
+    mehr: 'Gedacht für Rechner und Tablet. Agenten aus dem Charaktergenerator lädt man mit einem Klick.
+
+      '
+    link: https://odin-rpg.de/tisch/
+    tags:
+    - PenAndPaper
+    - OnlineRollenspiel
+  en:
+    text: 'Play online without an account: O.D.I.N. has its own table in the browser. The GM sends a link and the group connects directly. Photos and red string go up on the wall, and the GM uncovers redacted files one bar at a time.
+
+      '
+    mehr: 'Made for desktop and tablet. Agents from the character generator load with one click.
+
+      '
+    link: https://odin-rpg.de/tisch/?lang=en
+    tags:
+    - VTT
+
+- id: weg-fremde-tische
+  datum: '2026-11-07'
+  zeit: '18:30'
+  zeit_en: '20:00'
+  bild:
+    typ: foto
+    datei: foundry_1.jpg
+    datei_en: foundry_en_1.jpg
+    zeile_de: EURE TISCHE · Foundry, Owlbear, Realm
+    zeile_en: YOUR TABLES · Foundry, Owlbear, Realm
+    alt_de: Foundry-Karte eines Pfandhauses, gezeichnet wie ein Bleistiftplan, mit runden Token der Agenten.
+    alt_en: Foundry map of a pawn shop drawn like a pencil plan, with round agent tokens.
+  de:
+    text: 'Ihr habt schon euren Tisch? O.D.I.N. gibt es als System für Foundry VTT, als Erweiterung für Owlbear Rodeo und auf Realm VTT, dazu Bögen für Let''s Role und Quest Portal und einen Würfel-Bot für Discord.
+
+      '
+    mehr: 'Alle Anleitungen und Links an einem Ort, kostenlos.
+
+      '
+    link: https://odin-rpg.de/spieltische
+    tags:
+    - FoundryVTT
+    - VTT
+  en:
+    text: 'Already have a table? O.D.I.N. runs as a Foundry VTT system, an Owlbear Rodeo extension and on Realm VTT, with sheets for Let''s Role and Quest Portal and a dice bot for Discord.
+
+      '
+    mehr: 'All guides and links in one place, free.
+
+      '
+    link: https://odin-rpg.de/en/tables
+    tags:
+    - FoundryVTT
+    - VTT
+
 - id: allrounder
   datum: "2026-11-01"
   zeit: "12:30"
