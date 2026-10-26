@@ -1397,7 +1397,7 @@ posts:
     alt_de: Titelbild des O.D.I.N.-Grundregelwerks.
     alt_en: Cover of the O.D.I.N. Core Rulebook.
   de:
-    text: 'Alle Bücher von O.D.I.N. gibt es kostenlos als PDF, ohne Anmeldung. Wer lieber blättert, bekommt Grundregelwerk, Spielleiterbuch, Registratur, Kartenraum und Schnellstart auch gedruckt.
+    text: 'Alle Bücher von O.D.I.N. gibt es kostenlos als PDF, ohne Anmeldung. Wer lieber blättert, bekommt Grundregelwerk, Spielleiterbuch, Registratur, Nordlicht 1977 und Schnellstart auch gedruckt.
 
       '
     mehr: 'Die PDFs bleiben kostenlos. Das Buch ist für alle, die es neben den Schirm legen wollen.
@@ -1408,7 +1408,7 @@ posts:
     - PenAndPaper
     - Rollenspiel
   en:
-    text: 'Every O.D.I.N. book is a free PDF, no sign-up. The German editions are also in print, from the Core Rulebook to the Map Room.
+    text: 'Every O.D.I.N. book is a free PDF, no sign-up. Five German editions are also in print, the Core Rulebook among them.
 
       '
     mehr: 'The PDFs stay free. Print is for anyone who wants the book next to the screen.
@@ -1572,14 +1572,14 @@ posts:
     text: |
       Halloween ist vorbei, die Risse bleiben. O.D.I.N. spielt ihr, wo ihr wollt: am Küchentisch mit Würfeln und Bleistift, im eigenen Spieltisch im Browser oder in Foundry und Owlbear. Und wer keine Spielleitung hat, nimmt das Brettspiel.
     mehr: |
-      Die Bücher gibt es kostenlos als PDF oder gedruckt. Gewürfelt wird wie früher, mit W6 in zwei Farben.
+      Alle Bücher gibt es kostenlos als PDF, fünf davon auch gedruckt. Gewürfelt wird wie früher, mit W6 in zwei Farben.
     link: https://odin-rpg.de/spieltische
     tags: ["PenAndPaper", "Rollenspiel"]
   en:
     text: |
       Halloween is over, the rifts stay open. Play O.D.I.N. wherever you like: at the kitchen table with dice and pencil, on our own browser table or in Foundry and Owlbear. No GM tonight? Take the board game.
     mehr: |
-      The books are free as PDFs, and the German editions are also in print. The dice are the old kind: d6 in two colours.
+      The books are free as PDFs, and five German editions are also in print. The dice are the old kind: d6 in two colours.
     link: https://odin-rpg.de/en/tables
     tags: ["TTRPG"]
 
