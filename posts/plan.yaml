@@ -2515,6 +2515,34 @@ posts:
     link: https://odin-rpg.de/en/giveaway
     tags: ["Giveaway", "TTRPG"]
 
+# ---------------- Schleierriss Premium Runde 4 / Version 1.5 (live 27.10. 20:05, Werbe-Chat 28.10.) ----------------
+- id: schleierriss-premium4
+  datum: "2026-10-28"
+  zeit: "12:30"
+  zeit_en: "14:00"
+  bild:
+    typ: foto
+    datei: premium4_de.jpg
+    datei_en: premium4_en.jpg
+    zeile_de: "Schleierriss 1.5 · jetzt mit Bewegung und Ton"
+    zeile_en: "Veilrift 1.5 · now with movement and sound"
+    alt_de: "Bildschirmfoto aus Schleierriss im Browser: gezeichnete Lagekarte von Europa mit Rissen in Wales und an der Ostsee, die Agenten stehen als bemalte Miniaturen in London und Stockholm."
+    alt_en: "Screenshot of Veilrift in the browser: a drawn situation map of Europe with rifts at Tromsø and the Baltic Sea, the agents stand as painted miniatures in London and Stockholm."
+  de:
+    text: |
+      Schleierriss hat sich verändert. Die Agenten laufen Feld für Feld über den Plan, Türen knarren auf, Gegner steigen aus dem Nebel, und wer getroffen wird, wackelt. Die Figuren sind bemalt, und der Tisch wird dunkler, je näher der Riss kommt.
+    mehr: |
+      Neu in den Regeln: Bei genau vier Agenten würfelt ihr für den zweiten Gegner im Rissraum. Regelbuch 1.5 zum Ausdrucken liegt auf der Seite.
+    link: https://odin-rpg.de/schleierriss/
+    tags: ["Brettspiel"]
+  en:
+    text: |
+      Veilrift got its premium look. Agents walk the board square by square, doors creak open, enemies rise out of the fog, and a hit makes the target shake. The miniatures are painted, and the table darkens as the rift draws closer.
+    mehr: |
+      New rule: with exactly four agents, you roll for the second enemy in the rift room. Rulebook 1.5 and print-and-play material are on the page. Free in the browser, no sign-up.
+    link: https://odin-rpg.de/en/veilrift/
+    tags: ["BoardGame"]
+
 # ---------------- Band 24 „Fremdkörper“ / „Foreign Bodies“ (live 03.10.2026) ----------------
 - id: fremdkoerper
   datum: "2026-10-03"
