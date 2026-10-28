@@ -1116,9 +1116,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mywfmxyfnh2p",
    "zeit": "2026-10-28T10:07:50.597682+01:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mywzqncagq2w",
+   "zeit": "2026-10-28T16:07:48.263245+01:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1564928695729397902",
    "zeit": "2026-10-28T10:07:50.597682+01:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1565019282243325953",
+   "zeit": "2026-10-28T16:07:48.263245+01:00"
   },
   "facebook": {
    "ergebnis": "facebook:1375689388959077_122119983045490766",
@@ -1135,6 +1143,14 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117517744542503753",
    "zeit": "2026-10-28T10:07:50.597682+01:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117519159992663760",
+   "zeit": "2026-10-28T16:07:48.263245+01:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18398091856200240",
+   "zeit": "2026-10-28T16:07:48.263245+01:00"
   }
  },
  "hc-llorona": {
@@ -3165,6 +3181,10 @@
   "instagram": {
    "ergebnis": "instagram:17977398369150924 (Reel)",
    "zeit": "2026-10-28T13:07:45.363473+01:00"
+  },
+  "instagram_story": {
+   "ergebnis": "story:18128185273916983 (Video)",
+   "zeit": "2026-10-28T16:07:48.263245+01:00"
   },
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117518452001863423",
