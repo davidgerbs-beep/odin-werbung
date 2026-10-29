@@ -1280,9 +1280,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3myyw3qicmm2b",
    "zeit": "2026-10-29T10:07:45.719119+01:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3myzk7i4v5s2w",
+   "zeit": "2026-10-29T16:07:45.776773+01:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1565291059037085867",
    "zeit": "2026-10-29T10:07:45.719119+01:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1565381655768731651",
+   "zeit": "2026-10-29T16:07:45.776773+01:00"
   },
   "facebook": {
    "ergebnis": "facebook:1375689388959077_122120272743490766",
@@ -1299,6 +1307,10 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117523406506624769",
    "zeit": "2026-10-29T10:07:45.719119+01:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117524822087253137",
+   "zeit": "2026-10-29T16:07:45.776773+01:00"
   }
  },
  "hc-pflegerin": {
