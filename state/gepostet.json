@@ -1406,9 +1406,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mz3gkoficz2p",
    "zeit": "2026-10-30T10:07:45.923397+01:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mz42oi3kwo22",
+   "zeit": "2026-10-30T16:07:48.718819+01:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1565653450207789088",
    "zeit": "2026-10-30T10:07:45.923397+01:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1565744056116715520",
+   "zeit": "2026-10-30T16:07:48.718819+01:00"
   },
   "facebook": {
    "ergebnis": "facebook:1375689388959077_122120573415490766",
@@ -1425,6 +1433,14 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117529068873200085",
    "zeit": "2026-10-30T10:07:45.923397+01:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117530484587354377",
+   "zeit": "2026-10-30T16:07:48.718819+01:00"
+  },
+  "threads": {
+   "ergebnis": "threads:18076399244765718",
+   "zeit": "2026-10-30T16:07:48.718819+01:00"
   }
  },
  "hc-schachtgaenger": {
