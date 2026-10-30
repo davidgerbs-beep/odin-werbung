@@ -3832,3 +3832,32 @@ posts:
       The illustrations are AI-generated.
     link: https://odin-rpg.de/en/veilrift/
     tags: ["Boardgame", "PrintAndPlay"]
+
+- id: zeichner-gesucht
+  datum: "2026-11-01"
+  zeit: "18:30"
+  zeit_en: "20:30"
+  bild:
+    typ: zitat
+    de: "Gesucht:\nMenschen, die zeichnen."
+    en: "Wanted:\npeople who draw."
+    quelle_de: "O.D.I.N. · Aufruf an Zeichnerinnen und Zeichner"
+    quelle_en: "O.D.I.N. · A call for artists"
+    alt_de: "Texttafel im Schreibmaschinenstil: Gesucht: Menschen, die zeichnen. O.D.I.N., Aufruf an Zeichnerinnen und Zeichner."
+    alt_en: "Typewriter-style text card: Wanted: people who draw. O.D.I.N., a call for artists."
+  de:
+    text: |
+      Gesucht: Menschen, die zeichnen. Die Bilder in den kostenlosen O.D.I.N.-Bänden sind heute KI-generiert. Ich möchte sie durch eure ersetzen, Band für Band. Völlige künstlerische Freiheit, euer Name unter jedem Bild, die Rechte bleiben bei euch.
+    mehr: |
+      Dazu eine Seite auf odin-rpg.de mit eurem Portfolio, ein Druckexemplar und ein Anteil am Druckerlös, wenn ein Band mit euren Bildern gedruckt wird. Meldet euch im Funkraum.
+    link: https://odin-rpg.de/discord
+    tags:
+    - Illustration
+  en:
+    text: |
+      Looking for people who draw. The art in the free O.D.I.N. books is AI-generated today. I want to replace it with yours, book by book. Full creative freedom, your name under every picture, and the rights stay with you.
+    mehr: |
+      Plus a page on odin-rpg.de with your portfolio, a printed copy and a share of print sales when a book with your art goes to print. One picture already helps. Find me in our Discord.
+    link: https://odin-rpg.de/en/discord
+    tags:
+    - Illustration
