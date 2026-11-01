@@ -4476,5 +4476,27 @@
    "ergebnis": "threads:17919591675240699",
    "zeit": "2026-10-13T21:08:57.236274+02:00"
   }
+ },
+ "zeichner-gesucht": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mzbfnxbzuj22",
+   "zeit": "2026-11-01T19:07:41.149320+01:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1566514097447641250",
+   "zeit": "2026-11-01T19:07:41.149320+01:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1810673419983153 (Video)",
+   "zeit": "2026-11-01T19:07:41.149320+01:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18193623133393923 (Reel)",
+   "zeit": "2026-11-01T19:07:41.149320+01:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117542516475166275",
+   "zeit": "2026-11-01T19:07:41.149320+01:00"
+  }
  }
 }
