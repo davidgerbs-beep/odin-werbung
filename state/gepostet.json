@@ -1,4 +1,26 @@
 {
+ "allrounder": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mzarkfzixq2b",
+   "zeit": "2026-11-01T13:07:47.438773+01:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1566423528528421035",
+   "zeit": "2026-11-01T13:07:47.438773+01:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1810532343219399 (Video)",
+   "zeit": "2026-11-01T13:07:47.438773+01:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18115560602585949 (Reel)",
+   "zeit": "2026-11-01T13:07:47.438773+01:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117541101345419520",
+   "zeit": "2026-11-01T13:07:47.438773+01:00"
+  }
+ },
  "amazon-druck": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxtfsghhtn2l",
