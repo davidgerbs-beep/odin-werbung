@@ -4477,6 +4477,28 @@
    "zeit": "2026-09-27T17:07:27.898399+02:00"
   }
  },
+ "weg-tisch": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mzdw4yihey2p",
+   "zeit": "2026-11-02T19:07:45.215259+01:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1566876502254030979",
+   "zeit": "2026-11-02T19:07:45.215259+01:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1657548002558356 (Video)",
+   "zeit": "2026-11-02T19:07:45.215259+01:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18130449026511617 (Reel)",
+   "zeit": "2026-11-02T19:07:45.215259+01:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117548179067921728",
+   "zeit": "2026-11-02T19:07:45.215259+01:00"
+  }
+ },
  "wuerfel-v2": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxrmsg66zz2o",
