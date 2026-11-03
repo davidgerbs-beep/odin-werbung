@@ -4482,9 +4482,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mzgfekm6bn2v",
    "zeit": "2026-11-03T18:45:43.716615+01:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mzgk4uotdc2t",
+   "zeit": "2026-11-03T20:10:54.545561+01:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1567233352711405609",
    "zeit": "2026-11-03T18:45:43.716615+01:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1567254789710946375",
+   "zeit": "2026-11-03T20:10:54.545561+01:00"
   },
   "facebook": {
    "ergebnis": "facebook:1797096258247885 (Video)",
@@ -4497,6 +4505,14 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117553754844775922",
    "zeit": "2026-11-03T18:45:43.716615+01:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117554089792858141",
+   "zeit": "2026-11-03T20:10:54.545561+01:00"
+  },
+  "threads": {
+   "ergebnis": "threads:17948149872358368",
+   "zeit": "2026-11-03T20:10:54.545561+01:00"
   }
  },
  "weg-tisch": {
