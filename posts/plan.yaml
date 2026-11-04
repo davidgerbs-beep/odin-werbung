@@ -1458,8 +1458,8 @@ posts:
   zeit_en: '20:00'
   bild:
     typ: foto
-    datei: schleierriss_premium_de.jpg
-    datei_en: veilrift_premium_en.jpg
+    datei: premium5_de.jpg
+    datei_en: premium5_en.jpg
     zeile_de: BRETTSPIEL · Ganz ohne Spielleitung
     zeile_en: BOARD GAME · No GM needed
     alt_de: 'Bildschirmfoto aus Schleierriss im Browser: eine gezeichnete Lagekarte von Europa auf einem Holztisch mit Miniaturen der Agenten.'
@@ -3861,3 +3861,32 @@ posts:
     link: https://odin-rpg.de/en/discord
     tags:
     - Illustration
+
+- id: owlbear-fr
+  datum: "2026-11-09"
+  zeit: "12:30"
+  zeit_en: "14:00"
+  bild:
+    typ: zitat
+    de: "Merci, Yodepsirho."
+    en: "Merci, Yodepsirho."
+    quelle_de: "O.D.I.N. für Owlbear Rodeo · jetzt auch auf Französisch"
+    quelle_en: "O.D.I.N. for Owlbear Rodeo · now in French too"
+    alt_de: "Texttafel im Schreibmaschinenstil: Merci, Yodepsirho. O.D.I.N. für Owlbear Rodeo, jetzt auch auf Französisch."
+    alt_en: "Typewriter-style text card: Merci, Yodepsirho. O.D.I.N. for Owlbear Rodeo, now in French too."
+  de:
+    text: |
+      Die O.D.I.N.-Erweiterung für Owlbear Rodeo spricht jetzt Französisch. Übersetzt hat sie Yodepsirho aus unserem Discord, alle 562 Zeilen. Merci !
+    mehr: |
+      Wer im Browser Französisch eingestellt hat, startet gleich auf Französisch, umschalten geht in der Leiste. Ein paar neuere Texte sind noch englisch.
+    link: https://odin-rpg.de/spieltische
+    tags:
+    - OwlbearRodeo
+  en:
+    text: |
+      The O.D.I.N. extension for Owlbear Rodeo now speaks French. Yodepsirho from our Discord translated all 562 lines. Merci !
+    mehr: |
+      French browsers start in French, and you can switch languages in the toolbar. A few newer texts are still in English.
+    link: https://odin-rpg.de/en/tables
+    tags:
+    - OwlbearRodeo
