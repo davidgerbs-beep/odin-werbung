@@ -4477,6 +4477,28 @@
    "zeit": "2026-09-27T17:07:27.898399+02:00"
   }
  },
+ "weg-generator": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mzicxakbce22",
+   "zeit": "2026-11-04T13:07:49.556520+01:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1567510702980202505",
+   "zeit": "2026-11-04T13:07:49.556520+01:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1489684939680476 (Video)",
+   "zeit": "2026-11-04T13:07:49.556520+01:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18131892059501480 (Reel)",
+   "zeit": "2026-11-04T13:07:49.556520+01:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117558088445065926",
+   "zeit": "2026-11-04T13:07:49.556520+01:00"
+  }
+ },
  "weg-pdf-buch": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mzgfekm6bn2v",
