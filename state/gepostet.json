@@ -4519,6 +4519,28 @@
    "zeit": "2026-09-27T17:07:27.898399+02:00"
   }
  },
+ "weg-brettspiel": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mzlhjvokga22",
+   "zeit": "2026-11-05T19:07:49.480229+01:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1567963690785972305",
+   "zeit": "2026-11-05T19:07:49.480229+01:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1749719456817595 (Video)",
+   "zeit": "2026-11-05T19:07:49.480229+01:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18387819163227164 (Reel)",
+   "zeit": "2026-11-05T19:07:49.480229+01:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117565166370238521",
+   "zeit": "2026-11-05T19:07:49.480229+01:00"
+  }
+ },
  "weg-generator": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mzicxakbce22",
