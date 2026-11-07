@@ -4645,6 +4645,28 @@
    "zeit": "2026-11-06T14:07:41.853415+01:00"
   }
  },
+ "weg-fremde-tische": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mzqihi5dab2n",
+   "zeit": "2026-11-07T19:07:41.309723+01:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1568688424926314599",
+   "zeit": "2026-11-07T19:07:41.309723+01:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1702689308088487 (Video)",
+   "zeit": "2026-11-07T19:07:41.309723+01:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18086410784704342 (Reel)",
+   "zeit": "2026-11-07T19:07:41.309723+01:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117576490345665257",
+   "zeit": "2026-11-07T19:07:41.309723+01:00"
+  }
+ },
  "weg-generator": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mzicxakbce22",
