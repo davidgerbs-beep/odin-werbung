@@ -1860,9 +1860,17 @@
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mzs64ab44227",
    "zeit": "2026-11-08T11:07:45.594661+01:00"
   },
+  "bluesky_en": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mzss7yjj652o",
+   "zeit": "2026-11-08T17:07:46.674952+01:00"
+  },
   "discord_de": {
    "ergebnis": "discord:1568930039003746435",
    "zeit": "2026-11-08T11:07:45.594661+01:00"
+  },
+  "discord_en": {
+   "ergebnis": "discord:1569020639153487892",
+   "zeit": "2026-11-08T17:07:46.674952+01:00"
   },
   "facebook": {
    "ergebnis": "facebook:1808369187072478 (Video)",
@@ -1879,6 +1887,10 @@
   "mastodon_de": {
    "ergebnis": "https://mastodon.world/@ODIN_RPG/117580265567563210",
    "zeit": "2026-11-08T11:07:45.594661+01:00"
+  },
+  "mastodon_en": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117581681191210543",
+   "zeit": "2026-11-08T17:07:46.674952+01:00"
   }
  },
  "jam-start": {
