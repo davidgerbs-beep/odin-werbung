@@ -1897,6 +1897,28 @@
    "zeit": "2026-11-08T17:59:39.665062+01:00"
   }
  },
+ "jam-letzter-tag": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3n2drelgnlh2k",
+   "zeit": "2026-11-15T11:07:42.672457+01:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1571466737776463946",
+   "zeit": "2026-11-15T11:07:42.672457+01:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1638542921383148 (Video)",
+   "zeit": "2026-11-15T11:07:42.672457+01:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:17950633542075254 (Reel)",
+   "zeit": "2026-11-15T11:07:42.672457+01:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117619901493550502",
+   "zeit": "2026-11-15T11:07:42.672457+01:00"
+  }
+ },
  "jam-start": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxydeviylx22",
