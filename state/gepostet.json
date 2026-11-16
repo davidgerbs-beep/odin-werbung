@@ -4725,6 +4725,28 @@
    "zeit": "2026-11-06T21:07:41.026731+01:00"
   }
  },
+ "w08-andere-dienste": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3n2gbtimqid2k",
+   "zeit": "2026-11-16T11:07:41.830340+01:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1571829124526379070",
+   "zeit": "2026-11-16T11:07:41.830340+01:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:1375689388959077_122126879139490766",
+   "zeit": "2026-11-16T11:07:41.830340+01:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:18097611458651707 (Reel)",
+   "zeit": "2026-11-16T11:07:41.830340+01:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117625563788882095",
+   "zeit": "2026-11-16T11:07:41.830340+01:00"
+  }
+ },
  "w08-gefunden": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3n22gxxdxje2s",
