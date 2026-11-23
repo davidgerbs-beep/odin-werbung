@@ -167,6 +167,28 @@
    "zeit": "2026-10-26T20:07:48.531876+01:00"
   }
  },
+ "cyber-woche": {
+  "bluesky_de": {
+   "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3n2ypwcbj7n25",
+   "zeit": "2026-11-23T19:07:43.972799+01:00"
+  },
+  "discord_de": {
+   "ergebnis": "discord:1574486642473963602",
+   "zeit": "2026-11-23T19:07:43.972799+01:00"
+  },
+  "facebook": {
+   "ergebnis": "facebook:2422351301921373 (Video)",
+   "zeit": "2026-11-23T19:07:43.972799+01:00"
+  },
+  "instagram": {
+   "ergebnis": "instagram:17986975301898399 (Reel)",
+   "zeit": "2026-11-23T19:07:43.972799+01:00"
+  },
+  "mastodon_de": {
+   "ergebnis": "https://mastodon.world/@ODIN_RPG/117667087491405120",
+   "zeit": "2026-11-23T19:07:43.972799+01:00"
+  }
+ },
  "discord-bot": {
   "bluesky_de": {
    "ergebnis": "https://bsky.app/profile/did:plc:oxf3wiaqdwhmokxkoi7i4caf/post/3mxetqvzd242o",
